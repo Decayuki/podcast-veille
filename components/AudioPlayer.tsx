@@ -102,7 +102,7 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-[#161616] border-t border-[#2a2a2a] safe-area-bottom">
-      <audio ref={audioRef} src={episode.audioUrl} preload="metadata" />
+      <audio ref={audioRef} src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${episode.audioUrl}`} preload="metadata" />
 
       {/* Waveform */}
       <div className="flex items-center justify-center gap-[3px] h-8 px-4 pt-3">
