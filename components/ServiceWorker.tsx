@@ -5,9 +5,10 @@ import { useEffect } from 'react';
 export default function ServiceWorker() {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
+      const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
       navigator.serviceWorker
-        .register('/sw.js')
-        .catch(() => {/* silent fail in dev */});
+        .register(`${base}/sw.js`, { scope: `${base}/` })
+        .catch(() => {/* silent fail */});
     }
   }, []);
 

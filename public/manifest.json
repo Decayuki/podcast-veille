@@ -2,7 +2,8 @@
   "name": "Veille de Marc",
   "short_name": "Veille",
   "description": "La veille tech/IA/dev de Marc, en podcast",
-  "start_url": "/",
+  "start_url": "/podcast-veille/",
+  "scope": "/podcast-veille/",
   "display": "standalone",
   "background_color": "#0d0d0d",
   "theme_color": "#0d0d0d",
@@ -10,19 +11,19 @@
   "lang": "fr",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/podcast-veille/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/podcast-veille/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/icons/icon.svg",
+      "src": "/podcast-veille/icons/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }

@@ -3,6 +3,8 @@ import { join } from 'path';
 import EpisodeList from '@/components/EpisodeList';
 import type { Episode } from '@/types';
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 function getEpisodes(): Episode[] {
   try {
     const p = join(process.cwd(), 'public', 'episodes.json');
@@ -39,7 +41,7 @@ export default function Home() {
       {/* RSS link */}
       <div className="mb-6">
         <a
-          href="/podcast.xml"
+          href={`${BASE}/podcast.xml`}
           className="inline-flex items-center gap-2 text-xs text-[#666] hover:text-[#e8834a] transition-colors"
           title="RSS Feed"
         >

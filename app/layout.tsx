@@ -2,10 +2,12 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import ServiceWorker from '@/components/ServiceWorker';
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export const metadata: Metadata = {
   title: 'Veille de Marc',
   description: 'La veille tech/IA/dev de Marc, en podcast',
-  manifest: '/manifest.json',
+  manifest: `${BASE}/manifest.json`,
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
@@ -32,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        <link rel="apple-touch-icon" href={`${BASE}/icons/icon-192.png`} />
       </head>
       <body className="bg-[#0d0d0d] text-[#e8e8e8] antialiased">
         <ServiceWorker />
