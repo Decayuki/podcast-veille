@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Veille de Marc</title>
     <description>La veille tech/IA/dev de Marc, en podcast. Généré automatiquement.</description>
-    <link>https://podcast-veille.vercel.app</link>
-    <atom:link href="https://podcast-veille.vercel.app/podcast.xml" rel="self" type="application/rss+xml"/>
+    <link>https://decayuki.github.io/podcast-veille</link>
+    <atom:link href="https://decayuki.github.io/podcast-veille/podcast.xml" rel="self" type="application/rss+xml"/>
     <language>fr-fr</language>
     <itunes:author>Marc</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://podcast-veille.vercel.app/icons/icon-512.png"/>
+    <itunes:image href="https://decayuki.github.io/podcast-veille/icons/icon-512.png"/>
     <image>
-      <url>https://podcast-veille.vercel.app/icons/icon-512.png</url>
+      <url>https://decayuki.github.io/podcast-veille/icons/icon-512.png</url>
       <title>Veille de Marc</title>
-      <link>https://podcast-veille.vercel.app</link>
+      <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
       <title>Agents IA : La Révolution Silencieuse et les Modèles Locaux</title>
       <description>Veille tech/IA/dev du 2026-03-18</description>
-      <enclosure url="https://podcast-veille.vercel.app/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-18</guid>
       <pubDate>Wed, 18 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>8:07</itunes:duration>
