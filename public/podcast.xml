@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Veille de Marc</title>
+    <description>La veille tech/IA/dev de Marc, en podcast. Généré automatiquement.</description>
+    <link>https://podcast-veille.vercel.app</link>
+    <language>fr-fr</language>
+    <itunes:author>Marc</itunes:author>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://podcast-veille.vercel.app/icons/icon-512.png"/>
+    <image>
+      <url>https://podcast-veille.vercel.app/icons/icon-512.png</url>
+      <title>Veille de Marc</title>
+      <link>https://podcast-veille.vercel.app</link>
+    </image>
+  </channel>
+</rss>
