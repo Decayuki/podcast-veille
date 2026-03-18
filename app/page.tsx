@@ -39,7 +39,7 @@ export default function Home() {
       {/* RSS link */}
       <div className="mb-6">
         <a
-          href="/api/feed"
+          href="/podcast.xml"
           className="inline-flex items-center gap-2 text-xs text-[#666] hover:text-[#e8834a] transition-colors"
           title="RSS Feed"
         >
