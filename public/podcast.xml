@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Veille de Marc</title>
     <description>La veille tech/IA/dev de Marc, en podcast. Généré automatiquement.</description>
@@ -16,9 +18,17 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA prend le job : Agents autonomes, prompts béton et la guerre des modèles</title>
+      <description>Veille tech/IA/dev du 2026-03-19</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-19.mp3" length="9818322" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-19</guid>
+      <pubDate>Thu, 19 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:13</itunes:duration>
+    </item>
+    <item>
       <title>Agents IA : La Révolution Silencieuse et les Modèles Locaux</title>
       <description>Veille tech/IA/dev du 2026-03-18</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-18</guid>
       <pubDate>Wed, 18 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>8:07</itunes:duration>
