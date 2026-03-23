@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLI Tools pour Claude Code — Veille 2026</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --bg2: #161b22;
+      --bg3: #21262d;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text2: #8b949e;
+      --accent: #f78166;
+      --green: #3fb950;
+      --blue: #58a6ff;
+      --yellow: #d29922;
+      --purple: #bc8cff;
+      --orange: #ffa657;
+      --red: #f85149;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 1400px; margin: 0 auto; }
+
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+    }
+
+    header h1 span { color: var(--accent); }
+
+    header p {
+      color: var(--text2);
+      font-size: 0.9rem;
+    }
+
+    header p strong { color: var(--blue); }
+
+    /* FILTERS */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      align-items: center;
+    }
+
+    .filters span {
+      font-size: 0.8rem;
+      color: var(--text2);
+      margin-right: 0.25rem;
+    }
+
+    .filter-btn {
+      padding: 0.3rem 0.75rem;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg2);
+      color: var(--text2);
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: rgba(88, 166, 255, 0.08);
+    }
+
+    /* STATS BAR */
+    .stats {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.25rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      flex-wrap: wrap;
+    }
+
+    .stat { text-align: center; }
+    .stat .num { font-size: 1.4rem; font-weight: 700; color: var(--blue); }
+    .stat .lbl { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; }
+
+    /* TABLE WRAPPER */
+    .table-wrapper {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+    }
+
+    thead th {
+      background: var(--bg3);
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text2);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    thead th:hover { color: var(--text); }
+    thead th .sort-icon { margin-left: 4px; opacity: 0.4; }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(88, 166, 255, 0.04); }
+    tbody tr.hidden { display: none; }
+
+    td {
+      padding: 0.75rem 1rem;
+      vertical-align: top;
+      color: var(--text);
+    }
+
+    /* TOOL NAME */
+    .tool-name {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+    }
+
+    .tool-name a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+    }
+
+    .tool-name a:hover { text-decoration: underline; }
+
+    /* BADGES */
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .badge-cat-native   { background: rgba(247,129,102,0.15); color: var(--accent); border: 1px solid rgba(247,129,102,0.3); }
+    .badge-cat-alt      { background: rgba(88,166,255,0.12); color: var(--blue); border: 1px solid rgba(88,166,255,0.25); }
+    .badge-cat-orch     { background: rgba(188,140,255,0.12); color: var(--purple); border: 1px solid rgba(188,140,255,0.25); }
+    .badge-cat-wrapper  { background: rgba(63,185,80,0.12); color: var(--green); border: 1px solid rgba(63,185,80,0.25); }
+    .badge-cat-util     { background: rgba(210,153,34,0.12); color: var(--yellow); border: 1px solid rgba(210,153,34,0.25); }
+
+    .badge-free  { background: rgba(63,185,80,0.1); color: var(--green); border: 1px solid rgba(63,185,80,0.25); }
+    .badge-paid  { background: rgba(248,81,73,0.1); color: var(--red); border: 1px solid rgba(248,81,73,0.25); }
+    .badge-freemium { background: rgba(210,153,34,0.1); color: var(--yellow); border: 1px solid rgba(210,153,34,0.25); }
+
+    .badge-oss { background: rgba(63,185,80,0.08); color: var(--green); border: 1px solid rgba(63,185,80,0.2); }
+    .badge-closed { background: rgba(139,148,158,0.12); color: var(--text2); border: 1px solid var(--border); }
+
+    .badge-hot { background: rgba(255,166,87,0.12); color: var(--orange); border: 1px solid rgba(255,166,87,0.25); }
+    .badge-blocked { background: rgba(248,81,73,0.12); color: var(--red); border: 1px solid rgba(248,81,73,0.25); }
+
+    /* POPULARITY STARS */
+    .popularity {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      white-space: nowrap;
+    }
+
+    .stars { color: var(--yellow); font-size: 0.8rem; }
+    .stars-count { color: var(--text2); font-size: 0.78rem; }
+
+    /* FEATURE LIST */
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      min-width: 180px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.3rem;
+      font-size: 0.78rem;
+      color: var(--text2);
+      line-height: 1.35;
+    }
+
+    .feature-item::before {
+      content: '▸';
+      color: var(--blue);
+      font-size: 0.65rem;
+      margin-top: 0.1rem;
+      flex-shrink: 0;
+    }
+
+    /* PRO/CON */
+    .pros-cons { min-width: 160px; }
+
+    .pro-item, .con-item {
+      font-size: 0.78rem;
+      line-height: 1.35;
+      margin-bottom: 0.15rem;
+      display: flex;
+      gap: 0.3rem;
+      align-items: flex-start;
+    }
+
+    .pro-item::before { content: '+'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .con-item::before { content: '−'; color: var(--red); font-weight: 700; flex-shrink: 0; }
+
+    /* MULTI-LLM CHECK */
+    .check-yes { color: var(--green); font-size: 1rem; }
+    .check-no  { color: var(--text2); font-size: 1rem; }
+    .check-partial { color: var(--yellow); font-size: 1rem; }
+
+    /* DESCRIPTION */
+    .desc { color: var(--text2); font-size: 0.8rem; line-height: 1.45; min-width: 160px; max-width: 240px; }
+
+    /* MATURITY */
+    .maturity { white-space: nowrap; }
+    .mat-prod { color: var(--green); }
+    .mat-high { color: var(--blue); }
+    .mat-mid  { color: var(--yellow); }
+    .mat-low  { color: var(--red); }
+
+    /* SECTIONS */
+    .section-header {
+      background: var(--bg3);
+    }
+
+    .section-header td {
+      padding: 0.5rem 1rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text2);
+      border-top: 2px solid var(--border);
+    }
+
+    /* INFO NOTE */
+    .note {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--blue);
+      border-radius: 6px;
+      font-size: 0.82rem;
+      color: var(--text2);
+      line-height: 1.6;
+    }
+
+    .note strong { color: var(--text); }
+
+    /* FOOTER */
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--text2);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    footer a { color: var(--blue); text-decoration: none; }
+
+    @media (max-width: 768px) {
+      table { font-size: 0.78rem; }
+      td, th { padding: 0.6rem 0.75rem; }
+      .desc { max-width: 140px; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>🛠️ CLI Tools pour <span>Claude Code</span> — 2026</h1>
+    <p>Comparatif exhaustif des alternatives, wrappers et orchestrateurs. <strong>35 outils</strong> recensés — veille du 23 mars 2026 par Sally 💅</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="num">35</div><div class="lbl">Outils recensés</div></div>
+    <div class="stat"><div class="num">14</div><div class="lbl">Alternatives directes</div></div>
+    <div class="stat"><div class="num">4</div><div class="lbl">Orchestrateurs</div></div>
+    <div class="stat"><div class="num">22</div><div class="lbl">Open Source</div></div>
+    <div class="stat"><div class="num">18</div><div class="lbl">100% Gratuits</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">Multi-LLM</div></div>
+  </div>
+
+  <div class="filters">
+    <span>Filtrer :</span>
+    <button class="filter-btn active" onclick="filterTable('all', this)">Tous</button>
+    <button class="filter-btn" onclick="filterTable('native', this)">Natif</button>
+    <button class="filter-btn" onclick="filterTable('alt', this)">Alternatives</button>
+    <button class="filter-btn" onclick="filterTable('orch', this)">Orchestrateurs</button>
+    <button class="filter-btn" onclick="filterTable('wrapper', this)">Wrappers</button>
+    <button class="filter-btn" onclick="filterTable('util', this)">Utilitaires</button>
+    <button class="filter-btn" onclick="filterTable('free', this)">Gratuits</button>
+    <button class="filter-btn" onclick="filterTable('oss', this)">Open Source</button>
+    <button class="filter-btn" onclick="filterTable('multi', this)">Multi-LLM</button>
+  </div>
+
+  <div class="table-wrapper">
+    <table id="mainTable">
+      <thead>
+        <tr>
+          <th>Outil</th>
+          <th>Catégorie</th>
+          <th>Description</th>
+          <th>Features clés</th>
+          <th>✅ Avantages</th>
+          <th>❌ Inconvénients</th>
+          <th>Multi-LLM</th>
+          <th>Open Source</th>
+          <th>Prix</th>
+          <th>Popularité</th>
+          <th>Maturité</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- ═══ NATIF ═══ -->
+        <tr class="section-header">
+          <td colspan="11">⚡ Natif Anthropic</td>
+        </tr>
+        <tr data-cat="native" data-price="paid" data-oss="closed" data-multi="no">
+          <td><div class="tool-name"><a href="https://claude.ai/code" target="_blank">Claude Code</a></div></td>
+          <td><span class="badge badge-cat-native">Natif</span></td>
+          <td class="desc">CLI officiel Anthropic. Référence du marché, agentic coding, MCP natif.</td>
+          <td><div class="features">
+            <div class="feature-item">Agent Teams natifs (multi-instances)</div>
+            <div class="feature-item">1M context window</div>
+            <div class="feature-item">MCP servers natifs</div>
+            <div class="feature-item">Plan mode + extended thinking</div>
+            <div class="feature-item">CLAUDE.md system prompt</div>
+            <div class="feature-item">Skills lazy-loaded</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Meilleure intégration Claude</div>
+            <div class="pro-item">Écosystème riche (MCP)</div>
+            <div class="pro-item">Production-ready</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Vendor lock-in Claude</div>
+            <div class="con-item">$20/mo Max plan</div>
+            <div class="con-item">Fermé / pas personnalisable</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">$20/mo</span></td>
+          <td><div class="popularity"><span class="stars">★★★★★</span><span class="stars-count">Référence</span></div></td>
+          <td><span class="maturity mat-prod">Production</span></td>
+        </tr>
+
+        <!-- ═══ ALTERNATIVES ═══ -->
+        <tr class="section-header">
+          <td colspan="11">🔄 Alternatives directes</td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://cline.bot" target="_blank">Cline</a> <span class="badge badge-hot">🔥 HOT</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Agent autonome multi-IDE. 5M+ installs. Le concurrent open-source principal.</td>
+          <td><div class="features">
+            <div class="feature-item">5M+ installs (VS Code, Cursor, Neovim...)</div>
+            <div class="feature-item">CLI 2.0 headless CI/CD (fév 2026)</div>
+            <div class="feature-item">Subagents natifs parallèles</div>
+            <div class="feature-item">Computer Use capability</div>
+            <div class="feature-item">N'importe quel LLM</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Open-source gratuit</div>
+            <div class="pro-item">Multi-IDE + multi-LLM</div>
+            <div class="pro-item">Communauté énorme</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Moins optimisé que Claude Code natif</div>
+            <div class="con-item">Performance variable selon LLM</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★★★</span><span class="stars-count">5M installs</span></div></td>
+          <td><span class="maturity mat-prod">Production</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://aider.chat" target="_blank">Aider</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Terminal AI pair programming Git-aware. Diffs en staging avant commit.</td>
+          <td><div class="features">
+            <div class="feature-item">Git-aware, diffs avant commit</div>
+            <div class="feature-item">Terminal-first pur CLI</div>
+            <div class="feature-item">Claude, OpenAI, Gemini, local</div>
+            <div class="feature-item">Excellent refactoring équipe</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Très transparent (diffs Git)</div>
+            <div class="pro-item">Idéal workflow Git intensif</div>
+            <div class="pro-item">Léger et fiable</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Moins puissant nouvelles features</div>
+            <div class="con-item">Pas d'agent teams natif</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">Très populaire</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://opencode.ai" target="_blank">OpenCode</a> <span class="badge badge-blocked">⚠️ Bloqué</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">CLI open-source 75+ providers. OAuth Claude bloqué par Anthropic (fév 2026).</td>
+          <td><div class="features">
+            <div class="feature-item">75+ providers IA</div>
+            <div class="feature-item">Modèles locaux (zéro coût API)</div>
+            <div class="feature-item">MCP servers support</div>
+            <div class="feature-item">Multi-fichiers, debug</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Vrai multi-provider</div>
+            <div class="pro-item">Local = $0 coût</div>
+            <div class="pro-item">Open-source</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">OAuth Claude bloqué (API key only)</div>
+            <div class="con-item">Incertitude légale Anthropic</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit*</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Avant blocage</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://github.com/openai/codex" target="_blank">Codex CLI</a> <span class="badge badge-hot">🔥</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">CLI OpenAI écrit en Rust. 65K+ stars. Optimisé pour les modèles O3/O4-mini.</td>
+          <td><div class="features">
+            <div class="feature-item">Écrit en Rust (ultra-rapide)</div>
+            <div class="feature-item">65K+ GitHub stars</div>
+            <div class="feature-item">Skills Catalog + MCP</div>
+            <div class="feature-item">Screenshot/image input</div>
+            <div class="feature-item">Multi-agent workflows</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Performance extrême (Rust)</div>
+            <div class="pro-item">Modèles O3/O4-mini puissants</div>
+            <div class="pro-item">Open-source</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">OpenAI uniquement</div>
+            <div class="con-item">Moins mature que Claude Code</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-freemium">ChatGPT Plus</span></td>
+          <td><div class="popularity"><span class="stars">★★★★★</span><span class="stars-count">65K stars</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://github.com/block/goose" target="_blank">Goose CLI</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Agent autonome local-first par Block (Square). "Claude Code $200/mo → Goose gratuit".</td>
+          <td><div class="features">
+            <div class="feature-item">Fully local-first</div>
+            <div class="feature-item">Multi-LLM (Claude, OpenAI, Llama local)</div>
+            <div class="feature-item">MCP servers natifs</div>
+            <div class="feature-item">Extension ecosystem</div>
+            <div class="feature-item">Pas de vendor lock-in</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Vrai local, $0 avec modèles locaux</div>
+            <div class="pro-item">Open-source Block</div>
+            <div class="pro-item">Flexible tout modèle</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Moins intégré qu'Anthropic</div>
+            <div class="con-item">Écosystème plus jeune</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">VentureBeat buzz</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="closed" data-multi="yes">
+          <td><div class="tool-name"><a href="https://ampcode.com" target="_blank">Amp CLI</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Agentic coding tool Sourcegraph. Unconstrained token usage, CLAUDE.md compatible.</td>
+          <td><div class="features">
+            <div class="feature-item">Unconstrained token usage</div>
+            <div class="feature-item">VS Code + CLI</div>
+            <div class="feature-item">AGENTS.md / CLAUDE.md compat</div>
+            <div class="feature-item">Multi-LLM (Claude 4, GPT-5...)</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Moins de limites artificielles</div>
+            <div class="pro-item">Compatible configs Claude Code</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Probablement payant</div>
+            <div class="con-item">Moins d'écosystème</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">Payant</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Croissant</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="closed" data-multi="no">
+          <td><div class="tool-name"><a href="https://kiro.dev" target="_blank">Kiro CLI</a> <span class="badge badge-hot">⚡ Rapide</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Agent Amazon. Spec-driven development. 168s benchmark (vs CC Opus), 58.1% score.</td>
+          <td><div class="features">
+            <div class="feature-item">Spec → design → tasks workflow</div>
+            <div class="feature-item">IDE VS Code-based + CLI</div>
+            <div class="feature-item">Steering (conventions, standards)</div>
+            <div class="feature-item">168s fastest agent</div>
+            <div class="feature-item">Opus 4.6 support</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Le plus rapide en benchmark</div>
+            <div class="pro-item">Structured workflow équipe</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Spec-driven = moins flexible</div>
+            <div class="con-item">Amazon propriétaire</div>
+          </div></td>
+          <td><span class="check-partial">~</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">Payant</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Croissant</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://github.com/google-gemini/gemini-cli" target="_blank">Gemini CLI</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">CLI open-source Google. GEMINI.md, MCP, accès filesystem + cloud services.</td>
+          <td><div class="features">
+            <div class="feature-item">Open-source Google officiel</div>
+            <div class="feature-item">GEMINI.md long-term memory</div>
+            <div class="feature-item">MCP support natif</div>
+            <div class="feature-item">Intégration Google Cloud</div>
+            <div class="feature-item">Tool-use autonome</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Gratuit (Google Cloud)</div>
+            <div class="pro-item">Open-source officiel</div>
+            <div class="pro-item">Google Cloud intégration</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Gemini uniquement</div>
+            <div class="con-item">Moins mature que Claude Code</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Croissant</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="closed" data-multi="yes">
+          <td><div class="tool-name"><a href="https://github.com/features/copilot" target="_blank">Copilot CLI</a> <span class="badge badge-hot">🆕 GA</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">GitHub Copilot terminal agentic. GA février 2026. Plan mode + Autopilot + agents spécialisés.</td>
+          <td><div class="features">
+            <div class="feature-item">Plan mode + Autopilot mode</div>
+            <div class="feature-item">Agents spécialisés (Explore, Review...)</div>
+            <div class="feature-item">Multi-modèle (Opus 4.6, GPT-5.3, Gemini 3)</div>
+            <div class="feature-item">Session memory cross-tasks</div>
+            <div class="feature-item">GitHub native intégration</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Multi-modèle natif premium</div>
+            <div class="pro-item">Agents spécialisés</div>
+            <div class="pro-item">GitHub parfaitement intégré</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">$10-30/mo</div>
+            <div class="con-item">Écosystème plus jeune</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">$10-30/mo</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">GA fév 2026</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://roocode.com" target="_blank">Roo Code</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">VS Code extension open-source avec CLI. Multi-fichiers, terminal, browser, subagents.</td>
+          <td><div class="features">
+            <div class="feature-item">Multi-fichiers edits</div>
+            <div class="feature-item">Terminal commands exec</div>
+            <div class="feature-item">Browser capable</div>
+            <div class="feature-item">OpenAI + Custom LLM</div>
+            <div class="feature-item">CLI session management (2026)</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Open-source extensible</div>
+            <div class="pro-item">Multi-LLM</div>
+            <div class="pro-item">Gratuit</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">IDE-first, pas pur CLI</div>
+            <div class="con-item">Moins mature</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Croissant</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://factory.ai" target="_blank">Factory Droid</a> <span class="badge badge-hot">📊 #1 Bench</span></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Agent SDLC complet. Terminal-Bench : 58.75% vs Claude Code 43.2%. Multi-LLM concurrent.</td>
+          <td><div class="features">
+            <div class="feature-item">58.75% Terminal-Bench (vs CC 43.2%)</div>
+            <div class="feature-item">Custom Droids (subagents)</div>
+            <div class="feature-item">MCP support</div>
+            <div class="feature-item">Multi-LLM simultané</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Meilleure perf benchmarks</div>
+            <div class="pro-item">Multi-LLM concurrent</div>
+            <div class="pro-item">Custom Droids flexibles</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Propriétaire payant</div>
+            <div class="con-item">Petit écosystème</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">Payant</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Croissant</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://openhands.dev" target="_blank">OpenHands</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Replica open-source MIT de Devin (ex-OpenDevin). Agent autonome multi-modal.</td>
+          <td><div class="features">
+            <div class="feature-item">MIT license open-source</div>
+            <div class="feature-item">CLI headless + interactive</div>
+            <div class="feature-item">Multi-modal (éditeur, shell, browser)</div>
+            <div class="feature-item">Tout LLM compatible</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Vrai open-source MIT</div>
+            <div class="pro-item">Replica Devin accessible</div>
+            <div class="pro-item">Multi-modal</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">WIP, bugs fréquents</div>
+            <div class="con-item">Comportements parfois fragiles</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Community hype</span></div></td>
+          <td><span class="maturity mat-low">Low-Med</span></td>
+        </tr>
+
+        <tr data-cat="alt" data-price="paid" data-oss="closed" data-multi="no">
+          <td><div class="tool-name"><a href="https://devin.ai" target="_blank">Devin</a></div></td>
+          <td><span class="badge badge-cat-alt">Alternative</span></td>
+          <td class="desc">Autonomous AI engineer cloud. Full SDLC, PRs autonomes. Acquis par Cognition (Windsurf).</td>
+          <td><div class="features">
+            <div class="feature-item">Full end-to-end autonomy</div>
+            <div class="feature-item">Cloud sandbox isolé</div>
+            <div class="feature-item">Bidirectional file sync</div>
+            <div class="feature-item">Real-time TUI monitoring</div>
+            <div class="feature-item">Devin for Terminal (Enterprise)</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Le plus autonome du marché</div>
+            <div class="pro-item">Full SDLC cloud</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Enterprise $$$</div>
+            <div class="con-item">Cloud-based = moins de contrôle</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">Enterprise</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">Très forte</span></div></td>
+          <td><span class="maturity mat-prod">Production</span></td>
+        </tr>
+
+        <!-- ═══ ORCHESTRATEURS ═══ -->
+        <tr class="section-header">
+          <td colspan="11">🎯 Orchestrateurs Multi-Agents</td>
+        </tr>
+
+        <tr data-cat="orch" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://github.com/smtg-ai/claude-squad" target="_blank">Claude Squad</a> <span class="badge badge-hot">⭐ Top pick</span></div></td>
+          <td><span class="badge badge-cat-orch">Orchestrateur</span></td>
+          <td class="desc">Gère plusieurs instances CC/Codex/OpenCode en parallèle dans des worktrees isolés.</td>
+          <td><div class="features">
+            <div class="feature-item">Multi-instances parallèles</div>
+            <div class="feature-item">Isolated git worktrees</div>
+            <div class="feature-item">Review mode (approbation avant apply)</div>
+            <div class="feature-item">Yolo / auto-accept mode</div>
+            <div class="feature-item">brew install claude-squad</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Multi-agents coordonnés simple</div>
+            <div class="pro-item">Isolation git par tâche</div>
+            <div class="pro-item">Install Homebrew trivial</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Couche wrapper added</div>
+            <div class="con-item">Complexité ajoutée</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">Discussions actives</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="orch" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://ralph-tui.com" target="_blank">Ralph TUI</a></div></td>
+          <td><span class="badge badge-cat-orch">Orchestrateur</span></td>
+          <td class="desc">Terminal UI orchestrator. Claude Code plugin le plus riche. Subagent tracing temps réel.</td>
+          <td><div class="features">
+            <div class="feature-item">Claude Code plugin (richest)</div>
+            <div class="feature-item">Support 6+ agents (OpenCode, Droid, Gemini...)</div>
+            <div class="feature-item">Task tracker plugins (JSON PRD...)</div>
+            <div class="feature-item">Subagent tracing nested tool calls</div>
+            <div class="feature-item">State persistence + resume</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Features les plus riches</div>
+            <div class="pro-item">Tracing temps réel</div>
+            <div class="pro-item">Error recovery intelligent</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Courbe d'apprentissage</div>
+            <div class="con-item">Complexité élevée</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">Community active</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+        <tr data-cat="orch" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://rjcorwin.github.io/cook/" target="_blank">Cook CLI</a></div></td>
+          <td><span class="badge badge-cat-orch">Orchestrateur</span></td>
+          <td class="desc">Simple orchestrateur CC/Codex/OpenCode. Review loops (3 passes) et parallel execution.</td>
+          <td><div class="features">
+            <div class="feature-item">Review loops automatiques</div>
+            <div class="feature-item">Pick best from N runs</div>
+            <div class="feature-item">Parallel composition worktrees</div>
+            <div class="feature-item">Auto-retry rate limit</div>
+            <div class="feature-item">npm install -g @let-it-cook/cli</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Le plus simple à utiliser</div>
+            <div class="pro-item">Review loops natifs</div>
+            <div class="pro-item">Install npm trivial</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Lightweight (fonctionnalités limitées)</div>
+            <div class="con-item">Node.js 20+ requis</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">HN traction</span></div></td>
+          <td><span class="maturity mat-low">Low-Med</span></td>
+        </tr>
+
+        <tr data-cat="orch native" data-price="paid" data-oss="closed" data-multi="no">
+          <td><div class="tool-name"><a href="https://code.claude.com/docs/en/agent-teams" target="_blank">Agent Teams</a></div></td>
+          <td><span class="badge badge-cat-native">Natif</span></td>
+          <td class="desc">Feature native Claude Code. 1 lead + N workers en parallèle. Zero setup.</td>
+          <td><div class="features">
+            <div class="feature-item">Multi-instance coordination</div>
+            <div class="feature-item">Team lead + workers</div>
+            <div class="feature-item">Task assignment + synthesis</div>
+            <div class="feature-item">Native, zéro setup</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Natif, aucune config</div>
+            <div class="pro-item">Validé à grande échelle (compilateur C)</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Moins flexible que tiers</div>
+            <div class="con-item">Inclus dans $20/mo CC</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-closed">Fermé</span></td>
+          <td><span class="badge badge-paid">Inclus CC</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">Officiel Anthropic</span></div></td>
+          <td><span class="maturity mat-prod">Production</span></td>
+        </tr>
+
+        <!-- ═══ WRAPPERS ═══ -->
+        <tr class="section-header">
+          <td colspan="11">🔧 Wrappers & HTTP bridges</td>
+        </tr>
+
+        <tr data-cat="wrapper" data-price="free" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://github.com/mattduck/clawde" target="_blank">Clawde</a></div></td>
+          <td><span class="badge badge-cat-wrapper">Wrapper</span></td>
+          <td class="desc">Wrapper UX pour Claude Code. Moins de flicker, meilleurs defaults, logging.</td>
+          <td><div class="features">
+            <div class="feature-item">BETTER_DEFAULTS (disable suggestions)</div>
+            <div class="feature-item">FORCE_ANSI coloring</div>
+            <div class="feature-item">Output throttling (anti-flicker)</div>
+            <div class="feature-item">LOG_FILE pour monitoring</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">UX améliorée au quotidien</div>
+            <div class="pro-item">Installation simple</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Pas de vraies nouvelles features</div>
+            <div class="con-item">Wrapper léger uniquement</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★☆☆☆</span><span class="stars-count">Niche</span></div></td>
+          <td><span class="maturity mat-low">Low</span></td>
+        </tr>
+
+        <tr data-cat="wrapper" data-price="free" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://github.com/ChrisColeTech/claude-wrapper" target="_blank">Claude-Wrapper</a></div></td>
+          <td><span class="badge badge-cat-wrapper">Wrapper</span></td>
+          <td class="desc">Transforme Claude Code CLI en HTTP API server compatible OpenAI. Session management.</td>
+          <td><div class="features">
+            <div class="feature-item">OpenAI API compatibility</div>
+            <div class="feature-item">Session management</div>
+            <div class="feature-item">Streaming SSE responses</div>
+            <div class="feature-item">Tool calling compatible</div>
+            <div class="feature-item">npm install -g claude-wrapper</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Claude Code → HTTP API</div>
+            <div class="pro-item">Drop-in pour apps OpenAI</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Latence ajoutée</div>
+            <div class="con-item">Layer de traduction</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★☆☆☆</span><span class="stars-count">Dev tools</span></div></td>
+          <td><span class="maturity mat-low">Low</span></td>
+        </tr>
+
+        <!-- ═══ UTILITAIRES ═══ -->
+        <tr class="section-header">
+          <td colspan="11">📊 Utilitaires & Analytics</td>
+        </tr>
+
+        <tr data-cat="util" data-price="free" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://ccusage.com" target="_blank">ccusage</a> <span class="badge badge-hot">💡 Utile</span></div></td>
+          <td><span class="badge badge-cat-util">Utilitaire</span></td>
+          <td class="desc">Analytics usage & coûts Claude Code. Analyse JSONL local. Daily/monthly reports.</td>
+          <td><div class="features">
+            <div class="feature-item">Daily token usage + coûts</div>
+            <div class="feature-item">Monthly aggregated reports</div>
+            <div class="feature-item">Usage par session/projet</div>
+            <div class="feature-item">5-hour billing windows</div>
+            <div class="feature-item">npx ccusage (no install)</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Tracking coûts réels</div>
+            <div class="pro-item">Zéro install (npx)</div>
+            <div class="pro-item">Local, pas de données envoyées</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Local JSONL only</div>
+            <div class="con-item">Pas real-time</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★★☆</span><span class="stars-count">Populaire Max users</span></div></td>
+          <td><span class="maturity mat-high">High</span></td>
+        </tr>
+
+        <tr data-cat="util" data-price="free" data-oss="oss" data-multi="yes">
+          <td><div class="tool-name"><a href="https://github.com/simion/reviewd" target="_blank">Reviewd</a></div></td>
+          <td><span class="badge badge-cat-util">Utilitaire</span></td>
+          <td class="desc">Code review local de PRs GitHub/BitBucket depuis le terminal. Parallèle, gratuit.</td>
+          <td><div class="features">
+            <div class="feature-item">Reviews GitHub/BitBucket PRs</div>
+            <div class="feature-item">Reviews parallèles concurrentes</div>
+            <div class="feature-item">Run linters/tests pendant review</div>
+            <div class="feature-item">Contexte codebase complet</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Gratuit vs Claude Code Review</div>
+            <div class="pro-item">Contexte local complet</div>
+            <div class="pro-item">Linters intégrés</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Moins sophistiqué que CC Review</div>
+          </div></td>
+          <td><span class="check-yes">✓</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">HN traction</span></div></td>
+          <td><span class="maturity mat-low">Low-Med</span></td>
+        </tr>
+
+        <tr data-cat="util" data-price="free" data-oss="oss" data-multi="no">
+          <td><div class="tool-name"><a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">ClaudeKit</a></div></td>
+          <td><span class="badge badge-cat-util">Utilitaire</span></td>
+          <td class="desc">CLI toolkit complet : auto-save checkpointing, code quality hooks, 20+ subagents.</td>
+          <td><div class="features">
+            <div class="feature-item">Auto-save checkpointing</div>
+            <div class="feature-item">Code quality hooks</div>
+            <div class="feature-item">20+ subagents préconfigs</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="pro-item">Toolkit tout-en-un</div>
+            <div class="pro-item">Hooks prêts à l'emploi</div>
+          </div></td>
+          <td><div class="pros-cons">
+            <div class="con-item">Claude uniquement</div>
+          </div></td>
+          <td><span class="check-no">✗</span></td>
+          <td><span class="badge badge-oss">Open Source</span></td>
+          <td><span class="badge badge-free">Gratuit</span></td>
+          <td><div class="popularity"><span class="stars">★★★☆☆</span><span class="stars-count">awesome-cc list</span></div></td>
+          <td><span class="maturity mat-mid">Medium</span></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <strong>⚠️ Note importante (février 2026) :</strong> Anthropic a bloqué l'accès OAuth pour les clients tiers (OpenCode et autres). Seule l'API pay-per-use reste disponible pour les wrappers non-officiels. Les outils natifs (Claude Code, Agent Teams) ne sont pas affectés.<br><br>
+    <strong>💡 Recommandation pour un dev fullstack solo :</strong> Claude Code Max ($20) + ccusage pour tracker les coûts + Claude Squad si tu veux orchestrer plusieurs tâches en parallèle. Pour économiser : Cline (open-source) + Qwen 3.5 local pour les tâches répétitives.
+  </div>
+
+  <footer>
+    <span>Veille générée par <strong>Sally 💅</strong> — 23 mars 2026</span>
+    <span>Sources : Reddit r/ClaudeAI · GitHub · HackerNews · <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">awesome-claude-code</a></span>
+  </footer>
+
+</div>
+
+<script>
+  function filterTable(filter, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const rows = document.querySelectorAll('#mainTable tbody tr:not(.section-header)');
+    rows.forEach(row => {
+      if (filter === 'all') {
+        row.classList.remove('hidden');
+        return;
+      }
+      const cat   = row.dataset.cat || '';
+      const price = row.dataset.price || '';
+      const oss   = row.dataset.oss || '';
+      const multi = row.dataset.multi || '';
+
+      let show = false;
+      if (filter === 'free')  show = price === 'free';
+      else if (filter === 'oss')   show = oss === 'oss';
+      else if (filter === 'multi') show = multi === 'yes';
+      else show = cat.includes(filter);
+
+      row.classList.toggle('hidden', !show);
+    });
+
+    // Hide empty section headers
+    const sections = document.querySelectorAll('.section-header');
+    sections.forEach(section => {
+      let next = section.nextElementSibling;
+      let hasVisible = false;
+      while (next && !next.classList.contains('section-header')) {
+        if (!next.classList.contains('hidden')) hasVisible = true;
+        next = next.nextElementSibling;
+      }
+      section.classList.toggle('hidden', !hasVisible);
+    });
+  }
+</script>
+
+</body>
+</html>
