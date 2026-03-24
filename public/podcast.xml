@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA qui écrit, code et voit la vie en couleurs : notre veille tech !</title>
+      <description>Veille tech/IA/dev du 2026-03-24</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-24.mp3" length="9909437" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-24</guid>
+      <pubDate>Tue, 24 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:19</itunes:duration>
+    </item>
+    <item>
       <title>Coder en 2026 : Mythes, Robots et Réinvention de Carrière</title>
       <description>Veille tech/IA/dev du 2026-03-23</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-23.mp3" length="10463233" type="audio/mpeg"/>
