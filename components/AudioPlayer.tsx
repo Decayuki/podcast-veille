@@ -2,6 +2,9 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Episode } from '@/types';
+import TranscriptView from './TranscriptView';
+import ChapterList from './ChapterList';
+import CoverArt from './CoverArt';
 
 interface AudioPlayerProps {
   episode: Episode;
@@ -9,6 +12,7 @@ interface AudioPlayerProps {
 }
 
 const SPEEDS = [1, 1.5, 2];
+const SAVE_INTERVAL = 5000; // Save progress every 5s
 
 function formatTime(s: number): string {
   if (!isFinite(s)) return '0:00';
@@ -17,14 +21,47 @@ function formatTime(s: number): string {
   return `${m}:${sec.toString().padStart(2, '0')}`;
 }
 
+function getProgressKey(id: string): string {
+  return `podcast-progress-${id}`;
+}
+
+export function getSavedProgress(id: string): number {
+  if (typeof window === 'undefined') return 0;
+  const val = localStorage.getItem(getProgressKey(id));
+  return val ? parseFloat(val) : 0;
+}
+
 export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const progressRef = useRef<HTMLInputElement>(null);
+  const lastSaveRef = useRef(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(episode.durationSeconds || 0);
   const [speedIdx, setSpeedIdx] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [showExtras, setShowExtras] = useState(false);
+
+  // Restore saved progress on mount
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const saved = getSavedProgress(episode.id);
+    if (saved > 0 && saved < (episode.durationSeconds || Infinity) - 5) {
+      audio.currentTime = saved;
+      setCurrentTime(saved);
+    }
+    localStorage.setItem('podcast-last-episode', episode.id);
+  }, [episode.id, episode.durationSeconds]);
+
+  // Save progress periodically
+  useEffect(() => {
+    const now = Date.now();
+    if (now - lastSaveRef.current >= SAVE_INTERVAL && currentTime > 0) {
+      localStorage.setItem(getProgressKey(episode.id), currentTime.toString());
+      lastSaveRef.current = now;
+    }
+  }, [currentTime, episode.id]);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -36,7 +73,12 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
     const onCanPlay = () => setIsLoading(false);
     const onTimeUpdate = () => setCurrentTime(audio.currentTime);
     const onLoadedMetadata = () => setDuration(audio.duration);
-    const onEnded = () => { setIsPlaying(false); setCurrentTime(0); };
+    const onEnded = () => {
+      setIsPlaying(false);
+      setCurrentTime(0);
+      // Clear saved progress on completion
+      localStorage.removeItem(getProgressKey(episode.id));
+    };
 
     audio.addEventListener('play', onPlay);
     audio.addEventListener('pause', onPause);
@@ -47,6 +89,10 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
     audio.addEventListener('ended', onEnded);
 
     return () => {
+      // Save progress on unmount
+      if (audio.currentTime > 0) {
+        localStorage.setItem(getProgressKey(episode.id), audio.currentTime.toString());
+      }
       audio.removeEventListener('play', onPlay);
       audio.removeEventListener('pause', onPause);
       audio.removeEventListener('waiting', onWaiting);
@@ -55,7 +101,39 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
       audio.removeEventListener('loadedmetadata', onLoadedMetadata);
       audio.removeEventListener('ended', onEnded);
     };
-  }, []);
+  }, [episode.id]);
+
+  // Media Session API (lock screen controls)
+  useEffect(() => {
+    if (!('mediaSession' in navigator)) return;
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: episode.title,
+      artist: 'Veille de Marc',
+      album: 'Podcast Veille Tech',
+      artwork: [
+        { src: (process.env.NEXT_PUBLIC_BASE_PATH ?? '') + '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+        { src: (process.env.NEXT_PUBLIC_BASE_PATH ?? '') + '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+      ],
+    });
+    navigator.mediaSession.setActionHandler('play', () => audioRef.current?.play());
+    navigator.mediaSession.setActionHandler('pause', () => audioRef.current?.pause());
+    navigator.mediaSession.setActionHandler('seekbackward', () => skip(-15));
+    navigator.mediaSession.setActionHandler('seekforward', () => skip(15));
+    navigator.mediaSession.setActionHandler('seekto', (details) => {
+      if (audioRef.current && details.seekTime != null) {
+        audioRef.current.currentTime = details.seekTime;
+      }
+    });
+
+    return () => {
+      navigator.mediaSession.metadata = null;
+      navigator.mediaSession.setActionHandler('play', null);
+      navigator.mediaSession.setActionHandler('pause', null);
+      navigator.mediaSession.setActionHandler('seekbackward', null);
+      navigator.mediaSession.setActionHandler('seekforward', null);
+      navigator.mediaSession.setActionHandler('seekto', null);
+    };
+  }, [episode]);
 
   const togglePlay = useCallback(() => {
     const audio = audioRef.current;
@@ -68,6 +146,13 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
     const audio = audioRef.current;
     if (!audio) return;
     audio.currentTime = Math.max(0, Math.min(audio.duration || 0, audio.currentTime + seconds));
+  }, []);
+
+  const seekTo = useCallback((time: number) => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = time;
+    setCurrentTime(time);
   }, []);
 
   const handleProgress = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
@@ -100,9 +185,22 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
     return () => window.removeEventListener('keydown', handler);
   }, [togglePlay, skip]);
 
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+  const audioSrc = episode.audioUrl.startsWith('http')
+    ? episode.audioUrl
+    : `${base}${episode.audioUrl.replace(base, '')}`;
+
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-[#161616] border-t border-[#2a2a2a] safe-area-bottom">
-      <audio ref={audioRef} src={episode.audioUrl} preload="metadata" />
+    <div className="fixed bottom-0 left-0 right-0 bg-[#161616] border-t border-[#2a2a2a] safe-area-bottom z-50">
+      <audio ref={audioRef} src={audioSrc} preload="metadata" />
+
+      {/* Extras panel (transcript + chapters) */}
+      {showExtras && (
+        <div className="max-h-[40vh] overflow-y-auto">
+          <ChapterList episode={episode} currentTime={currentTime} onSeek={seekTo} />
+          <TranscriptView episode={episode} currentTime={currentTime} />
+        </div>
+      )}
 
       {/* Waveform */}
       <div className="flex items-center justify-center gap-[3px] h-8 px-4 pt-3">
@@ -138,9 +236,22 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
         </div>
       </div>
 
-      {/* Episode title */}
-      <div className="px-4 pb-1">
-        <p className="text-sm font-medium truncate">{episode.title}</p>
+      {/* Episode title + cover */}
+      <div className="px-4 pb-1 flex items-center gap-3">
+        <CoverArt episode={episode} size="sm" />
+        <p className="text-sm font-medium truncate flex-1">{episode.title}</p>
+        <button
+          onClick={() => setShowExtras(!showExtras)}
+          className={`w-8 h-8 flex items-center justify-center rounded-full transition-colors ${
+            showExtras ? 'bg-[#e8834a]/20 text-[#e8834a]' : 'text-[#666] hover:text-[#e8e8e8]'
+          }`}
+          aria-label="Voir transcript et chapitres"
+          title="Transcript & Chapitres"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round">
+            <path d="M2 3h12M2 6h10M2 9h8M2 12h11"/>
+          </svg>
+        </button>
       </div>
 
       {/* Controls */}

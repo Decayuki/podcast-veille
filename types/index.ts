@@ -1,3 +1,13 @@
+export interface Chapter {
+  title: string;
+  startTime: number;
+}
+
+export interface TranscriptLine {
+  speaker: string;
+  text: string;
+}
+
 export interface Episode {
   id: string;
   title: string;
@@ -7,4 +17,7 @@ export interface Episode {
   description: string;
   audioUrl: string;
   size?: number;
+  transcriptUrl?: string;
+  chaptersUrl?: string;
+  coverUrl?: string;
 }

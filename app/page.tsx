@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import EpisodeList from '@/components/EpisodeList';
+import NotificationBell from '@/components/NotificationBell';
 import type { Episode } from '@/types';
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
@@ -38,8 +39,8 @@ export default function Home() {
         </p>
       </header>
 
-      {/* RSS link */}
-      <div className="mb-6">
+      {/* Links row */}
+      <div className="mb-6 flex items-center gap-4">
         <a
           href={`${BASE}/podcast.xml`}
           className="inline-flex items-center gap-2 text-xs text-[#666] hover:text-[#e8834a] transition-colors"
@@ -48,8 +49,9 @@ export default function Home() {
           <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
             <path d="M2 2a.5.5 0 0 0 0 1c3.86 0 7 3.14 7 7a.5.5 0 0 0 1 0C10 5.69 6.31 2 2 2zm0 3a.5.5 0 0 0 0 1c2.21 0 4 1.79 4 4a.5.5 0 0 0 1 0c0-2.76-2.24-5-5-5zm0 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
           </svg>
-          Flux RSS podcast
+          Flux RSS
         </a>
+        <NotificationBell />
       </div>
 
       {/* Episodes */}
