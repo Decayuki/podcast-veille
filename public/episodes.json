@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-03-26",
+    "title": "Quand l'IA vous menace et que Claude se rebelle",
+    "date": "2026-03-26",
+    "duration": "14:55",
+    "durationSeconds": 895,
+    "description": "Veille tech/IA/dev du 2026-03-26",
+    "audioUrl": "/podcast-veille/audio/2026-03-26.mp3",
+    "size": 14334789,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-03-26.json",
+    "coverUrl": "/podcast-veille/covers/2026-03-26.svg"
+  },
+  {
     "id": "2026-03-25",
     "title": "Bulle IA, Claude.md et Quantique : La Tech en Plein Virage",
     "date": "2026-03-25",

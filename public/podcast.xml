@@ -18,9 +18,17 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA vous menace et que Claude se rebelle</title>
+      <description>Veille tech/IA/dev du 2026-03-26</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-26.mp3" length="14334789" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-26</guid>
+      <pubDate>Thu, 26 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>14:55</itunes:duration>
+    </item>
+    <item>
       <title>Bulle IA, Claude.md et Quantique : La Tech en Plein Virage</title>
       <description>Veille tech/IA/dev du 2026-03-25</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-25.mp3" length="14497793" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-25.mp3" length="14497793" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-25</guid>
       <pubDate>Wed, 25 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>15:06</itunes:duration>
@@ -28,7 +36,7 @@
     <item>
       <title>Au-delà du Prompt : Quand l'IA Prend les Rênes</title>
       <description>Veille tech/IA/dev du 2026-03-24</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-24.mp3" length="8134782" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-24.mp3" length="8134782" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-24</guid>
       <pubDate>Tue, 24 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>8:28</itunes:duration>
@@ -36,7 +44,7 @@
     <item>
       <title>Coder en 2026 : Mythes, Robots et Réinvention de Carrière</title>
       <description>Veille tech/IA/dev du 2026-03-23</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-23.mp3" length="10463233" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-23.mp3" length="10463233" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-23</guid>
       <pubDate>Mon, 23 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>10:53</itunes:duration>
@@ -44,7 +52,7 @@
     <item>
       <title>Au-delà des GPT : La Vraie Bataille de l'IA et les Millionnaires 'Ennuyeux'</title>
       <description>Veille tech/IA/dev du 2026-03-20</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-20.mp3" length="9399109" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-20.mp3" length="9399109" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-20</guid>
       <pubDate>Fri, 20 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>9:47</itunes:duration>
@@ -52,7 +60,7 @@
     <item>
       <title>L'IA prend le job : Agents autonomes, prompts béton et la guerre des modèles</title>
       <description>Veille tech/IA/dev du 2026-03-19</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-19.mp3" length="9818322" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-19.mp3" length="9818322" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-19</guid>
       <pubDate>Thu, 19 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>10:13</itunes:duration>
@@ -60,7 +68,7 @@
     <item>
       <title>Agents IA : La Révolution Silencieuse et les Modèles Locaux</title>
       <description>Veille tech/IA/dev du 2026-03-18</description>
-      <enclosure url="https://decayuki.github.io/podcast-veille/podcast-veille/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-18.mp3" length="7795817" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-18</guid>
       <pubDate>Wed, 18 Mar 2026 07:00:00 -0000</pubDate>
       <itunes:duration>8:07</itunes:duration>
