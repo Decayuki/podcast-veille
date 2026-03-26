@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "dev:clean": "rm -rf .next && next dev"
   },
   "dependencies": {
     "autoprefixer": "^10.4.27",

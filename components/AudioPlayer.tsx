@@ -266,13 +266,13 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
         {/* Skip back */}
         <button
           onClick={() => skip(-15)}
-          className="w-12 h-12 flex items-center justify-center text-[#999] hover:text-[#e8e8e8] transition-colors active:scale-95"
+          className="w-12 h-12 flex items-center justify-center text-[#999] hover:text-[#e8e8e8] transition-colors active:scale-95 relative"
           aria-label="Reculer 15s"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M12 5V3l-4 3 4 3V7a7 7 0 1 1-7 7h0" strokeLinecap="round"/>
-            <text x="7.5" y="14" fontSize="6" fill="currentColor" stroke="none" fontWeight="600" textAnchor="middle">15</text>
           </svg>
+          <span className="absolute inset-0 flex items-center justify-center text-[9px] font-bold pt-[2px] pr-[4px]">15</span>
         </button>
 
         {/* Play/Pause */}
@@ -302,13 +302,13 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
         {/* Skip forward */}
         <button
           onClick={() => skip(15)}
-          className="w-12 h-12 flex items-center justify-center text-[#999] hover:text-[#e8e8e8] transition-colors active:scale-95"
+          className="w-12 h-12 flex items-center justify-center text-[#999] hover:text-[#e8e8e8] transition-colors active:scale-95 relative"
           aria-label="Avancer 15s"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M12 5V3l4 3-4 3V7a7 7 0 1 0 7 7h0" strokeLinecap="round"/>
-            <text x="12" y="14" fontSize="6" fill="currentColor" stroke="none" fontWeight="600" textAnchor="middle">15</text>
           </svg>
+          <span className="absolute inset-0 flex items-center justify-center text-[9px] font-bold pt-[2px] pl-[4px]">15</span>
         </button>
 
         {/* Close */}

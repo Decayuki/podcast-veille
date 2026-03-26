@@ -25,6 +25,7 @@ export default function ChapterList({ episode, currentTime, onSeek }: ChapterLis
   const [chapters, setChapters] = useState<Chapter[] | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const fetchChapters = async () => {
     if (chapters) {
@@ -45,6 +46,7 @@ export default function ChapterList({ episode, currentTime, onSeek }: ChapterLis
       setIsOpen(true);
     } catch {
       setChapters(null);
+      setError(true);
     } finally {
       setIsLoading(false);
     }
@@ -86,6 +88,10 @@ export default function ChapterList({ episode, currentTime, onSeek }: ChapterLis
           </svg>
         )}
       </button>
+
+      {error && (
+        <p className="px-4 pb-3 text-xs text-[#666]">Chapitres non disponibles pour cet épisode.</p>
+      )}
 
       {isOpen && chapters && chapters.length > 0 && (
         <div className="px-4 pb-4 space-y-1">
