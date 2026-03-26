@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { Episode } from '@/types';
+import { resolveUrl } from '@/lib/utils';
 
 interface CoverArtProps {
   episode: Episode;
@@ -27,10 +28,7 @@ function dateToColor(date: string): string {
 
 export default function CoverArt({ episode, size = 'sm', className = '' }: CoverArtProps) {
   const [hasError, setHasError] = useState(false);
-  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-  const coverUrl = episode.coverUrl
-    ? `${base}${episode.coverUrl.replace(base, '')}`
-    : null;
+  const coverUrl = episode.coverUrl ? resolveUrl(episode.coverUrl) : null;
 
   const fallbackColor = dateToColor(episode.date);
   const sizeClass = SIZES[size];

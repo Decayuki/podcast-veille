@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import type { Episode } from '@/types';
+import { resolveUrl } from '@/lib/utils';
 
 interface Chapter {
   title: string;
@@ -33,10 +34,9 @@ export default function ChapterList({ episode, currentTime, onSeek }: ChapterLis
 
     setIsLoading(true);
     try {
-      const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
       const url = episode.chaptersUrl
-        ? `${base}${episode.chaptersUrl.replace(base, '')}`
-        : `${base}/chapters/${episode.id}.json`;
+        ? resolveUrl(episode.chaptersUrl)
+        : resolveUrl('/podcast-veille/chapters/' + episode.id + '.json');
 
       const res = await fetch(url);
       if (!res.ok) throw new Error('Not found');
@@ -55,10 +55,7 @@ export default function ChapterList({ episode, currentTime, onSeek }: ChapterLis
     ? chapters.reduce((acc, ch, i) => (currentTime >= ch.startTime ? i : acc), 0)
     : -1;
 
-  if (!episode.chaptersUrl && chapters === null && !isLoading) {
-    // Don't show button if no chapters URL and haven't tried loading
-    return null;
-  }
+  // Always show the button - chapters may exist even without explicit URL
 
   return (
     <div className="border-t border-[#2a2a2a]">

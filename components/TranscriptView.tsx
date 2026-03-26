@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import type { Episode } from '@/types';
+import { resolveUrl } from '@/lib/utils';
 
 interface TranscriptLine {
   speaker: string;
@@ -31,10 +32,9 @@ export default function TranscriptView({ episode, currentTime, chapters }: Trans
     setError(false);
 
     try {
-      const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
       const url = episode.transcriptUrl
-        ? `${base}${episode.transcriptUrl.replace(base, '')}`
-        : `${base}/transcripts/${episode.id}.json`;
+        ? resolveUrl(episode.transcriptUrl)
+        : resolveUrl('/podcast-veille/transcripts/' + episode.id + '.json');
 
       const res = await fetch(url);
       if (!res.ok) throw new Error('Not found');

@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Episode } from '@/types';
+import { resolveUrl } from '@/lib/utils';
 import TranscriptView from './TranscriptView';
 import ChapterList from './ChapterList';
 import CoverArt from './CoverArt';
@@ -185,13 +186,11 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
     return () => window.removeEventListener('keydown', handler);
   }, [togglePlay, skip]);
 
-  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-  const audioSrc = episode.audioUrl.startsWith('http')
-    ? episode.audioUrl
-    : `${base}${episode.audioUrl.replace(base, '')}`;
+  const audioSrc = resolveUrl(episode.audioUrl);
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-[#161616] border-t border-[#2a2a2a] safe-area-bottom z-50">
+    <div className="fixed bottom-0 left-0 right-0 z-50">
+    <div className="max-w-lg mx-auto bg-[#161616] border-t border-[#2a2a2a] safe-area-bottom">
       <audio ref={audioRef} src={audioSrc} preload="metadata" />
 
       {/* Extras panel (transcript + chapters) */}
@@ -323,6 +322,7 @@ export default function AudioPlayer({ episode, onClose }: AudioPlayerProps) {
           </svg>
         </button>
       </div>
+    </div>
     </div>
   );
 }

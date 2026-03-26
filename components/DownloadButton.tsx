@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import type { Episode } from '@/types';
+import { resolveUrl } from '@/lib/utils';
 
 interface DownloadButtonProps {
   episode: Episode;
@@ -33,10 +34,7 @@ export default function DownloadButton({ episode, className = '' }: DownloadButt
     setState('downloading');
 
     try {
-      const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-      const url = episode.audioUrl.startsWith('http')
-        ? episode.audioUrl
-        : `${base}${episode.audioUrl.replace(base, '')}`;
+      const url = resolveUrl(episode.audioUrl);
 
       // Request SW to cache the audio
       if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
