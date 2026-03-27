@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA et Dev : Crise chez OpenAI, Mac Mini en Force, et Patterns Réinventés</title>
+      <description>Veille tech/IA/dev du 2026-03-27</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-27.mp3" length="10059902" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-27</guid>
+      <pubDate>Fri, 27 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:28</itunes:duration>
+    </item>
+    <item>
       <title>Quand l'IA vous menace et que Claude se rebelle</title>
       <description>Veille tech/IA/dev du 2026-03-26</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-26.mp3" length="14334789" type="audio/mpeg"/>

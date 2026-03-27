@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-03-27",
+    "title": "IA et Dev : Crise chez OpenAI, Mac Mini en Force, et Patterns Réinventés",
+    "date": "2026-03-27",
+    "duration": "10:28",
+    "durationSeconds": 628,
+    "description": "Veille tech/IA/dev du 2026-03-27",
+    "audioUrl": "/podcast-veille/audio/2026-03-27.mp3",
+    "size": 10059902,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-03-27.json",
+    "coverUrl": "/podcast-veille/covers/2026-03-27.svg"
+  },
+  {
     "id": "2026-03-26",
     "title": "Quand l'IA vous menace et que Claude se rebelle",
     "date": "2026-03-26",
