@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-03-30",
+    "title": "IA et Carrières : Le Grand Pivot du Marché de l'Emploi",
+    "date": "2026-03-30",
+    "duration": "9:55",
+    "durationSeconds": 595,
+    "description": "Veille tech/IA/dev du 2026-03-30",
+    "audioUrl": "/podcast-veille/audio/2026-03-30.mp3",
+    "size": 9523661,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-03-30.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-03-30.json",
+    "coverUrl": "/podcast-veille/covers/2026-03-30.svg"
+  },
+  {
     "id": "2026-03-27",
     "title": "IA et Dev : Crise chez OpenAI, Mac Mini en Force, et Patterns Réinventés",
     "date": "2026-03-27",

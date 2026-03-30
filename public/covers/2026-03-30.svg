@@ -1,0 +1,26 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Motifs géométriques subtils en arrière-plan (faible opacité) -->
+  <circle cx="150" cy="150" r="100" fill="#2a2a4a" opacity="0.15"/>
+  <rect x="1100" y="1100" width="200" height="200" rx="20" fill="#2a2a4a" opacity="0.15"/>
+  <polygon points="700,50 800,150 700,250 600,150" fill="#2a2a4a" opacity="0.15"/>
+  <line x1="200" y1="1200" x2="400" y2="1000" stroke="#2a2a4a" stroke-width="4" opacity="0.15"/>
+  <line x1="1200" y1="200" x2="1000" y2="400" stroke="#2a2a4a" stroke-width="4" opacity="0.15"/>
+
+  <!-- Définition des dégradés de couleurs vives pour les icônes -->
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E676;stop-opacity:1" /> <!-- Vert Vif -->
+      <stop offset="100%" style="stop-color:#82B1FF;stop-opacity:1" /> <!-- Bleu Électrique -->
+    </linearGradient>
+    <linearGradient id="pivotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4081;stop-opacity:1" /> <!-- Rose Vif -->
+      <stop offset="100%" style="stop-color:#BB86FC;stop-opacity:1" /> <!-- Violet Clair -->
+    </linearGradient>
+  </defs>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="500" text-anchor="middle" font-family="'Open Sans', 'Helvetica Neue', Arial, sans-serif" font-weight="bold" fill="#E0E0E0">
+    <tspan x="70

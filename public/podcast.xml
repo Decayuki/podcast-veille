@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA et Carrières : Le Grand Pivot du Marché de l'Emploi</title>
+      <description>Veille tech/IA/dev du 2026-03-30</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-30.mp3" length="9523661" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-30</guid>
+      <pubDate>Mon, 30 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:55</itunes:duration>
+    </item>
+    <item>
       <title>IA et Dev : Crise chez OpenAI, Mac Mini en Force, et Patterns Réinventés</title>
       <description>Veille tech/IA/dev du 2026-03-27</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-27.mp3" length="10059902" type="audio/mpeg"/>
