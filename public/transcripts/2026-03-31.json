@@ -1,0 +1,153 @@
+{
+  "title": "IA : Bulle ou Révolution ? Les coulisses tech de la semaine.",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt à démystifier la tech pour nos auditeurs ? Parce que, cette semaine, j'ai l'impression qu'on est sur des montagnes russes avec l'IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! Accroche-toi, car entre les promesses mirobolantes et la réalité du terrain, il y a de quoi se poser de sérieuses questions. On va naviguer entre euphorie et scepticisme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, commençons par le gros morceau : certains articles parlent carrément d'une bulle de l'IA sur le point d'éclater. C'est alarmant, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, le ton est donné par des sources comme le MIT ou Stanford. Ils estiment que les gains de productivité de l'IA sont souvent minables sur des tâches simples, avec une qualité parfois dégradée pour les experts. Les taux d'erreurs en droit ou médecine sont même catastrophiques. On parle plus d'un 'logiciel d'assistant' que d'une révolution."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'IA ne serait pas cette baguette magique qu'on nous vend ? Et économiquement, ça tient la route ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que le bât blesse. Des entreprises comme OpenAI brûlent des milliards annuels pour des revenus quasi nuls. Chaque nouvelle génération de modèle coûte dix fois plus cher pour seulement deux pour cent d'amélioration. Et les hallucinations ne sont pas un bug, c'est l'architecture même de ces LLMs : ils devinent statistiquement, ils ne comprennent rien."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une perspective vraiment critique. Et ce n'est pas tout, j'ai lu que, pendant ce temps, une autre 'chimère' serait déjà en préparation : le quantum computing. On revit le même cycle, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. L'histoire se répète : des chemins de fer à l'IA en passant par la blockchain, on observe le même pattern. Le capital cherche toujours la prochaine narrative. Le quantum computing, avec ses qubits fragiles, n'aura pas d'avantages concrets avant 20 ans au moins. C'est le prochain coup marketing."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un peu désillusionnant. Mais malgré ces réserves, l'IA continue d'évoluer, et de nouvelles façons de l'utiliser apparaissent. Anthropic, par exemple, a lancé un cours sur Claude Code, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une excellente nouvelle pratique ! Anthropic a sorti son académie officielle avec le cours gratuit 'Claude Code in Action'. En une heure, vous maîtrisez les bases de l'assistance au code, de l'intégration GitHub aux modes de pensée de Claude. Et on peut même obtenir un certificat."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une certification officielle en une heure, c'est rapide ! Mais alors, si on utilise l'IA pour coder ou designer, est-ce qu'on ne risque pas de perdre nos propres compétences ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une question clé, Denise. Les gens les plus intelligents que je connaisse sont très sélectifs. Ils refusent l'IA pour des activités qui les rendent plus forts, comme l'écriture, la lecture active ou la prise de décision complexe. Ils appellent ça le principe 'GYM vs JOB'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "GYM vs JOB, j'aime ça ! Donc, si le processus me muscle le cerveau, je n'utilise pas l'IA. Mais si c'est une tâche répétitive pour laquelle je suis juste payée pour le résultat, je peux y aller ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça ! L'IA ne rend pas stupide. C'est la paresse intellectuelle qui le fait. Déléguer un brainstorming initial, par exemple, vous prive de l'exploration créative des contradictions. Les pros se réservent ces moments de 'flow' où les vraies compétences se développent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un excellent cadre de pensée. Mais revenons aux outils concrets. J'ai vu qu'Anthropic a aussi amélioré ses 'Claude Skills 2.0'. De quoi s'agit-il ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les Skills, ce sont des conteneurs réutilisables qui encapsulent de la logique. Fini les prompts répétitifs ! Le game-changer, c'est le Skill Creator, une méta-skill capable de générer d'autres Skills à partir d'une simple description en langage naturel. Zéro code manuel à écrire."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est incroyable ! On décrit ce qu'on veut, et l'IA fabrique l'outil. Les designers deviennent des architectes de processus, alors ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. On encode sa culture design ou métier une seule fois, et la Skill l'applique partout. Un brief pour une app de bouffe, et la Skill génère une landing page complète, responsive, avec le bon style, sans qu'on ait eu besoin de le spécifier. C'est une automatisation de la pensée."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Cela dit, beaucoup de gens disent apprendre l'IA, mais sans vraiment comprendre ce qui se passe sous le capot. Est-ce que les Skills et ces nouveaux outils masquent encore plus la complexité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le piège. 99% des gens apprennent une interface, pas l'IA elle-même. La compétence fondamentale, c'est de 'penser en vecteurs'. Les LLMs ne connaissent rien, ils calculent des positions dans un espace à 1536 dimensions. Les hallucinations, c'est juste atterrir sur une coordonnée mathématiquement logique mais factuellement vide."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, 'chiot' est proche de 'chien' géométriquement. Et pour détecter les erreurs, on doit calculer la similarité cosinus ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Si le score de similarité entre la source et la réponse est trop bas, c'est probablement une hallucination. Le vrai skill, c'est de casser intentionnellement le modèle, de maîtriser les évaluations automatiques, et de penser le système globalement, pas juste le modèle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une plongée fascinante. Mais passons aux mauvaises nouvelles pour les utilisateurs de Claude. Il y a eu des soucis de 'rate limit' récemment, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, un gros souci. Les abonnés Claude Max ont vu leurs crédits brûler anormalement vite, parfois 5 heures de crédit en 1-2 heures. Anthropic a admis ajuster les limites aux heures de pointe, mais le problème persiste hors de ces créneaux. C'est le deuxième incident en peu de temps, et la confiance des utilisateurs est érodée."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ouch, ça change la donne pour les développeurs en production. Et la version Opus 4.6 de Claude, elle fait des vagues aussi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Opus 4.6, c'est un compromis brutal. Il est 15-20% meilleur pour le codage, mais l'écriture est dégradée, avec des comportements 'lazy' et du code dupliqué. Le consensus est clair : 4.6 pour le code, 4.5 pour l'écriture. On a même vu des sessions bloquer pendant de longues minutes sur des prompts simples."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Il faut donc choisir son modèle selon la tâche ! Mais il y a aussi de l'expérimentation avec les 'Agent Teams' qui arrive ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Avec Opus 4.6 est arrivée une fonction expérimentale qui permet d'orchestrer des équipes d'agents Claude en parallèle. Ils communiquent directement entre eux, sans passer par un agent principal. Imagine des agents qui collaborent sur la recherche, le débogage ou la coordination front-end/back-end."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des agents qui parlent entre eux ! C'est la prochaine étape pour les workflows automatisés. Mais cela doit coûter cher en tokens, j'imagine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, l'utilisation des tokens augmente linéairement avec le nombre de coéquipiers. C'est à réserver pour les tâches à haute valeur sur les gros projets. On pense maintenant en 'topologie d'agents'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et l'écosystème des Skills, dont on parlait, il explose littéralement, non ? J'ai vu des chiffres impressionnants."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une révolution ! Le skill-creator, amélioré début mars, peut désormais vous interviewer sur votre workflow et générer une Skill complète. On compte plus de 150 000 Skills vérifiées. Les automatisations Google Workspace ou les intégrations MCP sont très populaires. Les 'glue-code' workflows disparaissent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus besoin de petits scripts pour relier les choses entre elles. Et pour interagir avec le web, les agents Claude ont aussi de nouvelles capacités ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, grâce à 'Browser Use' et 'Browser MCP', les agents Claude peuvent piloter des navigateurs headless. Ils peuvent remplir des formulaires, cliquer, extraire du contenu, faire des captures d'écran. C'est une intégration native qui remplace les scripts Selenium ou Playwright."
+    },
+    {
+      "speaker": "Denise",
+      "text": "De l'automatisation web sans code manuel, c'est puissant pour le scraping intelligent ou les tests de bout en bout ! Henri, quelle semaine intense pour l'IA ! Si on devait retenir deux ou trois choses essentielles ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, premièrement, gardons un œil critique sur le marketing de l'IA. La 'bulle' n'est pas qu'une rumeur, et la prochaine 'révolution' est déjà en préparation. Deuxièmement, soyons stratégiques : utilisons l'IA pour les tâches répétitives, mais jamais pour celles qui nous font grandir intellectuellement. Et enfin, les outils évoluent vite : les Skills, les Agents Teams, le pilotage de navigateurs, tout ça transforme nos workflows. Mais l'IA demande une compréhension profonde pour être maîtrisée."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un regard lucide, une utilisation consciente, et une adaptation constante. C'est noté ! Merci Henri pour ce décryptage éclairant. On se retrouve la semaine prochaine pour d'autres aventures tech !"
+    }
+  ]
+}

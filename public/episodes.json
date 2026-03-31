@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-03-31",
+    "title": "IA : Bulle ou Révolution ? Les coulisses tech de la semaine.",
+    "date": "2026-03-31",
+    "duration": "8:36",
+    "durationSeconds": 516,
+    "description": "Veille tech/IA/dev du 2026-03-31",
+    "audioUrl": "/podcast-veille/audio/2026-03-31.mp3",
+    "size": 8263514,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-03-31.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-03-31.json",
+    "coverUrl": "/podcast-veille/covers/2026-03-31.svg"
+  },
+  {
     "id": "2026-03-30",
     "title": "IA et Carrières : Le Grand Pivot du Marché de l'Emploi",
     "date": "2026-03-30",

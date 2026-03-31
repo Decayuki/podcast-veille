@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA : Bulle ou Révolution ? Les coulisses tech de la semaine.</title>
+      <description>Veille tech/IA/dev du 2026-03-31</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-31.mp3" length="8263514" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-31</guid>
+      <pubDate>Tue, 31 Mar 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>8:36</itunes:duration>
+    </item>
+    <item>
       <title>IA et Carrières : Le Grand Pivot du Marché de l'Emploi</title>
       <description>Veille tech/IA/dev du 2026-03-30</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-03-30.mp3" length="9523661" type="audio/mpeg"/>
