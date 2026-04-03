@@ -1,0 +1,35 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title description">
+  <title id="title">Podcast Cover: Au-delà de l'IA</title>
+  <desc id="description">Illustration minimaliste pour l'épisode de podcast 'Au-delà de l'IA : Coder avec intention, designer avec âme' avec des icônes tech et un fond sombre.</desc>
+
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" y="550" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="90" fill="#8aff8a" text-anchor="middle">Au-delà de l'IA :</text>
+  <text x="700" y="650" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="90" fill="#8aff8a" text-anchor="middle">Coder avec intention,</text>
+  <text x="700" y="750" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="90" fill="#8aff8a" text-anchor="middle">designer avec âme</text>
+
+  <!-- Icône 1 : Réseau / Noeud IA (en haut à gauche) -->
+  <g transform="translate(300, 300)">
+    <circle cx="0" cy="0" r="30" fill="#8a8aff"/>
+    <line x1="0" y1="0" x2="-50" y2="-50" stroke="#8a8aff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-50" cy="-50" r="15" fill="#8a8aff"/>
+    <line x1="0" y1="0" x2="50" y2="-50" stroke="#8a8aff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="50" cy="-50" r="15" fill="#8a8aff"/>
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#8a8aff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="70" r="15" fill="#8a8aff"/>
+  </g>
+
+  <!-- Icône 2 : Bloc de code / Élément de design (en bas à droite) -->
+  <g transform="translate(1100, 1000)">
+    <rect x="-75" y="-75" width="150" height="150" fill="#ffff8a" rx="15" ry="15"/>
+    <rect x="-45" y="-45" width="90" height="90" fill="#1a1a2e" rx="10" ry="10"/>
+  </g>
+
+  <!-- Nom du podcast (en bas à gauche) -->
+  <text x="100" y="1300" font-family="Helvetica Neue, Arial, sans-serif" font-size="40" fill="#cccccc" text-anchor="start">Veille de Marc</text>
+
+  <!-- Date de l'épisode (en bas à droite) -->
+  <text x="1300" y="1300" font-family="Helvetica Neue, Arial, sans-serif" font-size="40" fill="#cccccc" text-anchor="end">2026-04-03</text>
+</svg>

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-03",
+    "title": "Au-delà de l'IA : Coder avec intention, designer avec âme",
+    "date": "2026-04-03",
+    "duration": "8:22",
+    "durationSeconds": 502,
+    "description": "Veille tech/IA/dev du 2026-04-03",
+    "audioUrl": "/podcast-veille/audio/2026-04-03.mp3",
+    "size": 8040323,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-03.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-03.json",
+    "coverUrl": "/podcast-veille/covers/2026-04-03.svg"
+  },
+  {
     "id": "2026-03-31",
     "title": "IA : Bulle ou Révolution ? Les coulisses tech de la semaine.",
     "date": "2026-03-31",

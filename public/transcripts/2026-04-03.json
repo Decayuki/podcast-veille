@@ -1,0 +1,189 @@
+{
+  "title": "Au-delà de l'IA : Coder avec intention, designer avec âme",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt à démystifier la tech cette semaine ? Parce qu'entre les IA qui nous font peur et les interfaces qui se ressemblent toutes, j'ai l'impression qu'on a besoin de clarté."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument Denise ! Et c'est justement ce que notre veille nous offre : des pistes concrètes pour mieux travailler avec l'IA, mais aussi pour retrouver du sens dans nos créations numériques. On va parler d'efficacité, d'intention et même de couleur !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Super ! Commençons par l'IA. On passe notre temps à écrire des prompts, mais est-ce qu'on le fait bien ? J'ai vu passer un framework appelé KERNEL qui promet de rendre tout ça reproductible."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une pépite de Reddit ! Un lead tech, après des milliers d'heures de prompt engineering, a créé ce framework en 6 étapes. Il a fait passer son taux de succès au premier essai de 72% à 94% et réduit les tokens de 58%."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Impressionnant ! Alors, c'est quoi les secrets derrière KERNEL ? Comment on peut l'appliquer nous aussi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Chaque lettre est une étape. K pour 'Keep it Simple' : un seul objectif clair par prompt pour des réponses plus rapides. E pour 'Easy to Verify' : définir des critères de succès mesurables, comme 'inclure 3 exemples de code' plutôt que 'rendre engageant'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, donc on est précis sur ce qu'on attend. Et pour la reproductibilité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le R : 'Reproducible Results'. On évite les termes vagues comme 'tendances actuelles' et on spécifie des versions exactes. Le N, c'est 'Narrow Scope' : un seul objectif par prompt, pour éviter la confusion et augmenter la satisfaction."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un objectif à la fois, ça paraît logique ! Et les deux dernières lettres ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "E pour 'Explicit Constraints' : on dit à l'IA ce qu'elle NE doit PAS faire. Ça réduit drastiquement les résultats indésirables. Et enfin, L pour 'Logical Structure' : toujours le même ordre : Contexte, Tâche, Contraintes, Format. C'est une méthode très pragmatique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, KERNEL, c'est la recette pour des prompts efficaces et reproductibles. Mais est-ce qu'on a vraiment envie d'apprendre toutes ces nuances de l'IA ? J'ai lu un article qui disait 'Nobody Wants to Learn AI'."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah oui, cet article d'Alvis Ng sur Medium est un électrochoc ! Il dit que la plupart des gens n'apprennent pas l'IA par curiosité authentique, mais par peur d'être obsolètes. C'est une identité défensive."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est vrai que l'idée de 'lifelong learner' est souvent associée à une anxiété de rester pertinent. L'industrie de la formation exploite cette peur, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Les MOOCs ont des taux de complétion ridicules, les formations corpo finissent souvent en 'scrap learning', jamais appliqué. On achète des certifications pour que notre profil 'ait l'air moins chelou', comme le dit l'article."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est ce qu'il appelle la 'competence debt', non ? On accumule des compétences superficielles qui ne seront jamais vraiment utilisées."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Il fait la distinction entre les compétences périssables, comme un framework JS qui dure 2-3 ans, et les compétences durables, comme déboguer des systèmes ou le jugement architectural, qui durent des décennies."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, la leçon, c'est de se concentrer sur l'apprentissage durable, motivé par une vraie curiosité, plutôt que par la peur de l'obsolescence."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est l'idée. Et cette même superficialité se retrouve dans la création de produits numériques, avec le concept de 'Vibe Coding', qui, selon un autre article, est 'OVER'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Le 'Vibe Coding', c'est quoi exactement ? J'imagine que c'est lié à cette rapidité de production grâce aux outils IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. Michal Malewicz explique que le marché est saturé de produits médiocres générés trop vite par l'IA. Figma combiné à l'IA permet à n'importe qui de cracher du travail 'passable' sans fondations solides."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et le résultat, c'est que tout se ressemble ? Des interfaces génériques, des logos avec des défauts subtils ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, c'est ce qu'il appelle le 'Generism'. Les utilisateurs souffrent de saturation cognitive, ne se souviennent de rien. Les dégradés, les cartes de features... tout est indifférencié."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, la vitesse toxique promue par certaines boîtes IA nuit à la qualité et à la différenciation. Quelles sont les solutions pour sortir de ce piège ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il faut ralentir intentionnellement. Planifier AVANT de toucher aux outils. Développer son goût visuel, apprendre la typo, la hiérarchie, la théorie des couleurs. Posséder ses décisions de design et de code."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est l'équation 'Craft vs Convenience', où l'effort et l'intention l'emportent sur la facilité. Et en parlant d'efficacité, un autre article parle du choix du langage de programmation avec Claude Code."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est fascinant ! Un benchmark sur 600 exécutions révèle des résultats contre-intuitifs. On pensait que certains langages seraient meilleurs, mais non."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Dis-nous tout, Henri ! Quels sont les champions inattendus ou les déceptions ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Python, Ruby et JavaScript écrasent la compétition. Ils sont rapides, peu chers en tokens et stables avec Claude Code. C'est une performance mesurée, pas une préférence philosophique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça, c'est une surprise ! Je pensais que des langages plus structurés seraient avantagés. Et TypeScript, si populaire, comment se débrouille-t-il ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "TypeScript est deux fois plus lent et 60% plus cher en tokens que JavaScript. L'IA raisonne sur les types, et cette surcharge est quantifiable. Les annotations de type, même en Python ou Ruby, coûtent du temps et des tokens."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus c'est verbeux ou typé, plus ça coûte cher à l'IA ? C'est le paradoxe des langages expressifs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. OCaml et Haskell produisent du code compact, mais cette densité mentale brûle plus de tokens. Et surprise, Rust et Haskell sont les seuls à avoir planté sur 600 tests, les types stricts ne sauvent pas l'IA des crashes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Incroyable ! Quelle est la stratégie recommandée alors pour les développeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Prototyper en Python ou Ruby, spécifier avec des types statiques, puis migrer en Go pour la production. C'est clair : la performance de l'IA est désormais un critère de sélection de langage, au même titre que la performance runtime."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une nouvelle donne pour le choix des outils ! Et pour boucler la boucle sur le 'Craft vs Convenience' et l'attention aux détails, parlons design. J'ai vu un article sur 'The One Color Decision That Makes a UI Look Expensive'."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah oui, Usman Writes nous donne une astuce de pro ! La différence entre une interface 'générique' et 'premium', c'est 2-3% de teinte intégrée partout. Les designs premium ne sont JAMAIS neutres."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on ne devrait pas utiliser de blancs purs ou de noirs purs ? Mais comment ça se traduit à l'écran ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Au lieu d'un blanc pur pour le fond, on ajoute 2-3% de la couleur de notre marque, par exemple #F5F7FF pour une marque bleue. À l'œil nu, ça reste blanc, mais ça crée une cohérence thermique subtile et perceptible."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est vraiment dans le détail ! Et les ombres, elles aussi doivent suivre cette logique ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui ! Une ombre noire générique, c'est plat. Une ombre légèrement teintée avec la couleur de la marque, comme rgba(37,99,235,0.06), donne de la profondeur et 'fait respirer' le design. Même la typographie doit être adaptée à la température de couleur de la marque."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fou comme ces micro-décisions peuvent changer la perception du design. Et il y a un test pour vérifier cette cohérence ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, désature ton design en niveaux de gris. Si la hiérarchie reste parfaitement lisible, c'est que ta sophistication vient de la cohérence thermique, pas d'une complexité inutile. C'est applicable avec juste quelques variables CSS."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, Henri, quelle richesse cette semaine ! Si je devais résumer en 2-3 points clés, je dirais : d'abord, utilisez des frameworks comme KERNEL pour rendre l'IA prévisible et efficace."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et deuxième point : apprenez par curiosité authentique, en visant les compétences durables, pour éviter la 'competence debt' du 'Vibe Coding' et créer des produits avec intention."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et enfin, pensez aux détails ! Que ce soit le choix du langage pour l'IA ou la subtilité d'une teinte de couleur dans une UI, c'est l'attention au 'craft' qui fera toute la différence."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parfaitement résumé, Denise ! C'était un plaisir de décortiquer tout ça avec toi. À la semaine prochaine pour d'autres découvertes !"
+    }
+  ]
+}
