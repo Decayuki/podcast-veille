@@ -1,0 +1,221 @@
+{
+  "title": "Survivre à l'IA : Devenez Propriétaire, pas Employé",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt pour un tourbillon dans l'actu tech ? J'ai l'impression qu'on est à un carrefour en ce moment, tout bouge à une vitesse folle, des carrières aux outils qu'on utilise !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On ne se contente plus de 'suivre' l'actu, il faut presque la 'devancer' pour comprendre où on va. Et clairement, cette semaine, le thème central, c'est comment l'IA redéfinit absolument tout, des façons de travailler aux stratégies de développement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Exactement ! D'ailleurs, on commence fort avec un article de Thomas Oppong qui dit carrément que le modèle de carrière classique est mort. Fini de 'louer son temps' contre un salaire ? Ça me paraît un peu radical, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Radical, mais pas infondé du tout ! Oppong explique que l'ancien modèle est plafonné par nos limites physiques : on n'a qu'un temps et un corps. La vraie révolution, c'est le levier technologique qui permet de toucher des millions de personnes depuis son laptop, sans aucune permission préalable."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, le fameux 'leverage' ! Donc, au lieu de vendre mon temps, je devrais me 'productiser' moi-même ? Ça veut dire quoi concrètement, devenir une sorte de produit ou de marque personnelle ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément ! C'est construire des produits ou distribuer des idées qui travaillent pour toi sans intervention constante de ta part. Il identifie trois formes de levier qui changent la donne : le Capital, comme les investissements ou les actifs numériques, qui génère des revenus pendant ton sommeil."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ensuite, le Code : tu crées un logiciel ou un outil une seule fois, et tu peux le vendre à l'infini, avec des coûts marginaux proches de zéro. C'est vraiment l'arme secrète des développeurs. Et enfin, les Médias, où une idée bien articulée une fois peut se propager à des milliers via newsletters, vidéos, threads ou podcasts, multipliant ton impact."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'idée, c'est de capitaliser sur ce qui nous rend unique, notre 'spécificité', comme il dit ? Nos intérêts bizarres, nos expériences, cette combinaison unique que l'IA ne peut pas copier ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça, Denise ! C'est inoutsourceable. Sa recommandation concrète : observe ce que les gens te demandent en permanence, démarre petit avec une newsletter ou un guide numérique, et surtout, garde ton salaire en parallèle. Pense en années, car l'effet composé prend du temps mais devient exponentiel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passer d'employé à propriétaire... C'est un changement de mentalité énorme ! Et ça nous amène directement à la vision d'Alex Karp, le PDG de Palantir, qui lui aussi secoue pas mal l'arbre sur l'avenir du travail face à l'IA. Il a une affirmation assez radicale, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Karp est cash : selon lui, seules deux catégories de personnes survivront à la révolution IA. Et attention, il ne parle pas des diplômés d'universités élites, ce qui est assez provocateur et va à l'encontre de beaucoup d'idées reçues !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Alors, qui sont ces deux catégories ? J'imagine qu'on ne parle pas de 'data scientists' ou de 'consultants en IA' à la pointe de la technologie ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Loin de là ! La première catégorie, ce sont les travailleurs des métiers techniques physiques : électriciens, plombiers, techniciens de centres de données. Leurs tâches exigent une interaction physique imprévisible et une capacité d'adaptation que l'IA ne peut tout simplement pas automatiser. Ce sont des métiers qui offrent déjà des salaires à six chiffres et dont la demande explose."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, le concret, le palpable, l'imprévu du réel... Et la deuxième catégorie, c'est encore plus surprenant et contre-intuitif : les personnes neurodivergentes, comme celles avec TDAH, autisme ou dyslexie. Pourquoi elles en particulier ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce qu'elles pensent en dehors des cadres rigides. L'IA excelle à suivre des procédures et des règles établies, exactement ce pour quoi les diplômes élites nous entraînent. Les neurodivergents, eux, sont forcés de contourner ces raccourcis mentaux, trouvant des solutions créatives non-standard que l'IA exploite ou ne verra pas facilement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fascinant ! Le PDG de Palantir lui-même est dyslexique et le présente comme un avantage compétitif. Donc, il valorise la pensée latérale, la capacité à remettre en question le 'pourquoi on fait ça comme ça' plutôt que de juste appliquer une règle ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Ce qui survit à l'IA, c'est cette capacité à architecturer des systèmes complexes face à l'imprévu, à poser les bonnes questions. Palantir a même lancé des programmes spécifiques, comme un Fellowship Neurodivergent très bien rémunéré, ciblant ces talents sous-estimés."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On passe donc d'une ère où la conformité et la répétition étaient valorisées à une ère où l'originalité et la capacité à penser différemment sont reines. Mais alors, si nos carrières changent, nos modes de distribution aussi ? John Gruber a une affirmation choc : les sites web sont morts !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est un autre mythe fondateur du web moderne qui s'effondre. Gruber a lancé son blog avec l'idée que 'si tu le construis, ils viendront' – le fameux 'Field of Dreams' des années 2000. Mais il a constaté une vérité amère : 'Nobody is coming to my little island.'"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, le mythe du site web personnel comme garant d'audience, c'est fini ? On ne peut plus juste créer un beau site et espérer que le public arrive tout seul ? C'est quand même notre base depuis des décennies !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non. L'attention est désormais concentrée dans des mégaplateformes qui fonctionnent comme des trous noirs numériques. Gruber cite trois écosystèmes où se trouve l'audience aujourd'hui : les App Stores, qui offrent notifications push et intégration système qu'aucun site web ne peut rivaliser."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ensuite, les Réseaux sociaux comme Instagram, TikTok, X ou LinkedIn, qui sont les dernières places publiques restantes où le public est déjà présent et où la découverte se fait. Et enfin, les Marketplaces comme Amazon, Etsy ou Steam. Tenter de tenir une boutique indépendante équivaut à un stand dans un désert."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un coup dur pour les développeurs fullstack qui se concentrent juste sur la création de sites ! Il faut penser à la distribution dès le départ, aux apps natives, aux algorithmes des réseaux sociaux, aux APIs des marketplaces..."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Le message est brutal : construire un beau site ne suffit plus. Les compétences techniques doivent être désormais au service de stratégies de distribution réelles et efficaces dans ces écosystèmes dominants."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons maintenant des coulisses des IA qui nous aident à distribuer et à créer ! On a eu pas mal de révélations sur Anthropic et Claude, notamment un gros leak de code source. Qu'est-ce qu'on a découvert de si croustillant ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Un fichier .npmignore oublié dans un package npm a exposé 1906 fichiers TypeScript non obfusqués, soit environ 512 000 lignes de code source de Claude Code. C'était une mine d'or pour les chercheurs en sécurité et la communauté tech."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et qu'est-ce que ce code a révélé sur les pratiques d'Anthropic ? J'ai entendu parler de 'faux outils' et de 'mode sous-couverture' ? Ça sonne un peu comme de l'espionnage industriel !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est assez bluffant ! On a découvert des 'fake tools anti-distillation' : Claude Code injecte des outils fictifs dans ses requêtes API pour piéger quiconque essaierait de scraper ses échanges afin d'entraîner un modèle concurrent. C'est une protection business native contre la distillation de modèles."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il y a aussi un fichier, userPromptKeywords.ts, qui détecte en temps réel quand un utilisateur commence à insulter l'outil avec des mots comme 'wtf' ou 'shitty'. C'est plus rapide et moins cher qu'une inférence LLM pour détecter la frustration. Et le 'undercover mode' dans undercover.ts, qui supprime toutes les traces d'Anthropic dans les commits, messages git et logs lorsque Claude Code contribue à des dépôts non-internes. L'IA efface ses propres empreintes numériques !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, c'est à la fois ingénieux, un peu effrayant et potentiellement très controversé. Ça soulève de sérieuses questions sur la transparence des géants de l'IA et leurs stratégies anti-concurrentielles cachées. Et ce n'est pas le seul leak, il y a aussi eu des infos sur 'Claude Mythos', ou Opus 5, le prochain modèle d'Anthropic..."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, environ 3000 documents internes d'Anthropic ont fuité via un cache mal configuré ! Et 'Claude Mythos', aussi appelé Capybara ou Opus 5, est décrit dans un draft de blog interne comme 'de loin le modèle le plus puissant jamais développé' – une tier complètement au-dessus des modèles Opus actuels."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des performances 'dramatiquement supérieures' en coding, raisonnement académique et cybersécurité, j'ai lu. À quel point est-ce préoccupant, notamment pour la sécurité de nos systèmes ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est très préoccupant, Denise. Anthropic briefe en privé des gouvernements pour les avertir que ce modèle rend les cyberattaques à grande échelle 'significativement plus probables en 2026'. Des agents tournant sur ce niveau de capacités peuvent 'planifier et exécuter des opérations complexes avec une intervention humaine minimale'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un scénario de science-fiction qui devient très réel. Ils le testent avec des clients early access, priorisant les équipes de sécurité enterprise pour donner aux défenseurs un accès avant la distribution large, c'est au moins ça. Mais la puissance de ces modèles, ça pousse la communauté à trouver des façons plus intelligentes de les utiliser, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument ! La communauté r/ClaudeCode explose, dépassant r/Codex, et a développé des patterns d'utilisation très efficaces. Le plus dominant, c'est d'utiliser Claude Opus pour le raisonnement complexe et l'architecture générale du projet."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et ensuite, de déléguer les tâches plus focalisées et répétitives à des 'subagents' Sonnet. Ce pattern de bifurcation intelligence vs exécution s'avère bien plus efficace que d'utiliser un seul modèle pour tout, optimisant les coûts et la performance."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on ne le traite plus comme un simple autocomplétion, mais plutôt comme un chef d'orchestre d'une équipe d'agents IA, chacun avec son rôle ? C'est une approche bien plus sophistiquée !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. La communauté recommande des sessions courtes et focalisées, des 'commit checkpoints' systématiques avant tout travail autonome, et des rollbacks en cas d'erreur plutôt que de tenter de corriger en avant. Et des commandes comme `/memory` pour persister le contexte ou `/review` pour un audit de code automatique deviennent essentielles. C'est de l'orchestration intelligente, pas juste de la saisie."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une nouvelle façon de travailler qui se dessine pour les développeurs, transformant leur rôle. Et en parlant de développeurs, il y a de l'agitation dans l'écosystème React, notamment autour de Next.js. Ça gronde sur l'App Router, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oh oui, le subreddit r/nextjs est en feu depuis des mois ! La plainte la plus répandue, c'est 'je ne sais plus si mon code tourne côté serveur ou côté client' avec l'App Router. La discussion GitHub ouverte depuis 2023 reçoit encore des commentaires virulents en 2026 !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un signe clair que quelque chose ne va pas dans l'expérience développeur. Et c'est là que TanStack Start arrive en force avec un positionnement très clair : 'Made React feel like React again'. Est-ce que c'est le nouveau challenger tant attendu ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Et ce qui est encore plus intéressant, c'est qu'un nouveau critère d'évaluation des frameworks émerge : leur 'AI-friendliness'. C'est-à-dire leur compatibilité avec des outils comme Cursor, Claude Code, Copilot et OpenCode."
+    },
+    {
+      "speaker": "Denise",
+      "text": "L'IA influence maintenant nos choix techniques pour les frameworks ! Les architectures avec une structure prévisible et des conventions claires sont favorisées par les outils d'IA. Ça change la donne pour l'adoption et la pertinence d'un framework !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, la facilité d'intégration et d'assistance par l'IA devient un facteur clé pour l'adoption et la productivité des développeurs. Et pour finir sur l'IA, parlons des LLM locaux, on n'est plus obligé de tout envoyer dans le cloud, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Exactement ! Le rêve de faire tourner des IA puissantes sur son propre hardware... Qu'est-ce qui se démarque en 2026 dans cet écosystème de l'IA locale ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le 'dark horse' de 2026, c'est clairement Alibaba's Qwen 3 32B. Il s'impose sur r/LocalLLaMA avec 32 milliards de paramètres et des performances 'near-frontier' qui tournent sur du hardware mid-range. La communauté le positionne au-dessus de Llama pour les tâches de raisonnement et de coding !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Impressionnant ! Donc, on peut avoir des performances de haut niveau sans une ferme de serveurs dédiée. Et pour connecter ses propres documents à ces LLM locaux, sans les envoyer dans le cloud, il y a une solution de référence pour les professionnels ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, pour le RAG local, ou Retrieval Augmented Generation, AnythingLLM reste le choix de référence. C'est le cas d'usage qui amène le plus de professionnels vers l'écosystème LLM local, pour la confidentialité et la pertinence. Et pour déployer et gérer tous ces modèles localement, Ollama est l'outil incontournable, avec désormais plus de 100 modèles disponibles dans sa librairie."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une excellente nouvelle pour la confidentialité, l'accessibilité et la démocratisation de l'IA. Henri, quel tour d'horizon incroyable ! Pour résumer, si je devais retenir 2-3 points clés de tout ça pour nos auditeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, premièrement : l'avenir du travail est à la 'productisation' de soi et à la valorisation de notre 'spécificité' unique face à l'IA. Ne vendez plus votre temps, construisez des actifs numériques qui travaillent pour vous."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Deuxièmement, les plateformes dominent désormais la distribution. Que ce soit pour nos idées, nos produits ou nos services, il faut aller là où l'audience est déjà présente : App Stores, réseaux sociaux, marketplaces. L'époque du site web personnel isolé est révolue."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, l'IA devient un partenaire indispensable, mais exige de nouvelles compétences de notre part. On passe de la simple utilisation à l'orchestration d'agents intelligents. Et les leaks nous montrent que même les géants cachent leurs stratégies, ce qui nous pousse à être encore plus malins dans nos usages, notamment en explorant les LLM locaux pour plus de contrôle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des conseils en or pour naviguer dans ce monde en pleine mutation. Merci Henri pour toutes ces explications passionnantes et si concrètes, ça éclaire vraiment notre lanterne !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec grand plaisir, Denise ! À la semaine prochaine pour de nouvelles pépites tech qui changeront encore la donne !"
+    }
+  ]
+}

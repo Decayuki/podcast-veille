@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-07",
+    "title": "Survivre à l'IA : Devenez Propriétaire, pas Employé",
+    "date": "2026-04-07",
+    "duration": "13:34",
+    "durationSeconds": 814,
+    "description": "Veille tech/IA/dev du 2026-04-07",
+    "audioUrl": "/podcast-veille/audio/2026-04-07.mp3",
+    "size": 13030338,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-07.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-07.json",
+    "coverUrl": "/podcast-veille/covers/2026-04-07.svg"
+  },
+  {
     "id": "2026-04-03",
     "title": "Au-delà de l'IA : Coder avec intention, designer avec âme",
     "date": "2026-04-03",

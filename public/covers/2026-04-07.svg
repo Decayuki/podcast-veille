@@ -1,0 +1,32 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône 1 : Noeud de réseau / IA (en haut à gauche) -->
+  <g transform="translate(-100, -100)">
+    <circle cx="380" cy="380" r="70" fill="#00f0ff"/>
+    <circle cx="250" cy="320" r="35" fill="#ff00ff"/>
+    <circle cx="320" cy="250" r="35" fill="#ff00ff"/>
+    <circle cx="510" cy="320" r="35" fill="#ff00ff"/>
+    <line x1="380" y1="380" x2="250" y2="320" stroke="#ffff00" stroke-width="6"/>
+    <line x1="380" y1="380" x2="320" y2="250" stroke="#ffff00" stroke-width="6"/>
+    <line x1="380" y1="380" x2="510" y2="320" stroke="#ffff00" stroke-width="6"/>
+  </g>
+
+  <!-- Icône 2 : Flèche de croissance / Propriété (en bas à droite) -->
+  <g transform="translate(0, 50)">
+    <rect x="1000" y="1050" width="80" height="150" fill="#00f0ff"/>
+    <polygon points="1040,950 960,1050 1120,1050" fill="#00f0ff"/>
+  </g>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="550" text-anchor="middle" font-size="120" font-weight="bold" fill="white" font-family="sans-serif">Survivre à l'IA :</text>
+  <text x="700" y="680" text-anchor="middle" font-size="120" font-weight="bold" fill="white" font-family="sans-serif">Devenez Propriétaire,</text>
+  <text x="700" y="810" text-anchor="middle" font-size="120" font-weight="bold" fill="white" font-family="sans-serif">pas Employé</text>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1300" text-anchor="middle" font-size="40" fill="#888888" font-family="sans-serif">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1350" text-anchor="middle" font-size="30" fill="#888888" font-family="sans-serif">2026-04-07</text>
+</svg>

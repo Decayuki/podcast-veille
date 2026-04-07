@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "L'avenir du travail et des carrières avec l'IA",
+    "startTime": 27
+  },
+  {
+    "title": "La fin des sites web et la nouvelle distribution",
+    "startTime": 259
+  },
+  {
+    "title": "Les secrets et la puissance des IA d'Anthropic",
+    "startTime": 363
+  },
+  {
+    "title": "Optimiser l'utilisation des LLM",
+    "startTime": 525
+  },
+  {
+    "title": "L'IA et l'évolution des frameworks",
+    "startTime": 585
+  },
+  {
+    "title": "Les LLM locaux pour la confidentialité",
+    "startTime": 659
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 735
+  }
+]

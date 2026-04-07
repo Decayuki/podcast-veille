@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Survivre à l'IA : Devenez Propriétaire, pas Employé</title>
+      <description>Veille tech/IA/dev du 2026-04-07</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-07.mp3" length="13030338" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-04-07</guid>
+      <pubDate>Tue, 07 Apr 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>13:34</itunes:duration>
+    </item>
+    <item>
       <title>Au-delà de l'IA : Coder avec intention, designer avec âme</title>
       <description>Veille tech/IA/dev du 2026-04-03</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-03.mp3" length="8040323" type="audio/mpeg"/>
