@@ -1,0 +1,149 @@
+{
+  "title": "Leak, Loup, et Linguistique : Les Dessous de l'IA en 2026",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, l'IA, on en parle tous les jours, mais cette semaine, on a eu droit à un véritable festival de nouvelles, entre révélations inattendues et astuces de génie. On dirait que l'IA nous réserve toujours son lot de surprises, bonnes ou moins bonnes."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! C'est un terrain de jeu en constante évolution, et les dernières nouvelles montrent bien cette dualité. D'un côté, des avancées techniques colossales, de l'autre, des rappels à l'ordre sur la sécurité ou la qualité. C'est passionnant !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Commençons par ce qui a fait grand bruit : le code source de Claude qui se retrouve dans la nature. C'est un peu comme si la recette secrète d'un grand chef se retrouvait affichée sur un panneau publicitaire, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Anthropic, les créateurs de Claude, ont accidentellement exposé près d'un demi-million de lignes de leur code TypeScript. C'est arrivé via un fichier 'source map' inclus par erreur dans un paquet npm."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est comme si la carte routière détaillée de leur logiciel était livrée avec, révélant tous les chemins secrets. Quelles ont été les conséquences de cette fuite ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Cela a déclenché un énorme débat sur Reddit, notamment sur le droit d'auteur du code généré par IA et la sécurité des outils de développement. Mais paradoxalement, ça a aussi révélé des fonctionnalités très attendues qui ont excité la communauté."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, donc il y a du bon dans le mauvais, on a pu entrevoir le futur de Claude Code. Peux-tu nous en dire plus sur ces nouveautés qui ont fuité, puis qui ont été confirmées ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bien sûr ! Anthropic a en effet livré six fonctionnalités majeures ce trimestre. Pensez à Claude Code, non plus comme un simple assistant de terminal, mais comme un véritable système d'agents orchestrables en production."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un système d'agents ? Ça sonne très science-fiction ! Concrètement, qu'est-ce que ça veut dire pour un développeur ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, imaginez le 'Remote Control'. Vous pouvez désormais exécuter Claude Code sur un serveur, même sans être devant votre machine, via une API. C'est génial pour l'automatisation et les workflows continus."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, Claude Code devient autonome et peut travailler en arrière-plan, c'est ça ? Et 'Dispatch', qu'est-ce que c'est ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Dispatch, c'est une file d'attente intelligente. Elle gère les tâches des agents avec des dépendances. Elle comprend les capacités de Claude Code et route le travail au bon profil, un peu comme un chef d'orchestre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça semble très structuré. Et 'AutoDream', le nom est intrigant !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "AutoDream est révolutionnaire. À partir d'une simple description en langage naturel, il génère des plans de projet structurés : architectures, découpages de tâches, analyses de risques. Il crée la base pour que Claude Code travaille plus efficacement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, il aide à structurer la pensée avant même de commencer à coder. Et les 'Channels' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les Channels, c'est une communication native. Plusieurs instances de Claude Code peuvent discuter entre elles, ou avec un humain, via une API. Ça ouvre la porte à des collaborations complexes entre différentes IA et leurs opérateurs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est impressionnant de voir comment ces outils deviennent de plus en plus sophistiqués et autonomes. Mais passons à un sujet plus terre-à-terre : les coûts. On a entendu parler d'une technique un peu folle pour réduire la facture avec Claude."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah, le fameux 'Caveman Prompt' ! C'est l'une des découvertes les plus astucieuses du trimestre. Un post viral sur Reddit a révélé qu'en forçant Claude à s'exprimer de manière minimale, sans fioritures, on réduit les coûts de 75%."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, tu veux dire qu'en parlant à l'IA comme un homme des cavernes, 'Moi vouloir code, toi donner code', on économise une fortune ? C'est incroyable !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! L'idée est d'ajouter une instruction système demandant des réponses ultra-concises. Moins de mots, moins de 'tokens' consommés, donc moins cher. Et le plus fou, c'est que les développeurs rapportent une qualité de réponse équivalente, voire supérieure, pour les tâches techniques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une leçon d'optimisation simple mais percutante. Cela montre l'importance du 'prompt engineering', même basique, sur l'aspect financier des projets IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, ça prouve qu'il ne faut pas sous-estimer l'impact de la manière dont on interagit avec ces modèles. Un petit ajustement peut avoir une incidence économique massive."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant de communauté, il y a eu un coup de tonnerre sur Reddit avec r/programming qui a banni tout contenu lié aux LLM. C'est un signal fort, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un véritable électrochoc. r/programming, le plus grand subreddit de code, a temporairement banni tout contenu IA pour avril. La modération en avait assez de la saturation par du contenu générique et de faible qualité technique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, les développeurs expérimentés en ont marre du 'vibe coding' et des solutions IA superficielles. Ils veulent revenir à des discussions plus profondes sur l'ingénierie logicielle."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est tout à fait ça. C'est un signe que la qualité technique redevient une valeur centrale. Après l'engouement initial, on voit une maturation, un besoin de fond et de substance."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une sorte de filtre naturel qui s'opère. Pour conclure sur une note plus positive, parlons de l'IA dans l'éducation en France. Là, on parle d'une adoption massive."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est impressionnant ! En 2026, 85% des écoles françaises utilisent au moins une solution IA, contre 53% il y a deux ans. C'est une accélération fulgurante."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'enseignant n'est plus seulement celui qui transmet le savoir, mais un 'enseignant augmenté'. Comment ça se traduit concrètement ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'enseignant devient un créateur d'écosystèmes d'apprentissage. Il utilise l'IA pour personnaliser les parcours de chaque élève, générer des supports pédagogiques sur mesure. 72% des profs ont même suivi une formation certifiante."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Les agents conversationnels deviennent des compagnons d'apprentissage, c'est ça ? Ils aident les élèves dans leur effort cognitif au quotidien."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et le prochain saut, c'est l'IA agentique : des IA capables de prendre des décisions autonomes pour accomplir des tâches complexes, transformant l'automatisation éducative. C'est une révolution pédagogique en marche."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, entre les fuites de code, les astuces d'économie, les coups de gueule de la communauté et la révolution éducative, cette semaine nous montre bien à quel point l'IA est partout et en pleine mutation."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le moins qu'on puisse dire, Denise. On voit l'IA devenir plus mature, plus performante, mais aussi plus sous le feu des projecteurs, avec ses défis et ses promesses."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Alors, pour résumer les points clés de cette semaine, on retient : la sécurité des outils IA est un enjeu majeur, les techniques d'optimisation comme le 'Caveman Prompt' peuvent avoir un impact financier énorme, et enfin, l'IA continue de transformer en profondeur des secteurs comme l'éducation, malgré un certain 'ras-le-bol' de la superficialité dans la communauté tech."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente synthèse, Denise ! L'IA continue son chemin, avec ses zones d'ombre et ses lumières, nous invitant à rester à la fois vigilants et curieux."
+    }
+  ]
+}

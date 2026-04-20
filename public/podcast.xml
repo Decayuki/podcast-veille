@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Leak, Loup, et Linguistique : Les Dessous de l'IA en 2026</title>
+      <description>Veille tech/IA/dev du 2026-04-20</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-20.mp3" length="6723752" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-04-20</guid>
+      <pubDate>Mon, 20 Apr 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>7:00</itunes:duration>
+    </item>
+    <item>
       <title>Survivre à l'IA : Devenez Propriétaire, pas Employé</title>
       <description>Veille tech/IA/dev du 2026-04-07</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-07.mp3" length="13030338" type="audio/mpeg"/>

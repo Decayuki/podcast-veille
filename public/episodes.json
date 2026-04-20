@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-20",
+    "title": "Leak, Loup, et Linguistique : Les Dessous de l'IA en 2026",
+    "date": "2026-04-20",
+    "duration": "7:00",
+    "durationSeconds": 420,
+    "description": "Veille tech/IA/dev du 2026-04-20",
+    "audioUrl": "/podcast-veille/audio/2026-04-20.mp3",
+    "size": 6723752,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-20.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-20.json"
+  },
+  {
     "id": "2026-04-07",
     "title": "Survivre à l'IA : Devenez Propriétaire, pas Employé",
     "date": "2026-04-07",
