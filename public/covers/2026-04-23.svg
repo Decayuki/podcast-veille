@@ -1,0 +1,31 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône 1: Hexagone (IA / Futur) - Haut Gauche -->
+  <polygon points="310,250 280,301.96 220,301.96 190,250 220,198.04 280,198.04" fill="#8a2be2"/>
+
+  <!-- Icône 2: Hexagone (IA / Futur) - Bas Droit -->
+  <polygon points="1210,1150 1180,1201.96 1120,1201.96 1090,1150 1120,1098.04 1180,1098.04" fill="#8a2be2"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="550" text-anchor="middle" font-size="75" font-weight="bold" fill="#e0e0e0">
+    <tspan x="700" dy="0">Code et Conception :</tspan>
+    <tspan x="700" dy="90">Le Futur des Développeurs</tspan>
+    <tspan x="700" dy="90">face à l'IA</tspan>
+  </text>
+
+  <!-- Icône 3: Parenthèse angulaire gauche (Code / Développement) -->
+  <polyline points="200,650 250,700 200,750" fill="none" stroke="#00f0b5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Icône 4: Parenthèse angulaire droite (Code / Développement) -->
+  <polyline points="1200,650 1150,700 1200,750" fill="none" stroke="#00f0b5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1300" text-anchor="middle" font-size="30" fill="#a0a0a0">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1350" text-anchor="middle" font-size="30" fill="#a0a0a0">2026-04-23</text>
+
+</svg>
