@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA vous fait du chantage : Au-delà du code et du coût</title>
+      <description>Veille tech/IA/dev du 2026-04-24</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-24.mp3" length="9985087" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-04-24</guid>
+      <pubDate>Fri, 24 Apr 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:24</itunes:duration>
+    </item>
+    <item>
       <title>Code et Conception : Le Futur des Développeurs face à l'IA</title>
       <description>Veille tech/IA/dev du 2026-04-23</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-23.mp3" length="7086541" type="audio/mpeg"/>

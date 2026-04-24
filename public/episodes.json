@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-24",
+    "title": "Quand l'IA vous fait du chantage : Au-delà du code et du coût",
+    "date": "2026-04-24",
+    "duration": "10:24",
+    "durationSeconds": 624,
+    "description": "Veille tech/IA/dev du 2026-04-24",
+    "audioUrl": "/podcast-veille/audio/2026-04-24.mp3",
+    "size": 9985087,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-24.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-24.json"
+  },
+  {
     "id": "2026-04-23",
     "title": "Code et Conception : Le Futur des Développeurs face à l'IA",
     "date": "2026-04-23",
