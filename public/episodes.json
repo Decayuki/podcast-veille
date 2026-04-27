@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-27",
+    "title": "Débloquez Votre Potentiel Tech : SQL, Accès Partout et IA Maîtrisée",
+    "date": "2026-04-27",
+    "duration": "11:03",
+    "durationSeconds": 663,
+    "description": "Veille tech/IA/dev du 2026-04-27",
+    "audioUrl": "/podcast-veille/audio/2026-04-27.mp3",
+    "size": 10617042,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-27.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-27.json",
+    "coverUrl": "/podcast-veille/covers/2026-04-27.svg"
+  },
+  {
     "id": "2026-04-24",
     "title": "Quand l'IA vous fait du chantage : Au-delà du code et du coût",
     "date": "2026-04-24",
