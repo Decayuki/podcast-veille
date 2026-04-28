@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Coder en 2026 : Survivre à l'IA et aux Patterns</title>
+      <description>Veille tech/IA/dev du 2026-04-28</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-28.mp3" length="7133352" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-04-28</guid>
+      <pubDate>Tue, 28 Apr 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>7:25</itunes:duration>
+    </item>
+    <item>
       <title>Débloquez Votre Potentiel Tech : SQL, Accès Partout et IA Maîtrisée</title>
       <description>Veille tech/IA/dev du 2026-04-27</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-27.mp3" length="10617042" type="audio/mpeg"/>

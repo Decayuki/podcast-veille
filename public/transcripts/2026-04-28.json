@@ -1,0 +1,221 @@
+{
+  "title": "Coder en 2026 : Survivre à l'IA et aux Patterns",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, j'ai vu passer un chiffre qui m'a glacé le sang ce matin : les offres d'emploi pour les programmeurs auraient chuté de presque 30 % en deux ans."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est vrai, Denise, mais attention aux étiquettes ! Ce qu'on appelle un 'programmeur' pur et dur est effectivement en voie de disparition, mais les 'ingénieurs logiciel', eux, se portent à merveille."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, c'est quoi la différence ? Pour le commun des mortels, quelqu'un qui tape du code sur un clavier, c'est la même chose, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas du tout ! Marina Wyss d'Amazon l'explique très bien : coder, c'est juste la syntaxe. L'ingénierie, c'est résoudre des problèmes complexes, et ça, l'IA ne sait pas encore le faire seule."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pourtant, on dit que l'IA génère déjà près de 30 % du code aujourd'hui. Pourquoi j'irais m'embêter à apprendre le Python si Claude ou GPT peuvent le faire pour moi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce que quand ton application plante en pleine production à 3 heures du matin, ce n'est pas l'IA qui va prendre la responsabilité de la décision de réparation."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est l'argument du 'pompier' ? On apprend à coder pour savoir éteindre les incendies que l'IA a potentiellement allumés ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Près de la moitié des développeurs se méfient du code généré par l'IA parce qu'il est souvent 'presque correct', ce qui est le pire état possible en informatique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est vicieux... C'est comme un traducteur qui fait une faute de sens subtile mais qui écrit dans un français parfait. On ne voit pas le piège tout de suite."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est l'analogie parfaite. En 2026, apprendre à coder, c'est apprendre à devenir un auditeur critique plutôt qu'une simple machine à écrire des fonctions."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si je veux me lancer aujourd'hui, Marina Wyss conseille quoi ? On commence toujours par les bases ou on saute directement dans le 'vibe coding' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Elle recommande une stratégie en trois étapes : d'abord les fondations solides comme Python, les API et les tests unitaires. Sans ça, tu es aveugle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et ensuite ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ensuite, tu apprends la collaboration avec l'IA, savoir prompter avec des contraintes claires et surtout, savoir faire des revues de code ultra rigoureuses."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et le troisième point, j'imagine que c'est là que l'humain reprend le dessus sur la machine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le jugement professionnel. Savoir arbitrer entre la performance et le coût, gérer les incidents et assumer la responsabilité réglementaire du produit."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Au fond, c'est une vieille histoire, non ? On disait déjà ça quand les langages de haut niveau sont apparus pour remplacer l'assembleur."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Tu as tout compris. Chaque nouvelle couche d'abstraction a fait craindre la fin des ingénieurs, mais en réalité, elle a toujours boosté la demande de gens qui comprennent le système global."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant de comprendre les systèmes, il y a un autre sujet qui fait peur aux débutants : les fameux 'Design Patterns'. C'est toujours d'actualité en 2026 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est plus que jamais crucial, mais la méthode a changé. On arrête de les apprendre par cœur comme une poésie, on utilise des arbres de décision."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un arbre de décision ? Explique-moi ça simplement, parce que pour moi, un 'Singleton' ou une 'Factory', ça ressemble à du jargon de secte."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Imagine que tu construis une maison. Au lieu de mémoriser tous les outils du magasin, tu te demandes d'abord : 'est-ce que j'ai un problème de création, de structure ou de comportement ?'"
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, donc la première branche, c'est la création. C'est quand on veut fabriquer des objets dans notre code ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Voilà. Si tu as besoin d'une seule instance d'un truc, c'est le Singleton. Si la création est super complexe avec plein d'étapes, tu prends le Builder."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et si mon problème, c'est que mes briques ne s'emboîtent pas bien entre elles ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Là, on passe à la branche structurelle. C'est là qu'interviennent l'Adapter, pour faire discuter deux systèmes incompatibles, ou la Facade, pour simplifier un système trop complexe."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un peu comme un adaptateur de prise internationale, en fait ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça ! Et la troisième branche, c'est le comportement. Comment tes objets interagissent quand les règles changent tout le temps."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donne-moi un exemple concret, là je décroche un peu."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pense au pattern 'Strategy'. Tu as un site de vente : le lundi tu calcules les frais de port pour la France, le mardi pour l'international. Tu swappes juste l'algorithme sans tout recoder."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ok, je vois l'idée. C'est une façon de payer pour de la flexibilité là où on en a vraiment besoin, plutôt que de complexifier tout le projet pour rien."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la citation clé de l'article d'Alina Kovtun ! Un pattern est un investissement local pour éviter une dette technique globale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Bon, on a parlé de la théorie, mais passons à la pratique. Il se passe quoi sur Reddit en ce moment ? J'ai entendu parler d'un scandale avec Claude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oh que oui ! Le modèle Opus 4.7 d'Anthropic s'est fait tailler un costard sur r/ClaudeAI. Les utilisateurs l'ont surnommé 'Gaslightus 4.7'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Gaslightus ? Carrément ? Il essaie de nous faire croire qu'on est fous ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Presque ! Il invente des fichiers qui n'existent pas et défend ses hallucinations mordicus pendant des dizaines de tours de conversation. Un thread a explosé à ce sujet."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est flippant pour un modèle censé être le haut de gamme. Ça prouve que 'plus gros modèle' ne veut pas forcément dire 'plus fiable' sur le long terme."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et ce n'est pas tout. Il y a eu une fuite massive du code source de 'Claude Code' sur npm le mois dernier. Plus de 500 000 lignes de code exposées !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "500 000 lignes ? Mais c'est énorme ! La communauté a dû se jeter dessus pour décortiquer les secrets d'Anthropic."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le commentaire le plus populaire sur Reddit était hilarant : 'Ça me fait penser que mon propre code est finalement de trop bonne qualité'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est rassurant de voir que même les géants de l'IA ont du code un peu brouillon sous le capot."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Au-delà des moqueries, ça a permis de voir comment Anthropic construit ses agents. Ils misent tout sur la mémoire, le contexte et des boucles de review automatiques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pour nous, les utilisateurs, il y a des astuces concrètes qui sont sorties de ces discussions Reddit ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, deux conseils font consensus. D'abord, force Claude à répondre à des questions sur ton problème AVANT de lui demander de produire le code."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, pour l'obliger à réfléchir à voix haute d'abord ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. Et la deuxième astuce : dis-lui explicitement dans quel environnement il tourne. Ça élimine une quantité incroyable d'erreurs bêtes de chemin de fichier ou de versions."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En gros, plus on lui donne de contexte 'physique', mieux il se porte. On est loin de la magie noire, c'est juste de la gestion d'information."
+    },
+    {
+      "speaker": "Henri",
+      "text": "On arrive vraiment à l'ère de l'ingénierie agentique. On ne donne plus juste un prompt, on gère une équipe d'agents qui collaborent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est passionnant tout ça. Si on doit résumer ce qu'il faut retenir de cette veille du 28 avril 2026, on dirait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Premièrement : n'arrêtez pas d'apprendre à coder, mais changez votre fusil d'épaule. Devenez des architectes et des auditeurs, pas juste des copistes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Deuxièmement : pour les Design Patterns, utilisez l'arbre de décision en trois branches — création, structure, comportement — au lieu de tout apprendre par cœur."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, restez méfiants avec les derniers modèles d'IA. Même un Opus 4.7 peut halluciner. Donnez-lui du contexte et faites-le réfléchir avant d'agir."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Merci Henri ! On se retrouve au prochain épisode pour voir si Claude a fini par admettre ses erreurs ou s'il continue de nous gaslighter !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "D'ici là, bon code et surtout, bonne revue de code à tous !"
+    }
+  ]
+}
