@@ -1,0 +1,189 @@
+{
+  "title": "Claude Code : Le prix de la puissance",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, j'ai regardé mes comptes ce matin et j'ai vu une facture qui m'a fait sauter de ma chaise : 200 dollars pour un abonnement d'IA. C'est le prix d'un loyer pour certains, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah, tu parles du plan Max d'Anthropic ! C'est vrai que pour le commun des mortels, c'est une somme, mais pour un développeur qui passe 10 heures par jour à coder avec Claude, c'est un investissement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, sur Reddit, les gens se demandent si ça vaut vraiment le coup. C'est quoi la différence concrète avec le plan à 20 dollars ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est principalement une question de limites de débit, ce qu'on appelle les 'rate limits'. Avec le plan Max, tu peux solliciter Claude Code de manière intensive toute la journée sans qu'il te dise de revenir dans trois heures."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Apparemment, il y a quand même des grincheux sur les forums qui disent que la facturation est un vrai casse-tête entre les abonnements Pro et Max."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le gros point noir du moment. Plusieurs utilisateurs rapportent des doubles facturations ou des transitions confuses, Anthropic a encore du boulot sur l'expérience client."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Avant de plonger dans le dur, j'ai jeté un œil à la veille Medium ce matin, mais c'était le désert total pour nous."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, rien que du lifestyle et du social aujourd'hui. Heureusement que la communauté sur Reddit et les outils de dev ne dorment jamais."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons de ces fameux serveurs 'MCP'. J'entends ce mot partout, mais concrètement, les gens s'en servent pour quoi avec Claude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le Model Context Protocol, c'est comme donner des mains et des yeux à l'IA. Pour l'instant, c'est encore le Far West, tout le monde cherche l'usage miracle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "J'ai vu passer 'Playwright' dans les discussions. Ça sert à quoi dans ce contexte ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est super puissant : ça permet à Claude d'aller naviguer sur le web, de tester des sites ou de scrapper des données tout seul. On a aussi des serveurs MCP dédiés au testing qui commencent à devenir des standards."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, donc l'IA devient plus autonome. Mais parfois, elle est un peu trop zélée, non ? J'ai lu que Claude avait tendance à polluer le code avec des commentaires partout."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, c'est l'enfer des 'diffs'. Claude Sonnet 3.7 adore expliquer chaque ligne, ce qui rend la relecture du code par des humains très pénible."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et il n'y a pas un bouton pour lui dire de se taire un peu ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "La solution de la communauté, c'est d'utiliser le fichier CLAUDE.md. C'est un peu le manuel d'instructions que tu laisses à ton assistant."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Qu'est-ce qu'on écrit dedans pour qu'il arrête ses bavardages ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il suffit d'ajouter une ligne du style : 'Ne jamais ajouter de commentaires au code sauf si je le demande explicitement'. Et hop, le code redevient propre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Simple et efficace. En parlant d'efficacité, certains veulent carrément que Claude accepte les changements de fichiers tout seul, sans demander la permission."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le mode 'auto-accept'. On peut configurer ça dans le fichier settings.json pour certaines commandes shell ou modifications de fichiers."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est pas un peu dangereux de laisser une IA modifier ses fichiers sans vérifier ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là qu'on touche aux bonnes pratiques du 'coding agentique'. Il ne faut jamais laisser l'agent tourner sans supervision sur des opérations destructives."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Anthropic a d'ailleurs sorti un guide officiel là-dessus, tu l'as parcouru ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, ils insistent sur trois piliers : décomposer les tâches en petits morceaux, utiliser les checkpoints pour pouvoir revenir en arrière, et rester maître du jeu."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un peu comme un stagiaire très rapide mais qui peut faire de grosses bêtises si on ne le surveille pas."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça. Si tu lui demandes de refactoriser tout ton projet d'un coup, il va s'emmêler les pinceaux. Il faut le guider étape par étape."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Changeons un peu de sujet. J'ai vu un débat fascinant sur la différence entre une hallucination de l'IA et une 'intuition créative'. C'est pas juste un mot poli pour dire qu'elle se trompe ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est subtil. Si Claude invente une date historique, c'est une hallucination factuelle, c'est mal. Mais s'il fait un lien entre deux concepts de code que tu n'avais pas vus, c'est une inférence créative."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc on accepte qu'il divague un peu si ça nous aide à voir les choses sous un nouvel angle ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, tant que l'utilisateur garde son esprit critique. C'est la différence entre une erreur bête et une extrapolation raisonnée qui pousse à la réflexion."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une chose qui m'agace personnellement, c'est que Claude semble oublier ce qu'on s'est dit la veille dès qu'on change de session."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le grand manque actuel. Les 'Projets' dans l'interface web permettent une petite mémoire locale, mais rien de global entre toutes tes conversations."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On m'a parlé de 'Sally' et 'LanceDB' pour régler ça. C'est quoi ces noms de personnages ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ce sont des outils externes. LanceDB est une base de données vectorielle qui permet de stocker tes échanges pour que Claude puisse aller piocher dedans plus tard."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est donc ça le secret pour avoir une IA qui nous connaît vraiment sur le long terme."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pour l'instant oui, il faut bricoler un peu. Mais attention aux intégrations officielles, comme celle de GitHub dans les Projets."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pourquoi ? J'ai entendu dire qu'il y avait un bug assez coûteux avec ça."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Apparemment, l'intégration GitHub doublerait la taille du contexte utilisé. Si tu fais une revue de code, ça consomme tes crédits deux fois plus vite."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Aïe, ça explique pourquoi certains arrivent au bout de leur forfait si rapidement."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Il vaut mieux copier-coller les fichiers importants ou attendre qu'Anthropic stabilise le truc."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Bon, on a couvert pas mal de terrain aujourd'hui. Si on devait résumer pour nos auditeurs qui veulent optimiser leur usage de Claude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "D'abord, domptez les commentaires inutiles avec un fichier CLAUDE.md bien senti. C'est un gain de temps immédiat."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ensuite, soyez prudents avec les nouveaux outils comme l'intégration GitHub qui peut vider votre quota de messages en un clin d'œil."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et surtout, voyez Claude comme un agent qu'il faut superviser : utilisez les checkpoints et ne le laissez pas faire des changements majeurs en mode auto-pilote."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Merci Henri ! On se retrouve demain pour voir si Claude a enfin appris à ne plus nous ruiner."
+    },
+    {
+      "speaker": "Henri",
+      "text": "À demain Denise, et bon code à tous !"
+    }
+  ]
+}

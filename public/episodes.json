@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-29",
+    "title": "Claude Code : Le prix de la puissance",
+    "date": "2026-04-29",
+    "duration": "5:52",
+    "durationSeconds": 352,
+    "description": "Veille tech/IA/dev du 2026-04-29",
+    "audioUrl": "/podcast-veille/audio/2026-04-29.mp3",
+    "size": 5635386,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-04-29.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-04-29.json"
+  },
+  {
     "id": "2026-04-28",
     "title": "Coder en 2026 : Survivre à l'IA et aux Patterns",
     "date": "2026-04-28",
