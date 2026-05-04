@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-04",
+    "title": "IA et Code : Qui Code Qui ? Les Secrets de Claude et le Futur du Dev",
+    "date": "2026-05-04",
+    "duration": "13:36",
+    "durationSeconds": 816,
+    "description": "Veille tech/IA/dev du 2026-05-04",
+    "audioUrl": "/podcast-veille/audio/2026-05-04.mp3",
+    "size": 13060013,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-04.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-04.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-04.svg"
+  },
+  {
     "id": "2026-04-29",
     "title": "Claude Code : Le prix de la puissance",
     "date": "2026-04-29",

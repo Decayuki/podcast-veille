@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA et Code : Qui Code Qui ? Les Secrets de Claude et le Futur du Dev</title>
+      <description>Veille tech/IA/dev du 2026-05-04</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-04.mp3" length="13060013" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-05-04</guid>
+      <pubDate>Mon, 04 May 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>13:36</itunes:duration>
+    </item>
+    <item>
       <title>Claude Code : Le prix de la puissance</title>
       <description>Veille tech/IA/dev du 2026-04-29</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-04-29.mp3" length="5635386" type="audio/mpeg"/>
