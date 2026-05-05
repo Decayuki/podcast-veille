@@ -1,0 +1,281 @@
+{
+  "title": "Claude, Licenciements Algorithmiques et l'IA en Profondeur",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à toutes et à tous ! Bienvenue dans votre dose hebdomadaire d'insights tech. Aujourd'hui, on va décortiquer des sujets qui vont de l'optimisation de nos assistants IA préférés, aux rouages parfois sombres des décisions d'entreprise pilotées par algorithmes. Accrochez-vous, ça va être dense !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et passionnant, Denise ! On va voir comment tirer le meilleur de Claude pour coder, comment détecter les fameuses 'hallucinations' des LLM, mais aussi les dernières nouvelles sur Next.js, les agents IA, et un coup de projecteur sur ce qui s'est passé chez Oracle. Préparez-vous à plonger dans le futur, et parfois, les zones d'ombre du présent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parfait ! Commençons tout de suite avec les meilleures pratiques pour utiliser Claude Code. Henri, on entend souvent parler de 'context window'. C'est quoi exactement, et pourquoi c'est si crucial pour la performance de Claude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Excellente question, Denise. La context window, c'est un peu la mémoire à court terme de Claude. C'est la quantité maximale de texte, ou de 'tokens', qu'il peut traiter et comprendre en une seule fois. Quand cette fenêtre se remplit, Claude commence à oublier les instructions du début, et ses performances chutent drastiquement. C'est la ressource la plus précieuse à gérer."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si je lui donne trop d'informations d'un coup, il va 'oublier' ce que je lui ai demandé au début du prompt ? C'est ça l'idée ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Imagine que vous discutez avec quelqu'un qui a une capacité d'attention limitée. Si vous lui donnez un roman à résumer en une seule fois, il va juste retenir la fin. Pour Claude, c'est pareil : il faut être concis et précis. Et surtout, lui donner les moyens de vérifier son travail, c'est le levier le plus important."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Lui donner les moyens de vérifier ? Tu veux dire qu'il ne suffit pas de lui dire 'fais-moi ça', mais plutôt 'fais-moi ça, et voici comment tu peux t'assurer que c'est bien fait' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Sans ça, Claude peut produire quelque chose qui 'semble' juste mais qui ne marche pas. Par exemple, au lieu de dire ❌ 'ajoute des tests pour foo.py', il faut dire ✅ 'écris un test pour foo.py couvrant le cas où l'utilisateur est déconnecté, et évite les mocks'. On lui donne un objectif clair et des contraintes de vérification."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Je vois, c'est plus une collaboration guidée qu'une simple requête. Et cette approche 'Explore → Plan → Code → Commit', qu'est-ce que c'est ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une méthodologie. Au lieu de laisser Claude foncer tête baissée dans le code, on le pousse à d'abord explorer le problème, puis à élaborer un plan détaillé. Ce plan peut être revu et ajusté par l'humain avant que Claude ne commence à écrire une seule ligne de code. Ça évite les erreurs coûteuses et les refactorisations inutiles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une sorte de phase de conception avant l'exécution, comme pour un développeur humain. Et si Claude s'entête sur un bug, que faire ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Là, c'est simple : '/clear agressivement'. Après deux tentatives infructueuses sur le même problème, le contexte est probablement pollué par les essais précédents. Il faut tout effacer et repartir avec un prompt mieux formulé, plus précis. Un contexte propre est la clé de la performance."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on ne persiste pas dans l'erreur, on nettoie et on recommence avec de meilleures bases. Et ce fameux fichier 'CLAUDE.md' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il doit rester court ! C'est un fichier d'instructions, mais si c'est trop long, Claude risque d'ignorer la moitié des informations. La règle est simple : 'Est-ce que supprimer cette ligne ferait faire une erreur à Claude ?' Si la réponse est non, supprimez-la. La concision est reine."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Moins, c'est plus, même pour l'IA. Et quand Claude doit explorer de nombreux fichiers pour une tâche ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là qu'interviennent les 'subagents'. On délègue cette tâche d'exploration à un agent secondaire. Il travaille dans sa propre context window, sans polluer la session principale. Il renvoie ensuite un résumé concis, gardant la session principale propre et focalisée. C'est comme avoir un assistant qui fait la recherche pour vous."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une bonne gestion des tâches, en somme. Et le pattern 'Writer/Reviewer' avec deux sessions ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est très puissant. On utilise une session A pour implémenter le code, puis une session B, avec un contexte frais, pour relire et critiquer le code. La session B n'a aucun biais des tentatives précédentes, ce qui lui permet d'être plus objective. On peut faire la même chose pour les tests."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une sorte de relecture par les pairs, mais avec une IA. Fascinant. Et pour des migrations de code massives ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Là, on parle de 'fan-out à grande échelle'. On crée une boucle bash qui utilise Claude pour traiter des fichiers un par un. On teste d'abord sur deux ou trois fichiers, on affine le prompt, puis on lance à l'échelle. C'est très efficace pour des refactorings ou des migrations sur des bases de code énormes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Impressionnant. Et le mot 'ultrathink' dans un prompt, ça fait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un petit hack ! Mentionner 'ultrathink' force Claude à allouer plus de tokens pour sa réflexion interne. C'est très utile pour les problèmes complexes où il doit vraiment 'mâcher' l'information avant de générer une réponse. C'est comme lui dire de prendre son temps et de bien réfléchir."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, pour des problèmes ardus, on lui demande de 'sur-réfléchir'. Et quels sont les pièges à éviter ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument ! Il faut éviter la 'kitchen sink session' où on dévie de la tâche initiale, les corrections répétées plus de deux fois, le 'CLAUDE.md' obèse et l'exploration infinie sans scope. Ces patterns polluent le contexte et dégradent les performances."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est très clair. En gros, il faut traiter Claude comme un collaborateur junior mais très puissant, en lui donnant des instructions claires, un cadre précis et des outils de vérification. Passons maintenant à un autre sujet crucial : les hallucinations des LLM. Henri, on entend beaucoup parler de ça. Comment les détecter en temps réel ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une préoccupation majeure, Denise. Et une solution prometteuse vient du package Python open-source UQLM, de CVS Health. UQLM, pour 'Uncertainty Quantified Large Language Models', permet de quantifier l'incertitude des LLM et donc de détecter les hallucinations."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, ce n'est pas juste une question de bon sens humain pour vérifier l'information, il existe des outils techniques pour mesurer la 'fiabilité' de l'IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. UQLM utilise plusieurs approches : la cohérence entre plusieurs générations, les probabilités de tokens, ou même un LLM agissant comme juge. C'est compatible avec LangChain, OpenAI, VertexAI... C'est un outil très utile pour les pipelines RAG et les agents où la factualité est primordiale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un vrai game-changer pour la fiabilité des systèmes IA. Parlons maintenant des tendances. Cloudflare a refait Next.js avec l'IA en une semaine pour un budget dérisoire. C'est impressionnant, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est l'annonce choc de la semaine ! Cloudflare a créé 'vinext', une réimplémentation de Next.js basée sur Vite, et Claude a passé plus de 2000 tests unitaires et 400 tests E2E pour générer le code. Le coût ? Environ 1100 dollars en tokens. Ils annoncent des builds quatre fois plus rapides et des bundles 57% plus légers."
+    },
+    {
+      "speaker": "Denise",
+      "text": "1100 dollars pour reconstruire un framework majeur en une semaine ! Ça semble presque trop beau pour être vrai. D'ailleurs, le scepticisme est de mise sur Hacker News, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, il y a des réserves, notamment sur le fait que le 'Hello world' ne fonctionnerait pas encore parfaitement. Mais au-delà du résultat brut, ce qui est vraiment intéressant, c'est la méthodologie : TDD, c'est-à-dire le développement piloté par les tests, associé aux LLM et un budget fixe. C'est ça la vraie innovation à retenir."
+    },
+    {
+      "speaker": "Denise",
+      "text": "La méthode plus que le produit final. Parlons d'Anthropic, qui a failli retirer Claude Code du Pro Plan. Qu'est-ce qui s'est passé ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le 21 avril, Anthropic a retiré Claude Code de son Pro Plan sans prévenir, provoquant une véritable tempête sur Reddit et Hacker News. Ils ont fait machine arrière le lendemain. La raison ? Depuis Opus 4.7, les sessions durent beaucoup plus longtemps, et les plans 'flat-rate' n'étaient plus économiquement viables pour eux. Les plans Max, avec leurs plafonds hebdomadaires, sont plus robustes pour cette utilisation intense."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'intensité d'utilisation de l'IA a des conséquences directes sur les modèles économiques des fournisseurs. C'est une leçon. Et pour les développeurs Next.js, il y a un breaking change important avec la version 16 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, et il est critique. Depuis Next.js 15, les `params` et `searchParams` dans les `page components` sont désormais des Promises, et non plus des objets. Cela signifie que toutes les routes dynamiques doivent utiliser `await` pour résoudre ces paramètres avant de pouvoir les utiliser. Cela impacte la façon de concevoir les pages."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, un changement majeur qui demande une mise à jour des pratiques de développement. Quels sont les patterns clés à connaître ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il faut se familiariser avec `generateStaticParams` pour le SSG, `generateMetadata async` pour le SEO, `Suspense` pour le streaming, et `React.cache()` pour dédupliquer les requêtes. Ces outils deviennent essentiels pour gérer ce changement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Bon à savoir pour nos amis développeurs. Et quels sont les meilleurs agents de codage IA en 2026 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le classement actuel place Cursor en tête pour le quotidien, pour son flux naturel. Claude Code est le cerveau le plus puissant pour les problèmes complexes et l'architecture. Codex d'OpenAI est très cohérent sur les multi-étapes, et GitHub Copilot Agent est le choix par défaut en entreprise. Cline, pour VS Code, offre un maximum de contrôle. Le consensus est qu'on n'utilise pas un seul outil, mais une combinaison."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, une boîte à outils diversifiée pour le développeur moderne. Et le marché tech français, comment se porte-t-il ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Très bien ! On compte 18 000 startups actives, 450 000 emplois directs, avec une croissance de 4,6% sur le premier semestre 2025. Le profil le plus demandé est le 'développeur IA agentique', qui combine LLM et architecture logicielle. Et petite tendance : les modules e-learning de moins d'une minute sont en train de devenir la norme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des micro-apprentissages pour des compétences pointues, c'est logique. Passons à un sujet plus sombre, mais absolument crucial : les licenciements massifs chez Oracle, orchestrés par mail et algorithme. Henri, peux-tu nous éclairer sur cette histoire qui a secoué le monde de la tech ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise. Le 31 mars 2026, à 6h du matin, Oracle a envoyé un email simultanément dans plusieurs pays à 20 000 à 30 000 employés, soit environ 18% de ses effectifs. Le message était brutal : 'Aujourd'hui est votre dernier jour de travail', avec les accès coupés peu après et seulement six semaines de salaire d'indemnités, quelle que soit l'ancienneté."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est d'une violence inouïe. Et le paradoxe, c'est qu'Oracle affichait des bénéfices records au même moment, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça le paradoxe frappant. Le même jour, Oracle annonçait une augmentation de 95% de son bénéfice net, à 6,13 milliards de dollars. Ces licenciements ne sont pas liés à des difficultés financières, mais à une stratégie d'investissement massive de 156 milliards de dollars dans l'infrastructure IA cloud pour concurrencer AWS, Azure et Google Cloud. Les coupes devaient dégager 8 à 10 milliards de trésorerie. Les marchés ont d'ailleurs réagi positivement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, ils licencient pour financer leur expansion dans l'IA. C'est une décision purement stratégique, et c'est là qu'intervient la question de l'algorithme, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la grande interrogation. Des témoignages, comme celui de Nina Lewis, une Security Alert Manager avec 34 ans d'ancienneté, suggèrent que les licenciements ont ciblé des 'high-level Individual Contributors' et des 'mid-level managers', surtout ceux avec des stock options non acquises, les 'unvested RSUs'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Les 'unvested RSUs', ce sont des actions que l'employé n'a pas encore le droit de vendre, c'est ça ? Et le fait de cibler ces personnes, ça a quel impact financier ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Si vous virez quelqu'un avant le 'vesting' de ses RSUs, l'entreprise récupère les actions non distribuées. Cibler ces profils seniors avec beaucoup d'actions non acquises, c'est une double économie : moins de salaire à payer et moins d'actions à distribuer. C'est une mécanique financière brutale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est cynique. Et concrètement, qu'est-ce qu'on peut affirmer sur l'implication d'un algorithme ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les faits sont là : un même email simultané à 6h du matin dans plusieurs pays, ce qui est impossible manuellement. Les profils ciblés sont cohérents, des divisions entières ont été coupées. Le co-CEO d'Oracle a explicitement déclaré que l'IA de codage justifiait des équipes plus petites. Et Oracle commercialise des outils RH basés sur l'IA à ses clients. Il y a de fortes présomptions."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Mais Oracle dément avoir utilisé un processus purement automatisé, si je comprends bien ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, ils démentent tout processus purement algorithmique. Mais si un algorithme a bien sélectionné les noms, Oracle s'expose à des risques légaux majeurs : discrimination indirecte par l'âge, violation des obligations contractuelles. C'est un nouveau front réglementaire après les algorithmes de recrutement. L'ironie est que Oracle vend ces outils RH IA à ses clients, et pourrait les avoir utilisés en interne."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un scandale qui nous rappelle l'importance de l'éthique dans l'IA. Pour finir sur une note plus éducative, Henri, tu as sélectionné 5 concepts IA que 90% des gens ignorent. Peux-tu nous les résumer ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir ! Le premier, ce sont les **Tokens**. Les IA ne lisent pas des mots, mais des fragments de texte appelés tokens. Un mot long comme 'hallucination' peut être trois tokens. C'est ce que vous payez à l'usage."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus c'est long, plus c'est cher, même si ce ne sont pas des mots entiers. C'est ce qui explique le coût. Et le deuxième, la **Context Window**, on en a déjà parlé ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est la mémoire à court terme de l'IA. La quantité de tokens qu'elle peut voir simultanément. Au-delà, elle oublie. C'est la raison scientifique pour laquelle l'IA 'oublie' vos messages précédents si la conversation est trop longue."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est l'explication au 'pourquoi l'IA perd le fil'. Et la **Température** ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un paramètre entre 0 et 1+ qui contrôle l'aléatoire des sorties. Une température basse (proche de 0) donne des réponses prévisibles et factuelles, idéale pour du code ou des résumés. Une température haute (0.8+) offre des sorties créatives et imprévisibles, parfaite pour le brainstorming ou la fiction."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc on ajuste la créativité de l'IA. Et le concept d'**Hallucination** ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'IA invente des informations avec le même ton assuré que lorsqu'elle a raison. Elle prédit le token statistiquement probable sans vérifier si c'est vrai. On ne peut pas détecter une hallucination au ton de voix, il faut toujours vérifier les faits, surtout pour les informations critiques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est crucial, surtout avec UQLM. Et enfin, le **RAG** ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "RAG, pour Retrieval-Augmented Generation, c'est l'architecture qui permet à une IA de répondre à partir de vos propres données sans les avoir apprises. L'IA cherche des informations pertinentes dans votre base de données, puis génère une réponse contextualisée. C'est la base de 90% des produits IA utiles lancés aujourd'hui, bien plus que le fine-tuning pur."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des concepts fondamentaux pour comprendre comment l'IA fonctionne vraiment. Merci beaucoup, Henri, pour toutes ces explications passionnantes et très claires !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir, Denise. C'était un tour d'horizon riche en enseignements."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour conclure, trois points clés à retenir de cet épisode. Premièrement, optimiser les LLM comme Claude, c'est avant tout bien gérer le contexte et lui fournir des moyens de vérifier son travail. Deuxièmement, la détection des hallucinations et la fiabilité des IA sont des enjeux majeurs, avec des outils comme UQLM qui émergent. Et enfin, les décisions d'entreprise pilotées par algorithmes, comme l'affaire Oracle, soulèvent des questions éthiques et légales fondamentales sur la place de l'humain face à la puissance de l'IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, il est clair que l'IA est un outil formidable, mais sa bonne utilisation et les implications sociétales qu'elle engendre nécessitent une attention constante et une compréhension approfondie. La puissance de l'IA est aussi une responsabilité."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un grand merci de nous avoir suivis. On se retrouve la semaine prochaine pour un nouvel épisode. D'ici là, restez curieux et informés !"
+    }
+  ]
+}

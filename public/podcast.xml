@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Claude, Licenciements Algorithmiques et l'IA en Profondeur</title>
+      <description>Veille tech/IA/dev du 2026-05-05</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-05.mp3" length="15758358" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-05-05</guid>
+      <pubDate>Tue, 05 May 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>16:24</itunes:duration>
+    </item>
+    <item>
       <title>IA et Code : Qui Code Qui ? Les Secrets de Claude et le Futur du Dev</title>
       <description>Veille tech/IA/dev du 2026-05-04</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-04.mp3" length="13060013" type="audio/mpeg"/>

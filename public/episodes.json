@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-05",
+    "title": "Claude, Licenciements Algorithmiques et l'IA en Profondeur",
+    "date": "2026-05-05",
+    "duration": "16:24",
+    "durationSeconds": 984,
+    "description": "Veille tech/IA/dev du 2026-05-05",
+    "audioUrl": "/podcast-veille/audio/2026-05-05.mp3",
+    "size": 15758358,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-05.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-05.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-05.svg"
+  },
+  {
     "id": "2026-05-04",
     "title": "IA et Code : Qui Code Qui ? Les Secrets de Claude et le Futur du Dev",
     "date": "2026-05-04",

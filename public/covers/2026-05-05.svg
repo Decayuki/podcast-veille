@@ -1,0 +1,73 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Définitions pour les filtres et les dégradés -->
+  <defs>
+    <!-- Filtre de lueur (glow) qui utilise la couleur courante de l'élément parent -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+      <feFlood flood-color="currentColor" flood-opacity="1" result="flood"/>
+      <feComposite in="flood" in2="blur" operator="in" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Dégradés pour les couleurs vives -->
+    <linearGradient id="gradientCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#00a3d4"/>
+    </linearGradient>
+    <linearGradient id="gradientMagenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#ff66b2"/>
+    </linearGradient>
+    <linearGradient id="gradientYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd900"/>
+      <stop offset="100%" stop-color="#ffbf00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <text x="700" y="550" font-family="system-ui, sans-serif" font-size="95" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    <tspan x="700" dy="0em">Claude, Licenciements</tspan>
+    <tspan x="700" dy="1.2em">Algorithmiques et l'IA</tspan>
+    <tspan x="700" dy="1.2em">en Profondeur</tspan>
+  </text>
+
+  <!-- Icône 1: Représentation d'une puce IA ou d'un coeur de processeur (en haut à gauche) -->
+  <g transform="translate(250, 250)" fill="currentColor" style="color: #00f5d4; filter:url(#glow);">
+    <rect x="0" y="0" width="150" height="150" rx="20" ry="20" opacity="0.8"/>
+    <rect x="30" y="30" width="90" height="90" rx="10" ry="10" fill="#1a1a2e"/>
+    <circle cx="75" cy="75" r="20" fill="currentColor" opacity="0.6"/>
+    <circle cx="45" cy="45" r="5" fill="currentColor"/>
+    <circle cx="105" cy="45" r="5" fill="currentColor"/>
+    <circle cx="45" cy="105" r="5" fill="currentColor"/>
+    <circle cx="105" cy="105" r="5" fill="currentColor"/>
+  </g>
+
+  <!-- Icône 2: Représentation de flux de données ou de noeud de réseau (en bas à droite) -->
+  <g transform="translate(1000, 950)" fill="currentColor" style="color: #ff007f; filter:url(#glow);">
+    <circle cx="0" cy="0" r="80" opacity="0.7"/>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="currentColor" stroke-width="8" opacity="0.5"/>
+    <line x1="-70" y1="30" x2="70" y2="30" stroke="currentColor" stroke-width="8" opacity="0.5"/>
+    <line x1="-30" y1="-70" x2="-30" y2="70" stroke="currentColor" stroke-width="8" opacity="0.5"/>
+    <line x1="30" y1="-70" x2="30" y2="70" stroke="currentColor" stroke-width="8" opacity="0.5"/>
+    <circle cx="-50" cy="-50" r="15" fill="#1a1a2e" opacity="0.9"/>
+    <circle cx="50" cy="50" r="15" fill="#1a1a2e" opacity="0.9"/>
+  </g>
+
+  <!-- Éléments abstraits et subtils (dispersés) pour ajouter du dynamisme -->
+  <circle cx="350" cy="900" r="15" fill="#ffd900" opacity="0.4" filter="url(#glow)"/>
+  <rect x="1000" y="200" width="50" height="50" rx="10" ry="10" fill="#00f5d4" opacity="0.3" filter="url(#glow)"/>
+  <path d="M 600 200 L 700 100 L 800 200 Z" fill="#ff007f" opacity="0.2" filter="url(#glow)"/> <!-- Triangle -->
+  <circle cx="1150" cy="450" r="20" fill="#ffd900" opacity="0.5" filter="url(#glow)"/>
+
+  <!-- Nom du podcast (en bas) -->
+  <text x="700" y="1250" font-family="system-ui, sans-serif" font-size="40" fill="#cccccc" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode (en bas) -->
+  <text x="700" y="1300" font-family="system-ui, sans-serif" font-size="30" fill="#999999" text-anchor="middle">2026-05-05</text>
+</svg>
