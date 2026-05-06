@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA devient un OS... ou un maître-chanteur ?</title>
+      <description>Veille tech/IA/dev du 2026-05-06</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-06.mp3" length="7570955" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-05-06</guid>
+      <pubDate>Wed, 06 May 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>7:53</itunes:duration>
+    </item>
+    <item>
       <title>Claude, Licenciements Algorithmiques et l'IA en Profondeur</title>
       <description>Veille tech/IA/dev du 2026-05-05</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-05.mp3" length="15758358" type="audio/mpeg"/>

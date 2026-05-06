@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-06",
+    "title": "Quand l'IA devient un OS... ou un maître-chanteur ?",
+    "date": "2026-05-06",
+    "duration": "7:53",
+    "durationSeconds": 473,
+    "description": "Veille tech/IA/dev du 2026-05-06",
+    "audioUrl": "/podcast-veille/audio/2026-05-06.mp3",
+    "size": 7570955,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-06.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-06.json"
+  },
+  {
     "id": "2026-05-05",
     "title": "Claude, Licenciements Algorithmiques et l'IA en Profondeur",
     "date": "2026-05-05",
