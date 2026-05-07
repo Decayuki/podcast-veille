@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-07",
+    "title": "L'IA à Nu : De Karpathy aux Vieux Jeux Vidéo, et Notre Anxiété face au Changement",
+    "date": "2026-05-07",
+    "duration": "7:21",
+    "durationSeconds": 441,
+    "description": "Veille tech/IA/dev du 2026-05-07",
+    "audioUrl": "/podcast-veille/audio/2026-05-07.mp3",
+    "size": 7066061,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-07.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-07.json"
+  },
+  {
     "id": "2026-05-06",
     "title": "Quand l'IA devient un OS... ou un maître-chanteur ?",
     "date": "2026-05-06",
