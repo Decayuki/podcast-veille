@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "CLAUDE.md: La mémoire du projet",
+    "startTime": 19
+  },
+  {
+    "title": "Claude Skills: Automatisation des tâches",
+    "startTime": 104
+  },
+  {
+    "title": "Claude Code vs. Codex: La qualité du code",
+    "startTime": 145
+  },
+  {
+    "title": "Claude pour la recherche et l'analyse critique",
+    "startTime": 245
+  },
+  {
+    "title": "L'open-source en IA de code: IBM Granite",
+    "startTime": 328
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 390
+  }
+]
