@@ -1,0 +1,29 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en gras, couleur vive) -->
+  <text x="700" y="450" font-family="sans-serif" font-size="90" font-weight="bold" fill="#f0f0f0" text-anchor="middle">IA, Bitcoin et la Fin</text>
+  <text x="700" y="550" font-family="sans-serif" font-size="90" font-weight="bold" fill="#f0f0f0" text-anchor="middle">des Sites Web Indépendants :</text>
+  <text x="700" y="650" font-family="sans-serif" font-size="90" font-weight="bold" fill="#f0f0f0" text-anchor="middle">La Grande Veille Tech</text>
+
+  <!-- Icône 1: Représentation IA/Processeur (rectangles superposés et légèrement tournés, à gauche) -->
+  <rect x="150" y="400" width="150" height="150" fill="#00bcd4" transform="rotate(15 225 475)"/>
+  <rect x="180" y="430" width="150" height="150" fill="#8bc34a" transform="rotate(-10 255 505)"/>
+  
+  <!-- Icône 2: Représentation Blockchain/Données (hexagone, à droite) -->
+  <polygon points="1050,450 1150,400 1250,450 1250,550 1150,600 1050,550" fill="#ffeb3b"/>
+  
+  <!-- Icône 3: Nœud de réseau abstrait (cercle avec des lignes rayonnantes, sous le titre) -->
+  <circle cx="700" cy="780" r="40" fill="#f0f0f0"/>
+  <line x1="700" y1="780" x2="600" y2="880" stroke="#f0f0f0" stroke-width="5"/>
+  <line x1="700" y1="780" x2="800" y2="880" stroke="#f0f0f0" stroke-width="5"/>
+  <line x1="700" y1="780" x2="700" y2="910" stroke="#f0f0f0" stroke-width="5"/>
+
+  <!-- Nom du podcast (petit, centré en bas) -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="40" fill="#cccccc" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode (petit, centré en bas, sous le nom du podcast) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#cccccc" text-anchor="middle">2026-05-11</text>
+
+</svg>
