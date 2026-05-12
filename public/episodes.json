@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-12",
+    "title": "L'IA qui code, la monnaie qui défie Bitcoin, et le secret des textes générés",
+    "date": "2026-05-12",
+    "duration": "11:53",
+    "durationSeconds": 713,
+    "description": "Veille tech/IA/dev du 2026-05-12",
+    "audioUrl": "/podcast-veille/audio/2026-05-12.mp3",
+    "size": 11410746,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-12.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-12.json"
+  },
+  {
     "id": "2026-05-11",
     "title": "IA, Bitcoin et la Fin des Sites Web Indépendants : La Grande Veille Tech",
     "date": "2026-05-11",
