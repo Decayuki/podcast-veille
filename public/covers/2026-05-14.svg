@@ -1,0 +1,46 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre élégant -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône 1 : Puce / Cœur IA (gauche) - Représentant Claude, l'IA -->
+  <!-- Utilise un chemin pour une forme de losange simple, remplie d'une couleur vive -->
+  <path d="M 260 400 L 320 460 L 260 520 L 200 460 Z" fill="#f7b03b"/>
+  <!-- Un cercle central dans la couleur du fond pour créer un effet de vide/noyau -->
+  <circle cx="260" cy="460" r="30" fill="#1a1a2e"/>
+  <!-- Petits cercles aux coins pour symboliser les connexions ou les points de données -->
+  <circle cx="200" cy="460" r="10" fill="#4affd9"/>
+  <circle cx="320" cy="460" r="10" fill="#4affd9"/>
+  <circle cx="260" cy="400" r="10" fill="#4affd9"/>
+  <circle cx="260" cy="520" r="10" fill="#4affd9"/>
+
+  <!-- Icône 2 : Réseau / Polyvalence (droite) - Représentant la dynamique et les multiples facettes -->
+  <!-- Nœuds du réseau, un avec une couleur différente pour le contraste -->
+  <circle cx="1140" cy="410" r="20" fill="#4affd9"/>
+  <circle cx="1200" cy="490" r="20" fill="#f7b03b"/>
+  <circle cx="1260" cy="410" r="20" fill="#4affd9"/>
+  <!-- Lignes de connexion entre les nœuds, une avec une couleur différente pour la dynamique -->
+  <line x1="1140" y1="410" x2="1200" y2="490" stroke="#4affd9" stroke-width="5"/>
+  <line x1="1260" y1="410" x2="1200" y2="490" stroke="#f7b03b" stroke-width="5"/>
+  <line x1="1140" y1="410" x2="1260" y2="410" stroke="#4affd9" stroke-width="5"/>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <text x="700" y="550" font-family="sans-serif" font-size="100px" font-weight="bold" fill="#4affd9" text-anchor="middle">
+    Claude en 2026 :
+  </text>
+  <text x="700" y="660" font-family="sans-serif" font-size="100px" font-weight="bold" fill="#f7b03b" text-anchor="middle">
+    Roi déchu ou
+  </text>
+  <text x="700" y="770" font-family="sans-serif" font-size="100px" font-weight="bold" fill="#4affd9" text-anchor="middle">
+    champion polyvalent ?
+  </text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="36px" fill="#cccccc" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode (petit, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="36px" fill="#cccccc" text-anchor="middle">
+    2026-05-14
+  </text>
+</svg>
