@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "AI Terminology & Concepts",
+    "startTime": 34
+  },
+  {
+    "title": "The Illusion of AI Understanding",
+    "startTime": 130
+  },
+  {
+    "title": "The Era of AI Agents",
+    "startTime": 160
+  },
+  {
+    "title": "Kubernetes Explained",
+    "startTime": 227
+  },
+  {
+    "title": "Remote Access with Tailscale",
+    "startTime": 279
+  },
+  {
+    "title": "AI Industry News & Trends",
+    "startTime": 319
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 440
+  }
+]

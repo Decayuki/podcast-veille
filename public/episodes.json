@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-15",
+    "title": "L'IA qui nous dit d'aller dormir : Les vérités de 2026",
+    "date": "2026-05-15",
+    "duration": "7:58",
+    "durationSeconds": 478,
+    "description": "Veille tech/IA/dev du 2026-05-15",
+    "audioUrl": "/podcast-veille/audio/2026-05-15.mp3",
+    "size": 7658727,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-15.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-15.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-15.svg"
+  },
+  {
     "id": "2026-05-14",
     "title": "Claude en 2026 : Roi déchu ou champion polyvalent ?",
     "date": "2026-05-14",

@@ -1,0 +1,41 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Groupe des icônes (IA et Pause) -->
+  <g transform="translate(700, 380)">
+    <!-- Icône IA : Réseau neuronal stylisé (cercle central avec des connexions) -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#00ffff" stroke-width="10"/>
+    <line x1="0" y1="-60" x2="0" y2="-120" stroke="#00ffff" stroke-width="8"/>
+    <line x1="0" y1="60" x2="0" y2="120" stroke="#00ffff" stroke-width="8"/>
+    <line x1="-52" y1="-30" x2="-104" y2="-60" stroke="#00ffff" stroke-width="8"/>
+    <line x1="52" y1="-30" x2="104" y2="-60" stroke="#00ffff" stroke-width="8"/>
+    <line x1="-52" y1="30" x2="-104" y2="60" stroke="#00ffff" stroke-width="8"/>
+    <line x1="52" y1="30" x2="104" y2="60" stroke="#00ffff" stroke-width="8"/>
+    
+    <!-- Petits cercles aux extrémités des lignes (noeuds du réseau) -->
+    <circle cx="0" cy="-120" r="15" fill="#00ffff"/>
+    <circle cx="0" cy="120" r="15" fill="#00ffff"/>
+    <circle cx="-104" cy="-60" r="15" fill="#00ffff"/>
+    <circle cx="104" cy="-60" r="15" fill="#00ffff"/>
+    <circle cx="-104" cy="60" r="15" fill="#00ffff"/>
+    <circle cx="104" cy="60" r="15" fill="#00ffff"/>
+
+    <!-- Icône Pause/Sommeil : Deux barres verticales (comme un bouton pause) -->
+    <rect x="-180" y="-40" width="30" height="80" fill="#ffff00"/>
+    <rect x="-120" y="-40" width="30" height="80" fill="#ffff00"/>
+  </g>
+
+  <!-- Titre de l'épisode (centré, en trois lignes pour la lisibilité) -->
+  <text x="700" y="560" font-family="Arial, sans-serif" font-size="80" fill="#f0f0f0" text-anchor="middle">
+    <tspan x="700" dy="0">L'IA qui nous dit</tspan>
+    <tspan x="700" dy="100">d'aller dormir :</tspan>
+    <tspan x="700" dy="100">Les vérités de 2026</tspan>
+  </text>
+
+  <!-- Nom du podcast (en bas à gauche) -->
+  <text x="100" y="1300" font-family="Arial, sans-serif" font-size="40" fill="#a0a0b0">Veille de Marc</text>
+
+  <!-- Date de l'épisode (en bas à droite) -->
+  <text x="1300" y="1300" font-family="Arial, sans-serif" font-size="40" fill="#a0a0b0" text-anchor="end">2026-05-15</text>
+</svg>
