@@ -1,0 +1,30 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fond sombre -->
+    <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+    <!-- Titre de l'épisode (centré, couleurs vives) -->
+    <text x="700" y="450" font-family="Arial, sans-serif" font-size="90" fill="#00FFFF" text-anchor="middle">L'IA qui vous paie,</text>
+    <text x="700" y="560" font-family="Arial, sans-serif" font-size="90" fill="#00FFFF" text-anchor="middle">les caméras qui nous traquent,</text>
+    <text x="700" y="670" font-family="Arial, sans-serif" font-size="90" fill="#00FFFF" text-anchor="middle">et le réveil de Claude</text>
+
+    <!-- Icône Tech 1 : Réseau neuronal (représentant l'IA) -->
+    <g>
+        <circle cx="300" cy="400" r="40" fill="#FFD700"/>
+        <circle cx="200" cy="300" r="30" fill="#FFD700"/>
+        <circle cx="400" cy="300" r="30" fill="#FFD700"/>
+        <line x1="300" y1="400" x2="200" y2="300" stroke="#FFD700" stroke-width="8"/>
+        <line x1="300" y1="400" x2="400" y2="300" stroke="#FFD700" stroke-width="8"/>
+    </g>
+
+    <!-- Icône Tech 2 : Cible (représentant la surveillance) -->
+    <g>
+        <circle cx="1100" cy="800" r="60" stroke="#FF4500" stroke-width="8" fill="none"/>
+        <circle cx="1100" cy="800" r="30" fill="#FF4500"/>
+    </g>
+
+    <!-- Nom du podcast (petit, en bas) -->
+    <text x="700" y="1250" font-family="Arial, sans-serif" font-size="40" fill="#B0C4DE" text-anchor="middle">Veille de Marc</text>
+
+    <!-- Date (petite, en bas) -->
+    <text x="700" y="1300" font-family="Arial, sans-serif" font-size="30" fill="#B0C4DE" text-anchor="middle">2026-05-18</text>
+</svg>

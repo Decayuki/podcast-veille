@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-18",
+    "title": "L'IA qui vous paie, les caméras qui nous traquent, et le réveil de Claude",
+    "date": "2026-05-18",
+    "duration": "11:25",
+    "durationSeconds": 685,
+    "description": "Veille tech/IA/dev du 2026-05-18",
+    "audioUrl": "/podcast-veille/audio/2026-05-18.mp3",
+    "size": 10961858,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-18.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-18.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-18.svg"
+  },
+  {
     "id": "2026-05-15",
     "title": "L'IA qui nous dit d'aller dormir : Les vérités de 2026",
     "date": "2026-05-15",
