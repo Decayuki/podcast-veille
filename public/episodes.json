@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-19",
+    "title": "Boostez Claude, Laissez Notion, et la Revanche de l'Ingénieur Licencié !",
+    "date": "2026-05-19",
+    "duration": "9:00",
+    "durationSeconds": 540,
+    "description": "Veille tech/IA/dev du 2026-05-19",
+    "audioUrl": "/podcast-veille/audio/2026-05-19.mp3",
+    "size": 8643021,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-19.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-19.json"
+  },
+  {
     "id": "2026-05-18",
     "title": "L'IA qui vous paie, les caméras qui nous traquent, et le réveil de Claude",
     "date": "2026-05-18",
