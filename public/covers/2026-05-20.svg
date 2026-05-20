@@ -1,0 +1,37 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en couleurs vives) -->
+  <text x="700" y="500" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#00FFFF" font-size="90">
+    <tspan x="700" dy="0">K8s, IA et l'Avenir du Code :</tspan>
+    <tspan x="700" dy="110">Décryptage Tech</tspan>
+  </text>
+
+  <!-- Icône K8s (cluster / nœuds) - 3 rectangles arrondis interconnectés -->
+  <g transform="translate(350, 780) scale(1.4)">
+    <rect x="0" y="0" width="80" height="80" fill="#39FF14" rx="15" ry="15"/>
+    <rect x="100" y="-30" width="80" height="80" fill="#39FF14" rx="15" ry="15"/>
+    <rect x="200" y="0" width="80" height="80" fill="#39FF14" rx="15" ry="15"/>
+    <line x1="80" y1="40" x2="100" y2="10" stroke="#39FF14" stroke-width="6" opacity="0.8"/>
+    <line x1="180" y1="10" x2="200" y2="40" stroke="#39FF14" stroke-width="6" opacity="0.8"/>
+  </g>
+
+  <!-- Icône IA (réseau neuronal simplifié) - cercles et lignes interconnectées -->
+  <g transform="translate(900, 780) scale(1.4)">
+    <circle cx="0" cy="0" r="25" fill="#FF1493"/>
+    <circle cx="80" cy="-40" r="25" fill="#FF1493"/>
+    <circle cx="160" cy="0" r="25" fill="#FF1493"/>
+    <circle cx="80" cy="40" r="25" fill="#FF1493"/>
+    <line x1="0" y1="0" x2="80" y2="-40" stroke="#FF1493" stroke-width="6" opacity="0.8"/>
+    <line x1="0" y1="0" x2="80" y2="40" stroke="#FF1493" stroke-width="6" opacity="0.8"/>
+    <line x1="80" y1="-40" x2="160" y2="0" stroke="#FF1493" stroke-width="6" opacity="0.8"/>
+    <line x1="80" y1="40" x2="160" y2="0" stroke="#FF1493" stroke-width="6" opacity="0.8"/>
+  </g>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="sans-serif" text-anchor="middle" fill="#AAAAAA" font-size="35">Veille de Marc</text>
+
+  <!-- Date (petit, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" text-anchor="middle" fill="#AAAAAA" font-size="35">2026-05-20</text>
+</svg>

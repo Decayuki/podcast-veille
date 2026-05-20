@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-20",
+    "title": "K8s, IA et l'Avenir du Code : Décryptage Tech",
+    "date": "2026-05-20",
+    "duration": "11:50",
+    "durationSeconds": 710,
+    "description": "Veille tech/IA/dev du 2026-05-20",
+    "audioUrl": "/podcast-veille/audio/2026-05-20.mp3",
+    "size": 11373966,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-20.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-20.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-20.svg"
+  },
+  {
     "id": "2026-05-19",
     "title": "Boostez Claude, Laissez Notion, et la Revanche de l'Ingénieur Licencié !",
     "date": "2026-05-19",

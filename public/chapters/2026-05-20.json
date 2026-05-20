@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Comprendre Kubernetes",
+    "startTime": 22
+  },
+  {
+    "title": "Les 5 termes clés de l'IA",
+    "startTime": 148
+  },
+  {
+    "title": "L'IA et l'évolution du métier de développeur",
+    "startTime": 284
+  },
+  {
+    "title": "Actualités et coulisses de l'IA (Anthropic)",
+    "startTime": 402
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 654
+  }
+]
