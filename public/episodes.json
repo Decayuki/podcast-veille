@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-28",
+    "title": "La facture des agents IA explose : comment reprendre le contrôle ?",
+    "date": "2026-05-28",
+    "duration": "11:28",
+    "durationSeconds": 688,
+    "description": "Veille tech/IA/dev du 2026-05-28",
+    "audioUrl": "/podcast-veille/audio/2026-05-28.mp3",
+    "size": 11011177,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-05-28.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-05-28.json",
+    "coverUrl": "/podcast-veille/covers/2026-05-28.svg"
+  },
+  {
     "id": "2026-05-25",
     "title": "AI Démystifiée : Tokens, Hallucinations et Agents du Futur",
     "date": "2026-05-25",

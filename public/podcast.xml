@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>La facture des agents IA explose : comment reprendre le contrôle ?</title>
+      <description>Veille tech/IA/dev du 2026-05-28</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-28.mp3" length="11011177" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-05-28</guid>
+      <pubDate>Thu, 28 May 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:28</itunes:duration>
+    </item>
+    <item>
       <title>AI Démystifiée : Tokens, Hallucinations et Agents du Futur</title>
       <description>Veille tech/IA/dev du 2026-05-25</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-25.mp3" length="9990939" type="audio/mpeg"/>
