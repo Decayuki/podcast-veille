@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA : Des milliards de pertes, des agents partout et nos outils en question</title>
+      <description>Veille tech/IA/dev du 2026-05-29</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-29.mp3" length="10987354" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-05-29</guid>
+      <pubDate>Fri, 29 May 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:26</itunes:duration>
+    </item>
+    <item>
       <title>La facture des agents IA explose : comment reprendre le contrôle ?</title>
       <description>Veille tech/IA/dev du 2026-05-28</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-05-28.mp3" length="11011177" type="audio/mpeg"/>

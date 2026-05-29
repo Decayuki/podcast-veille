@@ -1,0 +1,35 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône 1: Hexagone stylisé (représentant une puce/noeud IA) -->
+  <polygon points="350,450 450,400 550,450 550,550 450,600 350,550" fill="#ff007f" stroke="none"/>
+
+  <!-- Icône 2: Cercle stylisé avec des points (représentant des données/agents) -->
+  <circle cx="1000" cy="900" r="80" fill="#ffee00" stroke="none"/>
+  <circle cx="970" cy="870" r="15" fill="#1a1a2e"/>
+  <circle cx="1030" cy="930" r="15" fill="#1a1a2e"/>
+  <circle cx="1030" cy="870" r="15" fill="#1a1a2e"/>
+  <circle cx="970" cy="930" r="15" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en plusieurs lignes) -->
+  <text x="700" y="592" font-family="Arial, sans-serif" font-size="90" fill="#00f0ff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+    IA : Des milliards de pertes,
+  </text>
+  <text x="700" y="700" font-family="Arial, sans-serif" font-size="90" fill="#00f0ff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+    des agents partout et nos
+  </text>
+  <text x="700" y="808" font-family="Arial, sans-serif" font-size="90" fill="#00f0ff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+    outils en question
+  </text>
+
+  <!-- Nom du podcast (en petit en bas) -->
+  <text x="700" y="1280" font-family="Arial, sans-serif" font-size="36" fill="#cccccc" text-anchor="middle" dominant-baseline="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date (en petit en bas) -->
+  <text x="700" y="1330" font-family="Arial, sans-serif" font-size="36" fill="#cccccc" text-anchor="middle" dominant-baseline="middle">
+    2026-05-29
+  </text>
+</svg>
