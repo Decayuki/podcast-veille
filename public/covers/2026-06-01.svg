@@ -1,0 +1,21 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône 1: Cercle abstrait (pour l'IA/les données) - Couleur vive -->
+  <circle cx="350" cy="250" r="100" fill="#ffd700"/>
+
+  <!-- Icône 2: Rectangle abstrait (pour le code/processus) - Couleur vive -->
+  <rect x="950" y="200" width="200" height="100" rx="20" ry="20" fill="#9370db"/>
+
+  <!-- Titre de l'épisode (centré, en plusieurs lignes si nécessaire) -->
+  <text x="700" y="600" font-family="Arial, sans-serif" font-size="80" fill="#ff7f50" text-anchor="middle" font-weight="bold">Quand l'IA vide les caisses</text>
+  <text x="700" y="700" font-family="Arial, sans-serif" font-size="80" fill="#ff7f50" text-anchor="middle" font-weight="bold">d'Uber et code 70%</text>
+  <text x="700" y="800" font-family="Arial, sans-serif" font-size="80" fill="#ff7f50" text-anchor="middle" font-weight="bold">de nos logiciels</text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="Arial, sans-serif" font-size="30" fill="#add8e6" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode (petit, en bas) -->
+  <text x="700" y="1300" font-family="Arial, sans-serif" font-size="25" fill="#add8e6" text-anchor="middle">2026-06-01</text>
+</svg>

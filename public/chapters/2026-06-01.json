@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Le budget IA d'Uber explose",
+    "startTime": 29
+  },
+  {
+    "title": "Évolution des modèles et systèmes multi-agents",
+    "startTime": 106
+  },
+  {
+    "title": "Next.js 16.2 : performance et sécurité",
+    "startTime": 243
+  },
+  {
+    "title": "L'augmentation du prix de GitHub Copilot",
+    "startTime": 305
+  },
+  {
+    "title": "Détection de texte généré par IA",
+    "startTime": 361
+  },
+  {
+    "title": "Transformer un LLM en système d'exploitation",
+    "startTime": 435
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 562
+  }
+]

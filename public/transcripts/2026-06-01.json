@@ -1,0 +1,181 @@
+{
+  "title": "Quand l'IA vide les caisses d'Uber et code 70% de nos logiciels",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à toutes et à tous ! Bienvenue dans votre dose de tech hebdomadaire. Aujourd'hui, on va parler d'IA qui fait exploser les budgets, de modèles qui s'améliorent à une vitesse folle et même d'un développeur qui a transformé un LLM en système d'exploitation. C'est fou, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument Denise ! On va décortiquer ces sujets avec enthousiasme. Attachez vos ceintures, parce que la veille tech de cette semaine est particulièrement riche et pleine de surprises, surtout côté coûts de l'IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, Henri, parlons d'Uber. J'ai lu qu'ils avaient complètement vidé leur budget IA annuel en seulement quatre mois à cause de Claude Code. C'est une erreur de calcul ou un usage démesuré ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un peu des deux, Denise, mais surtout une démonstration de l'appétit insatiable des ingénieurs pour ces outils. Uber a mis Claude Code à disposition de ses équipes en décembre 2025, et en avril 2026, le budget 2026 était déjà cramé."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Quatre mois ? Mais à quel point l'utilisation a-t-elle grimpé pour en arriver là ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'usage a doublé en deux mois ! Et les coûts API tournaient entre 500 et 2000 dollars par ingénieur et par mois. Ce qui est dingue, c'est que 95% des développeurs Uber utilisent l'IA tous les mois. Et le plus frappant : 70% du code commité sur leurs dépôts est désormais généré par un LLM."
+    },
+    {
+      "speaker": "Denise",
+      "text": "70% du code ! C'est énorme. Mais alors, ils regrettent la qualité du code ? Ou c'est vraiment juste une question d'argent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non, la qualité n'est absolument pas remise en cause. Le CTO a même déclaré qu'ils devaient repenser toute leur stratégie de budgétisation. La vraie question pour eux, et pour beaucoup d'entreprises, c'est : comment on calcule le retour sur investissement d'un outil qui génère autant de code de production ?"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une excellente question. Cela nous amène d'ailleurs à parler des modèles eux-mêmes. Anthropic vient de sortir Claude Opus 4.8. Encore une nouvelle version, si vite ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, seulement six semaines après la version précédente ! Anthropic est clairement en mode sprint. Opus 4.8 a fait un bond de près de 5 points sur le benchmark SWE-bench Pro, un des plus difficiles pour le développement logiciel. Il devance maintenant GPT-5.4 et Gemini 3.1 Pro sur le code et les capacités d'agents."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une progression rapide, c'est clair. Quelles sont les nouveautés concrètes pour les développeurs avec cette version 4.8 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il y a un nouveau niveau d'effort 'xhigh', une vision 3,3 fois plus haute résolution, et surtout, une mémoire de fichiers persistante sur plusieurs sessions. Pour les développeurs, ça veut dire des workflows plus complexes gérés avec une meilleure continuité, et une capacité de raisonnement agentic vraiment améliorée."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'IA ne se contente plus de générer du code, elle devient une sorte de collègue qui se souvient de ce qu'elle a fait avant et qui peut voir plus clair dans les documents. C'est ce que vous appelez les systèmes multi-agents, n'est-ce pas ? On entend beaucoup parler de LangGraph et MCP."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, Denise ! Le stack LangGraph + MCP est LA combinaison qui s'impose en production pour les systèmes multi-agents. LangGraph orchestre les agents, MCP gère l'infrastructure et les outils, et LangSmith assure l'observabilité. C'est l'architecture de référence aujourd'hui."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Comment ça fonctionne concrètement ? Un agent pour chaque tâche ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'idée, c'est d'avoir un 'superviseur' qui route les requêtes aux bons agents spécialisés, sans jamais exécuter d'outils lui-même. C'est comme un chef d'orchestre qui distribue les tâches aux musiciens. Chaque état est enregistré, ce qui permet de reprendre le travail ou de déboguer facilement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et j'imagine qu'il faut éviter que le système tourne en boucle et nous coûte un bras, un peu comme l'histoire d'Uber ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! L'erreur la plus coûteuse, c'est une boucle de superviseur sans 'circuit breaker'. Si le LLM n'indique jamais 'FINISH', il continue à tourner, vidant le budget API. Pour les coûts, on utilise ce qu'on appelle le 'model tiering' : on utilise un modèle moins cher comme Claude Haiku pour le routage, et les modèles puissants pour les tâches où la qualité de raisonnement est cruciale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on met l'intelligence là où elle est vraiment nécessaire, et on économise sur le reste. C'est très astucieux. Changeons de sujet et parlons de Next.js, un framework que beaucoup de développeurs utilisent. La version 16.2 vient de sortir. Qu'est-ce qu'elle apporte ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Next.js 16.2 est une mise à jour majeure à deux niveaux. Côté performance, c'est une révolution : le démarrage de 'next dev' est quatre fois plus rapide, et Turbopack est maintenant le bundler par défaut en développement, avec un Hot Module Reload dix fois plus rapide sur les gros projets."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Quatre fois plus rapide, c'est énorme pour la productivité ! Mais j'ai aussi entendu parler d'un aspect sécurité, avec des vulnérabilités importantes ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est l'autre aspect crucial. Cette release coordonnée corrige treize vulnérabilités critiques, dont des failles de déni de service, des contournements de middleware et du cross-site scripting. Elles sont exploitables en production, donc la mise à jour n'est pas optionnelle, elle est obligatoire pour tous les projets Next.js."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si vous êtes développeur Next.js, mettez à jour sans tarder ! C'est la bonne nouvelle pour la performance et la sécurité. En parlant de développeurs, le monde du code a été un peu secoué par l'augmentation du prix de GitHub Copilot, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oh oui, une grogne massive sur Reddit ! L'abonnement individuel de GitHub Copilot est passé de 10 à 19 dollars par mois en début 2026, soit une augmentation de 90%. Ça a fait beaucoup parler, surtout que des alternatives comme Claude Code restent à tarif fixe sur leurs plans Max."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Presque le double du prix ! C'est significatif. Est-ce que ça change la donne sur le marché des outils d'IA pour coder ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Totalement. Le marché se polarise entre les abonnements à tarif fixe et les modèles à la consommation qui peuvent exploser à l'usage, comme on l'a vu avec Uber. Selon les classements, Claude Code est numéro 2 pour le travail profond, mais Cursor reste le numéro 1 pour l'usage quotidien léger."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Intéressant. Maintenant, changeons un peu d'univers pour parler d'écriture. On utilise de plus en plus l'IA pour générer du texte. Mais comment fait-on pour savoir si un texte a été écrit par une machine ou un humain ? Il y a des 'tics' d'écriture révélateurs, paraît-il."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, et un article sur Medium démonte le mythe des tirets cadratins. Le vrai marqueur, c'est une structure rhétorique très spécifique : la négation contrastive dramatique. C'est la formule 'X n'est pas juste [définition basique] — c'est [interprétation profonde/dramatique]'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, je vois ! 'L'amour n'est pas juste un sentiment, c'est un voyage de l'âme'. Ce genre de tournure ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Les LLM l'appliquent mécaniquement à tous les sujets, du sport à la coiffure. Cette uniformité trahit l'origine machine. D'autres patterns sont 'From... to...' pour des transitions artificielles, et 'Whether... or...' pour créer un équilibre analytique forcé."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, pour éviter un texte qui sonne 'IA', il faut éviter ces tournures. Et pour détecter un texte IA, il faut les chercher plutôt que des marqueurs superficiels. C'est un bon conseil pour les créateurs de contenu et les enseignants."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, et on peut même les inclure dans les prompts : 'évite les structures de négation contrastive dramatique'. Ça permet de produire un contenu plus naturel. Mais parlons d'un projet encore plus fou : transformer Claude Code en système d'exploitation !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est l'article de Delanoe Pirard. L'idée de transformer un modèle en OS, ça me dépasse un peu. Pourquoi faire ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'auteur en avait marre des hallucinations du modèle, comme quand il a perdu 40 minutes sur une fausse signature de fonction. Il a donc reconstruit Claude Code comme une plateforme programmable à six couches pour le rendre plus fiable et contrôlable."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Six couches ! Peux-tu nous donner les points clés de cette architecture ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bien sûr. D'abord, un fichier CLAUDE.md de 109 lignes qui agit comme un noyau, avec un protocole anti-hallucination. Il définit des niveaux de confiance et des règles strictes sur l'accès aux sources. Si la source manque, le modèle doit répondre 'UNKNOWN' au lieu d'inventer."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, il a intégré un système de vérification des faits et de confiance directement dans le 'cerveau' de l'IA. Et pour la mémoire ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il y a une mémoire persistante dans un dossier `memory/`, chargée automatiquement. Ensuite, 32 'skills' lazy-loadées, organisées en 10 domaines, chacune suivant une méthodologie AAPEV : Assess, Analyze, Plan, Execute, Validate. Ça évite d'injecter des milliers de lignes de contexte au démarrage."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des compétences à la demande, c'est très malin. Et il y a aussi des sous-agents et de la sécurité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, dix sous-agents spécialisés avec des listes d'outils distinctes – par exemple, un agent de recherche n'a pas accès aux outils de développement. Et une couche de sécurité 'zero-trust' avec 78 règles de permissions. Enfin, six serveurs MCP pour la documentation en temps réel et l'accès aux données externes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un travail colossal ! Et il a rendu ce plan open source, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, le 'claude-code-blueprint' est sur GitHub, conçu pour être forké. L'investissement initial en configuration est massif, et il y a quelques limites comme un bug de path-scoping, mais c'est une approche fascinante pour rendre les LLM plus fiables et programmables."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'était une veille incroyablement dense, Henri ! Pour résumer, trois choses à retenir : l'IA coûte cher et les entreprises comme Uber doivent repenser leurs budgets, les modèles comme Claude Opus s'améliorent à une vitesse folle, et enfin, il y a des méthodes concrètes pour mieux utiliser et même 'contrôler' ces IA, que ce soit pour le code ou l'écriture."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, Denise. La course à l'IA s'accélère, les coûts et les capacités explosent. Mais avec des approches intelligentes et des architectures robustes, on peut maîtriser cette puissance. Restez curieux, le futur s'écrit chaque jour !"
+    }
+  ]
+}

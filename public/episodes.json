@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-01",
+    "title": "Quand l'IA vide les caisses d'Uber et code 70% de nos logiciels",
+    "date": "2026-06-01",
+    "duration": "9:56",
+    "durationSeconds": 596,
+    "description": "Veille tech/IA/dev du 2026-06-01",
+    "audioUrl": "/podcast-veille/audio/2026-06-01.mp3",
+    "size": 9542469,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-01.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-01.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-01.svg"
+  },
+  {
     "id": "2026-05-29",
     "title": "IA : Des milliards de pertes, des agents partout et nos outils en question",
     "date": "2026-05-29",
