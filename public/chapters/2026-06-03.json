@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "L'Agent Journaliste IA de Thomas Smith",
+    "startTime": 26
+  },
+  {
+    "title": "Comprendre le Reinforcement Learning",
+    "startTime": 144
+  },
+  {
+    "title": "La Guerre des Modèles et Nouveaux Acteurs",
+    "startTime": 323
+  },
+  {
+    "title": "Mises à Jour pour les Développeurs (Vercel)",
+    "startTime": 451
+  },
+  {
+    "title": "La Notion de Qualité à l'Ère de l'IA",
+    "startTime": 548
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 666
+  }
+]

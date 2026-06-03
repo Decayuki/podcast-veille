@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-03",
+    "title": "Quand l'IA prend le contrôle : agents autonomes, guerre des modèles et la \"Qualité\" menacée",
+    "date": "2026-06-03",
+    "duration": "11:59",
+    "durationSeconds": 719,
+    "description": "Veille tech/IA/dev du 2026-06-03",
+    "audioUrl": "/podcast-veille/audio/2026-06-03.mp3",
+    "size": 11514818,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-03.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-03.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-03.svg"
+  },
+  {
     "id": "2026-06-01",
     "title": "Quand l'IA vide les caisses d'Uber et code 70% de nos logiciels",
     "date": "2026-06-01",

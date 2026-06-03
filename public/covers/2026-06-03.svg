@@ -1,0 +1,36 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Episode Title -->
+  <text x="700" y="400" font-family="sans-serif" font-size="70" fill="#ffffff" text-anchor="middle" font-weight="bold">Quand l'IA prend le contrôle :</text>
+  <text x="700" y="480" font-family="sans-serif" font-size="70" fill="#ffffff" text-anchor="middle" font-weight="bold">agents autonomes,</text>
+  <text x="700" y="560" font-family="sans-serif" font-size="70" fill="#ffffff" text-anchor="middle" font-weight="bold">guerre des modèles et la</text>
+  <text x="700" y="640" font-family="sans-serif" font-size="70" fill="#ffffff" text-anchor="middle" font-weight="bold">"Qualité" menacée</text>
+
+  <!-- Icons/Geometric shapes related to tech -->
+  <!-- Main "Core" / "Chip" like shape (abstract) -->
+  <g transform="rotate(-10 700 900)">
+    <rect x="550" y="800" width="300" height="200" rx="20" ry="20" fill="#00FFFF" opacity="0.8"/>
+    <rect x="580" y="830" width="240" height="140" rx="10" ry="10" fill="#1a1a2e" opacity="0.4"/>
+    <line x1="600" y1="860" x2="800" y2="860" stroke="#00FFFF" stroke-width="4" opacity="0.6"/>
+    <line x1="600" y1="900" x2="800" y2="900" stroke="#00FFFF" stroke-width="4" opacity="0.6"/>
+    <line x1="600" y1="940" x2="800" y2="940" stroke="#00FFFF" stroke-width="4" opacity="0.6"/>
+  </g>
+
+  <!-- Network / Agent elements -->
+  <circle cx="400" cy="850" r="30" fill="#FF00FF" opacity="0.7"/>
+  <circle cx="500" cy="1050" r="25" fill="#FF00FF" opacity="0.7"/>
+  <circle cx="900" cy="750" r="28" fill="#FF00FF" opacity="0.7"/>
+  <circle cx="1000" cy="980" r="32" fill="#FF00FF" opacity="0.7"/>
+  <line x1="400" y1="850" x2="500" y2="1050" stroke="#FF00FF" stroke-width="3" opacity="0.5"/>
+  <line x1="400" y1="850" x2="900" y2="750" stroke="#FF00FF" stroke-width="3" opacity="0.5"/>
+  <line x1="900" y1="750" x2="1000" y2="980" stroke="#FF00FF" stroke-width="3" opacity="0.5"/>
+  <line x1="500" y1="1050" x2="1000" y2="980" stroke="#FF00FF" stroke-width="3" opacity="0.5"/>
+
+  <!-- Podcast Name -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="30" fill="#cccccc" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#cccccc" text-anchor="middle">2026-06-03</text>
+</svg>
