@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-04",
+    "title": "Mémoire d'Agents, Sécurité IA et Batailles Open Source",
+    "date": "2026-06-04",
+    "duration": "13:22",
+    "durationSeconds": 802,
+    "description": "Veille tech/IA/dev du 2026-06-04",
+    "audioUrl": "/podcast-veille/audio/2026-06-04.mp3",
+    "size": 12848526,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-04.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-04.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-04.svg"
+  },
+  {
     "id": "2026-06-03",
     "title": "Quand l'IA prend le contrôle : agents autonomes, guerre des modèles et la \"Qualité\" menacée",
     "date": "2026-06-03",

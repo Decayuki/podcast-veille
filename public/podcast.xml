@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Mémoire d'Agents, Sécurité IA et Batailles Open Source</title>
+      <description>Veille tech/IA/dev du 2026-06-04</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-04.mp3" length="12848526" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-04</guid>
+      <pubDate>Thu, 04 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>13:22</itunes:duration>
+    </item>
+    <item>
       <title>Quand l'IA prend le contrôle : agents autonomes, guerre des modèles et la "Qualité" menacée</title>
       <description>Veille tech/IA/dev du 2026-06-03</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-03.mp3" length="11514818" type="audio/mpeg"/>
