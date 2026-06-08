@@ -1,0 +1,81 @@
+{
+  "title": "La fin de l'IA qui code : le virage du second cerveau",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, on dirait que le vent tourne. On ne parle plus de faire coder l'IA à notre place, mais d'une sorte de révolution dans la façon dont on organise nos propres connaissances. C'est quoi cette histoire de 'Second Cerveau' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est fascinant, Denise. Andrej Karpathy, une pointure absolue, vient de lâcher le code assisté par IA pour se concentrer sur la construction d'un wiki auto-maintenu. Il utilise l'IA non pas comme un exécutant, mais comme un bibliothécaire perpétuel pour son savoir."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, donc au lieu de lui demander de pondre une fonction Python, il lui demande de classer ses réflexions ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Roan Brasil Monteiro propose même une architecture structurée : une zone 'raw' pour les sources, un 'wiki' où Claude fait le tri, et une zone 'dev' pour tes projets. Le système ingère des articles, lie les concepts entre eux, et au bout de quelques mois, tu as une infrastructure cognitive qui travaille pour toi."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, c'est comme avoir un assistant qui lit tout ce que je lis et qui me rappelle ce que j'ai oublié quand j'en ai besoin. Mais ça ne demande pas une maintenance folle ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que c'est génial : c'est du 'knowledge compounding'. Une fois le setup fait, l'IA s'occupe de l'archivage, du nettoyage des liens morts et des synthèses hebdomadaires. On passe de 'faire coder l'IA' à 'penser avec l'IA'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Je vois l'idée, mais si on regarde du côté des entreprises, elles semblent avoir un peu plus de mal à passer à l'action. Le 'Register' parle de blocages en phase pilote pour les agents IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le fossé classique entre la hype des vendeurs et la réalité du terrain. Les entreprises se cognent contre les systèmes legacy, les problèmes de gouvernance et surtout, l'incapacité à mesurer un ROI clair. Ils font des démos, mais mettre ça en prod, c'est une autre paire de manches."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant de mise en prod, il y a du neuf chez Microsoft Aspire pour les développeurs TypeScript, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui ! Enfin, les développeurs TypeScript peuvent orchestrer leurs microservices sans avoir à toucher à une seule ligne de C#. C'est un vrai soulagement pour ceux qui travaillent dans cet écosystème."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pour ceux qui construisent ces fameux agents, Simon Willison a sorti des outils assez costauds, j'ai vu passer quelque chose sur des sandboxes ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Simon a publié un plugin qui permet aux agents de manipuler des fichiers texte de manière standardisée, et surtout, il a intégré MicroPython via WebAssembly pour exécuter du code dans une sandbox isolée. C'est une sécurité géniale, bien plus légère que Docker."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est sécurisant, parce qu'on a vu passer une faille critique sur Claude Code avec GitHub Actions. L'agent pouvait se faire manipuler via un prompt injecté dans une issue. Ça fait peur, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le risque fondamental des agents avec accès aux outils : la surface d'attaque, c'est tout ton environnement. Si ton agent lit une issue malveillante qui contient des instructions pour piquer tes tokens, il va les exécuter. La leçon ici, c'est qu'il faut sanitariser tout ce que l'IA lit avant de lui donner les clés de la maison."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est bien pour ça que les avancées de Vercel sont intéressantes, avec leurs 'Drives' pour sandboxes. Pouvoir conserver un état entre deux exécutions, c'est crucial pour des agents sérieux."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Complètement. Et ils ont aussi ajouté le modèle Nemotron 3 Ultra de Nvidia à leur AI Gateway. 1 million de tokens de contexte, c'est idéal pour traiter de gros volumes de docs sans se ruiner."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Si on devait résumer tout ça pour ceux qui nous écoutent, on retient quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Trois choses : premièrement, le passage du 'code assisté' vers le 'second cerveau' est une tendance lourde pour gagner en profondeur. Deuxièmement, la sécurité des agents est devenue le sujet numéro un, surtout après la faille GitHub. Et enfin, le secteur quitte enfin les démos pour se concentrer sur l'intégration réelle et la fiabilité en production."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça marche. Merci Henri pour ce tour d'horizon, on se retrouve très vite pour la suite."
+    }
+  ]
+}

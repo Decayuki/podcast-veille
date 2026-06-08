@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Le concept de 'Second Cerveau'",
+    "startTime": 13
+  },
+  {
+    "title": "Défis d'adoption de l'IA en entreprise",
+    "startTime": 75
+  },
+  {
+    "title": "Avancées pour les développeurs TypeScript",
+    "startTime": 103
+  },
+  {
+    "title": "Outils et sandboxes pour les agents IA",
+    "startTime": 121
+  },
+  {
+    "title": "Vulnérabilités et sécurité des agents IA",
+    "startTime": 143
+  },
+  {
+    "title": "Nouvelles technologies pour les agents",
+    "startTime": 172
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 194
+  }
+]
