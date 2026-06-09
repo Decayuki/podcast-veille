@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-09",
+    "title": "Apple contre-attaque et le chaos sur GitHub",
+    "date": "2026-06-09",
+    "duration": "3:19",
+    "durationSeconds": 199,
+    "description": "Veille tech/IA/dev du 2026-06-09",
+    "audioUrl": "/podcast-veille/audio/2026-06-09.mp3",
+    "size": 3199102,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-09.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-09.json"
+  },
+  {
     "id": "2026-06-08",
     "title": "La fin de l'IA qui code : le virage du second cerveau",
     "date": "2026-06-08",

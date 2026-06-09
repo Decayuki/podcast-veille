@@ -1,0 +1,69 @@
+{
+  "title": "Apple contre-attaque et le chaos sur GitHub",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, j'ai l'impression que la tech ne dort jamais. Entre la WWDC d'Apple qui veut refaire son retard en IA et un séisme sur GitHub, on a de quoi faire. C'est quoi ce déluge d'infos ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça, Denise. D'un côté, Apple tente un coup de maître pour rassurer tout le monde sur la confidentialité, et de l'autre, on a une cyberattaque qui paralyse une partie de l'infrastructure de Microsoft. C'est le grand écart entre l'innovation et la vulnérabilité."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Commençons par Apple. Ils ont annoncé ce fameux 'Core AI'. C'est juste un énième framework pour développeurs ou ça change vraiment la donne ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est plutôt malin. Apple permet enfin de déployer des modèles PyTorch directement sur leur matériel. Mais le vrai tour de force, c'est le 'Private Cloud Compute' gratuit pour les petits développeurs. Ils offrent du cloud chiffré à ceux qui ont moins de 2 millions de téléchargements, c'est une sacrée barrière à l'entrée qui tombe."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, mais on parle beaucoup de Siri. Il est toujours aussi limité ou il devient enfin intelligent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "La promesse est énorme : un Siri dopé à Gemini via leur cloud privé. Mais l'innovation technique, c'est l'utilisation de la vision LLM. Siri va littéralement 'voir' ce qui est sur ton écran pour comprendre le contexte, sans que les développeurs d'apps aient besoin de coder des intégrations spécifiques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, Siri lit mon écran pour savoir ce que je fais ? Ça ne pose pas un problème de vie privée, même avec leur promesse de cloud privé ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que Simon Willison est sceptique. Il rappelle les déceptions de 2024. Apple joue la carte 'Privacy First', mais laisser un modèle lire tout ton écran, c'est un changement de paradigme qui demande une confiance aveugle en leur architecture de chiffrement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un pari risqué. Mais parlons de l'autre sujet brûlant : GitHub. J'ai vu passer des messages de panique sur le ver 'Miasma'. Il s'est passé quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le cauchemar absolu. Un compte développeur compromis a injecté un ver, le 'Mini Shai-Hulud', dans des dépôts critiques de Microsoft, comme 'durabletask'. Résultat : 73 dépôts nukés en moins de deux minutes par GitHub pour stopper l'hémorragie."
+    },
+    {
+      "speaker": "Denise",
+      "text": "73 dépôts Microsoft, c'est énorme ! Et ça a cassé les pipelines CI/CD partout dans le monde ? Comment un simple compte a pu causer autant de dégâts ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le problème, c'est notre confiance aveugle. Le code malveillant s'exécute automatiquement dès qu'on ouvre un dépôt dans des outils comme Cursor, Claude Code ou VS Code. Ces agents IA font trop confiance aux fichiers de configuration locaux. On a un nouveau vecteur d'attaque : le workspace compromis."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, en gros, nos outils d'IA deviennent nos plus grandes failles de sécurité ? C'est terrifiant."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. C'est la deuxième attaque en deux jours ciblant spécifiquement ces éditeurs IA. On est entré dans une ère où le code qu'on écrit avec l'aide de l'IA peut nous trahir avant même qu'on le merge."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En résumé pour nos auditeurs : Apple mise tout sur le 'On-Device' et la vision contextuelle pour Siri, tout en offrant du cloud privé aux indies. Et de l'autre côté, la sécurité des outils de développement assistés par IA est devenue la priorité absolue après la cyberattaque massive sur GitHub."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. Gardez un œil sur vos configurations de workspace et préparez-vous à une WWDC où l'IA visuelle va devenir le standard. On n'a pas fini d'en parler."
+    }
+  ]
+}

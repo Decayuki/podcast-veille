@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Apple contre-attaque et le chaos sur GitHub</title>
+      <description>Veille tech/IA/dev du 2026-06-09</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-09.mp3" length="3199102" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-09</guid>
+      <pubDate>Tue, 09 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>3:19</itunes:duration>
+    </item>
+    <item>
       <title>La fin de l'IA qui code : le virage du second cerveau</title>
       <description>Veille tech/IA/dev du 2026-06-08</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-08.mp3" length="3581953" type="audio/mpeg"/>
