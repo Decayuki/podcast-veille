@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-10",
+    "title": "La grande panique de la productivité et l'ère des agents",
+    "date": "2026-06-10",
+    "duration": "10:44",
+    "durationSeconds": 644,
+    "description": "Veille tech/IA/dev du 2026-06-10",
+    "audioUrl": "/podcast-veille/audio/2026-06-10.mp3",
+    "size": 10311096,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-10.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-10.json"
+  },
+  {
     "id": "2026-06-09",
     "title": "Apple contre-attaque et le chaos sur GitHub",
     "date": "2026-06-09",
