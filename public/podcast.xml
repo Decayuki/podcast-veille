@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA : Entre sabotage secret, fin du MCP et agents trop complaisants</title>
+      <description>Veille tech/IA/dev du 2026-06-11</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-11.mp3" length="3805561" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-11</guid>
+      <pubDate>Thu, 11 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>3:57</itunes:duration>
+    </item>
+    <item>
       <title>La grande panique de la productivité et l'ère des agents</title>
       <description>Veille tech/IA/dev du 2026-06-10</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-10.mp3" length="10311096" type="audio/mpeg"/>
