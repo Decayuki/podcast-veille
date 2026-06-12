@@ -1,0 +1,73 @@
+{
+  "title": "L'IA passe à l'action : agents autonomes et nouveaux standards",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, on dirait que l'IA ne se contente plus de répondre à nos questions. J'ai l'impression qu'on passe à une ère où elle prend vraiment les choses en main. C'est quoi cette histoire de Claude qui devient \"proactif\" ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça, Denise. Simon Willison a mis en avant Claude Fable 5, et c'est bluffant. Ce n'est plus un simple assistant, c'est un agent autonome qui débogue des problèmes complexes tout seul."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, \"déboguer tout seul\", ça veut dire quoi concrètement ? Il attend qu'on lui dise quoi faire ou il anticipe ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il est \"relentlessly proactive\". Pour te donner une idée, il a résolu un bug de dépendances pour 12 dollars de compute, sans aucune intervention humaine. Mieux encore : il détecte les problèmes connexes et les corrige dans la foulée. C'est comme si tu avais un développeur senior qui ne dort jamais."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est impressionnant, mais pour les entreprises, c'est sécurisant ou c'est un cauchemar de laisser une machine toucher à tout ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les entreprises s'y mettent massivement. Regarde l'alliance entre DXC Technology et Anthropic. Ils utilisent \"Claude Corps\" avec 95 % du code généré par l'IA, déployé dans 70 pays. C'est devenu une véritable infrastructure mondiale, plus un gadget."
+    },
+    {
+      "speaker": "Denise",
+      "text": "95 % du code ? C'est colossal. Et en plus, ils injectent 150 millions de dollars pour aider les organisations à but non lucratif. Ils veulent vraiment ancrer Claude dans le réel, pas juste dans les labos."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Tout à fait. Et pour ceux qui construisent ces outils, il y a aussi du nouveau côté infrastructure. Vercel vient d'intégrer DeepSeek V3 et R1 dans son AI Gateway."
+    },
+    {
+      "speaker": "Denise",
+      "text": "DeepSeek, c'est ce modèle qui fait beaucoup parler de lui pour ses capacités de raisonnement, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Le modèle R1 0528 est une bête en maths et en code. Ce qui est cool, c'est que via Vercel, tu as accès aux \"thinking tokens\". Tu vois littéralement l'IA réfléchir avant de te donner la réponse. C'est hyper transparent pour le développeur."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est rassurant de voir le raisonnement, mais comment on gère tout ça quand on développe des applications avec plusieurs agents ? Ça ne devient pas le bazar pour tout connecter ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là qu'arrive Mastra. C'est un framework TypeScript qui fait un carton, avec 22 000 étoiles sur GitHub. Imagine une boîte à outils tout-en-un pour créer tes agents IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pourquoi Mastra plutôt qu'un autre outil comme LangChain, dont on entend tout le temps parler ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Mastra est \"TypeScript-first\". Il offre une meilleure expérience développeur, une observabilité native et plus de 100 intégrations prêtes à l'emploi. Que tu veuilles connecter Slack, GitHub ou Notion, tout est prévu pour que ton workflow soit durable et facile à suivre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si je résume, on a des agents comme Claude qui deviennent proactifs et autonomes, des modèles comme DeepSeek qui nous ouvrent la boîte noire de leur réflexion, et des outils comme Mastra qui permettent de tout orchestrer proprement."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le résumé parfait. On passe du stade de l'expérimentation à celui de l'industrialisation massive. L'IA ne fait plus juste \"générer du texte\", elle gère des systèmes complexes et du code métier en production."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On retient donc : l'autonomie proactive des agents, l'intégration profonde de l'IA dans les infrastructures mondiales et la maturité des outils de développement comme Mastra. Merci Henri, c'est beaucoup plus clair !"
+    }
+  ]
+}

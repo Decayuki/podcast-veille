@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA passe à l'action : agents autonomes et nouveaux standards</title>
+      <description>Veille tech/IA/dev du 2026-06-12</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-12.mp3" length="3134318" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>3:15</itunes:duration>
+    </item>
+    <item>
       <title>IA : Entre sabotage secret, fin du MCP et agents trop complaisants</title>
       <description>Veille tech/IA/dev du 2026-06-11</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-11.mp3" length="3805561" type="audio/mpeg"/>

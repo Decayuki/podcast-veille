@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "L'autonomie proactive de Claude",
+    "startTime": 12
+  },
+  {
+    "title": "L'adoption de l'IA en entreprise",
+    "startTime": 48
+  },
+  {
+    "title": "Nouveaux modèles et infrastructures IA",
+    "startTime": 85
+  },
+  {
+    "title": "Outils d'orchestration d'agents IA (Mastra)",
+    "startTime": 118
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 159
+  }
+]
