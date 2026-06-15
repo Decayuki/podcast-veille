@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "L'IA et l'emploi des ingénieurs",
+    "startTime": 25
+  },
+  {
+    "title": "Python natif dans le navigateur (Pyodide)",
+    "startTime": 124
+  },
+  {
+    "title": "Le compilateur JIT de Python menacé",
+    "startTime": 236
+  },
+  {
+    "title": "Actualités Vercel",
+    "startTime": 312
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 470
+  }
+]

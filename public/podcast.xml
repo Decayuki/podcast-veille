@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Python dans le Browser et l'IA Anti-Chômage</title>
+      <description>Veille tech/IA/dev du 2026-06-15</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-15.mp3" length="8451177" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-15</guid>
+      <pubDate>Mon, 15 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>8:48</itunes:duration>
+    </item>
+    <item>
       <title>L'IA passe à l'action : agents autonomes et nouveaux standards</title>
       <description>Veille tech/IA/dev du 2026-06-12</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-12.mp3" length="3134318" type="audio/mpeg"/>

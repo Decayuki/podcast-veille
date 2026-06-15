@@ -1,0 +1,35 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <text x="700" y="600" font-family="sans-serif" font-size="80" font-weight="bold" fill="#E0E0E0" text-anchor="middle" dominant-baseline="middle">
+    Python dans le Browser
+  </text>
+  <text x="700" y="700" font-family="sans-serif" font-size="80" font-weight="bold" fill="#E0E0E0" text-anchor="middle" dominant-baseline="middle">
+    et l'IA Anti-Chômage
+  </text>
+
+  <!-- Icône 1: Hexagone pour Python/Browser (vert vif) -->
+  <!-- Centré à (400, 450), rayon 120. Représente le code, les données, la technologie. -->
+  <polygon points="400,330 503.92,390 503.92,510 400,570 296.08,510 296.08,390" fill="#4CAF50"/>
+
+  <!-- Icône 2: Cercle et flèche pour IA/Progrès (bleu vif) -->
+  <!-- Le cercle représente l'IA/l'intelligence, la flèche indique le progrès ("anti-chômage"). -->
+  <!-- Cercle centré à (1000, 480), rayon 100. -->
+  <circle cx="1000" cy="480" r="100" fill="#2196F3"/>
+  <!-- Flèche (tête) -->
+  <path d="M 950 420 L 1050 420 L 1000 320 Z" fill="#E0E0E0"/>
+  <!-- Flèche (corps) -->
+  <rect x="980" y="420" width="40" height="100" fill="#E0E0E0"/>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#a0a0b0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1340" font-family="sans-serif" font-size="25" fill="#a0a0b0" text-anchor="middle">
+    2026-06-15
+  </text>
+</svg>

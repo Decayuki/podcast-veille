@@ -1,0 +1,161 @@
+{
+  "title": "Python dans le Browser et l'IA Anti-Chômage",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à toutes et à tous ! Bienvenue dans notre rendez-vous hebdomadaire où l'on décortique l'actualité tech et IA. Aujourd'hui, on va démystifier certaines peurs et s'enthousiasmer pour des innovations vraiment bluffantes."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On a une veille riche, avec des infos qui bousculent les idées reçues, notamment sur l'impact de l'IA sur l'emploi. Et croyez-moi, ce n'est pas ce que l'on pourrait penser !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un excellent point pour commencer, Henri. On entend partout que l'IA va nous voler nos emplois, surtout dans la tech. Est-ce que les ingénieurs logiciels doivent vraiment s'inquiéter ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente question, Denise, et la réponse est non, pas vraiment ! Simon Willison a récemment mis en lumière une étude de Narayanan et Kappor qui tord le cou à ces idées alarmistes. À New York, par exemple, les entreprises doivent déclarer les licenciements liés à l'IA, et sur plus de 160 cas, aucune n'a coché cette case."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est une peur infondée pour le moment, d'après les chiffres ? Mais alors, pourquoi l'IA ne peut-elle pas simplement faire le travail d'un ingénieur ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce que l'ingénierie logicielle, ce n'est pas juste taper du code ! C'est avant tout décider quoi construire, comprendre le métier en profondeur. C'est aussi vérifier et assumer la responsabilité des livrables, ce qu'une IA ne peut pas faire."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il faut également comprendre le contexte global du système, ce qui est irremplaçable. Les vrais goulots d'étranglement, ce sont les réunions, le débogage complexe, la compréhension des besoins, et non la simple saisie de code. L'IA aide à l'écriture, mais pas à la réflexion architecturale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Je comprends mieux. Donc, l'IA est un outil pour augmenter l'efficacité, pas un remplaçant direct. On parle de 20% de code et 80% de résolution de problèmes complexes, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! L'IA peut optimiser ces 20% de code, mais les 80% restants, ceux qui nécessitent de la pensée critique, de la créativité et de la compréhension humaine, restent bien l'apanage des ingénieurs. Le marché commence tout juste à saisir cette nuance fondamentale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est rassurant et ça clarifie beaucoup de choses. Merci Henri pour cette mise au point cruciale ! En parlant de Python et de choses inattendues, j'ai vu passer une nouvelle incroyable : Python qui tourne nativement dans le navigateur. C'est de la science-fiction, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument pas, Denise, c'est bien réel et c'est une révolution ! La version 314.0 de Pyodide marque un tournant majeur. Les développeurs peuvent désormais publier des packages Python compilés en WebAssembly, ou WASM, directement sur PyPI."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avant, Pyodide devait maintenir et compiler manuellement plus de 300 packages, ce qui était un énorme goulot d'étranglement. Maintenant, avec les tags PyPI standards, c'est une distribution normale, comme n'importe quelle autre wheel Python."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une simplification énorme ! Et ça veut dire quoi concrètement pour les applications web ? On pourrait faire tourner des algorithmes complexes directement dans le navigateur sans serveur ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! On a déjà 28 packages disponibles, comme onnx ou pydantic_core. Simon Willison lui-même a créé luau-wasm, le langage de Roblox, compilé en WASM comme preuve de concept. Le tout est automatisé via GitHub Actions."
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'impact est gigantesque pour le fullstack. Imaginez un Next.js avec TypeScript côté client, et Python WASM également côté client, sans avoir besoin d'un serveur Python séparé ! On peut faire tourner des algorithmes de Machine Learning, des outils de data science, tout ça directement dans le browser."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Waouh ! Cela ouvre des portes incroyables, surtout pour les applications éducatives ou celles qui nécessitent un traitement client sans les coûts et la complexité d'un backend. C'est un vrai 'game-changer' comme on dit."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est bien le mot ! Plus besoin de serveurs coûteux pour des traitements qui peuvent être faits localement. C'est une avancée majeure pour démocratiser encore plus le développement web."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Génial ! Restons sur Python un instant. J'ai lu quelque chose sur un compilateur JIT pour Python qui serait menacé de suppression. Qu'est-ce que c'est et est-ce une mauvaise nouvelle pour les performances ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente question, Denise, et c'est un peu plus complexe qu'il n'y paraît. Le Steering Council de Python a en effet suspendu le développement du compilateur JIT, ou Just-In-Time. Une PEP, c'est-à-dire une proposition d'amélioration formelle, doit être soumise et approuvée dans les six mois, sinon le code sera retiré."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le JIT était pourtant une fonctionnalité phare promise pour Python 3.15, qui doit sortir en octobre, avec un gain de performances estimé à 8-9%. Pour l'instant, il reste opt-in via une variable d'environnement, donc aucun impact immédiat en production."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, pas de panique pour les développeurs backend qui utilisent Python et FastAPI ? C'est plus une question de procédure qu'une réelle menace sur l'avenir du JIT ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Il y a une incertitude sur la roadmap des performances de Python 3.15, mais c'est probablement du 'bruit procédural'. Le Steering Council veut juste plus de formalisme pour une fonctionnalité aussi importante. Je pense que le JIT ne disparaîtra pas vraiment, il faudra juste réévaluer la situation d'ici décembre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Voilà qui est rassurant. Passons maintenant aux dernières nouveautés de Vercel, qui ne cesse d'innover pour les développeurs web. Il y a eu pas mal de choses cette semaine !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oh oui, Vercel a été très actif ! La première chose à noter, c'est l'augmentation de la limite des Blob stores pour les utilisateurs Hobby. Elle passe de 5 à 100 instances, ce qui est énorme !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Cela permet aux équipes de mieux organiser leurs données entre projets, environnements et régions, sans frais supplémentaires. C'est idéal pour les applications Next.js multi-tenant, qui peuvent désormais gérer leurs données de manière plus granulaire."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus de flexibilité pour stocker des données sans surcoût. Et côté développement, j'ai entendu parler d'une intégration du Workflow SDK avec Nitro v3 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une avancée majeure pour l'orchestration server-side native ! Le SDK Workflow s'exécute désormais directement dans Nitro v3 en bêta. Cela signifie que les étapes s'exécutent dans le même bundle que l'application, plus besoin de serveur séparé."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les développeurs peuvent accéder directement aux APIs serveur de Nitro, comme useStorage(), dans leurs fonctions 'step'. Le tree-shaking et les dépendances sont tracées automatiquement pour des bundles plus légers. C'est une architecture simplifiée, zéro friction pour Next.js 16."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Moins de complexité, plus de performance... Vercel continue de nous faciliter la vie. Et j'ai vu un 'Vercel Drop' qui promet un déploiement ultra-simple, c'est quoi exactement ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un véritable 'game-changer' pour les démos et prototypes rapides ! Vercel Drop permet un déploiement par simple glisser-déposer de fichiers et dossiers directement dans le navigateur. Zéro Git, zéro CLI requis."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Vous allez sur vercel.com/drop, choisissez une équipe et un nom de projet, et hop ! Il détecte automatiquement les frameworks comme Next.js et supporte les exports statiques, idéal pour les outils de design. C'est une fluidité incroyable pour montrer un projet à un client."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est génial pour les maquettes ou les projets très simples. Et pour finir avec Vercel, il y a une nouvelle IA qui fait son apparition sur l'AI Gateway, le modèle Kimi K2.7 Code ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument ! Moonshot AI rend disponible son modèle Kimi K2.7 Code via l'AI Gateway de Vercel. Ce modèle est spécialisé dans les tâches de programmation à long terme, que ce soit pour le frontend, le DevOps ou l'optimisation."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Sa particularité, c'est son architecture multimodale native, gérant le texte et la vision. Il s'exécute toujours en mode 'thinking', ce qui est très intéressant. C'est une alternative puissante à Claude pour certains workflows DevOps ou d'infrastructure qui nécessitent des entrées visuelles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, un outil IA plus spécialisé pour les défis de code complexes, y compris avec des éléments visuels. C'est une sacrée boîte à outils que Vercel nous propose là. On a couvert beaucoup de terrain aujourd'hui !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour résumer, chers auditeurs, trois points clés à retenir de cette semaine. Premièrement, l'IA ne va pas remplacer les ingénieurs logiciels, mais plutôt les augmenter, car la résolution de problèmes complexes reste humaine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Deuxièmement, l'arrivée de Python natif dans le navigateur grâce à Pyodide et WASM est une révolution. Cela ouvre des opportunités incroyables pour les applications web, le ML côté client et l'éducation."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et enfin, Vercel continue de simplifier la vie des développeurs avec des innovations comme Vercel Drop pour des déploiements instantanés et l'extension des capacités de leurs Blob stores et Workflow SDK. De quoi booster nos projets !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est tout pour cette semaine, merci de nous avoir écoutés et on vous donne rendez-vous la semaine prochaine pour une nouvelle plongée dans l'actu tech !"
+    }
+  ]
+}
