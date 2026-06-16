@@ -1,0 +1,39 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="400" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#F0F0F0" text-anchor="middle">Panique aux Fédéraux,</text>
+  <text x="700" y="500" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#F0F0F0" text-anchor="middle">Patchs à la rescousse</text>
+  <text x="700" y="600" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#F0F0F0" text-anchor="middle">et RCE Critique</text>
+
+  <!-- Icône 1 : Engrenage (représentant la technologie, l'IA, le traitement) -->
+  <g transform="translate(350, 450) scale(1.2)">
+    <circle cx="0" cy="0" r="75" fill="#00FF7F"/>
+    <circle cx="0" cy="0" r="40" fill="#1a1a2e"/>
+    <!-- Dents d'engrenage -->
+    <rect x="-15" y="-95" width="30" height="20" fill="#00FF7F"/>
+    <rect x="-15" y="75" width="30" height="20" fill="#00FF7F"/>
+    <rect x="-95" y="-15" width="20" height="30" fill="#00FF7F"/>
+    <rect x="75" y="-15" width="20" height="30" fill="#00FF7F"/>
+    <!-- Dents diagonales -->
+    <rect x="-70" y="-70" width="30" height="20" transform="rotate(45 0 0)" fill="#00FF7F"/>
+    <rect x="50" y="50" width="30" height="20" transform="rotate(45 0 0)" fill="#00FF7F"/>
+    <rect x="-70" y="50" width="30" height="20" transform="rotate(-45 0 0)" fill="#00FF7F"/>
+    <rect x="50" y="-70" width="30" height="20" transform="rotate(-45 0 0)" fill="#00FF7F"/>
+  </g>
+
+  <!-- Icône 2 : Bouclier (représentant la sécurité, les correctifs, la protection) -->
+  <path d="M 970 370 
+           L 1150 370 
+           L 1150 550 
+           L 1060 670 
+           L 970 550 Z" 
+        fill="#00BFFF"/>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" font-family="Arial, sans-serif" font-size="40" fill="#AAAAAA" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1300" font-family="Arial, sans-serif" font-size="35" fill="#AAAAAA" text-anchor="middle">2026-06-16</text>
+</svg>

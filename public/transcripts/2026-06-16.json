@@ -1,0 +1,73 @@
+{
+  "title": "Panique aux Fédéraux, Patchs à la rescousse et RCE Critique",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! On commence fort aujourd'hui. J'ai vu passer une histoire assez dingue sur le gouvernement américain qui panique face à un modèle d'IA. C'est quoi ce délire avec Fable 5 ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Salut Denise ! Oui, c'est le feuilleton de la semaine. En gros, des chercheurs ont utilisé Claude Fable 5 pour corriger des bugs de code. Ils ont tapé « Fix this code », le modèle a bossé, et les régulateurs ont cru voir une arme de destruction massive."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, corriger des bugs, c'est pas justement ce qu'on veut ? Pourquoi les Feds bloquent tout ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est toute l'absurdité du moment. Les autorités ont confondu l'audit de sécurité, qui est crucial pour nous défendre, avec la création de malwares. Résultat : l'accès à Fable 5 est suspendu sur les gateways, et 100 experts en cybersécurité ont signé une lettre ouverte pour dénoncer ce théâtre législatif."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est frustrant... Et pendant qu'ils jouent aux gendarmes, Anthropic resserre la vis sur nos données personnelles, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exact. À partir du 8 juillet, ils se réservent le droit de demander une pièce d'identité officielle et même des données biométriques pour les abonnés individuels. Ils veulent bloquer les accès depuis des pays sous embargo ou éviter que des mineurs n'utilisent les modèles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une sacrée marche à franchir pour un simple chatbot. Bon, passons au dev, j'ai vu que Vercel a fait de grosses annonces. 30 minutes pour les fonctions, c'est énorme, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un véritable game-changer. Avant, on était limités à 800 secondes, ce qui bloquait les traitements IA lourds. Avec ce passage à 30 minutes et le Fluid Compute qui ne te facture pas quand tu attends une API, le serverless devient enfin viable pour les pipelines IA complexes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et ils ont ajouté des outils pour gérer tout ça proprement, j'imagine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, le Workflow SDK est devenu très mature : tu peux maintenant annuler des opérations en cours via AbortController, et ils supportent désormais TanStack Start. C'est du solide pour construire des applications durables."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ok, c'est noté pour Vercel. Mais Henri, il y a une urgence absolue là, j'ai vu passer une alerte CVSS 10.0 sur LiteLLM. C'est quoi le topo ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une RCE, une exécution de code à distance, activement exploitée en production. Si tu utilises LiteLLM entre les versions 1.74.2 et 1.83.6, tu dois mettre à jour immédiatement vers la 1.83.7 et patcher Starlette aussi."
+    },
+    {
+      "speaker": "Denise",
+      "text": "CVSS 10.0, c'est le niveau maximal de danger. Il ne faut pas traîner. Pour changer d'ambiance, j'ai vu Iroh 1.0 passer en stable. On peut enfin se passer d'IP pour connecter nos machines ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est fascinant : « Dial Keys, not IPs ». Iroh utilise des clés cryptographiques pour connecter les appareils en P2P. C'est idéal pour que des agents IA discutent entre eux sans passer par un serveur central coûteux ou surveillé."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est super propre pour du local-first. Bon, on récapitule pour nos auditeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Trois points clés : un, mettez à jour LiteLLM de toute urgence pour contrer la faille RCE active. Deux, la régulation sur l'IA devient absurde et freine les défenseurs cyber. Trois, Vercel change la donne pour l'IA serverless avec ses fonctions 30 minutes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Merci Henri pour ce tour d'horizon. On se retrouve très vite pour la suite du match entre tech et régulation !"
+    }
+  ]
+}

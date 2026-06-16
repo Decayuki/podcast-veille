@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Panique aux Fédéraux, Patchs à la rescousse et RCE Critique</title>
+      <description>Veille tech/IA/dev du 2026-06-16</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-16.mp3" length="3209133" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-16</guid>
+      <pubDate>Tue, 16 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>3:20</itunes:duration>
+    </item>
+    <item>
       <title>Python dans le Browser et l'IA Anti-Chômage</title>
       <description>Veille tech/IA/dev du 2026-06-15</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-15.mp3" length="8451177" type="audio/mpeg"/>

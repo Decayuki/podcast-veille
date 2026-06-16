@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Régulation IA et Anthropic",
+    "startTime": 13
+  },
+  {
+    "title": "Vercel et l'IA Serverless",
+    "startTime": 74
+  },
+  {
+    "title": "Alerte Sécurité LiteLLM",
+    "startTime": 119
+  },
+  {
+    "title": "Iroh et les Connexions P2P",
+    "startTime": 145
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 173
+  }
+]
