@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Fernão: L'agent IA personnel minimaliste",
+    "startTime": 28
+  },
+  {
+    "title": "Anthropic: Agents IA avancés et autonomes",
+    "startTime": 101
+  },
+  {
+    "title": "Vercel: Infrastructure pour agents et LLMs",
+    "startTime": 200
+  },
+  {
+    "title": "Datasette: Gestion de données simplifiée",
+    "startTime": 272
+  },
+  {
+    "title": "LLMs locaux: Viabilité et stratégie hybride",
+    "startTime": 313
+  },
+  {
+    "title": "Rappel: Migrations d'API Anthropic",
+    "startTime": 397
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 442
+  }
+]

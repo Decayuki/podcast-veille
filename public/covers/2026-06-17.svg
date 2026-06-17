@@ -1,0 +1,42 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en deux lignes) -->
+  <text x="700" y="380" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="90" font-weight="bold" fill="#e0f2fe" text-anchor="middle">
+    <tspan x="700">Agents IA :</tspan>
+    <tspan x="700" dy="110">Du Minimaliste à l'Autonome</tspan>
+  </text>
+
+  <!-- Icône/Forme géométrique simple liée aux sujets tech (représentation de "core" et "agents") -->
+  <g transform="translate(700, 750)">
+    <!-- Élément central : Carré tourné (effet diamant) avec coins arrondis -->
+    <rect x="-150" y="-150" width="300" height="300" rx="30" ry="30" transform="rotate(45)" fill="#60a5fa"/>
+
+    <!-- Cercle intérieur (noyau) -->
+    <circle cx="0" cy="0" r="80" fill="#a78bfa"/>
+
+    <!-- Lignes de connexion et nœuds (agents) -->
+    <!-- Nœud gauche -->
+    <line x1="-80" y1="0" x2="-220" y2="0" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-250" cy="0" r="30" fill="#a78bfa"/>
+
+    <!-- Nœud droit -->
+    <line x1="80" y1="0" x2="220" y2="0" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="250" cy="0" r="30" fill="#a78bfa"/>
+
+    <!-- Nœud supérieur -->
+    <line x1="0" y1="-80" x2="0" y2="-220" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="-250" r="30" fill="#a78bfa"/>
+
+    <!-- Nœud inférieur -->
+    <line x1="0" y1="80" x2="0" y2="220" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="250" r="30" fill="#a78bfa"/>
+  </g>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#94a3b8" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1300" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#94a3b8" text-anchor="middle">2026-06-17</text>
+</svg>

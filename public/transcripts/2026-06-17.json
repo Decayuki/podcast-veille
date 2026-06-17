@@ -1,0 +1,185 @@
+{
+  "title": "Agents IA : Du Minimaliste à l'Autonome",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Le monde de la tech ne s'arrête jamais, et j'ai l'impression que les agents IA sont partout. On va parler d'assistants personnels, de cerveaux numériques qui rêvent et même de modèles qui tournent sur nos machines. Prêt à nous éclairer ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! La vitesse d'innovation est incroyable. On est passé de concepts lointains à des outils très concrets, accessibles et même essentiels pour les développeurs. Accrochez-vous, ça va être dense !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Commençons par une histoire fascinante. Ivo Bernardo, sur Medium, a construit un agent IA personnel en quelques heures. Son nom, Fernão. C'est quoi le secret de cette rapidité pour un agent de planification?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le secret, c'est le pragmatisme et la simplicité. Fernão agrège Google Calendar, Microsoft To Do et Notion pour optimiser l'emploi du temps. Il utilise un framework minimaliste, Google AntiGravity, et Gemini 2.5 Flash Lite."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, pas de chaînes d'agents complexes ou de frameworks lourds comme LangChain? Juste quelques appels API et un bon prompt de synthèse?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement! C'est le 'single-pass synthesis': trois appels API parallèles vers les sources de données, puis un seul prompt de synthèse pour générer l'emploi du temps optimisé. L'accent est mis sur la propreté des données et la clarté du prompt."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est ce que Bernardo appelle le 'Management as Code', traiter l'IA comme un 'employé virtuel' avec des objectifs clairs plutôt que des instructions pas à pas, n'est-ce pas?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. Le vrai travail, c'est de gérer les contraintes réelles comme les fuseaux horaires ou la fiabilité des API, et de bien nettoyer les données. Moins de prompting complexe, plus d'intégration API efficace."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Super intéressant cette approche minimaliste. Mais passons à l'autre bout du spectre avec Anthropic, qui pousse les capacités de leurs agents Claude encore plus loin. Ils parlent de 'Dreaming', 'Outcomes' et d'orchestration multi-agents."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Anthropic innove sur la robustesse et l'autonomie. 'Dreaming', c'est une mémoire consolidée pour l'agent, inspirée du sommeil paradoxal humain. Il analyse ses interactions passées pour créer une mémoire propre et pertinente entre les sessions."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'agent 'rêve' pour mieux apprendre et se souvenir? Ça a des applications concrètes?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument! Chez Harvey, une IA légale, ça a multiplié par six le taux de complétion des tâches. Pour Netflix, ça aide à débusquer des patterns à grande échelle. C'est une 'research preview' mais prometteur."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Impressionnant ! Et 'Outcomes', c'est l'auto-évaluation itérative. L'agent se corrige lui-même?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "En quelque sorte. Un agent évaluateur séparé juge le livrable de l'agent principal par rapport à une rubrique définie. S'il ne répond pas aux critères, l'agent retravaille jusqu'à 20 fois. C'est une beta publique, très efficace."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une boucle d'amélioration continue intégrée. Et l'orchestration multi-agents, c'est comme une équipe d'IA qui travaille ensemble?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément! Un agent coordinateur décompose une tâche complexe et la délègue à jusqu'à 20 sous-agents spécialisés. Chacun a son modèle et ses outils. On peut même faire de l'auto-clonage pour la parallélisation récursive."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est comme avoir un chef de projet IA qui gère une équipe d'experts IA, chacun avec sa spécialité. Très puissant !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ces agents, qu'ils soient minimalistes ou super sophistiqués, ont besoin d'un environnement pour s'exécuter. Vercel a fait des annonces importantes, notamment sur le runtime de leur Sandbox."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une excellente nouvelle pour les développeurs! La Sandbox de Vercel passe de 5 heures à 24 heures sur les plans Pro et Enterprise. Fini de découper les workflows longs, les pipelines ETL nocturnes, ou les agents autonomes qui tournent toute une nuit."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une journée entière pour un sandbox, ça change la donne pour les tâches lourdes et non-interruptibles! Et ils ont aussi un nouveau modèle, GLM 5.2, avec un contexte gigantesque, sur leur AI Gateway?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement! Le GLM 5.2 d'Alibaba, disponible via Vercel AI Gateway, offre un contexte d'un million de tokens. C'est idéal pour des tâches d'ingénierie longue durée, l'analyse complète de codebases ou la génération de documentation."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un million de tokens, c'est énorme! C'est une alternative sérieuse aux modèles de pointe, mais plus économique?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, il atteint environ 75% des performances des modèles 'frontier' pour une fraction du coût. C'est un excellent fallback économique à GPT-4o pour certaines tâches, sans markup Vercel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons d'un autre outil essentiel pour les développeurs et la gestion de données: Datasette. Simon Willison a annoncé la version 1.0a34 avec une fonctionnalité majeure."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une étape clé! Datasette permet désormais d'insérer, éditer et supprimer des lignes directement dans l'interface web. On a un CRUD complet pour n'importe quelle base SQLite, sans écrire une seule ligne de code pour un panneau d'administration."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est parfait pour créer des back-offices légers rapidement, sans effort de développement supplémentaire?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement! Et pour ceux qui cherchent la sécurité et la facilité de déploiement, il y a aussi 'datasette-tailscale', pour déployer Datasette sur un réseau privé Tailscale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On a beaucoup parlé de cloud, mais est-ce que faire tourner des modèles d'IA en local, sur sa propre machine, est enfin une option viable en 2026? Vicki Boykis de Lobste.rs en parle."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Denise, c'est une excellente nouvelle! Les LLMs locaux sont devenus sérieusement viables. Des modèles comme Gemma-4, même quantifiés, atteignent 75% de l'accuracy et de la vitesse des modèles 'frontier' pour une fraction du coût."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Quels sont les avantages concrets de cette approche locale pour les développeurs?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "On gagne une introspection complète, on peut personnaliser finement les prompts et la quantification, la latence est quasiment nulle et, à long terme, les coûts d'API sont inexistants. LM Studio et Pi sont des outils recommandés pour ça."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Mais il y a des limites, j'imagine? On ne peut pas tout faire en local?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bien sûr. Le contexte reste limité par la RAM et la VRAM de votre machine, l'inférence peut être lente sur CPU, et ce n'est pas encore l'idéal pour la production critique qui demande une grande fiabilité."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, une stratégie hybride est recommandée: local pour le dev, cloud pour le reste?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la stratégie gagnante. Gemma-4 local pour le développement et le debug. GLM 5.2 sur AI Gateway pour l'analyse de codebase ou la génération de docs avec son million de tokens. Et pour la production critique ou le raisonnement complexe, on se tourne vers Claude Sonnet ou Opus."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Avant de conclure, un rappel essentiel pour les développeurs qui travaillent avec l'API d'Anthropic. Il y a des migrations de modèles avec une date limite à ne pas manquer."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, très important: le 5 août 2026 est la date limite! Si vous avez des IDs de modèles Anthropic codés en dur dans votre code de production, il faut les migrer. Par exemple, 'claude-opus-4-20250514' doit passer à 'claude-opus-4-8'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et certains modèles vont être retirés?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, 'claude-opus-4-1' sera retraité à cette date. Il faut vérifier et mettre à jour pour éviter toute interruption. Il y a aussi des changements sur le 'thinking adaptatif' de Fable 5 et le rejet des 'assistant-turn prefills' par les modèles 4.6+."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, quelle veille riche et passionnante ! Si on devait retenir les trois points clés de toutes ces innovations pour nos auditeurs?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Volontiers, Denise! Les trois points à retenir sont : premièrement, **l'efficacité prime sur la complexité** avec des agents IA de plus en plus pragmatiques, même pour des tâches personnelles."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Deuxièmement, **les agents IA gagnent en autonomie et en intelligence**. Avec des capacités comme la 'mémoire' de Dreaming et l'auto-évaluation de Outcomes chez Claude, on voit des gains massifs en complétion de tâches."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, troisièmement, **l'infrastructure et les outils s'adaptent et se diversifient**. Que ce soit avec Vercel Sandbox étendu, les modèles locaux devenus viables ou Datasette pour la gestion de données, les développeurs ont des options plus puissantes et flexibles que jamais."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des agents toujours plus intelligents, une infrastructure qui suit le rythme et des outils qui simplifient le travail des développeurs. C'est un futur passionnant qui se dessine. Merci beaucoup, Henri, pour ces éclaircissements très concrets!"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec grand plaisir, Denise! À la prochaine pour d'autres découvertes!"
+    }
+  ]
+}

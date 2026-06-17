@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-17",
+    "title": "Agents IA : Du Minimaliste à l'Autonome",
+    "date": "2026-06-17",
+    "duration": "8:31",
+    "durationSeconds": 511,
+    "description": "Veille tech/IA/dev du 2026-06-17",
+    "audioUrl": "/podcast-veille/audio/2026-06-17.mp3",
+    "size": 8181176,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-17.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-17.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-17.svg"
+  },
+  {
     "id": "2026-06-16",
     "title": "Panique aux Fédéraux, Patchs à la rescousse et RCE Critique",
     "date": "2026-06-16",
