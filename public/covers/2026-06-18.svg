@@ -1,0 +1,39 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre pour un style tech élégant -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <!-- Positionnement vertical ajusté pour centrer le bloc de texte -->
+  <text x="700" y="650" font-family="sans-serif" font-size="90" fill="#E0E0E0" text-anchor="middle">
+    <tspan x="700" dy="0">L'Ère des Agents Autonomes :</tspan>
+    <tspan x="700" dy="100">Sécurité, Identité et Frameworks</tspan>
+  </text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="40" fill="#A0A0A0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#A0A0A0" text-anchor="middle">
+    2026-06-18
+  </text>
+
+  <!-- Icônes/Formes géométriques simples liées aux sujets tech -->
+
+  <!-- Icône 1: Hexagone (représente les agents, modules, ou données) -->
+  <!-- Positionné en haut à gauche, légèrement incliné -->
+  <g transform="translate(300, 300) rotate(-15)">
+    <polygon points="100,0 50,86.6 -50,86.6 -100,0 -50,-86.6 50,-86.6" fill="#00FFFF" />
+  </g>
+
+  <!-- Icône 2: Noeud de réseau stylisé (représente les frameworks, connexions, sécurité) -->
+  <!-- Positionné en haut à droite, légèrement incliné -->
+  <g transform="translate(1100, 300) rotate(20)">
+    <circle cx="0" cy="0" r="50" fill="#FFD700" />
+    <line x1="0" y1="0" x2="70" y2="70" stroke="#FFD700" stroke-width="5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-70" y2="70" stroke="#FFD700" stroke-width="5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="70" y2="-70" stroke="#FFD700" stroke-width="5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-70" y2="-70" stroke="#FFD700" stroke-width="5" stroke-linecap="round" />
+  </g>
+</svg>

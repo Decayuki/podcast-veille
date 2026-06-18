@@ -1,0 +1,73 @@
+{
+  "title": "L'Ère des Agents Autonomes : Sécurité, Identité et Frameworks",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Imaginez un développeur qui ne dort jamais, qui trouve ses propres failles de sécurité et qui les corrige en temps réel, sans jamais se plaindre d'un bug de fin de journée. C'est presque la réalité aujourd'hui avec les avancées qu'on a vues cette semaine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, Denise. On passe de l'IA qui 'discute' à l'IA qui 'exécute'. Le gros sujet, c'est ce pipeline de sécurité agentique dont tout le monde parle. C'est une boucle complète : analyse, sandbox, fuzzing, preuve de vulnérabilité et patch, le tout orchestré par la famille Claude."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, Henri, pour le grand public : ça veut dire qu'on laisse une IA bidouiller notre code source pour le réparer toute seule ? C'est pas un peu risqué de donner autant de clés à une machine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que ça devient brillant. Ils utilisent Claude Opus comme cerveau central, avec des sous-agents spécialisés pour le parsing et l'analyse. Tout se passe dans une sandbox Docker isolée, donc si l'IA se trompe, ton infrastructure réelle ne craint rien."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, donc c'est une répétition générale permanente. Mais comment on gère la sécurité de ces agents eux-mêmes ? Ils doivent bien avoir accès à nos outils, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là qu'intervient Vercel avec deux briques majeures : Passport et Connect. Passport remplace les vieilles API keys statiques par des jetons OIDC dynamiques, et Connect permet de scoper les accès aux outils comme Slack ou GitHub. En gros, tu ne donnes plus les clés de la maison, tu donnes un badge temporaire à l'agent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est beaucoup plus propre. Et j'ai entendu parler de 'eve', ce framework qui veut devenir le 'Next.js' des agents. Ça veut dire qu'on va avoir une méthode standard pour construire ces systèmes ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est l'ambition. Eve introduit des primitives comme la gestion de la mémoire et la reprise après crash, ce qui est crucial. Si ton agent tombe en panne au milieu d'un pipeline, il peut reprendre là où il s'est arrêté. C'est du sérieux, c'est taillé pour la prod."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant de sérieux, j'ai vu que le modèle GLM-5.2 d'Alibaba fait trembler les géants habituels. Il est open weights, il gère 1 million de tokens, et il est disponible via la Gateway de Vercel. Pourquoi on n'en parle pas plus ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce qu'on est trop habitués à regarder uniquement vers la Californie ! GLM-5.2 est une bête de calcul pour le texte pur. C'est l'alternative parfaite quand tu veux éviter les 'rate limits' d'OpenAI ou Anthropic, surtout avec la nouvelle fonction de fallback automatique dans Claude Code."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, Claude Code a évolué avec ce fameux 'fallbackModel'. Ça évite de bloquer les sessions quand les serveurs sont saturés, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Tout à fait. Tu configures une cascade de modèles, et si le premier est surchargé, ça bascule sur le suivant instantanément. Fini les sessions qui plantent en plein milieu d'une tâche critique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "J'ai aussi noté cette info insolite sur l'Estonie : ils créent des identités numériques légales pour les agents IA. Ça me semble sortir tout droit d'un film de science-fiction, mais c'est bien réel."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est fascinant et nécessaire. Si ton agent peut signer un contrat ou déclencher un paiement, il doit être auditable par la loi. L'Estonie ouvre la voie à une intégration réelle des agents dans le tissu économique mondial."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On a couvert beaucoup de terrain. Si tu devais résumer tout ça pour nos auditeurs qui veulent passer à l'action dès demain, ce serait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Trois points clés : un, sécurisez vos flux d'agents avec Vercel Passport et Connect, c'est devenu la norme pour le M2M. Deux, automatisez votre sécurité avec des pipelines agentiques, c'est le gain de productivité majeur de l'année. Et trois, gardez un œil sur le framework 'eve' pour structurer vos futurs déploiements."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et n'oubliez pas d'optimiser vos prompts de configuration pour éviter les 'config smells' et gagner des tokens. Merci Henri pour cet éclairage sur cette semaine très chargée !"
+    }
+  ]
+}

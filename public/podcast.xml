@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'Ère des Agents Autonomes : Sécurité, Identité et Frameworks</title>
+      <description>Veille tech/IA/dev du 2026-06-18</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-18.mp3" length="3569414" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-18</guid>
+      <pubDate>Thu, 18 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>3:43</itunes:duration>
+    </item>
+    <item>
       <title>Agents IA : Du Minimaliste à l'Autonome</title>
       <description>Veille tech/IA/dev du 2026-06-17</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-17.mp3" length="8181176" type="audio/mpeg"/>

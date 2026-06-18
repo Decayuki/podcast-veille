@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Pipeline de sécurité agentique",
+    "startTime": 14
+  },
+  {
+    "title": "Sécurité des agents (Vercel Passport/Connect)",
+    "startTime": 68
+  },
+  {
+    "title": "Framework 'eve' pour les agents",
+    "startTime": 85
+  },
+  {
+    "title": "Modèle GLM-5.2 d'Alibaba",
+    "startTime": 112
+  },
+  {
+    "title": "Claude Code et le fallbackModel",
+    "startTime": 143
+  },
+  {
+    "title": "Identités numériques pour agents IA (Estonie)",
+    "startTime": 163
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 187
+  }
+]
