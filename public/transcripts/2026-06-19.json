@@ -1,0 +1,157 @@
+{
+  "title": "L'IA partout, Firefox en danger, et l'Est s'éveille : la veille tech !",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt à démêler le fil de l'actualité tech de la semaine ? J'ai l'impression que ça bouge vite, comme d'habitude !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! L'univers tech ne dort jamais, et cette semaine, on a des pépites, des coups de gueule, et des signaux forts pour l'avenir. Accrochez-vous, ça va être passionnant !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Super ! Commençons fort avec un sujet qui m'intrigue : les 'Datasette Apps' de Simon Willison. On parle d'intégrer des mini-applications web directement dans une base de données ? C'est un peu bizarre, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est audacieux, oui, mais très malin ! Datasette, pour rappel, est un outil fantastique pour explorer et publier des données. Et là, Simon a créé un plugin qui permet d'héberger des applications HTML et JavaScript autonomes, littéralement dans la base de données SQLite."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'accord, mais comment ça marche concrètement ? On ne met pas n'importe quoi dans sa base, j'imagine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Ces apps tournent dans une iframe doublement sécurisée. Il y a un sandboxing strict, avec une Content Security Policy très restrictive, pour éviter tout accès aux cookies ou au stockage local. La communication avec Datasette se fait uniquement via postMessage."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est très isolé et sécurisé. Et l'IA dans tout ça ? Parce que j'ai vu que ça avait un lien avec l'intelligence artificielle."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que ça devient fascinant ! Imaginez, une application peut générer un prompt pour Claude ou GPT avec le schéma de votre base de données, l'IA retourne du HTML, et vous le collez directement dans l'app. Ou mieux : un 'Datasette Agent', une IA comme Claude, peut éditer ces apps directement, avec un accès persistant à la base de données."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, donc l'IA peut carrément interagir avec la structure et le contenu de l'application embarquée ? C'est une sorte de mini-développeur intégré à la base de données !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Et pour la sécurité des données, les écritures ne sont pas directes. Elles passent par des requêtes stockées, pré-approuvées. Pas de SQL arbitraire, tout est sous contrôle. D'ailleurs, ils ont même trouvé et corrigé une faille de sécurité qui aurait pu permettre d'exfiltrer des données, en réservant une permission clé aux admins."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une architecture vraiment élégante : les données, l'interface utilisateur, et l'IA, tout au même endroit, bien encapsulé. Je vois bien ça pour des projets pédagogiques ou des outils internes spécifiques."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est précisément ça. Une approche très moderne qui met l'accent sur la souveraineté des données et l'intégration profonde des capacités d'IA. Un vrai tour de force de Simon Willison."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passons maintenant à l'international, avec Anthropic qui fait des vagues en Corée du Sud. Ils ouvrent un bureau à Séoul et signent de gros partenariats. Ça sent la conquête de l'Asie, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! C'est un signal très, très fort. Anthropic s'implante en Corée, un pays déjà dans le top 12 mondial des utilisateurs de Claude. Ils ont mis le paquet, avec KiYoung Choi, un ancien de Google Korea, à la tête du bureau."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et les partenaires, qui sont-ils ? Des noms connus ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Des poids lourds ! NAVER, le géant coréen, va déployer Claude Code pour TOUS ses ingénieurs. C'est colossal ! Et ce n'est pas tout : Samsung SDS, LG CNS, Hanwha Solutions intègrent Claude à l'échelle de leurs organisations. Même Channel Corp, une plateforme IA client, sera propulsée par Claude."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Claude Code pour tous les développeurs de NAVER... Ça veut dire que Claude est en train de devenir un standard de facto pour le développement en entreprise en Asie du Nord-Est, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement la conclusion à tirer. C'est une percée majeure qui positionne Claude comme un outil indispensable pour les développeurs et les entreprises de la région. Sans oublier qu'ils collaborent aussi avec le National AI Research Lab sur la sécurité de l'IA. C'est une stratégie très complète."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Incroyable. Pendant que l'IA conquiert l'Est, un autre géant de la tech semble vouloir conquérir le web d'une manière un peu moins... amicale. J'ai lu que Google Workspace menaçait de bloquer Firefox."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah, ce fameux sujet qui fait grincer des dents dans la communauté dev. Google affiche des avertissements dans Workspace, incitant les utilisateurs de Firefox à passer à Chrome pour des 'raisons de sécurité'. Sauf qu'il n'y a pas d'avantage technique réel mis en avant."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est une menace déguisée pour forcer les gens à utiliser Chrome ? Ça me rappelle des choses pas très glorieuses dans l'histoire du web."
+    },
+    {
+      "speaker": "Henri",
+      "text": "On est en plein dedans. C'est une manœuvre unilatérale qui compromet la neutralité du web. Si Workspace bloque Firefox, cela rend les tests de compatibilité multi-navigateurs impossibles pour beaucoup d'entreprises. C'est un pas de plus vers un monopole de Chrome qui s'étend au-delà du simple navigateur."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est inquiétant pour l'open web et la diversité des navigateurs. J'espère que ça ne mènera pas à un enfer pour les développeurs qui doivent s'assurer que leurs applications fonctionnent partout."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Espérons-le, Denise. C'est une bataille importante pour la liberté du choix sur le web. Mais passons à une note plus technique et positive, avec un sujet sur l'authentification CLI, 'the Right Way'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "L'authentification en ligne de commande, c'est souvent une galère, surtout quand on travaille dans des environnements un peu exotiques comme SSH ou Docker. Quelle est la bonne méthode, alors ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Le flux classique dit 'loopback', avec un serveur HTTP local, est un cauchemar dans SSH, Docker, WSL, ou même en CI/CD. La bonne solution, c'est le OAuth 2.0 Device Authorization Grant, défini par la RFC 8628."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Le 'Device Flow', j'en ai entendu parler. Mais pour le grand public, comment ça se traduit ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est très simple pour l'utilisateur. Votre outil en ligne de commande vous affiche un code court et une URL. Vous allez sur cette URL sur n'importe quel appareil, entrez le code, validez, et l'outil en ligne de commande s'authentifie automatiquement en arrière-plan. Il n'y a pas de serveur local à faire tourner."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc plus de problèmes de port déjà utilisé, de pare-feu, ou de réseau inaccessible dans un conteneur ? C'est génial !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le gros avantage ! C'est universel, fonctionne partout, sans aucune configuration réseau. L'article propose même une implémentation en Go de 30 lignes, utilisant uniquement la librairie standard. C'est élégant et robuste."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une petite pépite pour tous les développeurs et administrateurs système qui luttent avec l'authentification. Et d'ailleurs, pour la veille cette semaine, j'ai noté que Medium était 100% lifestyle, zéro tech. Comme quoi, même les sources habituelles prennent parfois des vacances !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Haha, oui, parfois il faut savoir prendre du recul ! Mais nos sources spécialisées, elles, ne chôment jamais. On a eu de quoi faire !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Absolument ! Alors, pour résumer cette semaine, quels sont les trois points clés que nos auditeurs devraient retenir ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Je dirais premièrement, l'émergence d'architectures innovantes comme Datasette Apps, qui intègrent données, UI et IA de manière sécurisée et flexible. C'est une tendance forte."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Deuxièmement, la confirmation de l'expansion fulgurante de l'IA générative, avec Anthropic qui s'impose en Corée du Sud, positionnant Claude Code comme un standard en entreprise."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, n'oublions pas les défis pour l'ouverture du web, notamment la pression de Google sur Firefox, qui nous rappelle l'importance de la vigilance pour maintenir un écosystème numérique sain et diversifié."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Trois points essentiels pour comprendre où va la tech cette semaine ! Merci Henri pour toutes ces explications claires et enthousiastes. C'était un plaisir comme toujours !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Merci à toi, Denise, pour tes questions pertinentes ! C'est toujours un plaisir de décortiquer l'actualité avec toi. À la semaine prochaine !"
+    }
+  ]
+}

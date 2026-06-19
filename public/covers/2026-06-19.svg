@@ -1,0 +1,41 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Éléments géométriques abstraits (Icônes) -->
+  
+  <!-- Grande forme hexagonale en arrière-plan, semi-transparente pour un effet minimaliste -->
+  <polygon points="700,200 1000,350 1000,650 700,800 400,650 400,350" fill="#00bcd4" opacity="0.15" transform="rotate(20 700 500)"/>
+
+  <!-- Icône 1: Représentation abstraite de l'IA/réseau neuronal (cercles interconnectés) -->
+  <circle cx="350" cy="300" r="70" fill="#ffeb3b" opacity="0.8"/>
+  <circle cx="480" cy="400" r="70" fill="#ffeb3b" opacity="0.8"/>
+  <circle cx="350" cy="500" r="70" fill="#ffeb3b" opacity="0.8"/>
+  <line x1="350" y1="300" x2="480" y2="400" stroke="#ffeb3b" stroke-width="10" opacity="0.7"/>
+  <line x1="350" y1="500" x2="480" y2="400" stroke="#ffeb3b" stroke-width="10" opacity="0.7"/>
+
+  <!-- Icône 2: Représentation abstraite de données/connectivité (rectangles et lignes) -->
+  <rect x="900" y="900" width="80" height="80" fill="#e91e63" opacity="0.8" transform="rotate(30 940 940)"/>
+  <rect x="1000" y="800" width="80" height="80" fill="#e91e63" opacity="0.8" transform="rotate(-15 1040 840)"/>
+  <line x1="940" y1="940" x2="1040" y2="840" stroke="#e91e63" stroke-width="8" opacity="0.7"/>
+  <line x1="880" y1="850" x2="940" y2="940" stroke="#e91e63" stroke-width="8" opacity="0.7"/>
+  <rect x="840" y="800" width="40" height="40" fill="#e91e63" opacity="0.8" transform="rotate(-5 860 820)"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="600" font-family="sans-serif" font-size="80" font-weight="bold" fill="#f0f0f0" text-anchor="middle">
+    <tspan x="700" dy="0">L'IA partout,</tspan>
+    <tspan x="700" dy="100">Firefox en danger,</tspan>
+    <tspan x="700" dy="100">et l'Est s'éveille :</tspan>
+    <tspan x="700" dy="100">la veille tech !</tspan>
+  </text>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="30" fill="#a0a0a0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="25" fill="#a0a0a0" text-anchor="middle">
+    2026-06-19
+  </text>
+</svg>

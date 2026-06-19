@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-19",
+    "title": "L'IA partout, Firefox en danger, et l'Est s'éveille : la veille tech !",
+    "date": "2026-06-19",
+    "duration": "7:52",
+    "durationSeconds": 472,
+    "description": "Veille tech/IA/dev du 2026-06-19",
+    "audioUrl": "/podcast-veille/audio/2026-06-19.mp3",
+    "size": 7567612,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-19.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-19.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-19.svg"
+  },
+  {
     "id": "2026-06-18",
     "title": "L'Ère des Agents Autonomes : Sécurité, Identité et Frameworks",
     "date": "2026-06-18",
