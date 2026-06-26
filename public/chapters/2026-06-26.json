@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Anthropic: Innovations & Geopolitics",
+    "startTime": 25
+  },
+  {
+    "title": "Vercel: AI Orchestration & Dev Experience",
+    "startTime": 110
+  },
+  {
+    "title": "Simon Willison: Local AI & Dev Tools",
+    "startTime": 280
+  },
+  {
+    "title": "Cloudflare & Open-Source LLMs",
+    "startTime": 345
+  },
+  {
+    "title": "AI's Societal & Security Challenges",
+    "startTime": 402
+  },
+  {
+    "title": "Dev Culture & AI: Human Limits & Verification",
+    "startTime": 542
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 654
+  }
+]

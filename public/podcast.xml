@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Au-delà du Chat : Agents IA, Géopolitique Tech et Fatigue du Vibecoding</title>
+      <description>Veille tech/IA/dev du 2026-06-26</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-26.mp3" length="11196751" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:39</itunes:duration>
+    </item>
+    <item>
       <title>L'IA partout, Firefox en danger, et l'Est s'éveille : la veille tech !</title>
       <description>Veille tech/IA/dev du 2026-06-19</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-06-19.mp3" length="7567612" type="audio/mpeg"/>

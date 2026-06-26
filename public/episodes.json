@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-26",
+    "title": "Au-delà du Chat : Agents IA, Géopolitique Tech et Fatigue du Vibecoding",
+    "date": "2026-06-26",
+    "duration": "11:39",
+    "durationSeconds": 699,
+    "description": "Veille tech/IA/dev du 2026-06-26",
+    "audioUrl": "/podcast-veille/audio/2026-06-26.mp3",
+    "size": 11196751,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-26.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-26.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-26.svg"
+  },
+  {
     "id": "2026-06-19",
     "title": "L'IA partout, Firefox en danger, et l'Est s'éveille : la veille tech !",
     "date": "2026-06-19",
