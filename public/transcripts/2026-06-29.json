@@ -1,0 +1,181 @@
+{
+  "title": "L'IA à prix Netflix et les dessous d'Anthropic",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Aujourd'hui, on ne va pas juste parler de tech, on va plonger dans les coulisses des géants de l'IA, là où l'argent et les promesses se rencontrent. Prêt à démystifier tout ça avec moi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On va décortiquer les dernières nouvelles, des scandales de tarification aux avancées qui rendent l'IA presque gratuite. Accrochez-vous, ça va secouer un peu le marché !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Commençons fort avec Anthropic. J'ai lu qu'ils sont sous le feu des projecteurs à cause de leurs promesses de performance. Qu'est-ce qui se passe exactement avec leur tarification '5x' et '20x' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une sacrée affaire, Denise. Une action collective à Washington D.C. les accuse de publicité mensongère. Anthropic promettait des performances 5x ou 20x supérieures pour ses abonnements payants, mais les utilisateurs constatent en réalité beaucoup moins."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on paie pour 20x mais on reçoit seulement 6 à 8x ? C'est une grosse différence ! Comment justifient-ils ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Ils se cachent derrière des 'fenêtres roulantes' de 5 heures, des plafonds hebdomadaires et même du bridage aux heures de pointe. En gros, les performances annoncées sont rarement atteignables en conditions réelles, ce qui est très frustrant pour les développeurs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un peu comme si on nous vendait une voiture de sport qui ne peut rouler qu'à 50 km/h la plupart du temps ! Quelles pourraient être les conséquences pour Anthropic et même pour l'ensemble de l'industrie IA si ce procès aboutit ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les conséquences pourraient être énormes. Si Anthropic perd, cela établirait un précédent légal très clair pour toute l'industrie de l'IA. Les entreprises devraient être beaucoup plus transparentes sur les performances réelles de leurs modèles et services, ce qui est une bonne chose pour les consommateurs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pendant qu'Anthropic est en difficulté, Google fait une offensive tarifaire incroyable. J'ai vu un titre qui disait que l'IA devenait moins chère qu'un abonnement Netflix. Comment Google réussit-il un tel exploit ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la surprise du chef de Google ! Ils lancent 'Google AI Plus' à seulement 4,99 dollars par mois. L'astuce, ce sont leurs puces TPU v6e propriétaires. Elles ont réduit leurs coûts d'infrastructure de 78% en 2025, leur permettant de casser les prix."
+    },
+    {
+      "speaker": "Denise",
+      "text": "4,99 dollars, c'est presque donné ! Et qu'est-ce qu'on obtient pour ce prix ? Un assistant personnel pour nos mails et notre calendrier, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, exactement ! Un agent appelé 'Daily Brief' qui résume votre boîte de réception, gère votre calendrier et vos tâches. Ce service coûterait normalement 14,76 dollars en tokens API, mais il est vendu à ce prix défiant toute concurrence. C'est une attaque directe contre OpenAI et Microsoft."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on assiste à une guerre des prix féroce. OpenAI et Anthropic sont-ils en danger face à cette stratégie de Google ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Clairement. OpenAI prévoit une baisse de 80% de ses abonnés ChatGPT Plus. Microsoft Copilot a déjà un NPS négatif. La vraie force de Google à long terme, c'est sa 'data moat' : toutes nos données de Gmail, Calendar et Drive. C'est leur atout majeur pour des agents IA vraiment pertinents."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passons maintenant à la sécurité, un sujet toujours brûlant. Amazon Q, leur assistant de codage, a été la cible d'une faille critique. Comment des dépôts Git piégés pouvaient-ils voler des identifiants cloud ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une faille assez effrayante. Des dépôts Git malveillants pouvaient, via Amazon Q, exécuter du code à distance et dérober les identifiants AWS d'un utilisateur. C'est un schéma similaire au ver 'Ver Miasma' qu'on a connu par le passé."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, nos assistants de codage IA, censés nous aider, peuvent devenir une porte d'entrée pour les pirates ? C'est inquiétant pour les développeurs !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Cette faille montre que les assistants de codage IA sont en train de devenir une surface d'attaque majeure. C'est un nouveau front pour la cybersécurité, et il faudra être très vigilant avec ces outils."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons d'un autre agent IA, Claude d'Anthropic, mais cette fois-ci intégré à Slack. The Register le décrit comme un 'collaborateur IA agentique toujours actif et un peu fouineur'. Ça sonne un peu intrusif, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, 'nosy' comme ils disent ! Claude peut surveiller en permanence les canaux Slack, analyser les conversations et même prendre des initiatives de manière autonome. L'idée est d'avoir un coworker IA proactif, mais la frontière avec l'intrusion est fine."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un agent IA qui lit toutes nos conversations Slack et intervient tout seul... Est-ce que les entreprises sont prêtes pour ce niveau d'autonomie et de surveillance constante ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une question clé, Denise. Cela représente une évolution vers l'autonomie permanente des IA en entreprise. Le gain de productivité pourrait être immense, mais il faudra encadrer ça pour éviter les dérives et respecter la vie privée des employés."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pendant ce temps, AWS et Vercel se livrent une bataille de longue haleine dans le serverless. AWS Lambda propose désormais des MicroVMs avec jusqu'à 8 heures de runtime. Qu'est-ce que ça change pour les développeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une avancée majeure ! Avant, les fonctions Lambda étaient plutôt limitées en durée. Avec 8 heures, AWS attaque directement Vercel Functions qui plafonnaient à 30 minutes. Cela ouvre la porte à des usages serverless beaucoup plus complexes et gourmands en temps, comme des traitements de données longs ou de l'entraînement de petits modèles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on peut faire tourner des tâches plus lourdes sans se soucier de l'infrastructure ? Et Vercel n'est pas en reste, ils permettent maintenant de déployer des serveurs Node sans configuration. C'est la guerre des runtimes serverless !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Vercel simplifie énormément le déploiement de backends comme Express ou Fastify. Plus besoin de fichier `vercel.json` personnalisé, ça marche 'out of the box'. C'est une course à celui qui offrira la meilleure expérience développeur avec le moins de friction possible."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Penchons-nous sur un concept un peu plus technique, mais très important pour la sécurité des IA : le 'Prompt Injection as Role Confusion'. Henri, peux-tu nous éclairer sur cette idée de confusion de rôle pour les grands modèles de langage ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bien sûr, Denise. C'est une recherche fascinante qui reformule les 'jailbreaks' classiques. En fait, les LLM peinent à distinguer ce qui relève des instructions système, donc de leur 'rôle' préprogrammé, et ce qui est simplement une entrée utilisateur. L'attaquant essaie de brouiller cette distinction."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si je comprends bien, l'IA ne sait plus si elle doit suivre mes instructions d'utilisateur ou ses propres règles internes ? Et comment on peut rendre les IA plus robustes face à ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. La recherche montre que des attaques dites de 'destyling' réduisent le succès des jailbreaks de 61% à seulement 10%. En fait, un prompt système stylistiquement distinctif – par exemple, clairement délimité ou avec un ton très formel – est nativement plus robuste, car l'IA comprend mieux son rôle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est super intéressant ! Et côté outils pour les développeurs, Vercel propose aussi de nouvelles fonctionnalités, comme les analytics directement depuis la ligne de commande. Fini le tableau de bord ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas tout à fait fini, mais c'est un gain de temps considérable ! Pouvoir interroger les analytics web directement depuis le terminal, sans ouvrir un navigateur, c'est un plus pour la rapidité d'exécution. C'est typiquement le genre d'amélioration qui simplifie le workflow des devs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pour le débogage des agents IA, ils ont aussi une nouveauté : Eve Agent Sessions Observability. Qu'est-ce que ça apporte pour ceux qui développent des IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est crucial pour le debugging des agents IA. Avec Eve Agent Sessions Observability, les développeurs peuvent voir et comprendre ce qui se passe pendant les sessions de leurs agents. Ça s'intègre parfaitement avec l'AI SDK 7 et Deep Agents, ce qui facilite grandement la correction des bugs et l'optimisation des comportements des IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons d'un cas d'usage assez audacieux : un développeur qui a utilisé Claude Code pour avoir un deuxième avis sur son IRM. Entre enthousiasme et avertissements médicaux, c'est un terrain miné, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un exemple frappant du potentiel mais aussi des limites éthiques. Le développeur a uploadé ses IRM à Claude Code Opus et a obtenu une analyse. Le thread sur Hacker News montre un mélange d'émerveillement face aux capacités de l'IA et de sérieuses mises en garde sur l'usage médical non supervisé."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On imagine bien les dangers si tout le monde commence à diagnostiquer ses maladies avec une IA. C'est fascinant, mais il faut une prudence extrême, j'imagine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Les LLM peuvent être de puissants outils d'aide à la décision pour les professionnels, mais ils ne remplacent en aucun cas un diagnostic médical humain. C'est une illustration parfaite des défis éthiques et réglementaires qui nous attendent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pour finir, une bonne nouvelle pour l'open source ! GLM 5.2 a battu Claude sur des benchmarks de cybersécurité. Est-ce que les modèles open-source sont en train de rattraper les géants ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une victoire importante ! Semgrep a comparé GLM 5.2, un modèle avec des poids ouverts sous licence MIT, à Claude sur des benchmarks de cybersécurité. GLM a gagné, et le titre 'We have Mythos at Home' est révélateur. Cela montre que l'innovation vient aussi de l'open-source, et qu'il n'est pas toujours nécessaire d'utiliser les modèles propriétaires les plus chers pour avoir de bonnes performances."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une excellente nouvelle pour la démocratisation de l'IA et la concurrence. Henri, merci pour toutes ces explications passionnantes !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir, Denise !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Alors, pour résumer les points clés de cet épisode : d'abord, la guerre des prix de l'IA est lancée, avec Google qui casse les tarifs, mettant la pression sur des acteurs comme Anthropic. Ensuite, la sécurité des outils d'IA est un enjeu majeur, que ce soit les failles comme celle d'Amazon Q ou la robustesse face aux 'prompt injections'."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, l'IA s'immisce de plus en plus dans notre quotidien, avec des agents autonomes comme Claude dans Slack, des outils pour développeurs toujours plus performants, mais aussi des questions éthiques fondamentales, comme l'usage des LLM pour des diagnostics médicaux. C'est un monde en constante évolution, et il faut rester vigilant et curieux !"
+    }
+  ]
+}

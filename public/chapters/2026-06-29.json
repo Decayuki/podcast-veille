@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Scandale de tarification Anthropic",
+    "startTime": 24
+  },
+  {
+    "title": "Guerre des prix de l'IA par Google",
+    "startTime": 102
+  },
+  {
+    "title": "Sécurité et autonomie des agents IA",
+    "startTime": 189
+  },
+  {
+    "title": "Innovations Serverless et outils dev",
+    "startTime": 290
+  },
+  {
+    "title": "Défis techniques et éthiques de l'IA",
+    "startTime": 352
+  },
+  {
+    "title": "Montée en puissance de l'IA Open Source",
+    "startTime": 515
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 562
+  }
+]

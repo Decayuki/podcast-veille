@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-06-29",
+    "title": "L'IA à prix Netflix et les dessous d'Anthropic",
+    "date": "2026-06-29",
+    "duration": "9:59",
+    "durationSeconds": 599,
+    "description": "Veille tech/IA/dev du 2026-06-29",
+    "audioUrl": "/podcast-veille/audio/2026-06-29.mp3",
+    "size": 9588862,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-06-29.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-06-29.json",
+    "coverUrl": "/podcast-veille/covers/2026-06-29.svg"
+  },
+  {
     "id": "2026-06-26",
     "title": "Au-delà du Chat : Agents IA, Géopolitique Tech et Fatigue du Vibecoding",
     "date": "2026-06-26",

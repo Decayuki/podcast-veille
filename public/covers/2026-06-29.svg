@@ -1,0 +1,42 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Formes géométriques abstraites (icônes tech) -->
+  <!-- Grande forme hexagonale semi-transparente pour le concept général de technologie/données -->
+  <!-- Centrée autour de (700, 900) avec un rayon de 250px -->
+  <polygon points="700,650 916.5,775 916.5,1025 700,1150 483.5,1025 483.5,775" fill="#ff66b2" opacity="0.3"/>
+
+  <!-- Groupe d'éléments représentant un réseau ou des nœuds d'IA -->
+  <!-- Positionné au centre de la partie inférieure pour équilibrer la composition -->
+  <g transform="translate(700, 900)">
+    <!-- Nœud central -->
+    <circle cx="0" cy="0" r="60" fill="#66ccff" opacity="0.7"/>
+    <!-- Nœuds connectés secondaires -->
+    <circle cx="150" cy="-50" r="30" fill="#66ccff" opacity="0.5"/>
+    <circle cx="-150" cy="-50" r="30" fill="#66ccff" opacity="0.5"/>
+    <circle cx="0" cy="180" r="40" fill="#66ccff" opacity="0.6"/>
+    <!-- Lignes de connexion entre les nœuds -->
+    <line x1="0" y1="0" x2="150" y2="-50" stroke="#66ccff" stroke-width="10" opacity="0.5"/>
+    <line x1="0" y1="0" x2="-150" y2="-50" stroke="#66ccff" stroke-width="10" opacity="0.5"/>
+    <line x1="0" y1="0" x2="0" y2="180" stroke="#66ccff" stroke-width="10" opacity="0.5"/>
+  </g>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <text x="700" y="500" font-family="sans-serif" font-size="100" font-weight="bold" fill="#66ffcc" text-anchor="middle">
+    L'IA à prix Netflix
+  </text>
+  <text x="700" y="620" font-family="sans-serif" font-size="100" font-weight="bold" fill="#66ffcc" text-anchor="middle">
+    et les dessous d'Anthropic
+  </text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="40" fill="#a0a0b0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode (petite, en bas) -->
+  <text x="700" y="1350" font-family="sans-serif" font-size="30" fill="#a0a0b0" text-anchor="middle">
+    2026-06-29
+  </text>
+</svg>
