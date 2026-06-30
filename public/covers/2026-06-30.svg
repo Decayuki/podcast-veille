@@ -1,0 +1,44 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Icône 1: Hexagone stylisé pour l'IA et les données (couleur verte vive) -->
+  <!-- Positionné au-dessus du titre, légèrement plus grand -->
+  <g fill="#4CAF50" transform="translate(700, 300) scale(1.2)">
+    <path d="M 0 -100 L 86.6 -50 L 86.6 50 L 0 100 L -86.6 50 L -86.6 -50 Z"/>
+    <!-- Point central pour représenter un nœud ou un focus -->
+    <circle cx="0" cy="0" r="20" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Icône 2: Crochets angulaires stylisés pour le code et le futur (couleur bleue vive) -->
+  <!-- Flanquent le titre, rappelant des balises de code ou une direction -->
+  <g fill="none" stroke="#2196F3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Crochet gauche -->
+    <path d="M 250 500 L 150 700 L 250 900" />
+    <!-- Crochet droit -->
+    <path d="M 1150 500 L 1250 700 L 1150 900" />
+  </g>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="550" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+        font-weight="bold" fill="#e0e0e0">
+    <tspan x="700" dy="0" font-size="80px">Au-delà des Buzzwords :</tspan>
+    <tspan x="700" dy="100" font-size="80px">Le Futur du Design, de l'IA et du Code</tspan>
+    <tspan x="700" dy="100" font-size="80px">en 2026</tspan>
+  </text>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+        font-size="40px" fill="#e0e0e0">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1300" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+        font-size="30px" fill="#e0e0e0">
+    2026-06-30
+  </text>
+</svg>

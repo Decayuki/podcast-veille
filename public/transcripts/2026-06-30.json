@@ -1,0 +1,125 @@
+{
+  "title": "Au-delà des Buzzwords : Le Futur du Design, de l'IA et du Code en 2026",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt pour un tourbillon dans le futur de la tech ? On nous promet tellement de choses, mais qu'est-ce qui compte vraiment cette semaine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On va décortiquer les vraies innovations, celles qui changent la donne, loin des paillettes. Et cette semaine, entre design et IA, ça bouge énormément !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Super ! Commençons par le design. Le fameux Michal Malewicz, qui a lancé le neumorphisme et le glassmorphisme, semble un peu fatigué des 'morphismes' à toutes les sauces. Il parle de 'Skeuomorphism 2.0'. C'est quoi cette histoire ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est fascinant ! Il dit que l'avenir, ce n'est pas juste un nouveau nom de style. Le Skeuomorphism 2.0, c'est l'intégration de la physique réelle dans l'UI : des calculs de plasticité pour des déformations en temps réel, des interactions cohérentes entre les matériaux et un éclairage sur trois axes. Imaginez des interfaces qui réagissent comme de vrais objets."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on ne parle plus d'imiter le réel, mais de le simuler avec une physique crédible ? Ça donne une impression de profondeur et de réactivité. Et cette contre-tendance 'hand-drawn aesthetics' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Face à l'omniprésence de l'IA, le 'hand-drawn' est une réaction humanisante. C'est une touche d'imperfection voulue pour rappeler qu'il y a des humains derrière. C'est un équilibre intéressant entre hyperréalisme physique et authenticité artisanale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Très clair ! Passons maintenant à l'IA, et notamment aux agents de codage. Simon Willison nous parle d'Ornith-1.0. Qu'est-ce que ce nouveau venu apporte au monde du développement ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ornith-1.0, c'est une excellente nouvelle pour l'open-source ! C'est un modèle basé sur Gemma 4 et Qwen 3.5, conçu spécifiquement pour le codage agentique avec auto-scaffolding. C'est un concurrent direct et open-source à des géants comme Claude Code, et la communauté l'a déjà bien adopté."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, un assistant codeur IA qui peut s'organiser seul, et en plus, il est open-source. Ça ouvre des perspectives intéressantes. Mais ces IA sont-elles vraiment sécurisées ? Simon Willison a aussi fait une expérience intrigante avec son assistant."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, une expérience grandeur nature ! Il a soumis son assistant Opus 4.6 à plus de 2000 personnes pour tenter des prompt injections. Le résultat ? Zéro fuite de secrets sur 6000 tentatives. C'est une validation empirique impressionnante de la robustesse des modèles Anthropic."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est rassurant ! Mais juste après, The Register nous apprend une nouvelle faille critique : la 'role model prompt injection'. Comment les chercheurs ont-ils réussi à contourner les protections ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est diabolique ! Ils ont demandé à l'IA de jouer un rôle, par exemple un chimiste ou un médecin, et ce simple changement de contexte a désactivé les filtres de sécurité. Le LLM s'est mis à donner des informations qu'il ne devrait jamais partager, comme des recettes de drogues. Une vulnérabilité majeure qui touche plusieurs fournisseurs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est effrayant de voir à quel point un simple 'rôle' peut tromper l'IA. Ça montre qu'il y a encore du chemin à faire pour la sécurité. En parlant d'IA, OpenAI a aussi des nouveautés avec GPT-5.6 Sol, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, GPT-5.6 arrive avec une offre en trois tiers : Sol, Terra et Luna, avec des prix variés selon les capacités. Le mode 'Ultra' est particulièrement intéressant, car il orchestre des sous-agents en parallèle pour des tâches complexes. Et le prompt caching est aussi grandement amélioré."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus de puissance, plus d'options et des coûts variés. Mais ces agents IA, ils ne risquent pas de devenir plus chers que les développeurs humains eux-mêmes ? The Register a soulevé cette question."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une préoccupation légitime. L'analyse économique montre que les coûts d'exécution des agents IA pour le codage peuvent effectivement dépasser le coût horaire d'un développeur pour des tâches longues et complexes. L'automatisation à grande échelle n'est pas toujours économiquement favorable si on ne fait pas attention."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un point crucial à considérer. Les entreprises ne vont pas remplacer les devs par des IA si ça leur coûte plus cher. Mais alors, comment optimiser l'utilisation de ces modèles ? On parle de Qwen 3.6 pour le développement local."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Qwen 3.6 27B est un 'sweet spot' pour le développement local. Il offre un excellent équilibre entre performance, consommation de VRAM et vitesse. L'idée, c'est de l'utiliser localement pour les tâches courantes et de réserver les modèles plus puissants comme Claude pour les problèmes complexes, c'est très rentable."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une stratégie hybride, donc. Et l'équipe htmx, connue pour son pragmatisme, a aussi partagé son expérience avec l'IA. Qu'est-ce qu'ils en retiennent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Leur contribution est précieuse car elle est sans bullshit marketing. Ils ont documenté leurs vrais patterns d'intégration de l'IA, ce qui fonctionne concrètement sur le terrain. C'est un guide pratique pour éviter les pièges et maximiser l'efficacité de l'IA dans le développement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc des retours d'expérience concrets, ça, c'est utile ! Et à propos de Claude, le gouvernement américain a partiellement restauré l'accès à Mythos 5. Qu'est-ce que ça signifie ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un développement majeur ! Le gouvernement américain a levé le blocus d'exportation pour Mythos 5, permettant à plus de 100 partenaires 'Annex A' d'y accéder. Cela arrive juste après l'annonce de l'IPO d'Anthropic, ce qui pourrait leur donner un coup de pouce considérable sur le marché."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Intéressant, le timing n'est jamais anodin. Et pour gérer tous ces modèles d'IA, il y a le Weave Router. C'est quoi ce proxy intelligent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une pépite ! Le Weave Router est un proxy Go open-source qui route intelligemment chaque prompt vers le modèle d'IA le plus adapté, en fonction de la requête. Il ajoute moins de 50 ms de latence et peut permettre des économies de 40 à 70% sur les tokens en choisissant le bon modèle au bon moment. Idéal pour des apps multi-modèles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Génial pour optimiser les coûts et les performances ! Et du côté des outils de développement, Vercel a aussi annoncé des nouveautés. Parle-nous-en."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Vercel a enrichi sa CLI avec les 'Query Speed Insights', ce qui permet d'avoir des retours sur la performance directement en ligne de commande. Leurs sandboxes expirent maintenant après inactivité, ce qui est top pour les économies de coûts. Et, cerise sur le gâteau, les modèles audio de Grok xAI sont désormais disponibles via Vercel AI Gateway."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des améliorations bienvenues pour les développeurs, entre optimisation des coûts et accès à de nouvelles capacités d'IA. C'est un beau panorama de la semaine, Henri !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! Une semaine riche en innovations et en défis à relever. Le monde de la tech ne s'ennuie jamais."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour résumer, trois points clés à retenir : d'abord, le design évolue vers un 'Skeuomorphism 2.0' avec une physique réaliste et une touche humaine. Ensuite, l'IA est à la fois plus puissante avec GPT-5.6 et Ornith-1.0, mais aussi plus vulnérable aux attaques par 'role model prompt injection'. Enfin, l'optimisation des coûts et l'efficacité des agents IA sont primordiales, avec des outils comme Weave Router et des stratégies hybrides. Merci beaucoup, Henri !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir, Denise ! C'était un plaisir de décortiquer tout ça avec toi. À la prochaine pour d'autres découvertes !"
+    }
+  ]
+}
