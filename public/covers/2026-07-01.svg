@@ -1,0 +1,32 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône AI/Data - Hexagone subtil en arrière-plan -->
+  <!-- Centré à (700, 400), "rayon" de 250px -->
+  <path d="M 950 400 L 825 616.5 L 575 616.5 L 450 400 L 575 183.5 L 825 183.5 Z"
+        fill="#66bb6a" opacity="0.2"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="500" font-family="sans-serif" font-weight="bold" font-size="90" fill="#e0f2f7" text-anchor="middle">
+    <tspan x="700" dy="0">L'IA en Feu :</tspan>
+    <tspan x="700" dy="110">Fugu, Sonnet 5</tspan>
+    <tspan x="700" dy="110">et les Secrets de</tspan>
+    <tspan x="700" dy="110">Claude Code</tspan>
+  </text>
+
+  <!-- Icône Code - Crochets angulaires -->
+  <!-- Crochet gauche -->
+  <polyline points="660,900 620,940 660,980"
+            stroke="#ffee58" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Crochet droit -->
+  <polyline points="740,900 780,940 740,980"
+            stroke="#ffee58" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Nom du podcast et date -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#a0a0b0" text-anchor="middle">
+    <tspan>Veille de Marc</tspan>
+    <tspan dx="20" dy="0">•</tspan>
+    <tspan dx="20" dy="0">2026-07-01</tspan>
+  </text>
+</svg>

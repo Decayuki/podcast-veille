@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-01",
+    "title": "L'IA en Feu : Fugu, Sonnet 5 et les Secrets de Claude Code",
+    "date": "2026-07-01",
+    "duration": "10:28",
+    "durationSeconds": 628,
+    "description": "Veille tech/IA/dev du 2026-07-01",
+    "audioUrl": "/podcast-veille/audio/2026-07-01.mp3",
+    "size": 10056141,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-01.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-01.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-01.svg"
+  },
+  {
     "id": "2026-06-30",
     "title": "Au-delà des Buzzwords : Le Futur du Design, de l'IA et du Code en 2026",
     "date": "2026-06-30",
