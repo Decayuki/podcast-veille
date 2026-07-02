@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA et Éthique : Quand l'Agent Devient Créateur et Défenseur</title>
+      <description>Veille tech/IA/dev du 2026-07-02</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-02.mp3" length="11207618" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:40</itunes:duration>
+    </item>
+    <item>
       <title>L'IA en Feu : Fugu, Sonnet 5 et les Secrets de Claude Code</title>
       <description>Veille tech/IA/dev du 2026-07-01</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-01.mp3" length="10056141" type="audio/mpeg"/>

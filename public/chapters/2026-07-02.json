@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "AI et la Créativité Littéraire",
+    "startTime": 50
+  },
+  {
+    "title": "Le Vibe Coding et la Compétence Technique",
+    "startTime": 125
+  },
+  {
+    "title": "Défis des Agents IA : Sécurité et Infrastructure",
+    "startTime": 198
+  },
+  {
+    "title": "Outils pour Gérer les Workflows IA",
+    "startTime": 336
+  },
+  {
+    "title": "IA pour la Recherche, la Documentation et l'Optimisation",
+    "startTime": 386
+  },
+  {
+    "title": "Marché des Modèles IA et Benchmarks",
+    "startTime": 515
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 649
+  }
+]

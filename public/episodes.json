@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-02",
+    "title": "IA et Éthique : Quand l'Agent Devient Créateur et Défenseur",
+    "date": "2026-07-02",
+    "duration": "11:40",
+    "durationSeconds": 700,
+    "description": "Veille tech/IA/dev du 2026-07-02",
+    "audioUrl": "/podcast-veille/audio/2026-07-02.mp3",
+    "size": 11207618,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-02.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-02.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-02.svg"
+  },
+  {
     "id": "2026-07-01",
     "title": "L'IA en Feu : Fugu, Sonnet 5 et les Secrets de Claude Code",
     "date": "2026-07-01",
