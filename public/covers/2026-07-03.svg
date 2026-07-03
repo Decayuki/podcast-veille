@@ -1,0 +1,45 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré et multi-lignes) -->
+  <text x="700" y="500" font-family="Arial, sans-serif" font-size="90" fill="#fca311" text-anchor="middle" font-weight="bold">
+    <tspan x="700" dy="0">Le Labo Tech :</tspan>
+    <tspan x="700" dy="110">Agents IA, Éthique et</tspan>
+    <tspan x="700" dy="110">PostgreSQL 19</tspan>
+  </text>
+
+  <!-- Icône 1: Engrenage (pour l'IA/Automation/Agents) -->
+  <!-- Positionné à gauche sous le titre -->
+  <g fill="#4ade80" transform="translate(450, 850)">
+    <circle r="80"/>
+    <!-- 8 dents d'engrenage -->
+    <rect x="-20" y="-100" width="40" height="40"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(45)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(90)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(135)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(180)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(225)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(270)"/>
+    <rect x="-20" y="-100" width="40" height="40" transform="rotate(315)"/>
+  </g>
+
+  <!-- Icône 2: Cylindre (pour PostgreSQL/Base de données) -->
+  <!-- Positionné à droite sous le titre -->
+  <g fill="#1e90ff">
+    <!-- Corps du cylindre -->
+    <path d="M860,800 A90,30 0 0,0 1040,800 V920 A90,30 0 0,1 860,920 Z"/>
+    <!-- Dessus du cylindre -->
+    <ellipse cx="950" cy="800" rx="90" ry="30"/>
+  </g>
+
+  <!-- Nom du podcast (en bas, petit) -->
+  <text x="700" y="1270" font-family="Arial, sans-serif" font-size="40" fill="#e0e0e0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode (en bas, petit) -->
+  <text x="700" y="1320" font-family="Arial, sans-serif" font-size="30" fill="#e0e0e0" text-anchor="middle">
+    2026-07-03
+  </text>
+</svg>

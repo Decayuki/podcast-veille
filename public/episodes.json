@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-03",
+    "title": "Le Labo Tech : Agents IA, Éthique et PostgreSQL 19",
+    "date": "2026-07-03",
+    "duration": "11:43",
+    "durationSeconds": 703,
+    "description": "Veille tech/IA/dev du 2026-07-03",
+    "audioUrl": "/podcast-veille/audio/2026-07-03.mp3",
+    "size": 11252340,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-03.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-03.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-03.svg"
+  },
+  {
     "id": "2026-07-02",
     "title": "IA et Éthique : Quand l'Agent Devient Créateur et Défenseur",
     "date": "2026-07-02",
