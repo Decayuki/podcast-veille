@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-06",
+    "title": "L'IA au Cœur du Code : Architectures, Attaques et Factures Salées",
+    "date": "2026-07-06",
+    "duration": "9:02",
+    "durationSeconds": 542,
+    "description": "Veille tech/IA/dev du 2026-07-06",
+    "audioUrl": "/podcast-veille/audio/2026-07-06.mp3",
+    "size": 8680637,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-06.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-06.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-06.svg"
+  },
+  {
     "id": "2026-07-03",
     "title": "Le Labo Tech : Agents IA, Éthique et PostgreSQL 19",
     "date": "2026-07-03",

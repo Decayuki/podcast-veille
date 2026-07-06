@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Harness Engineering et l'IA en Développement",
+    "startTime": 23
+  },
+  {
+    "title": "Ressources et Plateformes IA",
+    "startTime": 195
+  },
+  {
+    "title": "Défis Économiques et Sécuritaires de l'IA",
+    "startTime": 289
+  },
+  {
+    "title": "Impact de la Qualité du Code et Workflows IA",
+    "startTime": 377
+  },
+  {
+    "title": "La Tendance Local-First en IA",
+    "startTime": 461
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 489
+  }
+]

@@ -1,0 +1,38 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre principal -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Forme géométrique abstraite 1 : Bloc de données / Architecture (vert subtil) -->
+  <!-- Un rectangle légèrement incliné et aux coins arrondis pour représenter une structure ou un bloc de code. -->
+  <rect x="250" y="400" width="900" height="600" fill="#00e677" opacity="0.15" rx="30" ry="30" transform="rotate(-5 700 700)"/>
+
+  <!-- Forme géométrique abstraite 2 : Cœur IA / Nœud de réseau (rose subtil) -->
+  <!-- Un grand cercle semi-transparent pour le halo d'un nœud IA. -->
+  <circle cx="700" cy="700" r="180" fill="#ff4081" opacity="0.15"/>
+  
+  <!-- Point central du nœud IA (rose vif) -->
+  <circle cx="700" cy="700" r="10" fill="#ff4081"/>
+
+  <!-- Lignes de connexion pour le nœud IA (rose pâle) -->
+  <!-- Représente des connexions ou un flux de données autour du cœur IA. -->
+  <line x1="700" y1="700" x2="600" y2="550" stroke="#ff4081" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="700" x2="800" y2="550" stroke="#ff4081" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="700" x2="600" y2="850" stroke="#ff4081" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="700" x2="800" y2="850" stroke="#ff4081" stroke-width="2" opacity="0.4"/>
+
+  <!-- Titre de l'épisode -->
+  <!-- Centré horizontalement et verticalement, avec un décalage de ligne pour la lisibilité. -->
+  <text x="700" y="600" text-anchor="middle" font-family="sans-serif" font-weight="bold" fill="#00e676" font-size="80">
+    <tspan x="700" dy="0">L'IA au Cœur du Code :</tspan>
+    <tspan x="700" dy="100">Architectures, Attaques</tspan>
+    <tspan x="700" dy="100">et Factures Salées</tspan>
+  </text>
+
+  <!-- Nom du podcast -->
+  <!-- Placé en bas, centré, en petite taille. -->
+  <text x="700" y="1280" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-size="30">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <!-- Placée en bas, sous le nom du podcast, en petite taille. -->
+  <text x="700" y="1320" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-size="30">2026-07-06</text>
+</svg>

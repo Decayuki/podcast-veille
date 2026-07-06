@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA au Cœur du Code : Architectures, Attaques et Factures Salées</title>
+      <description>Veille tech/IA/dev du 2026-07-06</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-06.mp3" length="8680637" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:02</itunes:duration>
+    </item>
+    <item>
       <title>Le Labo Tech : Agents IA, Éthique et PostgreSQL 19</title>
       <description>Veille tech/IA/dev du 2026-07-03</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-03.mp3" length="11252340" type="audio/mpeg"/>
