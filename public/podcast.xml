@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA et Dev : L'Alberta sécurisée, Next.js vulnérable, et l'IA dans votre navigateur !</title>
+      <description>Veille tech/IA/dev du 2026-07-07</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-07.mp3" length="7700941" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>8:01</itunes:duration>
+    </item>
+    <item>
       <title>L'IA au Cœur du Code : Architectures, Attaques et Factures Salées</title>
       <description>Veille tech/IA/dev du 2026-07-06</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-06.mp3" length="8680637" type="audio/mpeg"/>

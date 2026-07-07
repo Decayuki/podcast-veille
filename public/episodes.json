@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-07",
+    "title": "IA et Dev : L'Alberta sécurisée, Next.js vulnérable, et l'IA dans votre navigateur !",
+    "date": "2026-07-07",
+    "duration": "8:01",
+    "durationSeconds": 481,
+    "description": "Veille tech/IA/dev du 2026-07-07",
+    "audioUrl": "/podcast-veille/audio/2026-07-07.mp3",
+    "size": 7700941,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-07.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-07.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-07.svg"
+  },
+  {
     "id": "2026-07-06",
     "title": "L'IA au Cœur du Code : Architectures, Attaques et Factures Salées",
     "date": "2026-07-06",

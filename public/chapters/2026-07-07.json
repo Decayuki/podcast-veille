@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "IA et Cybersécurité Gouvernementale",
+    "startTime": 36
+  },
+  {
+    "title": "L'IA au service des Développeurs",
+    "startTime": 101
+  },
+  {
+    "title": "Recherche et Capacités des Modèles IA",
+    "startTime": 164
+  },
+  {
+    "title": "Modèles IA Miniaturisés pour le Client",
+    "startTime": 268
+  },
+  {
+    "title": "Vulnérabilité Critique dans Next.js",
+    "startTime": 326
+  },
+  {
+    "title": "Impact Économique de l'IA et Marges",
+    "startTime": 382
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 437
+  }
+]
