@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-08",
+    "title": "Agents IA : Le Code, la Fuite et l'Atrophie des Compétences",
+    "date": "2026-07-08",
+    "duration": "8:16",
+    "durationSeconds": 496,
+    "description": "Veille tech/IA/dev du 2026-07-08",
+    "audioUrl": "/podcast-veille/audio/2026-07-08.mp3",
+    "size": 7940013,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-08.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-08.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-08.svg"
+  },
+  {
     "id": "2026-07-07",
     "title": "IA et Dev : L'Alberta sécurisée, Next.js vulnérable, et l'IA dans votre navigateur !",
     "date": "2026-07-07",

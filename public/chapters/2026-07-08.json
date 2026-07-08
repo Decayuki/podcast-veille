@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Success Story: Claude Code",
+    "startTime": 24
+  },
+  {
+    "title": "AI Security & Human-in-the-Loop",
+    "startTime": 118
+  },
+  {
+    "title": "AI Atrophy & Skill Preservation",
+    "startTime": 200
+  },
+  {
+    "title": "Open Source & Local-First AI",
+    "startTime": 252
+  },
+  {
+    "title": "Dev Tools & Infrastructure",
+    "startTime": 355
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 429
+  }
+]

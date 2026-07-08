@@ -1,0 +1,23 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre et élégant -->
+  <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré et lisible) -->
+  <text x="700" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="90" fill="#e0e0e0" font-weight="bold">Agents IA :</text>
+  <text x="700" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="90" fill="#e0e0e0" font-weight="bold">Le Code, la Fuite</text>
+  <text x="700" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="90" fill="#e0e0e0" font-weight="bold">et l'Atrophie des Compétences</text>
+
+  <!-- Icône 1 : Hexagone stylisé pour l'IA/Processus (en haut à gauche) -->
+  <polygon points="250,300 350,250 450,300 450,400 350,450 250,400" fill="#00e676" transform="rotate(-15 350 350)"/>
+
+  <!-- Icône 2 : Tracé de circuit/code avec des nœuds (en bas à droite) -->
+  <path d="M950 900 H1100 V1050 H1200" stroke="#2962ff" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="950" cy="900" r="20" fill="#2962ff"/>
+  <circle cx="1200" cy="1050" r="20" fill="#2962ff"/>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#9e9e9e">Veille de Marc</text>
+
+  <!-- Date de l'épisode (petit, en bas) -->
+  <text x="700" y="1300" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#9e9e9e">2026-07-08</text>
+</svg>
