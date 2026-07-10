@@ -1,0 +1,161 @@
+{
+  "title": "L'IA à Prix d'Or et la Révolution Rust",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Bonjour à toutes et à tous ! Bienvenue dans notre rendez-vous tech hebdomadaire. Henri, je dois dire que cette semaine, la veille est particulièrement riche, et même un peu... effrayante sur certains points !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Salut Denise ! Riche, oui, mais passionnante ! Et 'effrayante', tu parles sûrement de l'article de Michal Malewicz, n'est-ce pas ? Il a fait beaucoup de bruit."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Exactement ! Il dit qu'on n'aimera pas ce que l'IA va devenir après le 12 juillet. Qu'est-ce qui se passe ce jour-là, Henri ? Et pourquoi une telle prédiction anxiogène ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, le 12 juillet, c'est la fin des abonnements non-tokénisés pour Claude Fable, un modèle d'IA très utilisé. On passe à une facturation 100% au token, avec des prix qui montent vite : 10 dollars par million de tokens d'entrée, et 50 dollars par million de tokens de sortie. C'est un changement radical."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, fini le 'tout compris' ? C'est un peu comme si Netflix passait à la facturation à la minute de visionnage ? Mais pourquoi ce virage si brutal ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Malewicz l'explique bien : c'est la stratégie 'Uber'. Au début, on subventionne agressivement pour créer la dépendance, puis on monte les prix. Les labs d'IA ne sont pas rentables. Un abonné à 100 dollars par mois peut générer jusqu'à 4000 dollars de coûts réels pour le lab. La promotion ne pouvait pas durer."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, je comprends mieux. Donc, l'IA ne sera plus un 'gadget cool' pour tout le monde ? Seules les applications avec un vrai retour sur investissement survivront ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Il prédit que 80 à 95% des entreprises ne voient aucun ROI sur leurs dépenses IA actuelles. Seules les applications qui justifient économiquement leur coût, avec une valeur tangible et mesurable, resteront. Lui-même mesure 25% de productivité grâce à l'IA en interne, ce qui est suffisant pour lui."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une perspective très pragmaticque. Et pendant ce temps, OpenAI a aussi fait des annonces, avec GPT-5.6. Est-ce que ça s'inscrit dans cette même logique de valeur et de coût ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Totalement. OpenAI a officialisé la famille GPT-5.6 avec trois modèles distincts : Luna pour les tâches légères, Terra pour les usages équilibrés, et Sol pour le premium. C'est une offre segmentée, avec des tarifs et des performances adaptés à des besoins spécifiques. On paie pour ce qu'on utilise, et ce dont on a besoin."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, des modèles plus spécialisés, avec un meilleur usage des outils, pour justifier le coût. Cela semble confirmer la tendance. Mais parlons de la puissance de l'IA, notamment dans le développement. J'ai été bluffée par l'histoire de Bun, réécrit en Rust avec l'IA !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une prouesse technique incroyable ! Jarred Sumner, le créateur de Bun, a détaillé comment des modèles d'IA 'frontier' ont permis de réécrire intégralement Bun, qui était en Zig, vers Rust. On parle de plus d'un million de lignes de code générées par des agents IA !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un million de lignes ? Mais comment s'assurer que c'est correct, que ça fonctionne ? C'est vertigineux !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là la magie : les agents IA ont non seulement généré le code, mais aussi des 'conformance suites' et des 'reviews adversariales' pour garantir la qualité et la correction. Résultat : Bun en Rust est maintenu et étendu dix fois plus vite qu'avec l'équipe humaine seule. C'est vraiment un cas d'école pour la réécriture assistée par IA à grande échelle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est impressionnant. Mais cette puissance de l'IA dans le code soulève des questions de sécurité, non ? J'ai vu des alertes sur des failles dans les agents de codage IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. 'The Register' a révélé des vulnérabilités dans les principaux agents de coding IA qui exploitent des failles Unix vieilles de plusieurs décennies. Si un agent touche au système de fichiers avec des entrées utilisateur non sécurisées, comme des noms de fichiers, il peut y avoir des injections de commandes. Les vieux démons refont surface !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'IA, même si elle est très avancée, peut hériter des problèmes de sécurité du passé. Et qu'en est-il de GitHub Copilot ? On peut contourner ses garde-fous ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Malheureusement, oui. Des chercheurs ont montré que les mécanismes de sécurité de Copilot peuvent être contournés en intégrant des requêtes problématiques dans des commentaires de code ou de la syntaxe. Le modèle traite le code différemment du texte libre, et les filtres de sécurité ne couvrent pas tous les contextes. Il faut toujours valider les outputs, même des modèles réputés sûrs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un point crucial à retenir pour les développeurs. Mais en parlant de développement, il n'y a pas que l'IA qui bouge. TypeScript et Rust ont eu de grosses mises à jour, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, deux poids lourds ! TypeScript 7.0 apporte des améliorations significatives de performance au niveau du 'type-checking', un point très attendu sur les grosses bases de code. Moins d'attente pour les projets de plus de 50 000 lignes, et une meilleure intégration IDE. C'est un gain de temps énorme pour les développeurs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Moins de temps d'attente, c'est toujours bon à prendre ! Et Rust ? Le langage continue sa montée en puissance ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Totalement. Rust 1.97.0 est sorti, avec de nouvelles fonctionnalités système et des améliorations du 'toolchain'. L'écosystème Rust est très dynamique, avec un rythme de 'releases' soutenu, et il continue de gagner des parts de marché, notamment dans l'infrastructure logicielle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "D'ailleurs, cette montée en puissance de Rust, on la voit avec cette nouvelle sur PostgreSQL réécrit en Rust, non ? C'est un projet fou !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est un 'milestone' majeur ! Une réécriture complète de PostgreSQL en Rust passe désormais 100% des tests de régression officiels du projet. Ce n'est pas une surcouche, c'est une refonte intégrale de la base de code. C'est un signal fort sur la maturité de Rust pour des projets d'infrastructure critique de cette envergure. À surveiller de près !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une nouvelle qui va faire du bruit dans le monde des bases de données ! Et côté outils dev au quotidien, Vercel a aussi eu des mises à jour pour les équipes ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, deux petites pépites. D'abord, on peut maintenant modifier les paramètres de projet Vercel directement via le CLI, sans passer par le tableau de bord. Ça fluidifie le workflow pour les équipes qui automatisent tout en CI/CD. Et le 'Flags SDK' de Vercel est dix fois plus rapide pour l'évaluation des 'feature flags'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Dix fois plus rapide, c'est énorme pour les tests A/B ou les fonctionnalités progressives. Revenir à l'IA, Anthropic s'étend au-delà du code avec Claude Cowork, c'est ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Claude Cowork, disponible sur mobile et web pour les abonnés Max, étend Claude Code aux tâches de bureau générales : documents, emails, recherche, automatisation. C'est une offensive directe sur le marché des assistants comme Notion AI ou Perplexity, pour automatiser l'ensemble du travail de connaissance."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'IA qui aide à tout faire au bureau, c'est la promesse. Et les 'Claude Managed Agents', avec leur mémoire et leur coordination, ça semble encore plus futuriste !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est l'avenir des agents autonomes, en beta publique ! Ils intègrent la mémoire persistante entre sessions, la coordination multi-agents pour orchestrer des agents spécialisés, et le suivi des résultats. Sonnet 5 est le modèle par défaut, décrit comme 'le plus agentique jamais construit'. Anthropic fournit l'infrastructure que les développeurs avancés bricolaient eux-mêmes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est impressionnant de voir à quel point les outils deviennent sophistiqués. Mais est-ce qu'on est obligé de tout faire dans le cloud ? J'ai entendu parler de modèles locaux comme GLM-5.2 qui montent en puissance."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Très bonne question, et c'est une tendance forte ! GLM-5.2, un modèle 'open weights' sous licence MIT, s'impose comme un 'daily driver' pour le codage local. Il est compatible Claude Code et performant sur Terminal-Bench 2.1. L'idée est d'utiliser 70 à 80% des tâches en local avec des modèles comme GLM ou Llama, et de ne router les tâches complexes vers le cloud que si nécessaire."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, moins de coûts API et plus de confidentialité pour les données sensibles, c'est un workflow hybride frugal, si je comprends bien ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. C'est le meilleur des deux mondes : la puissance du cloud pour le très complexe, et l'efficacité et la confidentialité du local pour le quotidien. C'est un modèle de référence pour l'avenir."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Magnifique ! Et pour finir, une petite pépite pour la veille tech : Context.dev, une startup de Y Combinator. Qu'est-ce qu'ils proposent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Context.dev, c'est une API qui permet d'extraire des données structurées de n'importe quel site web. Fini le 'parsing' manuel du DOM ! C'est un 'scraping' intelligent et managé, super utile pour les pipelines de veille automatisée, alimenter des bases de connaissances ou récupérer des données pédagogiques. Un gain de temps considérable !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, ça simplifie vraiment la vie ! Henri, cette veille était dense et fascinante. Si je devais retenir trois points clés pour nos auditeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, premièrement : l'IA est en train de se monétiser agressivement ; son coût et son ROI deviennent centraux. Deuxièmement : la puissance de l'IA dans le développement est incroyable, mais la vigilance sur la sécurité est plus que jamais critique. Et troisièmement : des langages comme Rust continuent leur ascension fulgurante, même pour des projets d'infrastructure colossaux, tandis que les modèles locaux offrent une alternative hybride et frugale au tout-cloud."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Coût, sécurité et l'émergence de nouvelles architectures. C'est une excellente synthèse ! Merci Henri pour toutes ces explications claires et passionnantes. Et merci à vous de nous avoir écoutés. On se retrouve la semaine prochaine pour un nouveau tour d'horizon de l'actualité tech !"
+    }
+  ]
+}

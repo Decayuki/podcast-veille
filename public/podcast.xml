@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA à Prix d'Or et la Révolution Rust</title>
+      <description>Veille tech/IA/dev du 2026-07-10</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-10.mp3" length="9148333" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:31</itunes:duration>
+    </item>
+    <item>
       <title>Agents IA : Le Code, la Fuite et l'Atrophie des Compétences</title>
       <description>Veille tech/IA/dev du 2026-07-08</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-08.mp3" length="7940013" type="audio/mpeg"/>
