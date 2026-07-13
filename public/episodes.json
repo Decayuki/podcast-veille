@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-13",
+    "title": "Le Code du Futur : Agents IA, Vibe Coding et Responsabilité Humaine",
+    "date": "2026-07-13",
+    "duration": "10:08",
+    "durationSeconds": 608,
+    "description": "Veille tech/IA/dev du 2026-07-13",
+    "audioUrl": "/podcast-veille/audio/2026-07-13.mp3",
+    "size": 9729296,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-13.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-13.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-13.svg"
+  },
+  {
     "id": "2026-07-10",
     "title": "L'IA à Prix d'Or et la Révolution Rust",
     "date": "2026-07-10",

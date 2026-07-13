@@ -1,0 +1,217 @@
+{
+  "title": "Le Code du Futur : Agents IA, Vibe Coding et Responsabilité Humaine",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Bienvenue dans cet épisode qui s'annonce électrique ! Accrochez-vous, car la tech, l'IA et le dev n'ont jamais bougé aussi vite. Henri, on a du lourd à décortiquer aujourd'hui, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On va parler d'agents IA qui écrivent du code, de protocoles qui tombent en désuétude avant même d'être adoptés, et de ce que ça change pour nous, développeurs et entreprises. C'est un vrai tourbillon !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, commençons par un titre qui a fait grand bruit : 'MCP is Dead' dans Claude Code. MCP, ça sonne très technique. Peux-tu nous éclairer sur ce qu'est le Model Context Protocol et pourquoi il est déjà obsolète ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le MCP, c'était une tentative de créer une couche d'interaction standardisée entre les IA et leurs outils. L'idée était que l'IA puisse 'comprendre' et utiliser ces outils de manière autonome. Mais Nick Babich, un expert UX, a sonné le glas."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pourquoi cette sentence ? Qu'est-ce qui le rend si problématique en pratique ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Plusieurs raisons. D'abord, une complexité excessive : ça ajoutait une couche d'interprétation que les LLMs géraient mal, menant à des configs compliquées. Ensuite, une fiabilité inconstante : l'IA n'utilisait pas toujours le protocole comme prévu, forçant les devs à créer des plans B."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pire encore, la scalabilité était limitée; plus on montait en puissance, plus la dérive entre le comportement attendu et réel explosait. Et le 'token bloat' était catastrophique : un seul appel pouvait consommer des dizaines de milliers de tokens, dégradant la qualité du modèle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'était une sorte de surcouche trop lourde et imprévisible. Et la sécurité là-dedans ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Cela ouvrait une surface d'attaque. L'IA décidait seule quand utiliser les outils. Des injections de prompt pouvaient potentiellement forcer l'IA à des actions non désirées, voire des fuites de données."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Effrayant ! Quelles sont les alternatives pour que l'IA dialogue avec les outils de manière plus sûre et efficace ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Les experts recommandent de revenir aux bases : des API et CLI directs pour un contrôle précis. Ou alors, les approches plus structurées de type 'tool calling' proposées par Anthropic ou OpenAI, qui utilisent des schémas stricts pour guider l'IA, réduisant les hallucinations."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Clair, on cherche plus de contrôle et moins d'interprétation libre de l'IA. Cette question de contrôle nous amène d'ailleurs à un autre sujet crucial : la responsabilité. Simon Willison a soulevé la question des 'Directly Responsible Individuals', les DRI. Une IA peut-elle être un DRI ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "La réponse est un non retentissant, Denise. Simon Willison, reprenant une citation d'IBM de 1979, affirme qu'un ordinateur ne peut jamais être tenu responsable, et donc ne doit jamais prendre de décision de gestion. L'accountability, la responsabilité ultime, reste exclusivement humaine."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fondamental. Peu importe la sophistication de l'IA, quelqu'un doit toujours signer de son nom. Cela renforce l'idée que l'humain reste au centre, même avec des agents IA omniprésents."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. C'est un rappel essentiel alors que les agents IA s'intègrent de plus en plus profondément dans nos organisations et nos workflows."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant d'agents IA, le marché bouge aussi. Quelles sont les dernières nouvelles de chez Anthropic et OpenAI ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Anthropic a prolongé l'accès à Claude Fable, leur modèle de raisonnement avancé, ce qui est une excellente nouvelle pour les utilisateurs 'Max plan'. Chez OpenAI, ils déploient GPT-5.6 Sol sans restrictions d'utilisation. Sol est le modèle le plus accessible de la famille GPT-5.6."
+    },
+    {
+      "speaker": "Denise",
+      "text": "OpenAI semble très confiant pour lever les garde-fous habituels de 'rate-limiting'. C'est un signal fort sur la maturité de leurs modèles."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une confiance agressive qui suggère que les modèles sont robustes et prêts pour une utilisation à grande échelle, même sur les tiers les plus abordables."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Cette transparence et cette confiance, on la retrouve aussi avec la nouvelle initiative d'Anthropic, 'Inviting Hard Questions'. Ils posent des questions très difficiles au public, c'est audacieux, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une initiative de transparence radicale. Anthropic invite le grand public à poser les questions les plus difficiles sur l'IA, et s'engage à y répondre publiquement et à montrer les actions concrètes. C'est inédit."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Quels types de questions posent-ils ? Celles qui nous préoccupent tous, j'imagine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Par exemple : 'Qui décide des règles pour l'IA ?', 'L'IA peut-elle offrir un meilleur avenir aux enfants ?', 'L'IA rend-elle le monde plus dangereux ?' ou 'L'IA peut-elle aider les scientifiques à guérir des maladies ?' Ils ont même créé l'Anthropic Institute pour étudier ces défis."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une démarche très louable. Passons maintenant au monde du développement. On entend parler de 'vibe coding'. Qu'est-ce que c'est, et quel impact ça a ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le 'vibe coding', c'est l'idée que l'on se concentre sur l'intention, l'idée générale, et que les agents IA se chargent de la traduction en code et des détails techniques. L'ère des dépôts Git classiques serait finie au profit d'agents qui commitent directement depuis du langage naturel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Intéressant ! Et il y a déjà des acteurs qui se positionnent sur ce créneau ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Nat Friedman, l'ancien PDG de GitHub, vient de lancer un concurrent direct à GitHub/Copilot, pensé nativement pour cette ère du 'vibe coding'. Le pitch est 'intention → code → déployé' sans passer par les workflows Git manuels."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une vision radicale qui remet en question nos habitudes de développeurs. D'ailleurs, il y a eu un article provocateur qui défend l'idée de ne pas comprendre son codebase. Ça colle avec le 'vibe coding', non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Tout à fait, Denise. Sean Goedecke, l'auteur, argumente que l'obsession de la compréhension totale est un luxe du passé. Avec les agents IA, ce qui compte, c'est de livrer de la valeur. L'agent peut naviguer le code pour nous, changeant notre relation avec le codebase."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une idée qui peut faire grincer des dents, mais elle est logique si les agents deviennent vraiment nos co-pilotes, voire nos copilotes autonomes."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. L'IA ne remplace pas le développeur, mais elle transforme le rôle, nous libérant pour des tâches à plus haute valeur ajoutée."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour illustrer l'utilité concrète de ces agents, le mathématicien Terry Tao, Médaille Fields, a partagé une expérience fascinante. Il a utilisé l'IA pour ressusciter du vieux code ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une histoire incroyable ! Il avait des applets Java 1.0 de 1999, non fonctionnels. Il a utilisé des agents IA pour migrer 27 ans de code Java vers du web moderne. En quelques heures, les agents ont porté le code et ont même trouvé deux bugs qu'il n'avait pas détectés en presque trois décennies !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Deux bugs que Terry Tao lui-même n'avait pas vus en 27 ans ! C'est bluffant. Comment a-t-il procédé ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il a documenté son workflow complet : beaucoup de 'prompt engineering' pour donner un contexte structuré aux agents, des itérations, et bien sûr, une vérification humaine des sorties. La clé, c'est de fournir un contexte fiable et bien défini."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un témoignage puissant de l'efficacité des agents pour des tâches de migration ou de modernisation de code. Parlons maintenant d'outils de développement plus classiques, Vercel a eu pas mal d'annonces récemment, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Vercel est très actif ! Pour l'observabilité, leurs traces supportent désormais des vues arborescentes et en cascade, un game changer pour débugger des Server Actions complexes. Et Lovable, le builder no-code IA, peut maintenant exporter directement sur Vercel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, plus de visibilité sur les exécutions et une intégration facilitée pour le no-code. Et côté sécurité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Très important : les logs de build masquent automatiquement les variables d'environnement sensibles, adieu les risques de fuites d'API keys. Et pour les modèles d'IA, Seedream 5.0 Pro est maintenant disponible via l'AI Gateway, confirmant Vercel comme un hub multi-modèles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des avancées très concrètes pour les développeurs. Et pour nos outils de versionning, on a aussi du nouveau avec Jujutsu ? Faut-il abandonner Git ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Jujutsu, ou 'jj', est un nouveau VCS qui monte. Il est compatible Git, mais repense l'expérience utilisateur. Plus de 'staging area', votre 'working copy' est toujours dans un commit, et les conflits sont traités comme des citoyens de première classe, pas des états bloquants."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pas de 'staging area', les conflits gérés différemment... ça change radicalement la façon de travailler. C'est une révolution pour les développeurs ou une niche ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une évolution pensée par Evan, l'auteur de Ninja. Pour ceux qui trouvent Git complexe, c'est une alternative très prometteuse qui pourrait simplifier beaucoup de workflows. À suivre de près !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour finir, parlons de l'impact de l'IA sur l'emploi. On entend souvent des craintes, mais une étude dit le contraire. Les entreprises qui ajoutent plus d'IA augmentent aussi leurs effectifs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est contre-intuitif mais les faits sont là. Les entreprises qui adoptent massivement l'IA augmentent leurs effectifs plutôt que de les réduire. L'IA génère de nouveaux besoins, de nouveaux rôles de supervision, et de nouveaux projets qui n'auraient pas existé sans elle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une excellente nouvelle, qui montre que l'IA est plus un catalyseur de croissance et de création d'emplois qu'une menace directe. Il faut juste s'adapter aux nouveaux rôles."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, Denise. L'IA déplace les besoins et ouvre des opportunités. Il faut former les gens pour ces nouveaux métiers."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, quelle richesse ! Si on devait retenir 2 ou 3 points clés de cet épisode, quels seraient-ils ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Premièrement, les agents IA transforment radicalement le développement, comme l'a montré Terry Tao, en nous aidant à produire plus et mieux, mais ils nécessitent un contexte structuré et une supervision humaine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Deuxièmement, la responsabilité reste humaine. L'IA ne peut pas être un DRI. Et troisièmement, malgré les peurs, l'IA semble créer plus d'emplois qu'elle n'en détruit, en générant de nouveaux besoins et de nouveaux rôles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des points essentiels qui dessinent un avenir technologique passionnant, où l'humain et l'IA travaillent de concert. Merci Henri pour toutes ces explications claires et enthousiastes !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir, Denise ! À la prochaine pour d'autres découvertes !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Merci de nous avoir écoutés, et rendez-vous la semaine prochaine pour une nouvelle plongée dans le futur de la tech !"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400" width="1400" height="1400">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Icônes géométriques abstraites -->
+  <!-- Icône 1: Réseau IA/Données (vert vif) -->
+  <circle cx="550" cy="400" r="30" fill="#00e676"/>
+  <circle cx="600" cy="350" r="30" fill="#00e676"/>
+  <circle cx="650" cy="400" r="30" fill="#00e676"/>
+  <line x1="550" y1="400" x2="600" y2="350" stroke="#00e676" stroke-width="12" stroke-linecap="round"/>
+  <line x1="600" y1="350" x2="650" y2="400" stroke="#00e676" stroke-width="12" stroke-linecap="round"/>
+  <line x1="550" y1="400" x2="650" y2="400" stroke="#00e676" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Icône 2: Balises de code (bleu vif) -->
+  <path d="M 770 325 L 720 400 L 770 475" fill="none" stroke="#00b0ff" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 830 325 L 880 400 L 830 475" fill="none" stroke="#00b0ff" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" y="550" font-family="sans-serif" font-size="95" font-weight="bold" fill="#e0e0e0" text-anchor="middle">Le Code du Futur :</text>
+  <text x="700" y="650" font-family="sans-serif" font-size="95" font-weight="bold" fill="#e0e0e0" text-anchor="middle">Agents IA, Vibe Coding et</text>
+  <text x="700" y="750" font-family="sans-serif" font-size="95" font-weight="bold" fill="#e0e0e0" text-anchor="middle">Responsabilité Humaine</text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="35" fill="#909090" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="35" fill="#909090" text-anchor="middle">2026-07-13</text>
+</svg>
