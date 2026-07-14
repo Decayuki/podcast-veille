@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Au cœur de la tech : IA sans review, SQLite en prod et cache CI/CD</title>
+      <description>Veille tech/IA/dev du 2026-07-14</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-14.mp3" length="10161048" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-14</guid>
+      <pubDate>Tue, 14 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:34</itunes:duration>
+    </item>
+    <item>
       <title>Le Code du Futur : Agents IA, Vibe Coding et Responsabilité Humaine</title>
       <description>Veille tech/IA/dev du 2026-07-13</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-13.mp3" length="9729296" type="audio/mpeg"/>

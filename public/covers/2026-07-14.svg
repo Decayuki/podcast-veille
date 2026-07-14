@@ -1,0 +1,24 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+    <!-- Fond sombre -->
+    <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+    <!-- Formes géométriques simples et vives (arrière-plan) -->
+    <!-- Carré abstrait, légèrement tourné -->
+    <rect x="350" y="350" width="700" height="700" fill="#00f5d4" opacity="0.3" transform="rotate(20 700 700)"/>
+    <!-- Cercle abstrait, légèrement décalé -->
+    <circle cx="750" cy="750" r="300" fill="#ffc300" opacity="0.3"/>
+
+    <!-- Titre de l'épisode -->
+    <text x="700" y="630" text-anchor="middle" fill="white" font-size="60" font-weight="bold">
+        <tspan x="700" dy="0em">Au cœur de la tech :</tspan>
+        <tspan x="700" dy="1.2em">IA sans review,</tspan>
+        <tspan x="700" dy="1.2em">SQLite en prod</tspan>
+        <tspan x="700" dy="1.2em">et cache CI/CD</tspan>
+    </text>
+
+    <!-- Nom du podcast -->
+    <text x="700" y="1250" text-anchor="middle" fill="#cccccc" font-size="30">Veille de Marc</text>
+
+    <!-- Date de l'épisode -->
+    <text x="700" y="1300" text-anchor="middle" fill="#aaaaaa" font-size="25">2026-07-14</text>
+</svg>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Optimiser uvx dans GitHub Actions",
+    "startTime": 27
+  },
+  {
+    "title": "La controverse Bun et le code généré par IA",
+    "startTime": 110
+  },
+  {
+    "title": "Claude Code et la controverse sur le monitoring",
+    "startTime": 192
+  },
+  {
+    "title": "Les nouveautés de Vercel",
+    "startTime": 279
+  },
+  {
+    "title": "Lobste.rs migre vers SQLite",
+    "startTime": 386
+  },
+  {
+    "title": "Le coût caché des tokens avec Claude Code",
+    "startTime": 480
+  },
+  {
+    "title": "Conclusion et leçons clés",
+    "startTime": 587
+  }
+]
