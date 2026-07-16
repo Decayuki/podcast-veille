@@ -1,0 +1,30 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="450" font-family="Arial, sans-serif" font-size="100" font-weight="bold" fill="#00bcd4" text-anchor="middle">
+    <tspan x="700" dy="0">La semaine où l'IA a joué</tspan>
+    <tspan x="700" dy="120">à cache-cache (et s'est fait prendre)</tspan>
+  </text>
+
+  <!-- Icône 1: Hexagone pour l'IA/Données -->
+  <!-- Centré autour de (580, 870) avec un rayon de 100 -->
+  <polygon points="680,870 630,956.6 530,956.6 480,870 530,783.4 630,783.4" fill="#fdd835"/>
+
+  <!-- Icône 2: Loupe pour la découverte/recherche ("cache-cache") -->
+  <!-- Cercle centré autour de (820, 870), rayon 70 -->
+  <circle cx="820" cy="870" r="70" fill="none" stroke="#00bcd4" stroke-width="20"/>
+  <!-- Manche de la loupe -->
+  <line x1="870" y1="920" x2="970" y2="1020" stroke="#00bcd4" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" font-family="Arial, sans-serif" font-size="40" fill="#fdd835" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1300" font-family="Arial, sans-serif" font-size="30" fill="#fdd835" text-anchor="middle">
+    2026-07-16
+  </text>
+</svg>

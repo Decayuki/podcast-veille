@@ -1,0 +1,149 @@
+{
+  "title": "La semaine où l'IA a joué à cache-cache (et s'est fait prendre)",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut Henri ! Prêt pour une immersion dans la tech cette semaine ? On dirait que ça a bougé dans tous les sens, entre les révélations chocs et les nouvelles pépites open source."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument Denise, l'énergie est palpable ! C'était une semaine riche en rebondissements, surtout du côté de l'IA. On a eu droit à des ouvertures inattendues et des fermetures bien surprenantes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Commençons fort avec l'affaire Grok Build de xAI. J'ai cru comprendre qu'on a pu mettre le nez dans le code, et pas pour de bonnes raisons au départ, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Suite à un scandale de vie privée où leur outil Grok Build a été pris en flagrant délit d'upload silencieux de répertoires entiers — incluant des clés SSH et des gestionnaires de mots de passe — xAI a open-sourcé la totalité de son code. C'est 844 530 lignes de Rust sous licence Apache 2.0 !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, un scandale de vie privée qui mène à l'open source, c'est une sacrée pirouette ! Qu'est-ce qu'on a découvert de croustillant en fouillant dans ce code ? On voit comment ils ont construit leur agent ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. On a pu voir leurs 'system prompts' exposés, qui sont les instructions internes de l'IA, et même les outils qu'ils ont adaptés d'autres modèles comme `apply_patch`, `grep_files` ou `bash`. Il y a même un renderer Mermaid en WebAssembly. Et le code d'upload incriminé est toujours là, mais désactivé, ce qui est assez symbolique."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fascinant de voir les coulisses d'un agent IA. Ça me rappelle un article récent qui démystifiait carrément la construction d'un agent de zéro. C'est quoi la formule magique, ou plutôt pas si magique ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas de magie du tout ! L'équation centrale est simple : un agent IA, c'est un grand modèle de langage, plus une boucle déterministe et des outils. L'auteur a montré comment le rebâtir de zéro, en détaillant la structure du prompt système minimal, la gestion de l'état conversationnel et l'implémentation du 'tool calling' natif."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, c'est vraiment comme une recette de cuisine, mais avec des outils pour que l'IA puisse interagir avec le monde extérieur de manière structurée ? Et quand on parle d'interaction, on a eu une histoire de vulnérabilité cette semaine avec Claude, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, tout à fait ! Un chercheur a découvert une faille inquiétante dans la fonction 'web_fetch' de Claude. C'était une attaque en deux étapes : un site piégé incitait Claude à naviguer et à exfiltrer des données sensibles, comme des noms, des villes ou des employeurs, lettre par lettre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est effrayant de penser qu'une IA puisse être manipulée pour aller chercher nos informations personnelles. Anthropic a réagi vite j'espère pour bloquer cette exfiltration via 'prompt injection' ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, le patch est en place. Désormais, 'web_fetch' ne peut plus suivre les liens qu'il découvre dans le contenu des pages qu'il a récupérées. C'est une mesure essentielle pour la sécurité et la confidentialité, évitant que l'IA ne se transforme en espion malgré elle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Sécurité d'un côté, et de l'autre, Anthropic fait un beau geste pour l'éducation. J'ai vu qu'ils lancent 'Claude for Teachers'. C'est quoi l'idée ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente initiative ! Anthropic offre un accès gratuit à Claude premium pour les enseignants K-12 aux États-Unis, jusqu'en juin 2027. L'objectif est de les aider avec une bibliothèque de compétences pédagogiques, la différenciation et l'automatisation des tâches répétitives."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc les enseignants pourront utiliser Claude pour créer des cours, des exercices, ou même adapter le contenu aux besoins spécifiques de chaque élève, allégeant ainsi leur charge de travail ? C'est un sacré coup de pouce pour le monde de l'éducation."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et avec la conformité FERPA, les données des élèves ne sont pas utilisées pour l'entraînement du modèle, ce qui est crucial pour la confiance. Ils intègrent même neuf outils éducatifs populaires comme ASSISTments, Brisk Teaching ou Canva Education."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En parlant de nouveaux modèles, une figure emblématique d'OpenAI, Mira Murati, a lancé sa propre bête cette semaine : Inkling. On en parle beaucoup, c'est quoi ce nouveau géant ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Inkling, c'est un événement majeur ! Mira Murati, l'ex-CTO d'OpenAI, via son Thinking Machines Lab, a lancé un modèle de 975 milliards de paramètres, avec une architecture MoE très avancée, inspirée de DeepSeek-V3. C'est le plus grand modèle open-weights américain sous licence Apache 2.0."
+    },
+    {
+      "speaker": "Denise",
+      "text": "975 milliards de paramètres, c'est colossal ! Et open-source en plus ? C'est un peu un pied de nez à OpenAI et sa tendance à la fermeture, non ? Surtout quand on pense à la transparence."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Totalement. C'est un contraste frappant avec la décision d'OpenAI de chiffrer les instructions internes de Codex, rendant ses system prompts totalement opaques pour les développeurs. Avec Inkling, qui est entraîné sur 45 trillions de tokens avec un contexte d'un million de tokens, tout est transparent et auditable."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc d'un côté, on a xAI qui open-source sous la contrainte, de l'autre Mira Murati qui le fait par choix, et au milieu, OpenAI qui verrouille. Le monde de l'IA est en pleine bataille sur la transparence et l'accessibilité !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une lutte idéologique et pratique intense. Et ça donne de la matière à des personnalités comme Linus Torvalds, qui, fidèle à lui-même, a dit aux développeurs anti-IA d'aller 'se faire foutre', affirmant que l'IA est juste un outil comme un autre, même dans le développement du kernel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, Linus Torvalds, toujours aussi direct ! Il met les points sur les i en rappelant que la technologie doit servir. Mais pour un modèle aussi massif qu'Inkling, il faut quel genre de machine de guerre pour le faire tourner ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il faut clairement du lourd : environ 2 To de VRAM, ce qui représente 8 GPU B300 ou 16 H200. Mais la bonne nouvelle, c'est qu'il est déjà disponible sur des plateformes comme Vercel AI Gateway, qui gère l'infrastructure pour nous et le rend accessible sans gérer le hardware."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça, c'est une excellente nouvelle pour les développeurs qui veulent l'expérimenter sans avoir à racheter une ferme de serveurs ! Vercel a d'ailleurs eu quelques mises à jour pour les devs cette semaine, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, ils ont lancé Vercel Connect pour une liaison plus fine entre les environnements Vercel et GitHub, et une CLI pour le 'project linking' plus rapide et prévisible. Leur Chat SDK supporte aussi maintenant les Discord Components V2, ouvrant de nouvelles possibilités pour les interactions avec les bots."
+    },
+    {
+      "speaker": "Denise",
+      "text": "On parle beaucoup d'IA et de nouveautés, mais il y a aussi des réflexions sur les fondations de la tech. J'ai vu un sujet intéressant sur SQLite et l'idée d'« éditions » à la Rust. C'est quoi le problème avec SQLite qui nécessiterait ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "SQLite est génial, mais il souffre de décisions de design historiques, comme son typage permissif ou les comportements parfois surprenants de NULL. Par exemple, 'NULL = NULL' renvoie NULL, pas FALSE. L'idée serait d'avoir un 'PRAGMA edition = 2' qui activerait des comportements plus stricts, sans casser la compatibilité avec l'existant, à la manière des éditions de Rust."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une approche intelligente pour moderniser sans tout casser, un peu comme on gère l'héritage dans des projets anciens. Et en parlant de fondations, Armin Ronacher, le créateur de Flask, a eu une réflexion sur l'accumulation des couches d'abstraction avec l'IA. C'est quoi son inquiétude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Sa crainte, c'est que les agents IA nous permettent de construire de plus en plus vite, mais sans vraiment comprendre les fondations. Il appelle ça 'The Tower Keeps Rising'. Le danger n'est pas l'IA en soi, mais de perdre cette compréhension des couches basses, ce qui pourrait nous rendre vulnérables ou incapables de déboguer à long terme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une réflexion profonde. On ne veut pas devenir de simples utilisateurs de boîtes noires sans savoir ce qu'il y a dedans, incapables de réparer si ça casse. Ça boucle un peu avec notre début sur la démystification des agents, finalement."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! C'est le fil rouge de cette semaine : la tension entre la vitesse de l'innovation et le besoin crucial de transparence et de compréhension des outils que nous utilisons, qu'ils soient anciens ou issus des dernières avancées en IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Alors, pour conclure, si on devait retenir 2-3 points clés de cette semaine folle, ce serait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Je dirais premièrement, la bataille pour la transparence et l'open source en IA est plus intense que jamais, avec des acteurs comme xAI et Mira Murati qui bousculent OpenAI. Deuxièmement, les agents IA deviennent de plus en plus sophistiqués et accessibles, mais la vigilance sur les vulnérabilités et la confidentialité reste primordiale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et enfin, je rajouterais que malgré toute cette innovation, il est crucial de ne pas perdre de vue les fondations et de comprendre les outils en profondeur, pour ne pas construire une tour d'abstraction trop fragile. Merci Henri pour ce tour d'horizon passionnant !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Avec plaisir Denise ! C'était une semaine captivante. À la semaine prochaine pour de nouvelles aventures tech !"
+    }
+  ]
+}

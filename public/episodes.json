@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-16",
+    "title": "La semaine où l'IA a joué à cache-cache (et s'est fait prendre)",
+    "date": "2026-07-16",
+    "duration": "8:30",
+    "durationSeconds": 510,
+    "description": "Veille tech/IA/dev du 2026-07-16",
+    "audioUrl": "/podcast-veille/audio/2026-07-16.mp3",
+    "size": 8169891,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-16.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-16.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-16.svg"
+  },
+  {
     "id": "2026-07-14",
     "title": "Au cœur de la tech : IA sans review, SQLite en prod et cache CI/CD",
     "date": "2026-07-14",

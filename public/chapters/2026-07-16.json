@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Scandale Grok Build et Open Source",
+    "startTime": 22
+  },
+  {
+    "title": "Agents IA : Fonctionnement et Failles",
+    "startTime": 81
+  },
+  {
+    "title": "Anthropic : Sécurité et Éducation",
+    "startTime": 167
+  },
+  {
+    "title": "Inkling : Nouveau Géant Open-Source et Débat sur la Transparence",
+    "startTime": 223
+  },
+  {
+    "title": "Outils Dev et Réflexions sur les Fondations Tech",
+    "startTime": 341
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 465
+  }
+]
