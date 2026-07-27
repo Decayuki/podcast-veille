@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Boucles d'IA, Opus 5 et Marché Noir de Tokens</title>
+      <description>Veille tech/IA/dev du 2026-07-27</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-27.mp3" length="7729780" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>8:03</itunes:duration>
+    </item>
+    <item>
       <title>La semaine où l'IA a joué à cache-cache (et s'est fait prendre)</title>
       <description>Veille tech/IA/dev du 2026-07-16</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-16.mp3" length="8169891" type="audio/mpeg"/>

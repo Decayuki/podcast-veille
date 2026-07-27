@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-27",
+    "title": "Boucles d'IA, Opus 5 et Marché Noir de Tokens",
+    "date": "2026-07-27",
+    "duration": "8:03",
+    "durationSeconds": 483,
+    "description": "Veille tech/IA/dev du 2026-07-27",
+    "audioUrl": "/podcast-veille/audio/2026-07-27.mp3",
+    "size": 7729780,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-27.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-27.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-27.svg"
+  },
+  {
     "id": "2026-07-16",
     "title": "La semaine où l'IA a joué à cache-cache (et s'est fait prendre)",
     "date": "2026-07-16",

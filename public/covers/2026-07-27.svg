@@ -1,0 +1,32 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fond sombre -->
+  <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="650" font-family="sans-serif" font-size="70" font-weight="bold" fill="white" text-anchor="middle">
+    Boucles d'IA, Opus 5
+  </text>
+  <text x="700" y="730" font-family="sans-serif" font-size="70" font-weight="bold" fill="white" text-anchor="middle">
+    et Marché Noir de Tokens
+  </text>
+
+  <!-- Icône 1: Boucle stylisée (pour "Boucles d'IA") -->
+  <g transform="translate(350,350) rotate(-15)">
+    <circle r="100" fill="none" stroke="#00f0ff" stroke-width="15" stroke-dasharray="300 100" stroke-linecap="round"/>
+    <path d="M 0 -100 L 20 -80 M 0 -100 L -20 -80" stroke="#00f0ff" stroke-width="15" stroke-linecap="round"/>
+  </g>
+
+  <!-- Icône 2: Hexagone stylisé (pour "Tokens") -->
+  <g transform="translate(1050,830) rotate(15)">
+    <polygon points="0 -70, 60 -35, 60 35, 0 70, -60 35, -60 -35" fill="#a020f0" />
+    <rect x="-30" y="-15" width="60" height="30" fill="#1a1a2e" rx="5" ry="5"/>
+  </g>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" font-family="sans-serif" font-size="35" fill="white" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#cccccc" text-anchor="middle">2026-07-27</text>
+
+</svg>
