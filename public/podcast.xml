@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Open-Weights en guerre, agents en force et la réalité des projets IA</title>
+      <description>Veille tech/IA/dev du 2026-07-28</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-28.mp3" length="11065512" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:31</itunes:duration>
+    </item>
+    <item>
       <title>Boucles d'IA, Opus 5 et Marché Noir de Tokens</title>
       <description>Veille tech/IA/dev du 2026-07-27</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-27.mp3" length="7729780" type="audio/mpeg"/>

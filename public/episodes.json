@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-28",
+    "title": "Open-Weights en guerre, agents en force et la réalité des projets IA",
+    "date": "2026-07-28",
+    "duration": "11:31",
+    "durationSeconds": 691,
+    "description": "Veille tech/IA/dev du 2026-07-28",
+    "audioUrl": "/podcast-veille/audio/2026-07-28.mp3",
+    "size": 11065512,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-28.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-28.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-28.svg"
+  },
+  {
     "id": "2026-07-27",
     "title": "Boucles d'IA, Opus 5 et Marché Noir de Tokens",
     "date": "2026-07-27",
