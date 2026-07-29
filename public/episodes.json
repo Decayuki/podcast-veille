@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-29",
+    "title": "Agents IA : Productivité Révolutionnaire et Risques Inattendus",
+    "date": "2026-07-29",
+    "duration": "9:35",
+    "durationSeconds": 575,
+    "description": "Veille tech/IA/dev du 2026-07-29",
+    "audioUrl": "/podcast-veille/audio/2026-07-29.mp3",
+    "size": 9213117,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-07-29.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-07-29.json",
+    "coverUrl": "/podcast-veille/covers/2026-07-29.svg"
+  },
+  {
     "id": "2026-07-28",
     "title": "Open-Weights en guerre, agents en force et la réalité des projets IA",
     "date": "2026-07-28",

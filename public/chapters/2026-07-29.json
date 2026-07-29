@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Claude Cowork et l'automatisation",
+    "startTime": 22
+  },
+  {
+    "title": "Outils pour développeurs d'agents IA",
+    "startTime": 137
+  },
+  {
+    "title": "Actualités sur les outils de développement (uv, Zig)",
+    "startTime": 251
+  },
+  {
+    "title": "Architecture du modèle Kimi K3",
+    "startTime": 299
+  },
+  {
+    "title": "L'IA et la cryptanalyse autonome",
+    "startTime": 351
+  },
+  {
+    "title": "L'incident OpenAI vs Hugging Face (Cyberattaque par IA)",
+    "startTime": 451
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 541
+  }
+]

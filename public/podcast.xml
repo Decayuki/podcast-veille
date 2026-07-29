@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Agents IA : Productivité Révolutionnaire et Risques Inattendus</title>
+      <description>Veille tech/IA/dev du 2026-07-29</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-29.mp3" length="9213117" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:35</itunes:duration>
+    </item>
+    <item>
       <title>Open-Weights en guerre, agents en force et la réalité des projets IA</title>
       <description>Veille tech/IA/dev du 2026-07-28</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-07-28.mp3" length="11065512" type="audio/mpeg"/>

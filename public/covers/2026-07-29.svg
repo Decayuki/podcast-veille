@@ -1,0 +1,39 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="500" fill="#ffffff" font-family="sans-serif" text-anchor="middle" font-size="75" font-weight="bold">
+    <tspan x="700" dy="0em">Agents IA :</tspan>
+    <tspan x="700" dy="1.2em">Productivité Révolutionnaire</tspan>
+    <tspan x="700" dy="1.2em">et Risques Inattendus</tspan>
+  </text>
+
+  <!-- Icônes / Formes géométriques (Bloc IA et Agents) -->
+  <g fill="#00e6e6" stroke="#00e6e6" stroke-width="5" stroke-linecap="round">
+    <!-- Bloc IA principal (rectangle légèrement tourné avec coins arrondis) -->
+    <rect x="450" y="800" width="500" height="250" rx="20" ry="20" transform="rotate(-5 700 925)"/>
+
+    <!-- Agent 1 (cercle à gauche) -->
+    <circle cx="350" cy="850" r="30"/>
+
+    <!-- Agent 2 (cercle à droite) -->
+    <circle cx="1050" cy="950" r="30"/>
+
+    <!-- Ligne de connexion 1 (Agent 1 vers Bloc IA) -->
+    <line x1="380" y1="850" x2="450" y2="875"/>
+
+    <!-- Ligne de connexion 2 (Bloc IA vers Agent 2) -->
+    <line x1="950" y1="975" x2="1020" y2="950"/>
+  </g>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1300" fill="#ffffff" font-family="sans-serif" text-anchor="middle" font-size="30">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1350" fill="#ffffff" font-family="sans-serif" text-anchor="middle" font-size="24">
+    2026-07-29
+  </text>
+</svg>
