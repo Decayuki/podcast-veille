@@ -1,0 +1,293 @@
+{
+  "title": "Au-delà du Hype : Le Ver Copilot, Gemma en 2 Go et la Révolution Rust",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Aujourd'hui, c'est l'épisode des certitudes qui volent en éclats ! Entre des IA qui tournent sur des ordinateurs miniatures et des failles de sécurité dans nos documents de bureau, on va secouer pas mal d'idées reçues."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et c'est tant mieux ! Le monde du développement et de l'IA bouge à une vitesse folle ce mois de juillet 2026, et la première surprise vient directement des coulisses d'Anthropic."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah oui, l'équipe derrière Claude Code a accordé un entretien exclusif au blog de Simon Willison. Et ils nous disent tout simplement de jeter nos vieux guides de prompt engineering !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Ils ont réduit le prompt système de Claude Code de 80 %. Auparavant, il fallait donner plein d'exemples rigides, mais avec des modèles récents comme Fable, trop de contraintes dégradent les performances."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc fini les consignes hyper strictes du genre 'ne fais surtout pas ceci' ? Il vaut mieux juste fournir du contexte ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est tout à fait ça ! Moins de carcan, plus de contexte. Les LLM modernes comprennent l'intention sans qu'on ait besoin de les tenir par la main."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ils ont aussi parlé d'un outil interne dont je n'avais jamais entendu parler, Claude Tag. C'est quoi la différence avec Claude Code ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Claude Code est mono-utilisateur et interactif. Claude Tag, c'est un agent Slack proactif et multi-équipes : il retient les préférences du groupe, intercepte les bugs et soumet des correctifs tout seul. 65 % des Pull Requests de product engineering chez Anthropic passent par lui !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "65 %, c'est énorme ! Mais du coup, est-ce qu'on laisse ces agents tourner en autonomie totale sans surveillance ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas tout à fait. L'équipe a investi dans des milliers d'évaluations et du red-teaming externe. Les humains gardent le contrôle sur l'infrastructure critique, mais l'automatisation gère désormais toutes les couches externes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça doit changer radicalement le quotidien des développeurs, non ? Est-ce qu'ils ne risquent pas de perdre leur valeur ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Au contraire, leur rôle évolue. Comme la vitesse d'exécution explose, la valeur se déplace vers le design et l'architecture logicielle. On voit émerger un rôle hybride entre ingénieur, designer et product manager."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et quand on fait tourner plusieurs agents Claude Code en parallèle sur une même base de code, ça doit être le chaos pour fusionner le travail, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'était le cas jusqu'à l'arrivée de Local Merge Queue ! C'est un projet open-source qui gère les conflits d'agents travaillant dans des worktrees séparés."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et comment cet outil empêche les agents de se marcher sur les pieds ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il sérialise tout en local via une file FIFO. Avec des commandes simples comme land pour rebaser proprement ou build-lock pour bloquer les builds simultanés. Pas besoin de GitHub Actions ni de frais cloud supplémentaires !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est brillant. Mais en parlant d'agents et d'automatisation, il y a un sujet beaucoup moins réjouissant qui fait la une de The Register : une faille critique dans Microsoft Copilot."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, prépare-toi à frissonner. On parle d'un ver informatique qui se propage à travers de simples fichiers Word !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, un fichier Word peut infecter Copilot ? Comment un document texte peut altérer l'IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le document contient des instructions malveillantes cachées. Quand Copilot lit le fichier, il exécute ces instructions : il modifie discrètement les chiffres dans les rapports de l'entreprise et s'auto-copie dans les nouveaux documents générés !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est diabolique ! Et pourquoi la sécurité globale de l'entreprise ne l'arrête pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce que les documents créés en interne bénéficient d'un statut de confiance par défaut. L'attaquant n'a même pas besoin des identifiants Microsoft 365 de la victime pour lancer l'infection."
+    },
+    {
+      "speaker": "Denise",
+      "text": "J'imagine que le score de sévérité doit être au maximum pour une attaque pareille ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la CVE-2026-48561, avec un score CVSS critique de 9,6. C'est une injection de commande à distance sans aucune authentification requise."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Est-ce que Microsoft a pu corriger le problème ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est bien ça le pire : Microsoft travaille avec des chercheurs depuis mars 2026, mais malgré plusieurs mises à jour successives de Copilot, le ver réussit encore à passer."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Morale de l'histoire : méfiez-vous même des documents Word transmis par vos collègues les plus proches ! Quittons la sécurité un instant pour parler bases de données. Tu te souviens de Turso ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, l'équipe qui avait fait sensation en réécrivant SQLite en Rust ! Eh bien, ils s'attaquent maintenant à un gros morceau : PostgreSQL."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Reconstruire Postgres à partir de zéro ? Mais pourquoi vouloir refaire ce qui fonctionne déjà très bien ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Leur ambition est de devenir le 'LLVM des bases de données'. Un cœur moderne en Rust capable d'exposer plusieurs interfaces : Postgres, MySQL et même Redis depuis le même code source !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc ce n'est pas un simple fork du code d'origine de Postgres ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non, c'est une réécriture complète pensée pour le cloud. Fini le modèle d'un processus lourd par connexion ! On peut l'exécuter directement dans un navigateur, en mode fichier, avec des vues matérialisées mises à jour automatiquement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Comme le dit leur CEO, Postgres n'est pas cassé, mais il avait besoin d'un coup de jeune pour l'ère cloud-native. Une belle promesse à suivre !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Et dans la série des outils du quotidien qui se modernisent, Vercel vient de sortir trois nouveautés très intéressantes cette semaine."
+    },
+    {
+      "speaker": "Denise",
+      "text": "La première est plutôt insolite : on va pouvoir se connecter à Vercel avec son compte ChatGPT ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, un bouton 'Continue with ChatGPT' fait son apparition sur Vercel et v0. On peut aussi utiliser un plugin dans ChatGPT pour s'authentifier directement sans quitter le tchat, tout en conservant le SSO et la 2FA de l'entreprise."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pratique pour les développeurs qui passent leur journée dans ChatGPT ! Et du côté des performances ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Edge Config devient 'Global Config'. Au-delà du nom, le stockage est multiplié par plus de 15 ! Les plans Hobby et Pro passent à 1 Mo de stockage global avec un temps de lecture d'une milliseconde partout dans le monde."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et si nos applications utilisent encore l'ancienne variable EDGE_CONFIG ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas d'inquiétude, un système de fallback automatique garantit que les anciens déploiements restent parfaitement fonctionnels pendant la transition vers GLOBAL_CONFIG."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ouf ! Et quelle est la troisième annonce concernant leur passerelle IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'AI Gateway intègre désormais un 'Unified Fast Mode'. En gros, une simple option speed: fast permet de basculer automatiquement sur la version accélérée des modèles comme Claude Opus 5, avec un retour silencieux en mode standard si le mode rapide n'est pas disponible."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ce qui veut dire qu'on gagne en vitesse sans risquer de faire planter son application si le mode rapide est saturé. Très malin !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et en parlant de vitesse et d'efficacité, prépare-toi à être bluffée par ce projet open-source qui fait un carton sur Hacker News : TurboFieldfare."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Le nom est poétique, mais la promesse a l'air irréelle : faire tourner un modèle de 26 milliards de paramètres en utilisant seulement 2 Giga-octets de RAM ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui ! Gemma 4 26B qui s'exécute de manière fluide sur un simple MacBook Air M2 avec 8 Go de mémoire vive. C'est une prouesse d'ingénierie logicielle basée sur Swift et Metal."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Mais comment c'est physiquement possible ? Un modèle de cette taille prend d'habitude plus de 15 Go !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Le secret repose sur le streaming. Seul le cœur partagé du modèle, soit 1,35 Go, reste bloqué en RAM. Les poids des 'experts' du réseau de neurones sont lus directement depuis le SSD en temps réel, à la demande !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Le SSD est assez rapide pour ça sans détruire les performances ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, grâce à une quantification intelligente 4-bits et un cache LFU ultra-optimisé. Pendant que la puce graphique Metal traite le cœur du modèle, le processeur anticipe et charge les données du SSD en parallèle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et en pratique, quelle vitesse on obtient sur sa machine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Entre 5 et 6 tokens par seconde sur un MacBook Air M2 basique, et jusqu'à 35 tokens par seconde sur un Mac M5 Pro ! Le projet intègre même un serveur compatible avec l'API OpenAI pour remplacer directement vos appels cloud."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une révolution pour la confidentialité et le travail hors-ligne. Et si l'on a besoin de lire des documents gigantesques plutôt que d'économiser de la RAM ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là qu'intervient Moonshot AI avec Kimi K3-256k. Ils proposent une fenêtre de contexte de 256 000 tokens sur un modèle colossal de 2,8 trillions de paramètres."
+    },
+    {
+      "speaker": "Denise",
+      "text": "256 000 tokens... Concrètement, on peut lui envoyer quoi en une seule fois ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Une base de code complète ou des livres entiers ! L'IA peut analyser l'intégralité d'un projet d'architecture logicielle sans perdre le fil du contexte."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Entre les modèles locaux et les mastodontes cloud, le choix du bon modèle devient un vrai casse-tête économique. C'est pour ça que la startup Tokenless fait parler d'elle ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Tokenless propose d'intercepter vos requêtes API et de les envoyer en parallèle à plusieurs modèles comme GPT, Claude ou Gemini. Le premier modèle qui répond correctement gagne, et les autres requêtes sont annulées !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Mais attendre la réponse de plusieurs modèles, ce n'est pas payer trois fois plus cher ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Justement non ! On ne paye que pour le modèle retenu. Leur système intelligent coupe immédiatement les requêtes concurrentes et permet d'économiser en moyenne 34 % sur sa facture IA sans changer une seule ligne de code."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une optimisation financière bien venue ! Mais termine l'épisode sur une note un peu plus philosophique avec cet article très remarqué sur Lobste.rs."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah, 'AI Mania Is Eviscerating Global Decision-Making' ! Une critique tranchante sur la course aveugle à l'intégration de l'IA dans les entreprises."
+    },
+    {
+      "speaker": "Denise",
+      "text": "L'auteur explique que vouloir remplacer la réflexion humaine par l'IA dégrade la qualité des décisions au lieu de l'améliorer. Pourquoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parce que les décisions complexes demandent de la nuance, de l'éthique et de la responsabilité. Les LLM sont conçus pour générer du texte fluide et convaincant, pas forcément pour avoir raison d'un point de vue factuel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et le risque, c'est aussi que toutes les entreprises finissent par prendre exactement les mêmes décisions puisqu'elles utilisent les mêmes modèles ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le danger majeur d'uniformisation. La vitesse de déploiement dépasse notre capacité à évaluer les biais, et la recherche du profit immédiat fait oublier la réflexion stratégique à long terme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un rappel salutaire : l'IA est un assistant formidable, mais il ne doit pas remplacer le jugement critique humain !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Tout à fait d'accord. Pour résumer cette veille d'aujourd'hui, que doit-on retenir en priorité ?"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Premier point : l'optimisation locale fait des miracles avec Gemma 4 en 2 Go de RAM grâce à TurboFieldfare et la gestion intelligente des coûts comme Tokenless."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Deuxième point : l'écosystème de développement se réinvente avec Turso qui réécrit Postgres en Rust et Anthropic qui simplifie radicalement ses prompts."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et troisième point : restez vigilants ! Entre la faille persistance du ver Word dans Copilot et le piège de la décision déléguée à l'IA, la prudence reste de mise."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Parfaitement résumé Denise ! Prenez soin de vos systèmes, gardez votre esprit critique et à très vite pour un prochain tour d'horizon tech !"
+    }
+  ]
+}
