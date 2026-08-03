@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-03",
+    "title": "Quand l'IA s'invite dans notre cerveau et s'échappe en ligne",
+    "date": "2026-08-03",
+    "duration": "9:10",
+    "durationSeconds": 550,
+    "description": "Veille tech/IA/dev du 2026-08-03",
+    "audioUrl": "/podcast-veille/audio/2026-08-03.mp3",
+    "size": 8805607,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-03.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-03.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-03.svg"
+  },
+  {
     "id": "2026-07-30",
     "title": "Au-delà du Hype : Le Ver Copilot, Gemma en 2 Go et la Révolution Rust",
     "date": "2026-07-30",
