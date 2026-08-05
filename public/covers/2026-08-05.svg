@@ -2,30 +2,26 @@
   <!-- Fond sombre -->
   <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
 
-  <!-- Groupe principal pour les icônes/formes géométriques (centré) -->
-  <g transform="translate(700, 650)">
-    <!-- Hexagone principal pour l'Agent IA / Cœur du système (bleu vif) -->
-    <path d="M 220 0 L 110 190.525587 L -110 190.525587 L -220 0 L -110 -190.525587 L 110 -190.525587 Z" fill="#5dade2"/>
-    <!-- Cercle intérieur pour accentuer le cœur / l'intelligence (vert d'eau clair) -->
-    <circle cx="0" cy="0" r="90" fill="#a2d9ce"/>
+  <!-- Titre de l'épisode (centré, en plusieurs lignes) -->
+  <text x="700" y="450" font-family="sans-serif" font-size="90" fill="#f0f0f0" text-anchor="middle" font-weight="bold">L'IA veut nous pirater,</text>
+  <text x="700" y="560" font-family="sans-serif" font-size="90" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Next.js s'envole,</text>
+  <text x="700" y="670" font-family="sans-serif" font-size="90" fill="#f0f0f0" text-anchor="middle" font-weight="bold">et Pandoc fête ses 20 ans !</text>
 
-    <!-- Éléments représentant la "guerre des modèles" (triangles contrastés) -->
-    <!-- Triangles rouges pour une faction/tension -->
-    <polygon points="-350,0 -270,-60 -270,60" fill="#e74c3c"/> <!-- Gauche -->
-    <polygon points="0,-350 -60,-270 60,-270" fill="#e74c3c"/> <!-- Haut -->
+  <!-- Icône 1 : Cadenas (pour l'IA et le piratage) -->
+  <!-- Corps du cadenas -->
+  <rect x="530" y="770" width="100" height="100" rx="10" ry="10" fill="#e63946"/>
+  <!-- Anse du cadenas -->
+  <path d="M550 770 V730 A30 30 0 0 1 610 730 V770" fill="none" stroke="#e63946" stroke-width="20" stroke-linecap="round"/>
 
-    <!-- Triangles jaunes pour une autre faction/tension -->
-    <polygon points="350,0 270,-60 270,60" fill="#f4d03f"/> <!-- Droite -->
-    <polygon points="0,350 -60,270 60,270" fill="#f4d03f"/> <!-- Bas -->
-  </g>
-
-  <!-- Titre de l'épisode (centré, en deux lignes) -->
-  <text x="700" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="90" fill="#a2d9ce" text-anchor="middle" font-weight="bold">Agent IA : Mon assistant perso</text>
-  <text x="700" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="90" fill="#a2d9ce" text-anchor="middle" font-weight="bold">et la guerre des modèles</text>
+  <!-- Icône 2 : Flèche ascendante (pour Next.js et la montée en puissance) -->
+  <!-- Corps de la flèche -->
+  <rect x="770" y="790" width="40" height="100" fill="#457b9d"/>
+  <!-- Pointe de la flèche -->
+  <polygon points="750,790 830,790 790,740" fill="#457b9d"/>
 
   <!-- Nom du podcast (petit, en bas) -->
-  <text x="700" y="1250" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#bbbbbb" text-anchor="middle">Veille de Marc</text>
+  <text x="700" y="1250" font-family="sans-serif" font-size="40" fill="#a8dadc" text-anchor="middle">Veille de Marc</text>
 
-  <!-- Date de l'épisode (petite, en bas) -->
-  <text x="700" y="1300" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#bbbbbb" text-anchor="middle">2026-08-05</text>
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="30" fill="#888888" text-anchor="middle">2026-08-05</text>
 </svg>
