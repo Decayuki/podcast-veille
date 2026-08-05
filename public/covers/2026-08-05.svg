@@ -1,0 +1,31 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Groupe principal pour les icônes/formes géométriques (centré) -->
+  <g transform="translate(700, 650)">
+    <!-- Hexagone principal pour l'Agent IA / Cœur du système (bleu vif) -->
+    <path d="M 220 0 L 110 190.525587 L -110 190.525587 L -220 0 L -110 -190.525587 L 110 -190.525587 Z" fill="#5dade2"/>
+    <!-- Cercle intérieur pour accentuer le cœur / l'intelligence (vert d'eau clair) -->
+    <circle cx="0" cy="0" r="90" fill="#a2d9ce"/>
+
+    <!-- Éléments représentant la "guerre des modèles" (triangles contrastés) -->
+    <!-- Triangles rouges pour une faction/tension -->
+    <polygon points="-350,0 -270,-60 -270,60" fill="#e74c3c"/> <!-- Gauche -->
+    <polygon points="0,-350 -60,-270 60,-270" fill="#e74c3c"/> <!-- Haut -->
+
+    <!-- Triangles jaunes pour une autre faction/tension -->
+    <polygon points="350,0 270,-60 270,60" fill="#f4d03f"/> <!-- Droite -->
+    <polygon points="0,350 -60,270 60,270" fill="#f4d03f"/> <!-- Bas -->
+  </g>
+
+  <!-- Titre de l'épisode (centré, en deux lignes) -->
+  <text x="700" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="90" fill="#a2d9ce" text-anchor="middle" font-weight="bold">Agent IA : Mon assistant perso</text>
+  <text x="700" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="90" fill="#a2d9ce" text-anchor="middle" font-weight="bold">et la guerre des modèles</text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#bbbbbb" text-anchor="middle">Veille de Marc</text>
+
+  <!-- Date de l'épisode (petite, en bas) -->
+  <text x="700" y="1300" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#bbbbbb" text-anchor="middle">2026-08-05</text>
+</svg>

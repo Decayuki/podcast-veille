@@ -1,0 +1,165 @@
+{
+  "title": "Agent IA : Mon assistant perso et la guerre des modèles",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Henri, le monde de l'IA tourne à une vitesse folle ! J'ai l'impression que chaque jour apporte son lot de nouvelles dingues, de la petite astuce perso aux gros enjeux géopolitiques."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On est en plein âge d'or de l'expérimentation. Les barrières techniques tombent tellement vite qu'on peut désormais imaginer et construire des choses qui étaient impensables il y a quelques mois seulement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Justement, j'ai vu qu'un certain Ivo Bernardo a carrément construit un assistant IA personnel, baptisé Fernão, en quelques heures seulement. Il gère sa journée, son planning... C'est pas de la science-fiction ça ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Pas du tout ! Fernão est un excellent exemple de ce qui est possible. Ivo a utilisé une stack intelligente : Google AntiGravity comme orchestrateur, avec Gemini Pro et Claude en modèles swappables, le tout en Python, connecté à ses outils du quotidien comme Google Calendar et Notion."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, il collecte toutes ses infos, les mouline avec l'IA et hop, un planning optimisé ? C'est le rêve pour gérer sa charge mentale !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. L'architecture est claire : collecte simultanée, traitement des contraintes, puis génération du planning. Il a même pu le construire en une ou deux heures par jour, grâce au pair programming avec l'IA elle-même. C'est ça la révolution !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fou. Mais si tout devient 'buildable', comme on dit, comment savoir ce qui vaut vraiment la peine d'être construit ? Edgar Bermudez parle de 'vibe-coding' et d'une friction protectrice qui a disparu."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est LA question cruciale. Avant, le coût et la complexité du développement filtraient les mauvaises idées. Maintenant, on peut prototyper n'importe quoi en un clin d'œil. Il propose un framework 2x2 : si la valeur est haute mais l'automatisation faible, gardez-le manuel pour développer votre jugement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc l'IA ne remplace pas le jugement humain, elle le déplace en amont ? On doit se poser de meilleures questions avant de se lancer ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Comme le dit Polanyi, certaines connaissances s'acquièrent uniquement par la pratique directe. Automatiser trop tôt peut court-circuiter cet apprentissage tacite essentiel. L'implémentation est bon marché, mais la possession d'un système n'est pas gratuite."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons d'un autre sujet brûlant : la guerre des modèles IA. The Register affirme que la Chine met la pression avec une 'blitz' de modèles open source, et que les Américains paniquent."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une réalité ! Alibaba a libéré Qwen 3.8 Max en open weights, une première pour un modèle 'Max'. DeepSeek V4 Flash est ultra-compétitif en prix. Le CEO de Hugging Face dit que la Chine est en train de gagner la course sur les modèles ouverts."
+    },
+    {
+      "speaker": "Denise",
+      "text": "La stratégie chinoise, c'est d'offrir gratuitement ce que les Américains vendent, pour tuer leur monétisation ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. L'objectif est de gagner la guerre des parts de marché auprès des développeurs. En rendant ces modèles puissants et gratuits, ils déstabilisent le modèle économique des API payantes et favorisent l'adoption de leurs technologies."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et pendant ce temps, OpenAI casse les prix de ses GPT-5.6. Simon Willison a noté une baisse massive, Luna est même moins cher que Gemini ou Claude Haiku. C'est une riposte ou une autre stratégie ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une riposte et une optimisation. OpenAI a utilisé son propre GPT-5.6 Sol pour réécrire ses 'production kernels', réduisant globalement les coûts de 20%. Ils peuvent donc se permettre de baisser drastiquement les prix de Luna pour rester compétitifs."
+    },
+    {
+      "speaker": "Denise",
+      "text": "L'IA devient plus accessible, c'est une bonne nouvelle. Mais cette accélération a aussi un côté obscur, notamment en sécurité. J'ai lu sur Google ADK, un cas de 'violence agent-sur-agent'. C'est quoi ce délire ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un problème inédit et sérieux. Dans un kit de développement Google, un chercheur a pu manipuler un agent IA public et peu privilégié pour qu'il déclenche des actions de la part d'un agent 'maintainer' à haute permission. C'est une nouvelle classe d'attaque."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc un agent peut en pirater un autre ? C'est terrifiant ! Nos modèles de menaces ne sont pas encore adaptés à ça."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. C'est une faille dans la 'trust boundary' implicite entre agents. Ces surfaces d'attaque n'existaient pas avant l'ère des agents, et ça sera présenté au DEF CON AI Village bientôt."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et les fameuses CVEs critiques sur SQLite qui étaient en fait des hallucinations d'IA... Ça montre que l'IA peut aussi polluer nos systèmes de sécurité, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est ce qu'on appelle le 'AI slop'. Le backlog de la NVD, qui liste les vulnérabilités, est énorme, et des LLMs sont utilisés pour le combler. Le problème, c'est qu'ils hallucinent des vulnérabilités qui n'existent pas."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on se retrouve avec de fausses alertes critiques qui nous font perdre du temps et des ressources ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Pour les identifier, il faut vérifier si le vendeur confirme, chercher des 'commit hashes' ou des 'PRs' dans les références. L'absence de ces éléments est un gros signal d'alarme d'AI slop. C'est une préoccupation majeure pour les équipes de sécurité."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Face à ces défis, comment nous, humains, devons-nous interagir avec l'IA ? J'ai lu qu'il ne fallait pas être un 'meat proxy', un simple relai passif des réponses de l'IA."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un anti-pattern en pleine explosion. Si vous copiez-collez une réponse de Claude sans la lire, la comprendre, la valider et la reformuler avec vos propres mots, vous êtes un 'meat proxy'. L'IA ne doit pas remplacer votre jugement, mais l'augmenter."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est vrai qu'en code, on pourrait être tenté de laisser l'IA écrire et juste valider. Mais ça retire le travail de compréhension en profondeur."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Sean Goedecke l'a bien montré : les LLMs récompensent l'expertise. Un expert comme Terence Tao guide le modèle bien mieux qu'un novice, identifiant les réponses trop complexes et suggérant des alternatives. L'expertise humaine reste le goulot d'étranglement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et l'idée radicale d'Ankur Sethi de retaper manuellement le code généré par l'IA ? Ça semble aller à l'encontre de la productivité, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est pour éviter la 'dette cognitive'. En retapant le code, on l'assimile vraiment, on détecte les hallucinations et on garde la maîtrise. La productivité passe de x10 à x2, mais la compréhension et l'ownership sont profonds. C'est un compromis intéressant pour certains."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on doit être plus actifs et critiques avec l'IA. Mais elle peut aussi nous donner de meilleurs outils pour gérer nos propres systèmes, n'est-ce pas ? Comme les 'smevals' de Simon Willison."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! 'smevals' est une suite d'évaluation pour comparer modèles, prompts et configurations. C'est un workflow simple en trois commandes : 'run', 'grade', 'serve' pour visualiser. Ça permet de mesurer l'impact de nos choix et d'optimiser nos interactions avec l'IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et Simon Willison est aussi revenu sur MCP 2.0, qui est 'stateless'. C'est un avantage pour auditer les outils IA, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, le 'stateless' simplifie grandement l'audit et le contrôle des outils MCP, surtout avec des petits modèles. Une seule requête HTTP suffit, plus de session serveur à maintenir. Il développe même des outils pour interroger et exposer des serveurs MCP."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fascinant de voir comment les agents IA sont en train d'évoluer, avec des capacités de navigation web comme l'agent Eve de Vercel. Ils deviennent de plus en plus autonomes."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une évolution majeure ! L'extension @agent-browser/eve donne aux agents Eve une suite complète d'outils pour naviguer, cliquer, remplir des formulaires. La sécurité est pensée avec une isolation sandbox, des listes blanches et l'absence d'exposition des identifiants."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, c'était passionnant ! Si je devais retenir trois choses de cette veille, ce serait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "D'abord, l'IA rend la construction de solutions ultra-rapide, mais cela déplace le besoin de jugement en amont : il faut se demander ce qui vaut vraiment la peine d'être créé. Ensuite, la guerre des modèles est intense, avec une course aux prix et aux modèles open source."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et enfin, face aux nouveaux défis de sécurité comme les agents qui s'attaquent ou les hallucinations de CVE, notre rôle d'humain est d'être des acteurs critiques et non des relais passifs de l'IA, en conservant notre expertise et notre compréhension."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement, Denise. L'IA est un outil puissant, mais c'est notre intelligence et notre discernement qui en détermineront le succès et la pertinence."
+    }
+  ]
+}

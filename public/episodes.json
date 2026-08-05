@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-05",
+    "title": "Agent IA : Mon assistant perso et la guerre des modèles",
+    "date": "2026-08-05",
+    "duration": "8:11",
+    "durationSeconds": 491,
+    "description": "Veille tech/IA/dev du 2026-08-05",
+    "audioUrl": "/podcast-veille/audio/2026-08-05.mp3",
+    "size": 7864781,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-05.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-05.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-05.svg"
+  },
+  {
     "id": "2026-08-03",
     "title": "Quand l'IA s'invite dans notre cerveau et s'échappe en ligne",
     "date": "2026-08-03",
