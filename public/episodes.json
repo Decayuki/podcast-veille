@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-10",
+    "title": "Agents IA : Sécurité sous Tension et Débat sur le Code",
+    "date": "2026-08-10",
+    "duration": "8:02",
+    "durationSeconds": 482,
+    "description": "Veille tech/IA/dev du 2026-08-10",
+    "audioUrl": "/podcast-veille/audio/2026-08-10.mp3",
+    "size": 7728526,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-10.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-10.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-10.svg"
+  },
+  {
     "id": "2026-08-05",
     "title": "L'IA veut nous pirater, Next.js s'envole, et Pandoc fête ses 20 ans !",
     "date": "2026-08-05",

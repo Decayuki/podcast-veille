@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Sécurité et risques des agents IA",
+    "startTime": 25
+  },
+  {
+    "title": "Actualités et mises à jour des plateformes IA",
+    "startTime": 159
+  },
+  {
+    "title": "Innovations IA chez Vercel",
+    "startTime": 272
+  },
+  {
+    "title": "Le débat sur la nature du code",
+    "startTime": 338
+  },
+  {
+    "title": "Anecdote : débogage d'un bug Zsh",
+    "startTime": 379
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 417
+  }
+]

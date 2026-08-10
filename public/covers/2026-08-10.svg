@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Groupe d'icônes (décalé légèrement vers le haut) -->
+  <g transform="translate(0, -50)">
+    <!-- Icône d'engrenage simplifiée (pour "Agents IA") -->
+    <g fill="#39FF14"> <!-- Vert vif -->
+      <circle cx="600" cy="550" r="80"/>
+      <circle cx="600" cy="550" r="30" fill="#1a1a2e"/> <!-- Trou central -->
+      <!-- Dents de l'engrenage, positionnées autour du centre et pivotées -->
+      <g transform="translate(600, 550)"> <!-- Déplace l'origine au centre de l'engrenage pour les rotations -->
+        <rect x="-25" y="-150" width="50" height="80"/> <!-- Dent du haut -->
+        <rect x="-25" y="-150" width="50" height="80" transform="rotate(90)"/> <!-- Dent de droite -->
+        <rect x="-25" y="-150" width="50" height="80" transform="rotate(180)"/> <!-- Dent du bas -->
+        <rect x="-25" y="-150" width="50" height="80" transform="rotate(270)"/> <!-- Dent de gauche -->
+      </g>
+    </g>
+
+    <!-- Icône de triangle d'avertissement (pour "Sécurité sous Tension") -->
+    <g>
+      <polygon points="850,470 950,650 750,650" fill="#FF9F1C"/> <!-- Orange vif -->
+      <text x="850" y="580" text-anchor="middle" font-size="60" font-weight="bold" fill="#1a1a2e">!</text> <!-- Point d'exclamation -->
+    </g>
+  </g>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" y="750" text-anchor="middle" fill="white" font-size="70" font-weight="bold">
+    <tspan x="700" dy="-1.5em">Agents IA :</tspan>
+    <tspan x="700" dy="1.2em">Sécurité sous Tension</tspan>
+    <tspan x="700" dy="1.2em">et Débat sur le Code</tspan>
+  </text>
+
+  <!-- Nom du podcast et date (en bas, petit) -->
+  <text x="700" y="1250" text-anchor="middle" fill="#cccccc" font-size="36">
+    <tspan x="700" dy="0">Veille de Marc</tspan>
+    <tspan x="700" dy="1.2em">2026-08-10</tspan>
+  </text>
+</svg>
