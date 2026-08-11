@@ -1,0 +1,177 @@
+{
+  "title": "Pilotes Auto pour IA et la Revanche Open Source de Meta",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à toutes et à tous ! Préparez-vous à plonger au cœur de l'innovation et des coulisses de la tech avec nous, Denise et Henri, pour décrypter ce qui bouillonne dans l'univers de l'IA et du développement. Accrochez-vous, ça va secouer !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bonjour Denise ! Et bonjour à nos auditeurs passionnés ! Aujourd'hui, on a du lourd : des IA qui prennent les commandes toutes seules, une offensive majeure de Meta sur l'open source, et même des modèles qui planchent sur la fonction Zêta de Riemann. La tech ne dort jamais !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça s'annonce passionnant ! Henri, on va commencer fort avec un sujet qui fait frissonner : les IA qui se mettent en 'mode automatique'. Anthropic, avec son modèle Claude Code, passe à la vitesse supérieure, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! À partir du 14 août, Anthropic rend l'auto mode par défaut pour Claude Code sur la plupart de ses plans. Fini la validation humaine action par action. Un classifieur automatique prend le relais pour bloquer les commandes jugées dangereuses."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, l'IA décide seule de ce qui est sûr ou non ? Mais est-ce que c'est vraiment plus fiable que l'humain qui supervise ? On a tendance à faire confiance à notre propre jugement, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est là que les chiffres nous remettent à notre place, Denise. Des tests ont montré que les humains ne détectent que 13,6% des commandes dangereuses délibérément insérées. En comparaison, l'auto mode en bloque 89% !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, c'est une sacrée différence ! Et j'imagine que personne ne lit vraiment les pop-ups de permission de toute façon..."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Vous avez tout compris ! 97% des utilisateurs approuvent les prompts de permission sans les lire. C'est ce qu'on appelle la fatigue de confirmation. Le mode manuel était devenu quasiment symbolique, un peu comme cliquer 'J'accepte' sur les conditions générales d'utilisation."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si je comprends bien, le classifieur de Claude Code agit comme un gardien de sécurité. Comment ça marche concrètement ? Il a une liste de choses à ne pas faire ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Il évalue chaque appel d'outil et bloque tout ce qui est 'irréversible, destructeur, ou ciblant hors de l'environnement de travail'. Si ça bloque, Claude essaie une alternative plus sûre. Et il y a un filet de sécurité : après trois blocages consécutifs, ou vingt par session, on repasse en mode manuel."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est rassurant d'avoir un plan B. Mais Simon Willison, notre observateur avisé, a-t-il partagé son avis sur cette nouveauté ? Il est souvent le premier à pointer les angles morts."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Simon reconnaît la supériorité objective de l'auto mode par rapport à la validation humaine, mais il met en garde. Les 720 attaques bloquées étaient des tests contrôlés. Le monde réel est bien plus 'créatif et vicieux', comme il le dit. Il pense notamment aux packages npm malveillants, une catégorie d'attaque non testée en conditions réelles."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, il faut rester vigilant et ne pas mettre tous nos œufs dans le même panier, même si c'est de l'IA. Qu'est-ce qu'il recommande, Simon ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Sa recommandation va au-delà du simple classifieur : il faut limiter architecturalement l'accès aux données sensibles en amont, plutôt que de compter uniquement sur la détection en bout de chaîne. C'est une approche plus robuste pour la sécurité des agents IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Très clair. Passons maintenant à un autre géant de la tech qui fait parler de lui : Meta. On dirait qu'ils reviennent en force sur le terrain de l'open source avec 'Muse Glimmer'."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, et de manière spectaculaire ! Muse Glimmer est un modèle de 30 milliards de paramètres, sous licence Apache 2.0. C'est un grand pas par rapport aux licences Llama, qui étaient jugées restrictives. Simon Willison l'a déjà testé et a eu des résultats très solides, notamment sur l'exploration de code."
+    },
+    {
+      "speaker": "Denise",
+      "text": "30 milliards de paramètres, c'est énorme ! Mais est-ce qu'il est accessible pour les développeurs qui n'ont pas des fermes de serveurs à disposition ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente question ! Il pèse 18,16 gigaoctets, mais le plus intéressant, c'est qu'il tourne confortablement sur une machine avec 32 gigaoctets de RAM, même avec d'autres applications en arrière-plan. Ses points forts sont les tâches agentiques de bout en bout et le raisonnement multi-étapes. Et il est même multimodal, avec des capacités de vision."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça, c'est une bonne nouvelle pour l'écosystème open source ! Et il y a eu une déclaration de Mark Zuckerberg qui allait dans ce sens, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, une offensive coordonnée ! Le même jour, Zuckerberg a sorti l'artillerie lourde contre les modèles fermés, taclant Anthropic et OpenAI. Il positionne Meta comme le défenseur d'un accès libre à l'IA, arguant qu'une infrastructure IA ouverte protège contre le 'vendor lock-in' et les hausses de prix unilatérales."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Meta semble vouloir reprendre la main sur la narrative open versus closed. Un mouvement stratégique très clair. Changeons de cap pour parler d'outils pour les développeurs, avec Vercel qui fait des annonces importantes."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Vercel déprécie ses 'Sandbox runtimes' au profit des 'Vercel Managed Images' ou VMI. La base système passe d'Amazon Linux à Ubuntu 26.04, avec Node.js 24 et Python 3.14 préinstallés. Pour la plupart des projets, cela signifie moins de dépendances à installer au démarrage."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Moins de configuration, c'est toujours une bonne nouvelle pour les développeurs ! Et j'ai vu passer quelque chose sur les WebSockets natifs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Vercel supporte désormais Bun.serve() directement comme entrypoint pour les Functions, avec le support WebSocket natif. On peut établir des connexions full-duplex, et la tarification est super intéressante : on ne paie que pendant le traitement effectif des messages, pas pendant les périodes d'attente."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça, c'est une avancée significative pour les applications en temps réel. Passons à la sécurité, un sujet qui nous concerne tous. Henri, on a un point de vigilance sur GitHub Actions et l'OIDC ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une vulnérabilité structurelle importante exposée par un chercheur. Sans contraintes explicites sur le champ 'audience' des tokens OIDC, un dépôt GitHub malveillant peut potentiellement obtenir des tokens valides pour vos services cloud comme AWS, GCP ou Azure si la configuration n'est pas rigoureuse."
+    },
+    {
+      "speaker": "Denise",
+      "text": "En gros, si on ne fait pas attention, n'importe qui pourrait se faire passer pour notre CI/CD auprès de nos services cloud ? C'est effrayant !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Le correctif est simple, mais il demande une configuration explicite que beaucoup de workflows n'ont pas encore en place. Il faut ajouter des conditions d'audience précises pour s'assurer que seuls les dépôts autorisés peuvent s'authentifier."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un rappel essentiel pour tous les développeurs et responsables sécurité. De la sécurité, on passe à l'efficacité. Dan Luu a étudié comment les langages de programmation impactent la consommation de tokens des LLM, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, et ses résultats sont très parlants ! Certains langages verbeux, comme Java ou les configurations XML, consomment trois à cinq fois plus de tokens pour les mêmes tâches que Python ou TypeScript. Cela réduit le budget de contexte de l'IA et augmente le risque d'hallucinations."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, le choix du langage de programmation n'impacte pas que la performance de notre code, mais aussi la performance et la justesse de l'IA qui l'écrit pour nous ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça ! Les modèles ont aussi des biais envers les langages sur-représentés dans leurs données d'entraînement. Donc, si vous codez en TypeScript ou Python, vous avez de meilleures chances d'obtenir de bons résultats avec l'IA."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Très intéressant. On a parlé d'IA qui code, d'IA qui gère la sécurité, mais l'IA peut-elle aussi faire des maths de haut vol ? Claude semble s'attaquer à la fonction Zêta de Riemann !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est un post de recherche d'Anthropic qui a fait le buzz sur Hacker News. Claude a été utilisé pour explorer des propriétés de la distribution des zéros non-triviaux de la fonction Zêta de Riemann, un des problèmes ouverts les plus célèbres des mathématiques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Alors, Claude a résolu l'Hypothèse de Riemann ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non, pas encore ! Mais c'est une démonstration que Claude peut raisonner sur des domaines mathématiques profonds avec une autonomie surprenante, produire des preuves intermédiaires. La discussion portait sur la distinction entre 'calculer correctement' et 'comprendre véritablement'."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une IA qui explore les confins des mathématiques, c'est fascinant ! Mais en parlant d'IA et de son fonctionnement, Mistral a obtenu un brevet sur les 'code implemented tool calls'. Est-ce que ça pourrait devenir un problème pour l'écosystème ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente question, Denise. Ce brevet concerne un mécanisme où les LLM exécutent des appels d'outils via du code généré, plutôt que via une interface JSON structurée. La communauté est partagée entre innovation légitime et inquiétude d'un nouveau terrain de guerre de propriété intellectuelle."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, les architectures d'agents IA pourraient devenir des enjeux de brevets... Ça nous promet des débats intenses dans le futur. Henri, un mot pour conclure ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument ! Trois points clés à retenir aujourd'hui : l'IA gagne en autonomie et en efficacité, comme le montre Claude Code en auto mode, mais la vigilance reste de mise, comme le rappelle Simon Willison."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ensuite, Meta fait un retour fracassant sur l'open source avec Muse Glimmer et une stratégie offensive, ce qui est une excellente nouvelle pour la communauté des développeurs."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, le choix de vos outils et langages de programmation a un impact direct sur la performance de vos LLM, et la sécurité de vos workflows CI/CD doit être une priorité absolue avec des configurations OIDC rigoureuses."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Un grand merci Henri pour toutes ces explications claires et passionnantes ! Et merci à vous de nous avoir suivis. On se retrouve très vite pour un nouvel épisode de 'Tech en Perspective' !"
+    }
+  ]
+}

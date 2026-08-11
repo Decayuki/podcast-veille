@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-11",
+    "title": "Pilotes Auto pour IA et la Revanche Open Source de Meta",
+    "date": "2026-08-11",
+    "duration": "9:24",
+    "durationSeconds": 564,
+    "description": "Veille tech/IA/dev du 2026-08-11",
+    "audioUrl": "/podcast-veille/audio/2026-08-11.mp3",
+    "size": 9038410,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-11.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-11.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-11.svg"
+  },
+  {
     "id": "2026-08-10",
     "title": "Agents IA : Sécurité sous Tension et Débat sur le Code",
     "date": "2026-08-10",

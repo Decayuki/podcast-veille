@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Claude Code: Autonomous AI Agents",
+    "startTime": 30
+  },
+  {
+    "title": "Meta's Open Source AI Offensive",
+    "startTime": 190
+  },
+  {
+    "title": "Vercel: New Dev Tools & WebSockets",
+    "startTime": 275
+  },
+  {
+    "title": "GitHub Actions OIDC Security Alert",
+    "startTime": 333
+  },
+  {
+    "title": "LLM Efficiency: Language Choice Matters",
+    "startTime": 385
+  },
+  {
+    "title": "AI Frontiers: Math & Patent Debates",
+    "startTime": 436
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 510
+  }
+]
