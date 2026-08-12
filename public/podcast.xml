@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Vols de pensées IA, Vercel et Mojo 1.0</title>
+      <description>Veille tech/IA/dev du 2026-08-12</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-12.mp3" length="9996790" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-12</guid>
+      <pubDate>Wed, 12 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:24</itunes:duration>
+    </item>
+    <item>
       <title>Pilotes Auto pour IA et la Revanche Open Source de Meta</title>
       <description>Veille tech/IA/dev du 2026-08-11</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-11.mp3" length="9038410" type="audio/mpeg"/>

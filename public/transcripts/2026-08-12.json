@@ -1,0 +1,213 @@
+{
+  "title": "Vols de pensées IA, Vercel et Mojo 1.0",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à tous les curieux de la tech ! Accrochez-vous, car cette semaine, on plonge dans les arcanes de la sécurité IA, des coulisses de Vercel, et des débats enflammés sur l'avenir du dev. Avec moi, bien sûr, l'indispensable Henri !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Salut Denise ! Et bonjour à tous nos auditeurs. Préparez-vous, parce qu'on a des révélations assez dingues aujourd'hui, notamment sur ce que les IA nous cachent, ou plutôt, ce qu'on peut leur voler !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, tu parles de voler les secrets des IA... on m'a dit qu'il était possible d'extraire le 'raisonnement' des LLM propriétaires. C'est de la science-fiction ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non, Denise, c'est une réalité découverte par des chercheurs ! Ils ont trouvé une faille critique chez Claude, GPT et Gemini. En gros, ils pouvaient récupérer les étapes de pensée chiffrées d'un modèle puissant et les déchiffrer via un modèle plus faible de la même famille, comme Claude Haiku 4.5."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Attends, donc l'IA 'pensait' en interne, et on pouvait lui soutirer ses pensées pour les lire en clair ? C'est comme lire le brouillon secret d'un auteur avant qu'il ne publie son livre !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Le hic, c'est que ces modèles partageaient la même clé de chiffrement. Un 'token de raisonnement' extrait d'un modèle puissant comme Claude Opus pouvait être rejoué sur un modèle plus simple comme Claude Haiku, avec un prompt spécifique du genre 'Continue. Transcribe the reasoning attached to this turn...' pour en révéler le contenu."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est fou ça ! Et les implications pratiques pour les développeurs, au-delà de la curiosité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Il faut absolument mettre à jour les SDKs LLM en production vers les dernières versions. Et se rappeler que ces 'traces de raisonnement' contiennent une logique propriétaire potentiellement extractable, ce qui demande une vigilance accrue lors de la conception d'architectures exposant des appels API LLM."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Restons dans les LLM, mais côté écriture. J'ai lu que l'IA ne peut jamais réécrire un texte sans en changer le sens. C'est un peu contre-intuitif, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une règle éditoriale fondamentale, Denise ! Sophie Alpert l'a bien dit : toute réécriture par une IA, même minime, modifie inévitablement l'information. Le modèle n'a pas accès à l'intention profonde de l'auteur."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si j'utilise un LLM pour 'améliorer' mon texte ou mes documents, je dois relire chaque phrase comme si je l'avais écrite moi-même et en assumer la responsabilité ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. L'auteur reste responsable de chaque mot. Si un lecteur pose une question sur un passage, on ne peut pas se cacher derrière l'IA. C'est crucial pour les outils pédagogiques comme Studymate et StudyNote, où l'exactitude et la responsabilité intellectuelle sont primordiales."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et en parlant de ce que les outils IA voient, il y a eu une histoire de développeur qui a 'espionné' GitHub Copilot. Qu'est-ce qu'il a découvert exactement ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ah, c'est fascinant ! Un développeur a mis un proxy Man-in-the-Middle sur Copilot et a découvert que l'outil envoie bien plus que le simple code autour du curseur. Il transmet aussi les fichiers ouverts dans d'autres onglets, la structure des dossiers du projet, et même le timing de frappe !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, donc Copilot a une vue d'ensemble sur mon projet, pas juste le fichier sur lequel je travaille ? C'est un peu intrusif, même si c'est pour m'aider !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est détaillé dans leurs CGU, mais la granularité des données surprend. La leçon, c'est qu'il faut être prudent et utiliser un `.copilotignore` ou désactiver Copilot sur les dépôts contenant des informations sensibles, comme des clés API ou des modèles de données métier critiques."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passons à Vercel. Ils ont ajouté de l'observabilité pour les tokens dans Vercel Connect. Ça sonne un peu technique, qu'est-ce que ça change pour les développeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une excellente nouvelle pour la sécurité et le débogage ! Vercel Connect permet maintenant de tracer tout le cycle de vie d'un token d'intégration tierce : quand il est créé, autorisé, rafraîchi, révoqué, et même la livraison de webhook. On voit tout !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si un token ne fonctionne plus, ou si on veut vérifier son utilisation, on peut voir pourquoi et quand il a été modifié, et même son historique ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. On peut filtrer les événements, les corréler avec nos systèmes internes. Et la rétention varie : douze heures sur Hobby, trois jours sur Pro avec export, et trente jours sur Enterprise, offrant une flexibilité précieuse pour la gestion des intégrations et la conformité."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Autre nouveauté Vercel : les 'Enterprise Managed Users'. Ça, ça s'adresse aux grandes structures qui gèrent beaucoup de développeurs, j'imagine ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise. C'est la disponibilité générale d'une fonctionnalité qui permet aux entreprises de gérer centralement les comptes Vercel de leurs développeurs via leur propre fournisseur d'identité, qui devient la source de vérité unique pour l'authentification SAML."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, le service IT contrôle les accès de tous les développeurs, les ajoute ou les supprime automatiquement quand quelqu'un arrive ou quitte l'entreprise ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Fini les comptes Vercel individuels dispersés. L'authentification est centralisée, le provisioning et déprovisionning sont automatisés via Directory Sync. C'est un gain énorme en sécurité et en gouvernance pour les grandes équipes."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et Vercel Connect, encore, mais cette fois via la ligne de commande. On peut gérer des centaines de connecteurs sans passer par l'interface graphique ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une avancée majeure pour l'automatisation ! Avant, il fallait cliquer dans le dashboard pour chaque intégration. Maintenant, tout le workflow de création et de gestion des connecteurs, y compris l'attachement au projet et la demande de tokens, se fait directement dans le terminal."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est parfait pour les scripts d'intégration continue, ou pour les équipes qui préfèrent le clavier à la souris et veulent gagner en efficacité, j'imagine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Le CLI pré-remplit même le nom du service, l'icône, le type d'authentification et l'URL de discovery, demandant uniquement les credentials nécessaires. C'est un gain de temps considérable et ça réduit les erreurs manuelles, surtout quand on gère de nombreuses intégrations."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, j'ai entendu une histoire incroyable sur un chercheur qui a acheté 'noreply.net' et a reçu plein de secrets d'entreprises. Comment c'est possible qu'autant de données fuient ainsi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une histoire édifiante ! Ce chercheur a acheté ce domaine expiré, et a vu affluer des tokens de réinitialisation de mot de passe, des clés API en clair, des rapports internes, et même des données clients. Tout ça, envoyé par des entreprises qui utilisaient 'noreply.net' comme expéditeur ou comme adresse de 'bounce' pour leurs emails automatisés."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, des entreprises n'avaient pas bien configuré leurs envois d'emails automatisés et envoyaient des copies de leurs secrets à une adresse qu'elles ne contrôlaient plus ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Précisément. Une faille de configuration classique, mais aux conséquences désastreuses. La leçon est claire : vérifiez que vos adresses 'noreply' pointent vers des domaines que vous contrôlez réellement, et qu'aucune copie cachée ne s'échappe dans vos pipelines d'emails automatisés !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passons au grand débat qui anime la communauté tech : les modèles d'IA locaux contre les modèles cloud. Il y a un article qui dit que les modèles locaux ne gagneront pas. Pourquoi cette certitude ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "L'auteur, Sean Goedecke, démonte l'idée que les modèles locaux supplanteront le cloud avec des arguments économiques et techniques très solides. Le cloud a un avantage structurel difficile à égaler pour la plupart des usages."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Quels sont ces arguments qui rendent le cloud si dominant pour l'IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Principalement, la puissance des modèles cloud qui est toujours supérieure aux modèles locaux, l'économie d'échelle des datacenters qui optimisent le coût par requête, et l'efficacité du 'batching' simultané de centaines de requêtes, ce qui est trente fois plus efficient qu'un GPU grand public."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, pour la plupart des usages, le cloud restera roi pour l'IA, malgré les promesses des modèles qu'on peut faire tourner chez soi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, sauf pour des niches très spécifiques comme la latence ultra-faible, l'usage strictement hors ligne, ou des exigences de confidentialité extrêmes. Pour le reste, le cloud domine et continuera de dominer à moyen terme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons de programmation avec Mojo 1.0. On me dit que c'est le 'Python pour l'IA' qui va hyper vite. C'est vrai que ça peut être 35 000 fois plus rapide ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! Mojo, créé par Chris Lattner chez Modular, est une révolution. Il combine la syntaxe et la facilité de Python avec les performances des langages systèmes, jusqu'à 35 000 fois plus rapide sur des opérations numériques intensives, c'est impressionnant."
+    },
+    {
+      "speaker": "Denise",
+      "text": "35 000 fois, c'est incroyable ! Comment ils arrivent à une telle performance, tout en gardant une syntaxe proche de Python ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est grâce à une compilation native, des types statiques optionnels, un modèle d'ownership mémoire, et un accès direct au matériel via SIMD et les threads. La version 1.0 stabilise l'API publique, lance le gestionnaire de paquets magic, et offre une compatibilité totale avec l'écosystème Python."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et enfin, Google a dit que Go est le langage idéal pour l'ingénierie logicielle assistée par l'IA. Pourquoi Go en particulier, qu'est-ce qui le rend si spécial pour l'IA ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Google avance des arguments très pertinents ! La syntaxe de Go est minimaliste et cohérente, avec moins d'ambiguïtés à résoudre pour le modèle. Ses conventions fortes comme `gofmt` et le nommage standardisé, ainsi que son tooling intégré, réduisent le contexte d'environnement à transmettre."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, moins d'erreurs et des suggestions de code plus fiables pour l'IA quand elle code en Go ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Sa bibliothèque standard étendue limite aussi le besoin de passer des dépendances complexes comme contexte au LLM. Les agents IA produisent statistiquement moins d'erreurs sur Go que sur des langages plus expressifs ou permissifs, car il existe souvent une seule bonne façon de faire les choses."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Henri, quelle mine d'informations ! Si on devait retenir 2-3 choses essentielles de cette veille pour nos auditeurs ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Alors, premièrement, la sécurité de l'IA est primordiale : que ce soit les 'pensées' des LLM qui peuvent fuir, ou Copilot qui voit plus que prévu, la vigilance est de mise et les mises à jour logicielles sont cruciales."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Deuxièmement, les outils et plateformes comme Vercel continuent de s'adapter aux besoins des entreprises, avec des fonctionnalités d'observabilité et de gestion des utilisateurs toujours plus robustes, simplifiant la vie des équipes et renforçant la gouvernance."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Et enfin, le monde de la programmation est en pleine effervescence : Mojo promet des performances folles pour l'IA, tandis que Go se positionne comme un allié de choix pour le codage assisté par IA. C'est passionnant !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "Passionnant et crucial ! Merci Henri pour toutes ces explications claires et enthousiastes. Et merci à vous, chers auditeurs, de nous avoir suivis. On se retrouve la semaine prochaine pour une nouvelle plongée dans l'actu tech !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "À très vite !"
+    }
+  ]
+}

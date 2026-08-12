@@ -1,0 +1,32 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre (#1a1a2e) -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" text-anchor="middle" font-family="sans-serif" fill="#e0f2f7">
+    <tspan x="700" y="520" font-size="130" font-weight="bold">Vols de pensées IA,</tspan>
+    <tspan x="700" y="670" font-size="130" font-weight="bold">Vercel et</tspan>
+    <tspan x="700" y="820" font-size="130" font-weight="bold">Mojo 1.0</tspan>
+  </text>
+
+  <!-- Icône 1 : Réseau / Pensée IA (en haut à gauche) -->
+  <g transform="translate(300, 250) rotate(-15)">
+    <circle cx="0" cy="0" r="30" fill="#ff6b6b"/>
+    <circle cx="100" cy="100" r="30" fill="#4ecdc4"/>
+    <circle cx="200" cy="0" r="30" fill="#ff6b6b"/>
+    <line x1="0" y1="0" x2="100" y2="100" stroke="#a6a6c2" stroke-width="8" stroke-linecap="round"/>
+    <line x1="100" y1="100" x2="200" y2="0" stroke="#a6a6c2" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Icône 2 : Blocs de code / Déploiement (en bas à droite) -->
+  <g transform="translate(1000, 1000) rotate(20)">
+    <rect x="0" y="0" width="120" height="120" rx="15" fill="#4ecdc4"/>
+    <rect x="50" y="50" width="120" height="120" rx="15" fill="#ff6b6b" opacity="0.8"/>
+  </g>
+
+  <!-- Nom du podcast (en bas à gauche) -->
+  <text x="100" y="1320" font-family="sans-serif" font-size="40" fill="#a6a6c2">Veille de Marc</text>
+
+  <!-- Date (en bas à droite) -->
+  <text x="1300" y="1320" text-anchor="end" font-family="sans-serif" font-size="40" fill="#a6a6c2">2026-08-12</text>
+</svg>
