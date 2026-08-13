@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Agents IA, Crise des Devs et Bug Fatal : La Tech en Plein Tourbillon</title>
+      <description>Veille tech/IA/dev du 2026-08-13</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-13.mp3" length="9073518" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:27</itunes:duration>
+    </item>
+    <item>
       <title>Vols de pensées IA, Vercel et Mojo 1.0</title>
       <description>Veille tech/IA/dev du 2026-08-12</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-12.mp3" length="9996790" type="audio/mpeg"/>

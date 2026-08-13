@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-13",
+    "title": "Agents IA, Crise des Devs et Bug Fatal : La Tech en Plein Tourbillon",
+    "date": "2026-08-13",
+    "duration": "9:27",
+    "durationSeconds": 567,
+    "description": "Veille tech/IA/dev du 2026-08-13",
+    "audioUrl": "/podcast-veille/audio/2026-08-13.mp3",
+    "size": 9073518,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-13.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-13.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-13.svg"
+  },
+  {
     "id": "2026-08-12",
     "title": "Vols de pensées IA, Vercel et Mojo 1.0",
     "date": "2026-08-12",

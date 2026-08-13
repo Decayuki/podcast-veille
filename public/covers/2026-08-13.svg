@@ -1,0 +1,38 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" y="500" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="bold" fill="#e0e0e0" text-anchor="middle">
+    <tspan x="700" dy="0">Agents IA, Crise des Devs</tspan>
+    <tspan x="700" dy="90">et Bug Fatal :</tspan>
+    <tspan x="700" dy="90">La Tech en Plein Tourbillon</tspan>
+  </text>
+
+  <!-- Icône 1: Réseau IA (en haut à gauche) -->
+  <g transform="translate(300, 300)">
+    <circle cx="0" cy="0" r="40" fill="#00f0ff" opacity="0.8"/>
+    <circle cx="80" cy="40" r="40" fill="#00f0ff" opacity="0.8"/>
+    <circle cx="40" cy="-80" r="40" fill="#00f0ff" opacity="0.8"/>
+    <line x1="0" y1="0" x2="80" y2="40" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="40" y2="-80" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="80" y1="40" x2="40" y2="-80" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Icône 2: Bug/Erreur (en bas à droite) -->
+  <g transform="translate(1100, 1000) rotate(-10)">
+    <!-- Simule une puce cassée ou une erreur -->
+    <rect x="-80" y="-80" width="100" height="160" fill="#ff007f" opacity="0.8"/>
+    <rect x="20" y="-20" width="60" height="100" fill="#ff007f" opacity="0.8"/>
+  </g>
+
+  <!-- Nom du podcast (en bas, petit) -->
+  <text x="700" y="1250" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#e0e0e0" text-anchor="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date (en bas, petit) -->
+  <text x="700" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#e0e0e0" text-anchor="middle">
+    2026-08-13
+  </text>
+</svg>
