@@ -1,0 +1,31 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Roboto, sans-serif">
+
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icônes liées aux sujets tech -->
+  <g id="podcast-icons">
+    <!-- Icône 1: Engrenage stylisé pour "Boucles Agentiques" / IA / Traitement -->
+    <circle cx="600" cy="300" r="60" fill="#ff00ff"/>
+    <rect x="580" y="240" width="40" height="120" fill="#1a1a2e"/>
+    <rect x="540" y="280" width="120" height="40" fill="#1a1a2e"/>
+
+    <!-- Icône 2: Cadenas simple pour "Cybermenaces" -->
+    <rect x="770" y="270" width="60" height="50" rx="8" ry="8" fill="#00ff00"/>
+    <path d="M 785 270 A 30 30 0 0 1 815 270" fill="none" stroke="#00ff00" stroke-width="15"/>
+  </g>
+
+  <!-- Titre de l'épisode (centré, en plusieurs lignes) -->
+  <text x="700" y="500" text-anchor="middle" fill="#fdd835" font-size="80" font-weight="bold">
+    <tspan x="700" dy="0">Boucles Agentiques,</tspan>
+    <tspan x="700" dy="90">Cybermenaces et IA Capricieuses :</tspan>
+    <tspan x="700" dy="90">Le Point Tech de la Semaine</tspan>
+  </text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1150" text-anchor="middle" fill="#00ffff" font-size="40">Veille de Marc</text>
+
+  <!-- Date (petite, en bas) -->
+  <text x="700" y="1200" text-anchor="middle" fill="#00ffff" font-size="30">2026-08-17</text>
+
+</svg>

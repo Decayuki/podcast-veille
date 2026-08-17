@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-17",
+    "title": "Boucles Agentiques, Cybermenaces et IA Capricieuses : Le Point Tech de la Semaine",
+    "date": "2026-08-17",
+    "duration": "10:35",
+    "durationSeconds": 635,
+    "description": "Veille tech/IA/dev du 2026-08-17",
+    "audioUrl": "/podcast-veille/audio/2026-08-17.mp3",
+    "size": 10166482,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-17.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-17.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-17.svg"
+  },
+  {
     "id": "2026-08-13",
     "title": "Agents IA, Crise des Devs et Bug Fatal : La Tech en Plein Tourbillon",
     "date": "2026-08-13",
