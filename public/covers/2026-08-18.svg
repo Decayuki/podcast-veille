@@ -1,0 +1,35 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre pour un style tech élégant -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode - centré, taille lisible et audacieuse -->
+  <text x="700" y="570" font-family="sans-serif" font-size="100" font-weight="bold" fill="#f0f0f0" text-anchor="middle">
+    Stripe, GitHub et l'IA :
+  </text>
+  <text x="700" y="680" font-family="sans-serif" font-size="100" font-weight="bold" fill="#f0f0f0" text-anchor="middle">
+    La tech en plein bouleversement !
+  </text>
+
+  <!-- Icône "Code" (représentant GitHub/Développement) - Positionné en haut à gauche du titre -->
+  <g transform="translate(450, 350)">
+    <!-- Crochet gauche -->
+    <path d="M 0 50 L 50 0 L 0 -50" fill="none" stroke="#00bcd4" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Crochet droit -->
+    <path d="M 150 50 L 100 0 L 150 -50" fill="none" stroke="#00bcd4" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Barre oblique -->
+    <line x1="75" y1="-50" x2="75" y2="50" stroke="#00bcd4" stroke-width="15" transform="rotate(-20 75 0)" stroke-linecap="round"/>
+  </g>
+
+  <!-- Icône "IA" (représentant l'Intelligence Artificielle/Données) - Positionné en bas à droite du titre -->
+  <g transform="translate(850, 900)">
+    <!-- Forme hexagonale -->
+    <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" fill="#e91e63"/>
+    <!-- Petit cercle central pour l'effet "noyau" ou "puce" -->
+    <circle cx="50" cy="50" r="20" fill="#f0f0f0"/>
+  </g>
+
+  <!-- Nom du podcast et date - petits, centrés en bas -->
+  <text x="700" y="1300" font-family="sans-serif" font-size="36" fill="#a0a0a0" text-anchor="middle">
+    Veille de Marc | 2026-08-18
+  </text>
+</svg>

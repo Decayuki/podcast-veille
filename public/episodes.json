@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-18",
+    "title": "Stripe, GitHub et l'IA : La tech en plein bouleversement !",
+    "date": "2026-08-18",
+    "duration": "10:13",
+    "durationSeconds": 613,
+    "description": "Veille tech/IA/dev du 2026-08-18",
+    "audioUrl": "/podcast-veille/audio/2026-08-18.mp3",
+    "size": 9815814,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-18.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-18.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-18.svg"
+  },
+  {
     "id": "2026-08-17",
     "title": "Boucles Agentiques, Cybermenaces et IA Capricieuses : Le Point Tech de la Semaine",
     "date": "2026-08-17",

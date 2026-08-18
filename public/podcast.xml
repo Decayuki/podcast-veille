@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Stripe, GitHub et l'IA : La tech en plein bouleversement !</title>
+      <description>Veille tech/IA/dev du 2026-08-18</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-18.mp3" length="9815814" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:13</itunes:duration>
+    </item>
+    <item>
       <title>Boucles Agentiques, Cybermenaces et IA Capricieuses : Le Point Tech de la Semaine</title>
       <description>Veille tech/IA/dev du 2026-08-17</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-17.mp3" length="10166482" type="audio/mpeg"/>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Stripe acquiert OpenRouter",
+    "startTime": 25
+  },
+  {
+    "title": "Pannes GitHub et failles de sécurité IA",
+    "startTime": 88
+  },
+  {
+    "title": "Avancées en performance IA",
+    "startTime": 172
+  },
+  {
+    "title": "Éthique et controverses de l'IA",
+    "startTime": 232
+  },
+  {
+    "title": "Outils de développement et infrastructure",
+    "startTime": 347
+  },
+  {
+    "title": "Paradoxes de l'IA et du contenu",
+    "startTime": 467
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 566
+  }
+]
