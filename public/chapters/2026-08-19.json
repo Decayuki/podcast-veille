@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Mojo devient Open Source",
+    "startTime": 45
+  },
+  {
+    "title": "Vercel et les Outils IA pour Développeurs",
+    "startTime": 128
+  },
+  {
+    "title": "OpenAI : Sécurité avant tout",
+    "startTime": 220
+  },
+  {
+    "title": "Alerte Sécurité : La Faille Ray RCE",
+    "startTime": 301
+  },
+  {
+    "title": "Menaces de Sécurité via le CSS des E-mails",
+    "startTime": 413
+  },
+  {
+    "title": "Nouvelles Infrastructures et Marché de l'IA",
+    "startTime": 518
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 714
+  }
+]

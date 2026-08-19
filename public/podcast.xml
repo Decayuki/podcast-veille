@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Mojo, Ray, et les Agents : La Révolution Silencieuse du Code</title>
+      <description>Veille tech/IA/dev du 2026-08-19</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-19.mp3" length="12397966" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>12:54</itunes:duration>
+    </item>
+    <item>
       <title>Stripe, GitHub et l'IA : La tech en plein bouleversement !</title>
       <description>Veille tech/IA/dev du 2026-08-18</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-18.mp3" length="9815814" type="audio/mpeg"/>
