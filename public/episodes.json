@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-20",
+    "title": "IA, Sécurité et Réinvention du Code : L'Actu Tech de la Semaine",
+    "date": "2026-08-20",
+    "duration": "10:52",
+    "durationSeconds": 652,
+    "description": "Veille tech/IA/dev du 2026-08-20",
+    "audioUrl": "/podcast-veille/audio/2026-08-20.mp3",
+    "size": 10443171,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-20.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-20.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-20.svg"
+  },
+  {
     "id": "2026-08-19",
     "title": "Mojo, Ray, et les Agents : La Révolution Silencieuse du Code",
     "date": "2026-08-19",

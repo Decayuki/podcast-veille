@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1400 1400" width="1400" height="1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Icône de réseau/IA (en haut) -->
+  <g stroke="#00f0ff" stroke-width="5">
+    <!-- Nœud central -->
+    <circle cx="700" cy="350" r="30" fill="#00f0ff"/>
+    <!-- Nœuds secondaires -->
+    <circle cx="550" cy="250" r="20" fill="#00f0ff"/>
+    <circle cx="850" cy="250" r="20" fill="#00f0ff"/>
+    <circle cx="550" cy="450" r="20" fill="#00f0ff"/>
+    <circle cx="850" cy="450" r="20" fill="#00f0ff"/>
+    <!-- Connexions -->
+    <line x1="700" y1="350" x2="550" y2="250"/>
+    <line x1="700" y1="350" x2="850" y2="250"/>
+    <line x1="700" y1="350" x2="550" y2="450"/>
+    <line x1="700" y1="350" x2="850" y2="450"/>
+    <line x1="550" y1="250" x2="850" y2="250"/>
+    <line x1="550" y1="450" x2="850" y2="450"/>
+  </g>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" text-anchor="middle" font-family="Arial, sans-serif" fill="#f0f0f0">
+    <tspan x="700" y="650" font-size="90px" font-weight="bold">IA, Sécurité et Réinvention du Code</tspan>
+    <tspan x="700" y="760" font-size="70px" font-weight="normal">L'Actu Tech de la Semaine</tspan>
+  </text>
+
+  <!-- Icône de bouclier/Sécurité (en bas) -->
+  <g stroke="#ff007f" stroke-width="5" fill="none">
+    <path d="M 700 900 L 850 970 L 850 1100 L 700 1170 L 550 1100 L 550 970 Z"/>
+  </g>
+
+  <!-- Nom du podcast -->
+  <text x="100" y="1320" text-anchor="start" font-family="Arial, sans-serif" font-size="35px" fill="#a0a0b0">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode -->
+  <text x="1300" y="1320" text-anchor="end" font-family="Arial, sans-serif" font-size="35px" fill="#a0a0b0">
+    2026-08-20
+  </text>
+</svg>

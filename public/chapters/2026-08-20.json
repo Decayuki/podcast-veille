@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "IA et menaces de sécurité",
+    "startTime": 35
+  },
+  {
+    "title": "IA et pratiques de développement",
+    "startTime": 254
+  },
+  {
+    "title": "Développement Web et Frameworks",
+    "startTime": 383
+  },
+  {
+    "title": "Go et cryptographie post-quantique",
+    "startTime": 503
+  },
+  {
+    "title": "Bases de données : PostgreSQL",
+    "startTime": 556
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 609
+  }
+]
