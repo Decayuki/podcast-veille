@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-21",
+    "title": "Tokens, Bugs et IA Mystère : La Veille Tech qui Fait le Buzz",
+    "date": "2026-08-21",
+    "duration": "10:43",
+    "durationSeconds": 643,
+    "description": "Veille tech/IA/dev du 2026-08-21",
+    "audioUrl": "/podcast-veille/audio/2026-08-21.mp3",
+    "size": 10289780,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-21.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-21.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-21.svg"
+  },
+  {
     "id": "2026-08-20",
     "title": "IA, Sécurité et Réinvention du Code : L'Actu Tech de la Semaine",
     "date": "2026-08-20",

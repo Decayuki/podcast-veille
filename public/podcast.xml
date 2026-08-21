@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Tokens, Bugs et IA Mystère : La Veille Tech qui Fait le Buzz</title>
+      <description>Veille tech/IA/dev du 2026-08-21</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-21.mp3" length="10289780" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:43</itunes:duration>
+    </item>
+    <item>
       <title>IA, Sécurité et Réinvention du Code : L'Actu Tech de la Semaine</title>
       <description>Veille tech/IA/dev du 2026-08-20</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-20.mp3" length="10443171" type="audio/mpeg"/>
