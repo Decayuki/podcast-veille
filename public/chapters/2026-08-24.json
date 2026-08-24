@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Coût-performance des modèles d'IA",
+    "startTime": 28
+  },
+  {
+    "title": "L'IA au cœur du développement",
+    "startTime": 88
+  },
+  {
+    "title": "IA et cybersécurité",
+    "startTime": 212
+  },
+  {
+    "title": "Innovations Cloud avec Vercel",
+    "startTime": 312
+  },
+  {
+    "title": "Conseils pour les LLM locaux",
+    "startTime": 426
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 479
+  }
+]

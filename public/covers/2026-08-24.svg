@@ -1,0 +1,35 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+    <!-- Fond sombre -->
+    <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+    <!-- Icône 1 : IA / Développement / Données (géométrie abstraite) -->
+    <!-- Un assemblage de formes suggérant la complexité et l'interconnexion technologique -->
+    <g transform="translate(550, 380)">
+        <rect x="-30" y="-30" width="60" height="60" fill="#00bcd4"/>
+        <rect x="-100" y="0" width="40" height="40" fill="#00bcd4" transform="rotate(15 -80 20)"/>
+        <rect x="60" y="-40" width="40" height="40" fill="#00bcd4" transform="rotate(-15 80 -20)"/>
+        <line x1="-30" y1="0" x2="-100" y2="20" stroke="#00bcd4" stroke-width="5" stroke-linecap="round"/>
+        <line x1="30" y1="0" x2="60" y2="-20" stroke="#00bcd4" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Icône 2 : Failles critiques / Sécurité (symbole d'erreur) -->
+    <!-- Un carré avec un X pour symboliser une faille ou un bug -->
+    <g transform="translate(850, 380)">
+        <rect x="-30" y="-30" width="60" height="60" fill="#e91e63"/>
+        <line x1="-20" y1="-20" x2="20" y2="20" stroke="#1a1a2e" stroke-width="8" stroke-linecap="round"/>
+        <line x1="-20" y1="20" x2="20" y2="-20" stroke="#1a1a2e" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- Titre de l'épisode -->
+    <text x="700" y="600" text-anchor="middle" fill="#f0f0f0" font-size="70" font-weight="bold">
+        <tspan x="700" dy="0em">L'IA à quel prix ?</tspan>
+        <tspan x="700" dy="1.2em">Torvalds, failles critiques</tspan>
+        <tspan x="700" dy="1.2em">et le futur du dev</tspan>
+    </text>
+
+    <!-- Nom du podcast -->
+    <text x="700" y="1250" text-anchor="middle" fill="#cccccc" font-size="30">Veille de Marc</text>
+
+    <!-- Date de l'épisode -->
+    <text x="700" y="1290" text-anchor="middle" fill="#cccccc" font-size="25">2026-08-24</text>
+</svg>

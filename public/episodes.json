@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-24",
+    "title": "L'IA à quel prix ? Torvalds, failles critiques et le futur du dev",
+    "date": "2026-08-24",
+    "duration": "8:42",
+    "durationSeconds": 522,
+    "description": "Veille tech/IA/dev du 2026-08-24",
+    "audioUrl": "/podcast-veille/audio/2026-08-24.mp3",
+    "size": 8364660,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-24.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-24.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-24.svg"
+  },
+  {
     "id": "2026-08-21",
     "title": "Tokens, Bugs et IA Mystère : La Veille Tech qui Fait le Buzz",
     "date": "2026-08-21",
