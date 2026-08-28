@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Agents IA : Entre Vulnérabilités, Autonomie Physique et la Fin d'une Ère</title>
+      <description>Veille tech/IA/dev du 2026-08-28</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-28.mp3" length="9293365" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:40</itunes:duration>
+    </item>
+    <item>
       <title>L'IA à quel prix ? Torvalds, failles critiques et le futur du dev</title>
       <description>Veille tech/IA/dev du 2026-08-24</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-24.mp3" length="8364660" type="audio/mpeg"/>

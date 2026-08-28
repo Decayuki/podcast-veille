@@ -1,0 +1,36 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+    <!-- Fond sombre -->
+    <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+    <!-- Formes géométriques abstraites pour les sujets tech -->
+    <!-- Forme 1 : Représentation d'un "cœur" d'IA ou d'un processeur (en haut à gauche) -->
+    <g transform="translate(200, 150) rotate(-25)">
+        <rect x="0" y="0" width="300" height="300" rx="40" fill="#2979ff" opacity="0.3"/>
+        <rect x="50" y="50" width="200" height="200" rx="30" fill="#1a1a2e" opacity="0.9"/>
+        <circle cx="75" cy="75" r="20" fill="#00e676"/>
+        <circle cx="225" cy="75" r="20" fill="#00e676"/>
+        <circle cx="75" cy="225" r="20" fill="#00e676"/>
+        <circle cx="225" cy="225" r="20" fill="#00e676"/>
+    </g>
+
+    <!-- Forme 2 : Représentation de réseau ou de flux de données (en bas à droite) -->
+    <g transform="translate(900, 950) rotate(35)">
+        <circle cx="0" cy="0" r="150" fill="#ff6f00" opacity="0.3"/>
+        <circle cx="0" cy="0" r="80" fill="#1a1a2e" opacity="0.9"/>
+        <line x1="-120" y1="0" x2="120" y2="0" stroke="#00e676" stroke-width="15" stroke-linecap="round"/>
+        <line x1="0" y1="-120" x2="0" y2="120" stroke="#00e676" stroke-width="15" stroke-linecap="round"/>
+    </g>
+
+    <!-- Titre de l'épisode -->
+    <text x="700" y="550" text-anchor="middle" fill="#00e676" font-size="90" font-weight="bold">
+        <tspan x="700" dy="0">Agents IA : Entre Vulnérabilités,</tspan>
+        <tspan x="700" dy="100">Autonomie Physique et la Fin d'une Ère</tspan>
+    </text>
+
+    <!-- Nom du podcast et date -->
+    <text x="700" y="1300" text-anchor="middle" fill="#e0e0e0" font-size="36">
+        <tspan font-weight="bold">Veille de Marc</tspan>
+        <tspan dx="25"> | </tspan>
+        <tspan>2026-08-28</tspan>
+    </text>
+</svg>

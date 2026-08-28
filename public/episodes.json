@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-28",
+    "title": "Agents IA : Entre Vulnérabilités, Autonomie Physique et la Fin d'une Ère",
+    "date": "2026-08-28",
+    "duration": "9:40",
+    "durationSeconds": 580,
+    "description": "Veille tech/IA/dev du 2026-08-28",
+    "audioUrl": "/podcast-veille/audio/2026-08-28.mp3",
+    "size": 9293365,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-28.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-28.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-28.svg"
+  },
+  {
     "id": "2026-08-24",
     "title": "L'IA à quel prix ? Torvalds, failles critiques et le futur du dev",
     "date": "2026-08-24",
