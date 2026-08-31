@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA devient agent autonome : La 'trifecta létale' et la fin des embargos</title>
+      <description>Veille tech/IA/dev du 2026-08-31</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-31.mp3" length="10029809" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:26</itunes:duration>
+    </item>
+    <item>
       <title>Agents IA : Entre Vulnérabilités, Autonomie Physique et la Fin d'une Ère</title>
       <description>Veille tech/IA/dev du 2026-08-28</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-08-28.mp3" length="9293365" type="audio/mpeg"/>

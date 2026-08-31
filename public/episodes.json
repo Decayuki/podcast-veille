@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-31",
+    "title": "Quand l'IA devient agent autonome : La 'trifecta létale' et la fin des embargos",
+    "date": "2026-08-31",
+    "duration": "10:26",
+    "durationSeconds": 626,
+    "description": "Veille tech/IA/dev du 2026-08-31",
+    "audioUrl": "/podcast-veille/audio/2026-08-31.mp3",
+    "size": 10029809,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-08-31.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-08-31.json",
+    "coverUrl": "/podcast-veille/covers/2026-08-31.svg"
+  },
+  {
     "id": "2026-08-28",
     "title": "Agents IA : Entre Vulnérabilités, Autonomie Physique et la Fin d'une Ère",
     "date": "2026-08-28",
