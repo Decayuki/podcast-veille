@@ -1,0 +1,30 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône tech minimaliste (représentant IA / Données / Réseau) -->
+  <g transform="translate(700, 300)">
+    <!-- Carré extérieur rotatif -->
+    <rect x="-80" y="-80" width="160" height="160" fill="none" stroke="#CDDC39" stroke-width="6" transform="rotate(45 0 0)"/>
+    <!-- Lignes en croix intérieures -->
+    <line x1="-60" y1="-60" x2="60" y2="60" stroke="#00BCD4" stroke-width="4"/>
+    <line x1="60" y1="-60" x2="-60" y2="60" stroke="#00BCD4" stroke-width="4"/>
+    <!-- Cercle central -->
+    <circle cx="0" cy="0" r="25" fill="#FF4081"/>
+    <!-- Carré central pour un effet d'ouverture/de processeur -->
+    <rect x="-12" y="-12" width="24" height="24" fill="#1a1a2e" transform="rotate(45 0 0)"/>
+  </g>
+
+  <!-- Titre de l'épisode -->
+  <text text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="90" fill="white">
+    <tspan x="700" y="580"><tspan fill="#FF4081">IA</tspan> : Danger en Ligne,</tspan>
+    <tspan x="700" y="680">Adoption en Demi-Teinte</tspan>
+    <tspan x="700" y="780">et l'Art du <tspan fill="#00BCD4">Vibecoding</tspan></tspan>
+  </text>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#cccccc">Veille de Marc</text>
+
+  <!-- Date de l'épisode -->
+  <text x="700" y="1340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#cccccc">2026-09-01</text>
+</svg>
