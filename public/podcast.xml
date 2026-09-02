@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Au-delà des LLM : Graphes de Connaissances Géants et Sécurité des IA</title>
+      <description>Veille tech/IA/dev du 2026-09-02</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-02.mp3" length="11991292" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>12:29</itunes:duration>
+    </item>
+    <item>
       <title>IA : Danger en Ligne, Adoption en Demi-Teinte et l'Art du Vibecoding</title>
       <description>Veille tech/IA/dev du 2026-09-01</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-01.mp3" length="11702064" type="audio/mpeg"/>

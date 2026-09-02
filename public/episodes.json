@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-02",
+    "title": "Au-delà des LLM : Graphes de Connaissances Géants et Sécurité des IA",
+    "date": "2026-09-02",
+    "duration": "12:29",
+    "durationSeconds": 749,
+    "description": "Veille tech/IA/dev du 2026-09-02",
+    "audioUrl": "/podcast-veille/audio/2026-09-02.mp3",
+    "size": 11991292,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-02.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-02.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-02.svg"
+  },
+  {
     "id": "2026-09-01",
     "title": "IA : Danger en Ligne, Adoption en Demi-Teinte et l'Art du Vibecoding",
     "date": "2026-09-01",

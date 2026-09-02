@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Graphe de connaissances sans LLM",
+    "startTime": 30
+  },
+  {
+    "title": "Nouveaux modèles Anthropic",
+    "startTime": 149
+  },
+  {
+    "title": "Sécurité des données avec Anthropic EFS",
+    "startTime": 234
+  },
+  {
+    "title": "Incidents de sécurité (METR, JFrog)",
+    "startTime": 330
+  },
+  {
+    "title": "Actualités développeurs et outils",
+    "startTime": 431
+  },
+  {
+    "title": "Culture numérique, éthique et tendances",
+    "startTime": 549
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 709
+  }
+]
