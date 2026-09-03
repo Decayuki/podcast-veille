@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>L'IA : Votre Co-Pilote ou Votre Pirate ?</title>
+      <description>Veille tech/IA/dev du 2026-09-03</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-03.mp3" length="8993688" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:22</itunes:duration>
+    </item>
+    <item>
       <title>Au-delà des LLM : Graphes de Connaissances Géants et Sécurité des IA</title>
       <description>Veille tech/IA/dev du 2026-09-02</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-02.mp3" length="11991292" type="audio/mpeg"/>

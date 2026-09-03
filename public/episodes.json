@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-03",
+    "title": "L'IA : Votre Co-Pilote ou Votre Pirate ?",
+    "date": "2026-09-03",
+    "duration": "9:22",
+    "durationSeconds": 562,
+    "description": "Veille tech/IA/dev du 2026-09-03",
+    "audioUrl": "/podcast-veille/audio/2026-09-03.mp3",
+    "size": 8993688,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-03.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-03.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-03.svg"
+  },
+  {
     "id": "2026-09-02",
     "title": "Au-delà des LLM : Graphes de Connaissances Géants et Sécurité des IA",
     "date": "2026-09-02",
