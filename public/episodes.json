@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-04",
+    "title": "IA Chère, Agents Codeurs et Menaces Tech: Le Grand Virage",
+    "date": "2026-09-04",
+    "duration": "10:25",
+    "durationSeconds": 625,
+    "description": "Veille tech/IA/dev du 2026-09-04",
+    "audioUrl": "/podcast-veille/audio/2026-09-04.mp3",
+    "size": 10004732,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-04.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-04.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-04.svg"
+  },
+  {
     "id": "2026-09-03",
     "title": "L'IA : Votre Co-Pilote ou Votre Pirate ?",
     "date": "2026-09-03",

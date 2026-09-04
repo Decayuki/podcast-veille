@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA Chère, Agents Codeurs et Menaces Tech: Le Grand Virage</title>
+      <description>Veille tech/IA/dev du 2026-09-04</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-04.mp3" length="10004732" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:25</itunes:duration>
+    </item>
+    <item>
       <title>L'IA : Votre Co-Pilote ou Votre Pirate ?</title>
       <description>Veille tech/IA/dev du 2026-09-03</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-03.mp3" length="8993688" type="audio/mpeg"/>

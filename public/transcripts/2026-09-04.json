@@ -1,0 +1,185 @@
+{
+  "title": "IA Chère, Agents Codeurs et Menaces Tech: Le Grand Virage",
+  "dialogue": [
+    {
+      "speaker": "Denise",
+      "text": "Salut à toutes et à tous ! Accrochez-vous, car aujourd'hui on va parler d'un sujet qui nous concerne tous : l'IA. Elle a révolutionné nos vies et nos façons de travailler, mais Henri, j'ai l'impression que le vent tourne un peu, n'est-ce pas ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument, Denise ! On est face à un véritable point de bascule. L'ère de l'IA 'gratuite' ou 'bon marché' touche à sa fin, et les entreprises commencent à vraiment sentir la pression économique. C'est une transformation profonde de la manière dont nous allons utiliser ces technologies."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ah, donc l'époque où on pouvait jouer avec ChatGPT ou Claude pour trois fois rien, c'est fini ? J'ai lu un article de Michal Malewicz qui parlait même de 'bouillir la grenouille' pour décrire cette stratégie. C'est un peu alarmant, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est exactement ça. Anthropic a déjà basculé son modèle Claude Fable vers un système 'pay-per-token' exclusif, abandonnant les abonnements subventionnés. Malewicz décrit une stratégie en trois phases : d'abord, les modèles premium deviennent très chers, puis la qualité des modèles 'gratuits' ou inclus baisse, et enfin, on se retrouve à payer sans vraiment s'en rendre compte."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, on est 'bouillis' petit à petit ! Mais pourquoi cette stratégie ? Les labos d'IA perdent de l'argent avec nos abonnements à 100 dollars par mois ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement ! Un abonnement à 100 dollars peut coûter jusqu'à 4 000 dollars en réalité aux labos en termes de tokens. Les modèles sont incroyablement gourmands en ressources. C'est un gouffre financier pour eux, et ils ne peuvent plus maintenir ce rythme."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Ça change beaucoup de choses pour les entreprises. Si l'IA devient un coût majeur, comment justifier l'investissement si ce n'est pas rentable ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est la question cruciale. Le MIT et McKinsey révèlent que 80 à 95 % des entreprises n'ont aucun impact financier mesurable de l'IA. Le seul cas viable documenté par Malewicz, c'est l'IA pour le traitement de données et la diagrammation d'edge-cases, qui offre 25 % de gain de temps. L'IA devient un outil professionnel avec une justification économique stricte."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, fini les expérimentations coûteuses sans vision claire. Parlons maintenant des nouveautés. OpenAI a lancé son GPT-6 Astra. C'est une réponse directe à Claude Fable ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est la grande nouvelle de la semaine ! OpenAI a déployé GPT-6 Astra sur toutes ses plateformes. Ils se positionnent clairement sur le segment des modèles 'frontier', c'est-à-dire les plus avancés. C'est une bataille de titans."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Et au niveau des performances, il est vraiment plus fort ? J'ai vu des benchmarks un peu controversés sur l'ARC-AGI."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est le point sensible. Astra atteint 99,9 % sur l'ARC-AGI avec un adaptateur custom OpenAI, mais seulement 62,7 % avec le harnais standard. Ça a soulevé des doutes dans la communauté, certains parlent de 'benchmarks marketing'. En revanche, il excelle en sécurité et en reverse engineering."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, très bon pour le code et la sécurité, mais peut-être pas le champion incontesté de 'l'intelligence générale' face à Claude Fable 5.1, qui marque 66 points contre 61 pour Astra sur l'Intelligence Index."
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est ça. Fable 5.1 garde son avance sur l'intelligence générale. Mais pour le codage, Astra propose des performances équivalentes pour un coût deux fois moindre. Et son contexte long est impressionnant : 100 % jusqu'à 512K tokens et 96,3 % jusqu'à 1 million de tokens."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Impressionnant ! Et justement, en parlant de code, j'ai entendu parler d'une histoire folle où Claude aurait écrit 180 000 lignes de code pour Paint.NET. C'est une prouesse ou une folie ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une prouesse fascinante ! Rick Brewster, le créateur de Paint.NET, a confié à Claude la réécriture de Direct2D pour la compatibilité WINE et Linux. Le résultat : 180 000 lignes de code, soit un quart de la codebase totale de Paint.NET après 20 ans de développement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Wow, 180 000 lignes ! Mais Rick Brewster a quand même dû superviser, non ? On ne laisse pas une IA coder tout un logiciel sans surveillance."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Bien sûr. Il qualifie le code de 'vibe coding', c'est-à-dire pas parfaitement relu. Il a fallu corriger des gestions de ressources manquantes et des décisions architecturales parfois douteuses. Mais le fait est que la compatibilité WINE est désormais fonctionnelle, ce qui semblait impossible autrement."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une belle démonstration de ce que l'IA peut accomplir, même si ça demande une bonne supervision humaine. Et à propos de supervision, Vercel propose maintenant de faire tourner les agents Cursor sur notre propre infrastructure. C'est un gros avantage pour les développeurs, non ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est un changement majeur ! Les agents Cursor peuvent désormais tourner sur l'infrastructure Vercel Sandbox, avec des microVMs isolées et une orchestration durable. Ça signifie un contrôle total sur nos données, nos logs et nos coûts."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, si l'agent code pour nous, il le fait sur nos serveurs, pas ceux du fournisseur. Ça résout pas mal de problèmes de sécurité et de confidentialité, j'imagine."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. Et Vercel a aussi ajouté des machines de compilation Basic plus économiques pour les applications moins exigeantes, ce qui aide à maîtriser les coûts de build pour les projets qui n'ont pas besoin d'une puissance maximale."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Parlons chiffres, puisque l'IA coûte cher. Salesforce a révélé dépenser 300 millions de dollars par an sur Claude. Ça doit faire mal au portefeuille !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "C'est une somme colossale ! Leur deputy CFO a clairement dit que c'était la raison pour laquelle ils n'ont pas pu relever leur objectif de marge opérationnelle. Ils sont en 'refinement mode' maintenant, utilisant plusieurs vendeurs et des modèles de deuxième ou troisième génération pour la majorité des tâches."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, ils abandonnent l'idée du 'meilleur modèle pour tout' pour une approche plus pragmatique et moins coûteuse. Une leçon pour beaucoup d'entreprises. Et à propos des plateformes, Nvidia veut racheter Hugging Face. C'est une bonne nouvelle pour l'écosystème open source ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Ce serait très risqué. Hugging Face est la 'Suisse' de l'IA open source, une plateforme neutre qui héberge une multitude de modèles. Si Nvidia la contrôle, il y aurait une tentation forte d'avantager leurs propres produits et GPU, ce qui pourrait nuire à la neutralité et à la collaboration de la communauté."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est un enjeu majeur pour l'indépendance de l'IA open source. Passons à la sécurité. J'ai vu qu'un exploit pour CrowdStrike Falcon a été publié sans patch. C'est grave ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, c'est une vulnérabilité critique d'escalade de privilèges dans leur fonction de suppression de macros Office. Un attaquant peut obtenir des droits SYSTEM complets sur Windows 11 et Server 2025. Pour l'instant, CrowdStrike recommande de désactiver la fonctionnalité vulnérable."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Une faille sérieuse pour une solution de sécurité. Vigilance donc pour les administrateurs. Et pour les développeurs, quelles sont les dernières nouvelles du côté des outils ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Du côté des outils, Jujutsu, le VCS concurrent à Git de Google, continue de monter en puissance avec sa version 0.45.0, offrant un workflow plus propre. Et le CERN, après des années sur RHEL, migre ses ordinateurs industriels vers Debian, un signal fort sur les coûts de licence et le vendor lock-in."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est une belle victoire pour Debian et l'open source ! Et pour l'édition audio, Audacity a eu une grosse mise à jour ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, Audacity 4.0.0 est une refonte significative. C'est toujours le gold standard de l'édition audio gratuite. Enfin, Rust a eu une mise à jour de maintenance, la 1.98.1, recommandée pour la production."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Excellentes nouvelles pour les dev et les créateurs ! Et si on revient à l'IA, est-ce qu'il y a des bonnes nouvelles du côté de l'open source, pour contrebalancer le coût des modèles propriétaires ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument ! L'Institute of Foundation Models de MBZUAI a publié K2 Horizon, la plus grande flotte open source de l'histoire, avec six modèles de 0,9 à 375 milliards de paramètres, sous licence Apache 2.0. C'est une formidable alternative pour le développement local ou les déploiements cost-sensitive."
+    },
+    {
+      "speaker": "Denise",
+      "text": "C'est génial d'avoir des options aussi puissantes en open source, avec des tailles variées pour s'adapter à différents usages et budgets."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Oui, et ils sont optimisés pour différentes plateformes, dont NVIDIA, AMD et Cerebras. Et en parlant de Cerebras, ils ont optimisé Qwen 3.8 27B sur leurs puces pour atteindre 1 500 tokens par seconde, contre 80-150 sur les API classiques. C'est 10 à 20 fois plus rapide !"
+    },
+    {
+      "speaker": "Denise",
+      "text": "1 500 tokens par seconde ! Ça ouvre des perspectives incroyables pour les agents IA en temps réel et les applications qui demandent une latence minimale. La rapidité change tout."
+    },
+    {
+      "speaker": "Henri",
+      "text": "Exactement. On voit bien l'importance de l'optimisation matérielle pour débloquer le plein potentiel de ces modèles, surtout pour les tâches complexes où chaque milliseconde compte."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Pour finir, un mot sur les agents IA qui codent. Armature a étudié comment ils choisissent leurs outils. Est-ce qu'ils sont tous d'accord sur les meilleures solutions ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Non, c'est contre-intuitif ! Armature a analysé près de 17 000 sessions avec Claude Code, Codex et Cursor. Ils s'accordent sur le même outil dans seulement 42 % des cas. Chaque agent a ses préférences, souvent influencées par ses données d'entraînement ou même la présentation des options."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Donc, le choix d'un agent peut vraiment influencer le résultat final du code, selon les outils qu'il va privilégier. C'est une sacrée leçon pour ceux qui veulent les utiliser !"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Absolument. Par exemple, Cursor cherche le web dans 67 % des sessions, Codex dans 94 %, mais Claude Code seulement 30 % car il préfère sa base de données interne. Et la mention 'rétention 1 jour' sur un plan gratuit peut suffire à faire éliminer une option par l'agent."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Fascinant ! Henri, merci pour toutes ces lumières. Si je devais retenir trois choses de cet épisode, ce serait quoi ?"
+    },
+    {
+      "speaker": "Henri",
+      "text": "Premièrement, l'IA n'est plus bon marché et exige une justification économique stricte. Deuxièmement, la compétition entre les modèles propriétaires comme Astra et Fable est féroce, mais l'open source prend une ampleur incroyable avec des initiatives comme K2 Horizon. Et enfin, les agents IA sont des outils puissants mais complexes, nécessitant une bonne supervision et une compréhension de leurs biais."
+    },
+    {
+      "speaker": "Denise",
+      "text": "Des points clés essentiels pour naviguer dans ce paysage tech en pleine mutation. Merci Henri, et merci à tous de nous avoir écoutés. Rendez-vous la semaine prochaine pour une nouvelle plongée au cœur de l'actualité tech et IA !"
+    }
+  ]
+}

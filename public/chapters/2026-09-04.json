@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Le coût croissant de l'IA et ses implications économiques",
+    "startTime": 14
+  },
+  {
+    "title": "Nouveaux modèles d'IA et leurs performances",
+    "startTime": 120
+  },
+  {
+    "title": "L'écosystème de l'IA : infrastructure, open source et enjeux",
+    "startTime": 261
+  },
+  {
+    "title": "Actualités Tech : Sécurité et outils pour développeurs",
+    "startTime": 372
+  },
+  {
+    "title": "Comportement des agents IA et choix d'outils",
+    "startTime": 528
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 582
+  }
+]
