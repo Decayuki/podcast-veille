@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-07",
+    "title": "Bots qui s'affranchissent et lecteurs en colère : la tech sous tension",
+    "date": "2026-09-07",
+    "duration": "9:38",
+    "durationSeconds": 578,
+    "description": "Veille tech/IA/dev du 2026-09-07",
+    "audioUrl": "/podcast-veille/audio/2026-09-07.mp3",
+    "size": 9254913,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-07.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-07.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-07.svg"
+  },
+  {
     "id": "2026-09-04",
     "title": "IA Chère, Agents Codeurs et Menaces Tech: Le Grand Virage",
     "date": "2026-09-04",

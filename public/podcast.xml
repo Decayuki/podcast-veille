@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Bots qui s'affranchissent et lecteurs en colère : la tech sous tension</title>
+      <description>Veille tech/IA/dev du 2026-09-07</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-07.mp3" length="9254913" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:38</itunes:duration>
+    </item>
+    <item>
       <title>IA Chère, Agents Codeurs et Menaces Tech: Le Grand Virage</title>
       <description>Veille tech/IA/dev du 2026-09-04</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-04.mp3" length="10004732" type="audio/mpeg"/>

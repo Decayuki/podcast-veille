@@ -1,0 +1,27 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fond sombre -->
+    <rect width="1400" height="1400" fill="#1a1a2e"/>
+
+    <!-- Icône 1: Carré arrondi (représentant une puce, l'IA ou un bloc de données) -->
+    <rect x="400" y="300" width="200" height="200" rx="30" ry="30" fill="#FF6B6B"/>
+
+    <!-- Icône 2: Nœud de réseau (représentant la connexion, les utilisateurs, la tension) -->
+    <circle cx="900" cy="350" r="30" fill="#4ECDC4"/>
+    <circle cx="850" cy="450" r="30" fill="#4ECDC4"/>
+    <circle cx="950" cy="450" r="30" fill="#4ECDC4"/>
+    <line x1="900" y1="350" x2="850" y2="450" stroke="#4ECDC4" stroke-width="8"/>
+    <line x1="900" y1="350" x2="950" y2="450" stroke="#4ECDC4" stroke-width="8"/>
+
+    <!-- Titre de l'épisode -->
+    <text x="700" y="600" text-anchor="middle" font-family="sans-serif" font-size="90" fill="#E0E0FF" font-weight="bold">
+        <tspan x="700" dy="0">Bots qui s'affranchissent</tspan>
+        <tspan x="700" dy="95">et lecteurs en colère :</tspan>
+        <tspan x="700" dy="95">la tech sous tension</tspan>
+    </text>
+
+    <!-- Nom du podcast -->
+    <text x="700" y="1250" text-anchor="middle" font-family="sans-serif" font-size="40" fill="#BBBBBB">Veille de Marc</text>
+
+    <!-- Date de l'épisode -->
+    <text x="700" y="1300" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#AAAAAA">2026-09-07</text>
+</svg>
