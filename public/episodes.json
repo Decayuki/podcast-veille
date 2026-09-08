@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-08",
+    "title": "Boucles Intelligentes, Agents Douteux et Espions Discrets : La Tech de la Semaine",
+    "date": "2026-09-08",
+    "duration": "10:46",
+    "durationSeconds": 646,
+    "description": "Veille tech/IA/dev du 2026-09-08",
+    "audioUrl": "/podcast-veille/audio/2026-09-08.mp3",
+    "size": 10344950,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-08.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-08.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-08.svg"
+  },
+  {
     "id": "2026-09-07",
     "title": "Bots qui s'affranchissent et lecteurs en colère : la tech sous tension",
     "date": "2026-09-07",

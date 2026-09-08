@@ -1,0 +1,36 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <!-- Fond sombre élégant -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en couleur vive) -->
+  <text x="700" y="550" text-anchor="middle" font-size="80" fill="#00FFFF" font-weight="bold">
+    <tspan x="700" dy="0">Boucles Intelligentes,</tspan>
+    <tspan x="700" dy="100">Agents Douteux et</tspan>
+    <tspan x="700" dy="100">Espions Discrets :</tspan>
+    <tspan x="700" dy="100">La Tech de la Semaine</tspan>
+  </text>
+
+  <!-- Icône 1 : Une boucle stylisée pour "Boucles Intelligentes" et l'automatisation -->
+  <g transform="translate(0, 50)">
+    <path d="M 550 900 C 600 1050, 800 1050, 850 900" 
+          fill="none" 
+          stroke="#FFD700" 
+          stroke-width="15" 
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <!-- Pointe de flèche pour la boucle -->
+    <path d="M 850 900 L 830 890 L 830 910 Z" fill="#FFD700"/>
+  </g>
+
+  <!-- Icône 2 : Un bloc abstrait, légèrement tourné, pour les "Agents Douteux" ou l'IA -->
+  <rect x="580" y="1000" width="120" height="120" 
+        fill="#FF4500" 
+        transform="rotate(20 640 1060)" 
+        opacity="0.8"/>
+
+  <!-- Nom du podcast (en bas, petit) -->
+  <text x="700" y="1250" text-anchor="middle" font-size="36" fill="#A0A0A0">Veille de Marc</text>
+
+  <!-- Date (en bas, petit) -->
+  <text x="700" y="1300" text-anchor="middle" font-size="32" fill="#A0A0A0">2026-09-08</text>
+</svg>
