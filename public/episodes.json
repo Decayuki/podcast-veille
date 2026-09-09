@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-09",
+    "title": "Navier-Stokes, Secrets d'IA et Cyber-Chaos : La Tech en Ébullition !",
+    "date": "2026-09-09",
+    "duration": "9:59",
+    "durationSeconds": 599,
+    "description": "Veille tech/IA/dev du 2026-09-09",
+    "audioUrl": "/podcast-veille/audio/2026-09-09.mp3",
+    "size": 9600565,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-09.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-09.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-09.svg"
+  },
+  {
     "id": "2026-09-08",
     "title": "Boucles Intelligentes, Agents Douteux et Espions Discrets : La Tech de la Semaine",
     "date": "2026-09-08",

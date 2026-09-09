@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Navier-Stokes, Secrets d'IA et Cyber-Chaos : La Tech en Ébullition !</title>
+      <description>Veille tech/IA/dev du 2026-09-09</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-09.mp3" length="9600565" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:59</itunes:duration>
+    </item>
+    <item>
       <title>Boucles Intelligentes, Agents Douteux et Espions Discrets : La Tech de la Semaine</title>
       <description>Veille tech/IA/dev du 2026-09-08</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-08.mp3" length="10344950" type="audio/mpeg"/>

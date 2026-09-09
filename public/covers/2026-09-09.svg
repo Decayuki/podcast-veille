@@ -1,0 +1,45 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Titre de l'épisode (centré, en trois lignes avec des couleurs vives) -->
+  <text x="700" y="580" text-anchor="middle" fill="#FFC107" font-family="sans-serif" font-size="90" font-weight="bold">Navier-Stokes,</text>
+  <text x="700" y="680" text-anchor="middle" fill="#00BCD4" font-family="sans-serif" font-size="90" font-weight="bold">Secrets d'IA et Cyber-Chaos :</text>
+  <text x="700" y="780" text-anchor="middle" fill="#8BC34A" font-family="sans-serif" font-size="90" font-weight="bold">La Tech en Ébullition !</text>
+
+  <!-- Icône 1 : Réseau / Nœuds d'IA (en haut à gauche) -->
+  <circle cx="200" cy="200" r="20" fill="#00BCD4"/>
+  <circle cx="100" cy="300" r="20" fill="#00BCD4"/>
+  <circle cx="300" cy="300" r="20" fill="#00BCD4"/>
+  <line x1="200" y1="200" x2="100" y2="300" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+  <line x1="200" y1="200" x2="300" y2="300" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+  <line x1="100" y1="300" x2="300" y2="300" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+
+  <!-- Icône 1 : Réseau / Nœuds d'IA (en bas à droite) -->
+  <circle cx="1200" cy="1200" r="20" fill="#00BCD4"/>
+  <circle cx="1100" cy="1100" r="20" fill="#00BCD4"/>
+  <circle cx="1300" cy="1100" r="20" fill="#00BCD4"/>
+  <line x1="1200" y1="1200" x2="1100" y2="1100" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+  <line x1="1200" y1="1200" x2="1300" y2="1100" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+  <line x1="1100" y1="1100" x2="1300" y2="1100" stroke="#00BCD4" stroke-width="8" opacity="0.7"/>
+
+  <!-- Icône 2 : Effet de "glitch" / cyber-chaos (en haut à droite) -->
+  <g transform="translate(1100, 150) rotate(45)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#FFC107" stroke-width="8"/>
+    <line x1="10" y1="20" x2="90" y2="20" stroke="#8BC34A" stroke-width="8"/>
+    <line x1="20" y1="40" x2="100" y2="40" stroke="#00BCD4" stroke-width="8"/>
+  </g>
+
+  <!-- Icône 2 : Effet de "glitch" / cyber-chaos (en bas à gauche) -->
+  <g transform="translate(100, 1100) rotate(45)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#FFC107" stroke-width="8"/>
+    <line x1="10" y1="20" x2="90" y2="20" stroke="#8BC34A" stroke-width="8"/>
+    <line x1="20" y1="40" x2="100" y2="40" stroke="#00BCD4" stroke-width="8"/>
+  </g>
+
+  <!-- Nom du podcast (en bas, petit) -->
+  <text x="700" y="1300" text-anchor="middle" fill="#E0E0E0" font-family="sans-serif" font-size="40">Veille de Marc</text>
+
+  <!-- Date de l'épisode (en bas, petit) -->
+  <text x="700" y="1350" text-anchor="middle" fill="#E0E0E0" font-family="sans-serif" font-size="30">2026-09-09</text>
+</svg>
