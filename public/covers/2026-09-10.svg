@@ -1,0 +1,61 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Définition des styles de texte pour un look flat et lisible -->
+  <defs>
+    <style type="text/css">
+      .main-title {
+        font-family: 'Inter', sans-serif; /* Style moderne, utilise 'sans-serif' comme fallback */
+        font-weight: 800; /* Gras */
+        fill: #00E676; /* Vert vif */
+      }
+      .sub-title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600; /* Semi-gras */
+        fill: #FF3D00; /* Rouge/Orange vif pour le contraste et l'alerte */
+      }
+      .footer-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300; /* Léger */
+        fill: #B0BEC5; /* Gris clair pour un look discret */
+      }
+    </style>
+  </defs>
+
+  <!-- Titre principal de l'épisode -->
+  <text x="700" y="400" text-anchor="middle" font-size="110" class="main-title">Le coût de l'automatisation</text>
+
+  <!-- Icônes géométriques simples liées aux sujets -->
+
+  <!-- 1. Icône Engrenage (pour "automatisation") -->
+  <g transform="translate(450 550)">
+    <!-- Cercle principal de l'engrenage -->
+    <circle cx="100" cy="100" r="80" fill="#00E676"/>
+    <!-- Trou central de l'engrenage -->
+    <circle cx="100" cy="100" r="30" fill="#1a1a2e"/>
+    <!-- Dents de l'engrenage (rectangles rotatifs) -->
+    <rect x="90" y="10" width="20" height="30" fill="#00E676"/>
+    <rect x="90" y="10" width="20" height="30" fill="#00E676" transform="rotate(60 100 100)"/>
+    <rect x="90" y="10" width="20" height="30" fill="#00E676" transform="rotate(120 100 100)"/>
+    <rect x="90" y="10" width="20" height="30" fill="#00E676" transform="rotate(180 100 100)"/>
+    <rect x="90" y="10" width="20" height="30" fill="#00E676" transform="rotate(240 100 100)"/>
+    <rect x="90" y="10" width="20" height="30" fill="#00E676" transform="rotate(300 100 100)"/>
+  </g>
+
+  <!-- 2. Icône Carré barré (pour "agents piégés" et "fracture humaine") -->
+  <g transform="translate(800 550)">
+    <!-- Contour du carré -->
+    <rect x="0" y="0" width="200" height="200" fill="none" stroke="#FF3D00" stroke-width="15"/>
+    <!-- Ligne diagonale traversant le carré, suggérant un blocage ou une rupture -->
+    <line x1="0" y1="200" x2="200" y2="0" stroke="#FF3D00" stroke-width="15"/>
+  </g>
+
+  <!-- Sous-titres de l'épisode -->
+  <text x="700" y="850" text-anchor="middle" font-size="80" class="sub-title">entre agents piégés</text>
+  <text x="700" y="950" text-anchor="middle" font-size="80" class="sub-title">et fracture humaine</text>
+
+  <!-- Informations du podcast en bas -->
+  <text x="700" y="1250" text-anchor="middle" font-size="40" class="footer-text">Veille de Marc</text>
+  <text x="700" y="1300" text-anchor="middle" font-size="30" class="footer-text">2026-09-10</text>
+</svg>
