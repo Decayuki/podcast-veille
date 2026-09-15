@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Agents IA : Entre Promesses et Perils, et un Siri 'Open Source' ?</title>
+      <description>Veille tech/IA/dev du 2026-09-15</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-15.mp3" length="11186720" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:39</itunes:duration>
+    </item>
+    <item>
       <title>Le coût de l'automatisation : entre agents piégés et fracture humaine</title>
       <description>Veille tech/IA/dev du 2026-09-10</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-10.mp3" length="5490772" type="audio/mpeg"/>
