@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Pizza Bots, IA qui auditent et Java qui grandit : La Tech de la semaine !</title>
+      <description>Veille tech/IA/dev du 2026-09-16</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-16.mp3" length="10453620" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:53</itunes:duration>
+    </item>
+    <item>
       <title>Agents IA : Entre Promesses et Perils, et un Siri 'Open Source' ?</title>
       <description>Veille tech/IA/dev du 2026-09-15</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-15.mp3" length="11186720" type="audio/mpeg"/>
