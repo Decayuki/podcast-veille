@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-17",
+    "title": "Le piège du code magique et l'ère du Spec-Driven",
+    "date": "2026-09-17",
+    "duration": "5:42",
+    "durationSeconds": 342,
+    "description": "Veille tech/IA/dev du 2026-09-17",
+    "audioUrl": "/podcast-veille/audio/2026-09-17.mp3",
+    "size": 5480323,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-17.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-17.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-17.svg"
+  },
+  {
     "id": "2026-09-16",
     "title": "Pizza Bots, IA qui auditent et Java qui grandit : La Tech de la semaine !",
     "date": "2026-09-16",

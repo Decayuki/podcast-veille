@@ -1,0 +1,31 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Icône 1 : Un rectangle stylisé pour représenter les "specs" ou la structure -->
+  <rect x="150" y="250" width="300" height="300" fill="#00ffee"/>
+
+  <!-- Icône 2 : Un chevron stylisé pour représenter le "code" ou le "flow" (flux) -->
+  <path d="M 1000 250 L 1200 400 L 1000 550 Z" fill="#ff66ff" transform="rotate(5 1100 400)"/>
+
+  <!-- Ligne en pointillé pour suggérer une connexion ou un "driven" -->
+  <line x1="450" y1="400" x2="1000" y2="400" stroke="#fcdc2a" stroke-width="10" stroke-dasharray="30 20"/>
+
+  <!-- Titre de l'épisode (centré) -->
+  <text x="700" y="500" font-family="Arial, sans-serif" font-size="80" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle">
+    Le piège du code magique et
+  </text>
+  <text x="700" y="600" font-family="Arial, sans-serif" font-size="80" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle">
+    l'ère du Spec-Driven
+  </text>
+
+  <!-- Nom du podcast (petit, en bas) -->
+  <text x="700" y="1250" font-family="Arial, sans-serif" font-size="40" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle">
+    Veille de Marc
+  </text>
+
+  <!-- Date de l'épisode (petite, en bas) -->
+  <text x="700" y="1300" font-family="Arial, sans-serif" font-size="30" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle">
+    2026-09-17
+  </text>
+</svg>

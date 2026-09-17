@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Le piège du code magique et l'ère du Spec-Driven</title>
+      <description>Veille tech/IA/dev du 2026-09-17</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-17.mp3" length="5480323" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>5:42</itunes:duration>
+    </item>
+    <item>
       <title>Pizza Bots, IA qui auditent et Java qui grandit : La Tech de la semaine !</title>
       <description>Veille tech/IA/dev du 2026-09-16</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-16.mp3" length="10453620" type="audio/mpeg"/>
