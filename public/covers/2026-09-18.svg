@@ -1,0 +1,49 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fond sombre -->
+    <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+    <!-- Groupe principal pour centrage horizontal du texte et des icônes -->
+    <g text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="white">
+
+        <!-- Icône Tech/IA : Représentation abstraite de nœuds interconnectés / flux de données -->
+        <g fill="#00FF7F" stroke="#00FF7F" stroke-width="8" transform="translate(0, -100)">
+            <circle cx="700" cy="300" r="25"/>
+            <circle cx="550" cy="350" r="25"/>
+            <circle cx="850" cy="350" r="25"/>
+            <line x1="700" y1="300" x2="550" y2="350"/>
+            <line x1="700" y1="300" x2="850" y2="350"/>
+            <line x1="550" y1="350" x2="850" y2="350"/>
+            <!-- Points de données supplémentaires -->
+            <circle cx="600" cy="220" r="10" opacity="0.6" stroke-width="0"/>
+            <circle cx="800" cy="220" r="10" opacity="0.6" stroke-width="0"/>
+            <circle cx="700" cy="450" r="10" opacity="0.6" stroke-width="0"/>
+            <circle cx="900" cy="280" r="8" opacity="0.0"/> <!-- point fantôme pour équilibrer le bounding box -->
+        </g>
+
+        <!-- Titre de l'épisode -->
+        <text x="700" y="650" font-size="90" font-weight="bold" fill="white">
+            IA, Sécurité et Réflexions :
+        </text>
+        <text x="700" y="750" font-size="90" font-weight="bold" fill="white">
+            Le Grand Vertige de la Tech
+        </text>
+
+        <!-- Icône Sécurité : Bouclier minimaliste -->
+        <g transform="translate(0, 100)">
+            <path d="M 700 950 L 550 1100 L 700 1150 L 850 1100 Z" fill="#00FFFF"/>
+            <!-- Vague de protection ou contrôle à l'intérieur du bouclier (effet de découpe) -->
+            <path d="M 650 1020 L 680 1050 L 750 990" fill="none" stroke="#1a1a2e" stroke-width="15" stroke-linecap="round"/>
+        </g>
+
+        <!-- Nom du podcast -->
+        <text x="700" y="1280" font-size="38" fill="#cccccc" font-weight="normal">
+            Veille de Marc
+        </text>
+
+        <!-- Date de l'épisode -->
+        <text x="700" y="1330" font-size="32" fill="#cccccc" font-weight="normal">
+            2026-09-18
+        </text>
+
+    </g>
+</svg>

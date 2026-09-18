@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-18",
+    "title": "IA, Sécurité et Réflexions : Le Grand Vertige de la Tech",
+    "date": "2026-09-18",
+    "duration": "11:34",
+    "durationSeconds": 694,
+    "description": "Veille tech/IA/dev du 2026-09-18",
+    "audioUrl": "/podcast-veille/audio/2026-09-18.mp3",
+    "size": 11110234,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-18.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-18.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-18.svg"
+  },
+  {
     "id": "2026-09-17",
     "title": "Le piège du code magique et l'ère du Spec-Driven",
     "date": "2026-09-17",

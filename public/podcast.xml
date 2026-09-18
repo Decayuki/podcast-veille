@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>IA, Sécurité et Réflexions : Le Grand Vertige de la Tech</title>
+      <description>Veille tech/IA/dev du 2026-09-18</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-18.mp3" length="11110234" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>11:34</itunes:duration>
+    </item>
+    <item>
       <title>Le piège du code magique et l'ère du Spec-Driven</title>
       <description>Veille tech/IA/dev du 2026-09-17</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-17.mp3" length="5480323" type="audio/mpeg"/>
