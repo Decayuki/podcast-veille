@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Agent Experience (AX) & Autonomy",
+    "startTime": 10
+  },
+  {
+    "title": "AI Security Threats & Urgency",
+    "startTime": 126
+  },
+  {
+    "title": "AI in Software Development",
+    "startTime": 273
+  },
+  {
+    "title": "Evolving Developer Tools",
+    "startTime": 409
+  },
+  {
+    "title": "Advanced AI Research & Societal Implications",
+    "startTime": 440
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 588
+  }
+]

@@ -1,0 +1,48 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      /* Définition des couleurs et polices pour un style minimaliste et tech */
+      .bg-color { fill: #1a1a2e; } /* Fond sombre */
+      .primary-text { fill: #E0FBFC; } /* Texte principal clair (presque blanc) */
+      .accent-orange { fill: #EE6C4D; stroke: #EE6C4D; } /* Couleur d'accent vive (orange) */
+      .accent-blue { fill: #98C1D9; stroke: #98C1D9; } /* Deuxième couleur d'accent (bleu clair) */
+      .secondary-text { fill: #BEE3F2; } /* Texte secondaire (bleu très clair) */
+      
+      /* Polices génériques pour une compatibilité maximale */
+      .font-main { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .font-secondary { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" class="bg-color"/>
+
+  <!-- Titre de l'épisode, centré et en deux lignes -->
+  <text x="700" y="320" text-anchor="middle" class="primary-text font-main" font-size="110" font-weight="bold">Agents IA :</text>
+  <text x="700" y="420" text-anchor="middle" class="primary-text font-main" font-size="90">Quand le Code Devient Autonome</text>
+
+  <!-- Icône abstraite centrale représentant l'IA, les agents et l'autonomie du code -->
+  <!-- Composée d'un module (rectangle arrondi) et d'éléments internes (noyau et connexions) -->
+  <g transform="rotate(-5 700 750)">
+    <!-- Rectangle arrondi extérieur (représente un module, une puce, un conteneur) -->
+    <rect x="450" y="500" width="500" height="500" rx="50" ry="50" class="accent-orange"/>
+    
+    <!-- Éléments internes (représentent le noyau de l'agent IA et ses connexions / autonomie) -->
+    <!-- Cercle central (le "cerveau" ou le "noyau" de l'agent) -->
+    <circle cx="700" cy="750" r="50" class="accent-blue"/>
+    
+    <!-- Lignes rayonnantes (les "connexions" ou "flux de données") -->
+    <line x1="700" y1="750" x2="850" y2="600" stroke-width="10" class="accent-blue"/>
+    <line x1="700" y1="750" x2="550" y2="600" stroke-width="10" class="accent-blue"/>
+    <line x1="700" y1="750" x2="700" y2="900" stroke-width="10" class="accent-blue"/>
+    
+    <!-- Petits cercles aux extrémités des lignes (les "nœuds" ou "points d'action") -->
+    <circle cx="850" cy="600" r="20" class="accent-blue"/>
+    <circle cx="550" cy="600" r="20" class="accent-blue"/>
+    <circle cx="700" cy="900" r="20" class="accent-blue"/>
+  </g>
+
+  <!-- Nom du podcast et date, en bas et centré -->
+  <text x="700" y="1250" text-anchor="middle" class="secondary-text font-secondary" font-size="40">Veille de Marc</text>
+  <text x="700" y="1300" text-anchor="middle" class="secondary-text font-secondary" font-size="30">2026-09-21</text>
+</svg>

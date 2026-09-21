@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-21",
+    "title": "Agents IA : Quand le Code Devient Autonome",
+    "date": "2026-09-21",
+    "duration": "10:50",
+    "durationSeconds": 650,
+    "description": "Veille tech/IA/dev du 2026-09-21",
+    "audioUrl": "/podcast-veille/audio/2026-09-21.mp3",
+    "size": 10408062,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-21.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-21.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-21.svg"
+  },
+  {
     "id": "2026-09-18",
     "title": "IA, Sécurité et Réflexions : Le Grand Vertige de la Tech",
     "date": "2026-09-18",

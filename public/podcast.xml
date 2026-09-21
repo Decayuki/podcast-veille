@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Agents IA : Quand le Code Devient Autonome</title>
+      <description>Veille tech/IA/dev du 2026-09-21</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-21.mp3" length="10408062" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:50</itunes:duration>
+    </item>
+    <item>
       <title>IA, Sécurité et Réflexions : Le Grand Vertige de la Tech</title>
       <description>Veille tech/IA/dev du 2026-09-18</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-18.mp3" length="11110234" type="audio/mpeg"/>
