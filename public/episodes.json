@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-22",
+    "title": "Le Duel des Agents : Économies, Sécurité et Guerre Commerciale",
+    "date": "2026-09-22",
+    "duration": "14:46",
+    "durationSeconds": 886,
+    "description": "Veille tech/IA/dev du 2026-09-22",
+    "audioUrl": "/podcast-veille/audio/2026-09-22.mp3",
+    "size": 14177218,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-22.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-22.json"
+  },
+  {
     "id": "2026-09-21",
     "title": "Agents IA : Quand le Code Devient Autonome",
     "date": "2026-09-21",
