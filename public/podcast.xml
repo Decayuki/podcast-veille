@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Course aux super IA et révélations sombres : L'actu tech de la semaine</title>
+      <description>Veille tech/IA/dev du 2026-09-23</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-23.mp3" length="9794916" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>10:12</itunes:duration>
+    </item>
+    <item>
       <title>Le Duel des Agents : Économies, Sécurité et Guerre Commerciale</title>
       <description>Veille tech/IA/dev du 2026-09-22</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-22.mp3" length="14177218" type="audio/mpeg"/>
