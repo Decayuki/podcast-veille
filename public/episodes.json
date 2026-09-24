@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-24",
+    "title": "L'IA chercheuse, l'IA espionne... et l'IA qui parle pour cent fois moins cher !",
+    "date": "2026-09-24",
+    "duration": "9:09",
+    "durationSeconds": 549,
+    "description": "Veille tech/IA/dev du 2026-09-24",
+    "audioUrl": "/podcast-veille/audio/2026-09-24.mp3",
+    "size": 8795158,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-24.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-24.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-24.svg"
+  },
+  {
     "id": "2026-09-23",
     "title": "Course aux super IA et révélations sombres : L'actu tech de la semaine",
     "date": "2026-09-23",
