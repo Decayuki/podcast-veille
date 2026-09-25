@@ -1,0 +1,38 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond sombre -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#1a1a2e"/>
+
+  <!-- Icône IA (Cerveau stylisé) -->
+  <g transform="translate(700, 350)">
+    <circle r="120" fill="#f08a5d"/>
+    <circle cx="-50" cy="-40" r="25" fill="#1a1a2e"/>
+    <circle cx="60" cy="-20" r="20" fill="#1a1a2e"/>
+    <circle cx="-10" cy="50" r="30" fill="#1a1a2e"/>
+    <line x1="-50" y1="-40" x2="60" y2="-20" stroke="#1a1a2e" stroke-width="6"/>
+    <line x1="60" y1="-20" x2="-10" y2="50" stroke="#1a1a2e" stroke-width="6"/>
+    <line x1="-50" y1="-40" x2="-10" y2="50" stroke="#1a1a2e" stroke-width="6"/>
+  </g>
+
+  <!-- Titre de l'épisode -->
+  <text x="700" y="590" text-anchor="middle" font-family="sans-serif" font-size="90" font-weight="bold" fill="#8dffd2">
+    <tspan x="700" dy="0">Quand l'IA s'émancipe :</tspan>
+    <tspan x="700" dy="110">Hackers, fuites et</tspan>
+    <tspan x="700" dy="110">génie créatif !</tspan>
+  </text>
+
+  <!-- Icône Glitch/Données (Blocs décalés) -->
+  <g transform="translate(700, 1050)">
+    <rect x="-100" y="-75" width="200" height="150" fill="#8dffd2" opacity="0.7" transform="rotate(-5, 0, 0)"/>
+    <rect x="-80" y="-95" width="200" height="150" fill="#b762c1" opacity="0.7" transform="rotate(5, 0, 0)"/>
+  </g>
+
+  <!-- Nom du podcast -->
+  <text x="700" y="1250" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#ccd1e4">
+    Veille de Marc
+  </text>
+
+  <!-- Date -->
+  <text x="700" y="1300" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#ccd1e4">
+    2026-09-25
+  </text>
+</svg>

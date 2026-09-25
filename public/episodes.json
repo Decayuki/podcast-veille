@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-25",
+    "title": "Quand l'IA s'émancipe : Hackers, fuites et génie créatif !",
+    "date": "2026-09-25",
+    "duration": "8:40",
+    "durationSeconds": 520,
+    "description": "Veille tech/IA/dev du 2026-09-25",
+    "audioUrl": "/podcast-veille/audio/2026-09-25.mp3",
+    "size": 8336238,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-25.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-25.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-25.svg"
+  },
+  {
     "id": "2026-09-24",
     "title": "L'IA chercheuse, l'IA espionne... et l'IA qui parle pour cent fois moins cher !",
     "date": "2026-09-24",

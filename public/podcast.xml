@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA s'émancipe : Hackers, fuites et génie créatif !</title>
+      <description>Veille tech/IA/dev du 2026-09-25</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-25.mp3" length="8336238" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>8:40</itunes:duration>
+    </item>
+    <item>
       <title>L'IA chercheuse, l'IA espionne... et l'IA qui parle pour cent fois moins cher !</title>
       <description>Veille tech/IA/dev du 2026-09-24</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-24.mp3" length="8795158" type="audio/mpeg"/>
