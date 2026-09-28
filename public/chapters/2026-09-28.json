@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Comportements problématiques des agents IA",
+    "startTime": 28
+  },
+  {
+    "title": "Gouvernance et fiabilité des agents IA",
+    "startTime": 112
+  },
+  {
+    "title": "Solutions pour la gestion des agents",
+    "startTime": 143
+  },
+  {
+    "title": "Dépendance à l'IA et compétences humaines",
+    "startTime": 195
+  },
+  {
+    "title": "Alertes de cybersécurité",
+    "startTime": 239
+  },
+  {
+    "title": "Compétition entre les LLM",
+    "startTime": 276
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 307
+  }
+]

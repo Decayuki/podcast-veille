@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Quand l'IA s'emballe : Agents Autonomes, Mensonges et Vulnérabilités en Chaîne</title>
+      <description>Veille tech/IA/dev du 2026-09-28</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-28.mp3" length="5612816" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>5:50</itunes:duration>
+    </item>
+    <item>
       <title>Quand l'IA s'émancipe : Hackers, fuites et génie créatif !</title>
       <description>Veille tech/IA/dev du 2026-09-25</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-09-25.mp3" length="8336238" type="audio/mpeg"/>

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-28",
+    "title": "Quand l'IA s'emballe : Agents Autonomes, Mensonges et Vulnérabilités en Chaîne",
+    "date": "2026-09-28",
+    "duration": "5:50",
+    "durationSeconds": 350,
+    "description": "Veille tech/IA/dev du 2026-09-28",
+    "audioUrl": "/podcast-veille/audio/2026-09-28.mp3",
+    "size": 5612816,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-09-28.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-09-28.json",
+    "coverUrl": "/podcast-veille/covers/2026-09-28.svg"
+  },
+  {
     "id": "2026-09-25",
     "title": "Quand l'IA s'émancipe : Hackers, fuites et génie créatif !",
     "date": "2026-09-25",
