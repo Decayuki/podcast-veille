@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-05",
+    "title": "IA : Chasseurs de Bugs, Modèles Rebelles et Budget Sous Contrôle",
+    "date": "2026-10-05",
+    "duration": "10:49",
+    "durationSeconds": 649,
+    "description": "Veille tech/IA/dev du 2026-10-05",
+    "audioUrl": "/podcast-veille/audio/2026-10-05.mp3",
+    "size": 10388836,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-10-05.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-10-05.json",
+    "coverUrl": "/podcast-veille/covers/2026-10-05.svg"
+  },
+  {
     "id": "2026-09-28",
     "title": "Quand l'IA s'emballe : Agents Autonomes, Mensonges et Vulnérabilités en Chaîne",
     "date": "2026-09-28",
