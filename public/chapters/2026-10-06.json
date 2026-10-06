@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Défis éthiques et de sécurité de l'IA",
+    "startTime": 9
+  },
+  {
+    "title": "Innovations et annonces du DevDay OpenAI",
+    "startTime": 143
+  },
+  {
+    "title": "Sécurité des agents IA en entreprise",
+    "startTime": 202
+  },
+  {
+    "title": "Avancées des modèles IA open-source",
+    "startTime": 233
+  },
+  {
+    "title": "Évolution des environnements de développement",
+    "startTime": 292
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 358
+  }
+]

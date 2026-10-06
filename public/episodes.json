@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-06",
+    "title": "L'IA entre Rêves de Futur et Risques Existentiels",
+    "date": "2026-10-06",
+    "duration": "6:50",
+    "durationSeconds": 410,
+    "description": "Veille tech/IA/dev du 2026-10-06",
+    "audioUrl": "/podcast-veille/audio/2026-10-06.mp3",
+    "size": 6573705,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-10-06.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-10-06.json",
+    "coverUrl": "/podcast-veille/covers/2026-10-06.svg"
+  },
+  {
     "id": "2026-10-05",
     "title": "IA : Chasseurs de Bugs, Modèles Rebelles et Budget Sous Contrôle",
     "date": "2026-10-05",
