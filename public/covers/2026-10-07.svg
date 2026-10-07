@@ -1,0 +1,29 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Episode Title -->
+  <text x="700" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" fill="#00FF00" font-weight="bold">Quand les Agents IA</text>
+  <text x="700" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" fill="#00FF00" font-weight="bold">Partent en Randonnée :</text>
+  <text x="700" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" fill="#00FF00" font-weight="bold">Le Chonk, les Secrets Volés</text>
+  <text x="700" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" fill="#00FF00" font-weight="bold">et les Maths Mystérieuses</text>
+
+  <!-- Icon 1: Stylized Path/Movement (top-right) -->
+  <g stroke="#FF00FF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="1050,250 1100,200 1150,250" fill="none"/>
+    <polyline points="1050,280 1100,230 1150,280" fill="none"/>
+  </g>
+
+  <!-- Icon 2: Data/Block/Complexity (bottom-left) -->
+  <rect x="150" y="950" width="150" height="150" fill="#00FFFF"/>
+  <line x1="150" y1="1025" x2="300" y2="1025" stroke="#1a1a2e" stroke-width="8"/>
+  <line x1="225" y1="950" x2="225" y2="1100" stroke="#1a1a2e" stroke-width="8"/>
+
+  <!-- Podcast Name -->
+  <text x="700" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#CCCCCC">Veille de Marc</text>
+
+  <!-- Date -->
+  <text x="700" y="1300" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#CCCCCC">2026-10-07</text>
+
+</svg>
