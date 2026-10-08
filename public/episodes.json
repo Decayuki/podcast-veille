@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-08",
+    "title": "Haiku 5.5, IA Criminelle & Le Chonk de Mistral",
+    "date": "2026-10-08",
+    "duration": "9:19",
+    "durationSeconds": 559,
+    "description": "Veille tech/IA/dev du 2026-10-08",
+    "audioUrl": "/podcast-veille/audio/2026-10-08.mp3",
+    "size": 8950638,
+    "transcriptUrl": "/podcast-veille/transcripts/2026-10-08.json",
+    "chaptersUrl": "/podcast-veille/chapters/2026-10-08.json"
+  },
+  {
     "id": "2026-10-07",
     "title": "Quand les Agents IA Partent en Randonnée : Le Chonk, les Secrets Volés et les Maths Mystérieuses",
     "date": "2026-10-07",

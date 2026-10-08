@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>Haiku 5.5, IA Criminelle & Le Chonk de Mistral</title>
+      <description>Veille tech/IA/dev du 2026-10-08</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-10-08.mp3" length="8950638" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:19</itunes:duration>
+    </item>
+    <item>
       <title>Quand les Agents IA Partent en Randonnée : Le Chonk, les Secrets Volés et les Maths Mystérieuses</title>
       <description>Veille tech/IA/dev du 2026-10-07</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-10-07.mp3" length="9994701" type="audio/mpeg"/>
