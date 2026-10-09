@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Intro",
+    "startTime": 0
+  },
+  {
+    "title": "Anthropic : Sécurité et Science",
+    "startTime": 24
+  },
+  {
+    "title": "OpenAI : GPT-6 et Controverses",
+    "startTime": 109
+  },
+  {
+    "title": "Menaces IA : Vers et Piratage",
+    "startTime": 201
+  },
+  {
+    "title": "Vercel AI Gateway : Nouveautés Dev",
+    "startTime": 307
+  },
+  {
+    "title": "Innovations Dev et Découvertes IA",
+    "startTime": 366
+  },
+  {
+    "title": "Actualités et Réflexions Finales",
+    "startTime": 465
+  },
+  {
+    "title": "Conclusion",
+    "startTime": 525
+  }
+]

@@ -18,6 +18,14 @@
       <link>https://decayuki.github.io/podcast-veille</link>
     </image>
     <item>
+      <title>GPT-6 pour tous, vers Shai-Hulud et planètes cachées par l'IA</title>
+      <description>Veille tech/IA/dev du 2026-10-09</description>
+      <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-10-09.mp3" length="9168813" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 -0000</pubDate>
+      <itunes:duration>9:32</itunes:duration>
+    </item>
+    <item>
       <title>Haiku 5.5, IA Criminelle & Le Chonk de Mistral</title>
       <description>Veille tech/IA/dev du 2026-10-08</description>
       <enclosure url="https://decayuki.github.io/podcast-veille/audio/2026-10-08.mp3" length="8950638" type="audio/mpeg"/>
